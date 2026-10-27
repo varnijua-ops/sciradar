@@ -419,6 +419,12 @@
       renderProviders();
       renderEditionSelector();
       renderEditorialView();
+      cargarNoticiasAutomaticas(); 
+
+  document.getElementById('searchInput').addEventListener('input', (e) => {
+    searchQuery = e.target.value.toLowerCase();
+    renderArticles();
+  });
 
       document.getElementById('searchInput').addEventListener('input', (e) => {
         searchQuery = e.target.value.toLowerCase();
