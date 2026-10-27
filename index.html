@@ -121,7 +121,7 @@
         <div class="flex items-center gap-2 text-xs text-cyan-400 font-semibold uppercase tracking-wider">
           <span>Edición Especial de Divulgación Científica</span>
           <span>•</span>
-          <span id="currentEditionDate">Lectura Amigable</span>
+          <span id="currentEditionDate">Actualizado en Vivo</span>
         </div>
         <h2 id="currentEditionTitle" class="text-2xl sm:text-3xl font-serif font-bold text-white mt-1">
           Panorama Global de Avances Científicos
@@ -270,133 +270,13 @@
       { id: 'press', name: 'NASA / MIT / ScienceDaily' }
     ];
 
-    // INFORME EDITORIAL INAUGURAL PRECARGADO (Formato amigable con el lector)
     const DEFAULT_EDITIONS = [
       {
         id: 'edicion-inaugural',
         title: 'Informe Especial: Los Grandes Avances que Están Redefiniendo la Ciencia',
         date: 'Edición Inaugural Destacada',
-        articles: [
-          {
-            category: 'longevity',
-            headline: 'Bloquear una sola proteína inflamatoria (IL-11) extiende la vida saludable más de un 20% en mamíferos',
-            subtitle: 'El hallazgo demuestra que neutralizar la interleucina-11 con anticuerpos frena la fibrosis, preserva el músculo y reactiva el metabolismo juvenil.',
-            body: 'Con el paso de los años, nuestros tejidos acumulan una señal química proinflamatoria llamada interleucina-11 (IL-11), que activa el interruptor del envejecimiento celular (la vía ERK-mTORC1). Un equipo internacional demostró que administrar un anticuerpo que bloquea la IL-11 en ratones de mediana edad no solo previno el deterioro de órganos como el hígado, el corazón y los músculos, sino que alargó su esperanza de vida media hasta un 25% en hembras y un 22% en machos.',
-            whyItMatters: 'A diferencia de otros compuestos antienvejecimiento que deprimen el sistema inmune, los anticuerpos anti-IL-11 ya se están ensayando en humanos contra la fibrosis pulmonar, lo que acelera su potencial traslación clínica a terapias de longevidad.',
-            readTime: '3 min de lectura',
-            impact: 'Alto Impacto Clínico',
-            links: [
-              { label: 'Estudio en Nature', url: 'https://www.nature.com/articles/s41586-024-07701-9' },
-              { label: 'Relojes Epigenéticos (Nature Aging)', url: 'https://www.nature.com/articles/s43587-023-00557-0' },
-              { label: 'Búsqueda viva en PubMed', url: 'https://pubmed.ncbi.nlm.nih.gov/?term=IL-11+longevity+aging&sort=date' }
-            ]
-          },
-          {
-            category: 'genetics',
-            headline: '«ARN Puente» (Bridge RNAs): la nueva generación de edición genética que supera los límites de CRISPR',
-            subtitle: 'Descubren un mecanismo natural capaz de insertar, invertir o mover grandes tramos de ADN de forma programable sin romper la doble hélice.',
-            body: 'Mientras que CRISPR-Cas9 funciona como unas tijeras moleculares que cortan el ADN y dependen de los mecanismos de reparación de la célula, las nuevas recombinasas guiadas por ARN puente utilizan una molécula de ARN con dos bucles: uno reconoce el ADN donante y otro el sitio exacto del genoma humano donde se quiere integrar. Esto permite reorganizar miles de letras genéticas de un solo paso y sin dejar cicatrices moleculares.',
-            whyItMatters: 'Abre la puerta a corregir enfermedades genéticas complejas donde no basta con cambiar una sola letra del ADN, sino que es necesario reemplazar un gen entero defectuoso de manera limpia y segura.',
-            readTime: '4 min de lectura',
-            impact: 'Revolución Biotecnológica',
-            links: [
-              { label: 'Estudio original en Nature', url: 'https://www.nature.com/articles/s41586-024-07552-4' },
-              { label: 'PubMed: Edición Epigenética', url: 'https://pubmed.ncbi.nlm.nih.gov/?term=epigenetic+editing+CRISPR+methylation&sort=date' }
-            ]
-          },
-          {
-            category: 'astro',
-            headline: 'El mapa cósmico 3D de DESI sugiere que la energía oscura no es constante: estaría evolucionando',
-            subtitle: 'Tras analizar la luz de más de 6 millones de galaxias a lo largo de 11.000 millones de años, los cosmólogos detectan grietas en el modelo estándar.',
-            body: 'Durante décadas, el modelo cosmológico estándar asumió que la energía oscura —la fuerza que acelera la expansión del universo— es una constante inmutable (Lambda). Sin embargo, las mediciones de alta precisión de las oscilaciones acústicas de bariones realizadas por el instrumento DESI, combinadas con datos de supernovas y del fondo cósmico de microondas, encajan mejor con una energía oscura dinámica cuya intensidad cambia con el tiempo.',
-            whyItMatters: 'Si se confirma con significancia estadística de 5 sigmas en los próximos relevamientos, obligará a reescribir la física fundamental del cosmos desde el descubrimiento de la expansión acelerada en 1998.',
-            readTime: '3 min de lectura',
-            impact: 'Cambio de Paradigma',
-            links: [
-              { label: 'Paper en arXiv (2404.03002)', url: 'https://arxiv.org/abs/2404.03002' },
-              { label: 'arXiv Cosmología en vivo', url: 'https://arxiv.org/list/astro-ph.CO/recent' }
-            ]
-          },
-          {
-            category: 'physics',
-            headline: 'La computación cuántica cruza el umbral histórico de corrección de errores',
-            subtitle: 'Por primera vez, añadir más cúbits físicos a un procesador cuántico reduce exponencialmente los errores en lugar de multiplicarlos.',
-            body: 'El mayor obstáculo para construir ordenadores cuánticos útiles ha sido el ruido: los cúbits son tan frágiles que al agrupar muchos solían producirse más fallos. Utilizando arquitecturas de «código de superficie», los físicos han demostrado que al pasar de una red de 3x3 a 5x5 y 7x7 cúbits, el error lógico se reduce a la mitad en cada salto, logrando un cúbit lógico que vive más tiempo que cualquiera de sus partes físicas individuales.',
-            whyItMatters: 'Demuestra experimentalmente que la computación cuántica tolerante a fallos a gran escala es físicamente viable y marca la hoja de ruta hacia la simulación exacta de moléculas y nuevos materiales.',
-            readTime: '3 min de lectura',
-            impact: 'Hito en Física Cuántica',
-            links: [
-              { label: 'Estudio en Nature', url: 'https://www.nature.com/articles/s41586-024-08449-y' },
-              { label: 'arXiv Quantum Physics', url: 'https://arxiv.org/list/quant-ph/recent' }
-            ]
-          },
-          {
-            category: 'bio',
-            headline: 'Modelado atómico del universo biomolecular e inmunología del sueño en el Alzheimer',
-            subtitle: 'Nuevas herramientas predicen cómo interactúan proteínas, ADN, ARN y fármacos, mientras se descubre cómo la microglía regula el sueño cerebral.',
-            body: 'La biología estructural computacional ahora permite visualizar con precisión atómica no solo proteínas aisladas, sino cómo estas se acoplan al ADN, al ARN y a fármacos candidatos (AlphaFold 3). En paralelo, estudios neurobiológicos recientes revelan que las células inmunitarias del cerebro (microglía) hiperactivas son responsables directas de la fragmentación del sueño en el Alzheimer, y que modularlas devuelve horas de sueño reparador en modelos preclínicos.',
-            whyItMatters: 'Reduce de años a días el diseño inicial de fármacos dirigidos y ofrece una nueva diana terapéutica para proteger el cerebro antes de que avance la neurodegeneración.',
-            readTime: '3 min de lectura',
-            impact: 'Biomedicina de Precisión',
-            links: [
-              { label: 'Estudio AlphaFold 3 (Nature)', url: 'https://www.nature.com/articles/s41586-024-07487-w' },
-              { label: 'PubMed: Microglía y Alzheimer', url: 'https://pubmed.ncbi.nlm.nih.gov/?term=microglia+alzheimer+neuroinflammation&sort=date' }
-            ]
-          },
-          {
-            category: 'math',
-            headline: 'Inteligencia artificial evolutiva descubre nuevas cotas matemáticas en combinatoria extremal',
-            subtitle: 'El sistema FunSearch combina modelos de lenguaje con verificadores lógicos para resolver problemas abiertos como el problema del conjunto Cap.',
-            body: 'En lugar de pedirle a una IA que dé directamente una respuesta (lo que suele producir alucinaciones en matemáticas avanzadas), los investigadores hicieron que el sistema escribiera pequeños programas en código Python que buscan soluciones, seleccionando evolutivamente los mejores. Así lograron descubrir construcciones inéditas para el problema del conjunto Cap (Cap set problem), el mayor avance en este problema matemático en los últimos 20 años.',
-            whyItMatters: 'Inaugura una nueva forma de colaboración entre matemáticos humanos y sistemas de búsqueda formalmente verificados (junto con asistentes como Lean 4), donde el resultado es 100% comprobable.',
-            readTime: '3 min de lectura',
-            impact: 'Matemática Computacional',
-            links: [
-              { label: 'Estudio en Nature', url: 'https://www.nature.com/articles/s41586-023-06924-6' },
-              { label: 'arXiv Matemáticas', url: 'https://arxiv.org/list/math/recent' }
-            ]
-          },
-          {
-            category: 'ai_tech',
-            headline: 'Redes neuronales descubren 380.000 nuevos materiales cristalinos estables para baterías y superconductores',
-            subtitle: 'El proyecto GNoME multiplica por diez la cantidad de materiales inorgánicos estables conocidos por la humanidad.',
-            body: 'Mediante redes neuronales de grafos entrenadas con cálculos cuánticos de teoría del funcional de la densidad (DFT), el sistema GNoME exploró millones de combinaciones químicas y predijo 2,2 millones de estructuras cristalinas nuevas, de las cuales 380.000 son termodinámicamente estables. Entre ellas se encuentran 52.000 nuevos compuestos en capas similares al grafeno y 528 conductores potenciales de iones de litio.',
-            whyItMatters: 'Entrega a los laboratorios de física y química de todo el mundo un catálogo abierto de materiales listos para sintetizar baterías de estado sólido más seguras y paneles solares más eficientes.',
-            readTime: '3 min de lectura',
-            impact: 'Aceleración Tecnológica',
-            links: [
-              { label: 'Estudio en Nature', url: 'https://www.nature.com/articles/s41586-023-06735-9' },
-              { label: 'arXiv Inteligencia Artificial', url: 'https://arxiv.org/list/cs.AI/recent' }
-            ]
-          }
-        ]
+        articles: []
       }
-    ];
-
-    // FUENTES RSS / API PARA EL RADAR EN VIVO
-    const RSS_SOURCES = [
-      { url: 'https://www.nature.com/nature.rss', category: 'bio', provider: 'nature', source: 'Nature' },
-      { url: 'https://www.nature.com/natastron.rss', category: 'astro', provider: 'nature', source: 'Nature Astronomy' },
-      { url: 'https://www.nature.com/nphys.rss', category: 'physics', provider: 'nature', source: 'Nature Physics' },
-      { url: 'https://www.nature.com/ng.rss', category: 'genetics', provider: 'nature', source: 'Nature Genetics' },
-      { url: 'https://www.nature.com/nataging.rss', category: 'longevity', provider: 'nature', source: 'Nature Aging' },
-      { url: 'https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science', category: 'physics', provider: 'science', source: 'Science' },
-      { url: 'https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv', category: 'bio', provider: 'science', source: 'Science Advances' },
-      { url: 'https://www.sciencedaily.com/rss/space_time.xml', category: 'astro', provider: 'press', source: 'ScienceDaily Space' },
-      { url: 'https://www.sciencedaily.com/rss/health_medicine/healthy_aging.xml', category: 'longevity', provider: 'press', source: 'ScienceDaily Longevity' },
-      { url: 'https://news.mit.edu/rss/topic/artificial-intelligence2', category: 'ai_tech', provider: 'press', source: 'MIT News AI' }
-    ];
-
-    const PUBMED_QUERIES = [
-      { term: '(longevity[Title/Abstract] OR cellular senescence[Title/Abstract])', category: 'longevity', source: 'PubMed Longevity' },
-      { term: '(epigenetics[Title/Abstract] OR CRISPR[Title/Abstract])', category: 'genetics', source: 'PubMed Genetics' }
-    ];
-
-    const ARXIV_API_QUERIES = [
-      { cat: 'astro-ph.CO', category: 'astro', source: 'arXiv Cosmology' },
-      { cat: 'quant-ph', category: 'physics', source: 'arXiv Quantum Physics' },
-      { cat: 'math.NT', category: 'math', source: 'arXiv Mathematics' },
-      { cat: 'cs.AI', category: 'ai_tech', source: 'arXiv AI' }
     ];
 
     // ESTADO DE LA APLICACIÓN
@@ -418,13 +298,7 @@
       renderCategories();
       renderProviders();
       renderEditionSelector();
-      renderEditorialView();
       cargarNoticiasAutomaticas(); 
-
-  document.getElementById('searchInput').addEventListener('input', (e) => {
-    searchQuery = e.target.value.toLowerCase();
-    renderArticles();
-  });
 
       document.getElementById('searchInput').addEventListener('input', (e) => {
         searchQuery = e.target.value.toLowerCase();
@@ -511,10 +385,9 @@
       renderLiveView();
     }
 
-    // RENDERIZADO DE LA PORTADA EDITORIAL (FORMATO REVISTA AMIGABLE)
     function renderEditionSelector() {
       const sel = document.getElementById('editionSelector');
-      sel.innerHTML = editions.map(ed => `<option value="${ed.id}">${ed.date} — ${ed.title.slice(0, 42)}...</option>`).join('');
+      sel.innerHTML = editions.map(ed => `<option value="${ed.id}">${ed.date} —${ed.title.slice(0, 42)}...</option>`).join('');
       sel.value = currentEditionId;
     }
 
@@ -523,16 +396,34 @@
       renderEditorialView();
     }
 
+    // RENDERIZADO DE LA PORTADA EDITORIAL CON LAS NOTICIAS AUTOMÁTICAS DE PYTHON
     function renderEditorialView() {
-      const edition = editions.find(e => e.id === currentEditionId) || editions[0];
-      document.getElementById('currentEditionTitle').textContent = edition.title;
-      document.getElementById('currentEditionDate').textContent = edition.date;
+      let articlesToDisplay = [];
 
-      const filtered = edition.articles.filter(art => {
+      // Si hay noticias automáticas del script de Python, las usamos para armar la portada editorial
+      if (typeof liveArticles !== 'undefined' && liveArticles.length > 0) {
+        articlesToDisplay = liveArticles.map(art => ({
+          category: art.category || 'bio',
+          headline: (autoTranslate && translationCache[art.link]?.title) || art.title,
+          subtitle: `Actualizado automáticamente desde ${art.source}`,
+          body: (autoTranslate && translationCache[art.link]?.desc) || art.description || 'Nuevo hallazgo científico indexado en tiempo real por GitHub Actions.',
+          whyItMatters: 'Capturado de forma continua por el monitor automático de fuentes científicas primarias.',
+          readTime: '3 min de lectura',
+          impact: 'Radar Automático',
+          links: [{ label: 'Estudio original', url: art.link }]
+        }));
+      } else {
+        const edition = editions.find(e => e.id === currentEditionId) || editions[0];
+        articlesToDisplay = edition.articles;
+      }
+
+      document.getElementById('currentEditionTitle').textContent = "Portada Editorial: Últimos Avances Automáticos";
+      document.getElementById('currentEditionDate').textContent = "Actualizado en vivo por GitHub Actions";
+
+      const filtered = articlesToDisplay.filter(art => {
         const matchCat = activeCategory === 'all' || art.category === activeCategory;
         const matchQ = !searchQuery ||
           art.headline.toLowerCase().includes(searchQuery) ||
-          art.subtitle.toLowerCase().includes(searchQuery) ||
           art.body.toLowerCase().includes(searchQuery);
         return matchCat && matchQ;
       });
@@ -542,23 +433,23 @@
 
       if (filtered.length === 0) {
         heroEl.innerHTML = '';
-        gridEl.innerHTML = `<div class="col-span-2 text-center py-12 text-slate-400">No hay artículos en esta categoría dentro de este informe.</div>`;
+        gridEl.innerHTML = `<div class="col-span-2 text-center py-12 text-slate-400">No hay artículos en esta categoría. Sincronizando...</div>`;
         return;
       }
 
-      // Primer artículo como Portada Principal (Hero)
+      // Noticia principal (Hero)
       const hero = filtered[0];
       const heroCat = CATEGORIES.find(c => c.id === hero.category) || CATEGORIES[0];
       heroEl.innerHTML = `
         <div class="bg-gradient-to-br from-slate-900 via-slate-900 to-slate-850 border border-slate-700/80 rounded-2xl p-6 sm:p-8 shadow-xl">
           <div class="flex flex-wrap items-center gap-2 mb-4">
             <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-cyan-500 text-slate-950">
-              ★ Noticia de Portada
+              ★ Noticia Destacada de Hoy
             </span>
             <span class="text-xs font-medium px-3 py-1 rounded-full border ${heroCat.badge}">
-              ${heroCat.icon} ${heroCat.name}
+              ${heroCat.icon}${heroCat.name}
             </span>
-            <span class="text-xs text-slate-400 ml-auto">⏱️ ${hero.readTime || '3 min de lectura'}</span>
+            <span class="text-xs text-slate-400 ml-auto">⏱️ ${hero.readTime || '3 min'}</span>
           </div>
 
           <h3 onclick="openEditorialReader(0)" class="cursor-pointer text-2xl sm:text-3xl font-serif font-bold text-white hover:text-cyan-300 transition leading-snug mb-3">
@@ -569,16 +460,9 @@
             ${hero.subtitle}
           </p>
 
-          <p class="text-sm text-slate-300 leading-relaxed mb-5 font-serif">
+          <p class="text-sm text-slate-300 leading-relaxed mb-5 font-serif line-clamp-3">
             ${hero.body}
           </p>
-
-          ${hero.whyItMatters ? `
-            <div class="bg-slate-950/90 border-l-4 border-cyan-400 rounded-r-xl p-4 mb-5">
-              <div class="text-xs font-bold uppercase tracking-wider text-cyan-400 mb-1">💡 ¿Por qué es importante para el futuro?</div>
-              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">${hero.whyItMatters}</p>
-            </div>
-          ` : ''}
 
           <div class="flex flex-wrap items-center justify-between gap-3 pt-4 border-t border-slate-800">
             <div class="flex flex-wrap items-center gap-2">
@@ -589,512 +473,16 @@
               `).join('')}
             </div>
             <button onclick="openEditorialReader(0)" class="text-xs font-bold text-white bg-cyan-600 hover:bg-cyan-500 px-4 py-2 rounded-lg transition">
-              📖 Abrir en Modo Lectura
+              📖 Leer completo
             </button>
           </div>
         </div>
       `;
 
-      // Resto de artículos en formato Revista a 2 columnas
+      // Tarjetas editoriales restantes
       gridEl.innerHTML = filtered.slice(1).map((art, idx) => {
         const cat = CATEGORIES.find(c => c.id === art.category) || CATEGORIES[0];
         const realIdx = idx + 1;
         return `
           <article class="bg-slate-900/90 border border-slate-800 hover:border-slate-700 rounded-2xl p-6 flex flex-col justify-between transition shadow-lg">
             <div>
-              <div class="flex items-center justify-between gap-2 mb-3">
-                <span class="text-xs font-medium px-2.5 py-0.5 rounded-full border ${cat.badge}">
-                  ${cat.icon} ${cat.name}
-                </span>
-                <span class="text-[11px] text-slate-400">${art.impact || 'Avance Científico'} • ${art.readTime || '3 min'}</span>
-              </div>
-
-              <h3 onclick="openEditorialReader(${realIdx})" class="cursor-pointer text-xl font-serif font-bold text-slate-100 hover:text-cyan-400 transition leading-snug mb-2.5">
-                ${art.headline}
-              </h3>
-
-              <p class="text-xs sm:text-sm text-cyan-200/80 font-medium mb-3 leading-relaxed">
-                ${art.subtitle}
-              </p>
-
-              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed mb-4 font-serif">
-                ${art.body}
-              </p>
-
-              ${art.whyItMatters ? `
-                <div class="bg-slate-950/70 border-l-2 border-emerald-400 rounded-r-lg p-3 mb-4">
-                  <span class="text-[11px] font-bold text-emerald-400 uppercase block mb-0.5">📌 Clave para el lector:</span>
-                  <p class="text-xs text-slate-300 leading-relaxed">${art.whyItMatters}</p>
-                </div>
-              ` : ''}
-            </div>
-
-            <div class="pt-4 border-t border-slate-800/80 flex flex-wrap items-center justify-between gap-2">
-              <div class="flex flex-wrap items-center gap-1.5">
-                ${(art.links || []).map(l => `
-                  <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="text-[11px] font-medium px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-cyan-300 border border-slate-700 transition">
-                    ${l.label} ↗
-                  </a>
-                `).join('')}
-              </div>
-              <button onclick="openEditorialReader(${realIdx})" class="text-xs font-semibold text-cyan-400 hover:underline">
-                📖 Modo Lectura →
-              </button>
-            </div>
-          </article>
-        `;
-      }).join('');
-
-      window._currentFilteredEditorial = filtered;
-    }
-
-    // MODO LECTURA AMIGABLE (MODAL)
-    function openEditorialReader(idx) {
-      const art = (window._currentFilteredEditorial || [])[idx];
-      if (!art) return;
-      const cat = CATEGORIES.find(c => c.id === art.category) || CATEGORIES[0];
-
-      document.getElementById('readerBadge').textContent = `${cat.icon} ${cat.name}`;
-      document.getElementById('readerSource').textContent = art.impact || 'Informe Editorial SciRadar';
-
-      const content = document.getElementById('readerContent');
-      content.style.fontSize = `${readerFontSize}px`;
-      content.innerHTML = `
-        <h2 class="text-2xl sm:text-3xl font-bold text-white leading-tight">${art.headline}</h2>
-        <p class="text-lg text-cyan-300 font-sans font-medium leading-relaxed">${art.subtitle}</p>
-        <hr class="border-slate-800" />
-        <div class="space-y-4 text-slate-200 leading-relaxed">
-          <p>${art.body}</p>
-        </div>
-        ${art.whyItMatters ? `
-          <div class="bg-slate-950 border border-cyan-500/30 rounded-xl p-5 my-4 font-sans">
-            <h4 class="text-xs font-bold uppercase tracking-wider text-cyan-400 mb-1">💡 ¿Por qué es importante este hallazgo?</h4>
-            <p class="text-sm text-slate-200 leading-relaxed">${art.whyItMatters}</p>
-          </div>
-        ` : ''}
-      `;
-
-      const firstUrl = art.links?.[0]?.url || 'https://scholar.google.com';
-      document.getElementById('readerTranslateLink').href = `https://translate.google.com/translate?sl=auto&tl=es&u=${encodeURIComponent(firstUrl)}`;
-      document.getElementById('readerLinks').innerHTML = (art.links || []).map(l => `
-        <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-cyan-500 text-slate-950 hover:bg-cyan-400 transition">
-          Abrir estudio: ${l.label} ↗
-        </a>
-      `).join('');
-
-      document.getElementById('readerModal').classList.remove('hidden');
-    }
-
-    function openLiveReader(idx) {
-      const art = (window._currentFilteredLive || [])[idx];
-      if (!art) return;
-      const cat = CATEGORIES.find(c => c.id === art.category) || CATEGORIES[0];
-
-      document.getElementById('readerBadge').textContent = `${cat.icon} ${cat.name}`;
-      document.getElementById('readerSource').textContent = art.source;
-
-      const title = (autoTranslate && translationCache[art.link]?.title) || art.title;
-      const desc = (autoTranslate && translationCache[art.link]?.desc) || art.description;
-
-      const content = document.getElementById('readerContent');
-      content.style.fontSize = `${readerFontSize}px`;
-      content.innerHTML = `
-        <h2 class="text-2xl font-bold text-white leading-tight">${title}</h2>
-        <div class="text-xs font-sans text-slate-400">Fuente: ${art.source} • Publicado: ${new Date(art.pubDate).toLocaleDateString('es-ES')}</div>
-        <hr class="border-slate-800" />
-        <p class="text-slate-200 leading-relaxed">${desc || 'Pulsa en el botón inferior para consultar el estudio completo en su revista o repositorio de origen.'}</p>
-      `;
-
-      document.getElementById('readerTranslateLink').href = `https://translate.google.com/translate?sl=auto&tl=es&u=${encodeURIComponent(art.link)}`;
-      document.getElementById('readerLinks').innerHTML = `
-        <a href="${art.link}" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-4 py-2 rounded-lg bg-cyan-500 text-slate-950 hover:bg-cyan-400 transition">
-          Ver publicación original en ${art.source} ↗
-        </a>
-      `;
-
-      document.getElementById('readerModal').classList.remove('hidden');
-    }
-
-    function closeReaderModal() {
-      document.getElementById('readerModal').classList.add('hidden');
-    }
-
-    function adjustFontSize(delta) {
-      readerFontSize = Math.min(24, Math.max(13, readerFontSize + delta));
-      document.getElementById('readerContent').style.fontSize = `${readerFontSize}px`;
-    }
-
-    // IMPORTADOR INTELIGENTE DE INFORMES DE GEMINI (CONVIERTE MARKDOWN EN TARJETAS DE REVISTA)
-    function openImportModal() {
-      document.getElementById('importModal').classList.remove('hidden');
-    }
-
-    function closeImportModal() {
-      document.getElementById('importModal').classList.add('hidden');
-    }
-
-    function detectCategoryFromHeading(heading) {
-      const h = heading.toLowerCase();
-      if (h.includes('astronom') || h.includes('cosmo') || h.includes('astrof')) return 'astro';
-      if (h.includes('física') || h.includes('fisica') || h.includes('cuánt') || h.includes('cuant')) return 'physics';
-      if (h.includes('genét') || h.includes('genet') || h.includes('epigen')) return 'genetics';
-      if (h.includes('longev') || h.includes('salud') || h.includes('envejec')) return 'longevity';
-      if (h.includes('matemát') || h.includes('matemat')) return 'math';
-      if (h.includes('ia') || h.includes('inteligencia') || h.includes('tecnolog')) return 'ai_tech';
-      if (h.includes('biolog') || h.includes('biomed')) return 'bio';
-      return 'bio';
-    }
-
-    function processImportedReport() {
-      const rawText = document.getElementById('importMarkdownInput').value.trim();
-      const customTitle = document.getElementById('importTitleInput').value.trim();
-      if (!rawText) return;
-
-      const lines = rawText.split('\n');
-      let currentCat = 'bio';
-      const parsedArticles = [];
-      let currentArt = null;
-
-      lines.forEach(line => {
-        const trimmed = line.trim();
-        if (!trimmed) return;
-
-        // Detectar encabezados de sección (ej: ## 1. Astronomía...)
-        if (/^#{1,3}\s+/.test(trimmed)) {
-          currentCat = detectCategoryFromHeading(trimmed);
-          return;
-        }
-
-        // Detectar enlaces sueltos en sub-viñetas
-        const linkRegex = /\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g;
-        let match;
-        const foundLinks = [];
-        while ((match = linkRegex.exec(trimmed)) !== null) {
-          foundLinks.push({ label: match[1], url: match[2] });
-        }
-
-        // Si es una sub-viñeta de enlace o fuente
-        if (currentArt && foundLinks.length > 0 && (trimmed.toLowerCase().includes('estudio') || trimmed.toLowerCase().includes('repositorio') || trimmed.toLowerCase().includes('búsqueda') || trimmed.toLowerCase().includes('publicac') || trimmed.toLowerCase().includes('enlace') || trimmed.toLowerCase().includes('fuente'))) {
-          currentArt.links.push(...foundLinks);
-          return;
-        }
-
-        // Si es una viñeta principal con titular en negrita: * **Titular:** Cuerpo
-        const boldMatch = trimmed.match(/^[\*\-\•]\s*\*\*([^\*]+)\*\*[:\-\—]?\s*(.*)$/);
-        if (boldMatch) {
-          if (currentArt) parsedArticles.push(currentArt);
-          const headline = boldMatch[1].replace(/:$/, '').trim();
-          const bodyText = boldMatch[2].replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, '$1').trim();
-          currentArt = {
-            category: currentCat,
-            headline: headline,
-            subtitle: bodyText.split('.')[0] + '.',
-            body: bodyText,
-            whyItMatters: 'Hallazgo destacado en el informe periódico de búsqueda científica de Gemini.',
-            readTime: '3 min de lectura',
-            impact: 'Reporte Diario IA',
-            links: foundLinks
-          };
-        } else if (currentArt && trimmed.length > 35 && !trimmed.startsWith('|')) {
-          currentArt.body += ' ' + trimmed.replace(/^[\*\-]\s*/, '');
-          if (foundLinks.length > 0) currentArt.links.push(...foundLinks);
-        }
-      });
-
-      if (currentArt) parsedArticles.push(currentArt);
-
-      // Si el texto pegado tenía formato libre sin viñetas estándar, crear un artículo general
-      if (parsedArticles.length === 0) {
-        parsedArticles.push({
-          category: 'all',
-          headline: customTitle || 'Informe Científico de Gemini',
-          subtitle: 'Resumen generado por búsqueda periódica.',
-          body: rawText,
-          whyItMatters: 'Síntesis personalizada de avances científicos.',
-          readTime: '4 min de lectura',
-          impact: 'Informe IA',
-          links: []
-        });
-      }
-
-      const nowStr = new Date().toLocaleDateString('es-ES', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
-      const newEdition = {
-        id: 'ed-' + Date.now(),
-        title: customTitle || `Boletín Científico de Gemini (${nowStr})`,
-        date: nowStr,
-        articles: parsedArticles
-      };
-
-      editions.unshift(newEdition);
-      localStorage.setItem('sciradar_editions_v2', JSON.stringify(editions.slice(0, 30)));
-      currentEditionId = newEdition.id;
-
-      document.getElementById('importMarkdownInput').value = '';
-      document.getElementById('importTitleInput').value = '';
-      closeImportModal();
-      renderEditionSelector();
-      switchMainView('editorial');
-    }
-
-    // TRADUCCIÓN AUTOMÁTICA AL ESPAÑOL PARA EL RADAR EN VIVO
-    async function toggleAutoTranslate() {
-      autoTranslate = !autoTranslate;
-      const statusEl = document.getElementById('translateStatus');
-      const btn = document.getElementById('autoTranslateBtn');
-      statusEl.textContent = autoTranslate ? 'ON' : 'OFF';
-      btn.classList.toggle('border-cyan-400', autoTranslate);
-      btn.classList.toggle('text-cyan-300', autoTranslate);
-
-      if (autoTranslate) {
-        translateVisibleLiveArticles();
-      } else {
-        renderLiveView();
-      }
-    }
-
-    async function translateTextToEs(text) {
-      if (!text) return '';
-      try {
-        const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=es&dt=t&q=${encodeURIComponent(text.slice(0, 450))}`;
-        const res = await fetch(url);
-        const data = await res.json();
-        return data[0].map(seg => seg[0]).join('');
-      } catch (_) {
-        return text;
-      }
-    }
-
-    async function translateVisibleLiveArticles() {
-      const subset = (window._currentFilteredLive || liveArticles).slice(0, 18);
-      for (const art of subset) {
-        if (!translationCache[art.link]) {
-          const [tTitle, tDesc] = await Promise.all([
-            translateTextToEs(art.title),
-            translateTextToEs(art.description)
-          ]);
-          translationCache[art.link] = { title: tTitle, desc: tDesc };
-          renderLiveView();
-        }
-      }
-      localStorage.setItem('sciradar_translations', JSON.stringify(translationCache));
-    }
-
-    // MOTOR DEL RADAR EN VIVO (arXiv, Nature, Science, PubMed)
-    function cleanHtml(raw) {
-      if (!raw) return '';
-      const div = document.createElement('div');
-      div.innerHTML = raw;
-      return (div.textContent || div.innerText || '').replace(/\s+/g, ' ').trim();
-    }
-
-    function parseXmlFeed(xmlText, feed) {
-      const parser = new DOMParser();
-      const xml = parser.parseFromString(xmlText, 'text/xml');
-      const items = Array.from(xml.querySelectorAll('item, entry')).slice(0, 8);
-      return items.map(el => {
-        const title = cleanHtml(el.querySelector('title')?.textContent || 'Sin título');
-        const link = el.querySelector('link')?.textContent?.trim() ||
-                     el.querySelector('link')?.getAttribute('href') ||
-                     el.getAttribute('rdf:about') || '#';
-        const descNode = el.querySelector('description, summary, content');
-        const dateNode = el.querySelector('pubDate, published, updated') || el.getElementsByTagName('dc:date')[0];
-        const parsedDate = dateNode ? new Date(dateNode.textContent.trim()) : new Date();
-        return {
-          title,
-          link,
-          description: cleanHtml(descNode?.textContent || ''),
-          pubDate: isNaN(parsedDate) ? new Date() : parsedDate,
-          category: feed.category,
-          provider: feed.provider,
-          source: feed.source
-        };
-      });
-    }
-
-    async function fetchSingleFeed(feed) {
-      try {
-        const res = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}`);
-        if (res.ok) {
-          const data = await res.json();
-          if (data.status === 'ok' && Array.isArray(data.items) && data.items.length > 0) {
-            return data.items.slice(0, 8).map(item => ({
-              title: cleanHtml(item.title),
-              link: item.link || item.guid,
-              description: cleanHtml(item.description || item.content || ''),
-              pubDate: new Date(item.pubDate ? item.pubDate.replace(' ', 'T') : Date.now()),
-              category: feed.category,
-              provider: feed.provider,
-              source: feed.source
-            }));
-          }
-        }
-      } catch (_) {}
-
-      try {
-        const res = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(feed.url)}`);
-        if (res.ok) {
-          const data = await res.json();
-          if (data.contents) return parseXmlFeed(data.contents, feed);
-        }
-      } catch (_) {}
-      return [];
-    }
-
-    async function fetchPubMedQuery(q) {
-      try {
-        const sRes = await fetch(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=${encodeURIComponent(q.term)}&retmode=json&retmax=6&sort=date`);
-        const sData = await sRes.json();
-        const ids = sData?.esearchresult?.idlist || [];
-        if (!ids.length) return [];
-        const sumRes = await fetch(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=${ids.join(',')}&retmode=json`);
-        const sumData = await sumRes.json();
-        return ids.map(id => {
-          const item = sumData?.result?.[id];
-          if (!item?.title) return null;
-          const journal = item.fulljournalname || item.source || 'PubMed';
-          return {
-            title: cleanHtml(item.title),
-            link: `https://pubmed.ncbi.nlm.nih.gov/${id}/`,
-            description: `Estudio indexado en PubMed (${journal}). Autores principales: ${(item.authors || []).slice(0, 3).map(a => a.name).join(', ')}.`,
-            pubDate: new Date(item.pubdate || Date.now()),
-            category: q.category,
-            provider: 'pubmed',
-            source: `PubMed • ${journal}`
-          };
-        }).filter(Boolean);
-      } catch (_) { return []; }
-    }
-
-    async function fetchArxivDirectApi(q) {
-      try {
-        const res = await fetch(`https://export.arxiv.org/api/query?search_query=cat:${encodeURIComponent(q.cat)}&sortBy=submittedDate&sortOrder=descending&max_results=6`);
-        if (!res.ok) return [];
-        return parseXmlFeed(await res.text(), { category: q.category, provider: 'arxiv', source: q.source });
-      } catch (_) { return []; }
-    }
-
-    async function fetchAllFeeds() {
-      const statusText = document.getElementById('statusText');
-      statusText.textContent = 'Buscando estudios en arXiv, Nature, Science y PubMed...';
-
-      const results = await Promise.allSettled([
-        ...RSS_SOURCES.map(f => fetchSingleFeed(f)),
-        ...PUBMED_QUERIES.map(q => fetchPubMedQuery(q)),
-        ...ARXIV_API_QUERIES.map(q => fetchArxivDirectApi(q))
-      ]);
-
-      const merged = [];
-      const seen = new Set();
-      results.forEach(r => {
-        if (r.status === 'fulfilled' && Array.isArray(r.value)) {
-          r.value.forEach(a => {
-            if (a?.link && !seen.has(a.link)) {
-              seen.add(a.link);
-              merged.push(a);
-            }
-          });
-        }
-      });
-
-      merged.sort((a, b) => b.pubDate - a.pubDate);
-      if (merged.length > 0) liveArticles = merged;
-      statusText.textContent = `${liveArticles.length} estudios en vivo (${new Date().toLocaleTimeString()})`;
-
-      renderLiveView();
-      if (autoTranslate) translateVisibleLiveArticles();
-    }
-
-    function renderLiveView() {
-      const grid = document.getElementById('liveGrid');
-      const filtered = liveArticles.filter(art => {
-        const matchCat = activeCategory === 'all' || art.category === activeCategory;
-        const matchProv = activeProvider === 'all' || art.provider === activeProvider;
-        const matchQ = !searchQuery ||
-          art.title.toLowerCase().includes(searchQuery) ||
-          art.description.toLowerCase().includes(searchQuery);
-        return matchCat && matchProv && matchQ;
-      });
-
-      window._currentFilteredLive = filtered;
-
-      if (filtered.length === 0) {
-        grid.innerHTML = `<div class="col-span-3 text-center py-12 text-slate-400">Cargando o sin resultados para este filtro...</div>`;
-        return;
-      }
-
-      grid.innerHTML = filtered.slice(0, 90).map((art, idx) => {
-        const cat = CATEGORIES.find(c => c.id === art.category) || CATEGORIES[0];
-        const title = (autoTranslate && translationCache[art.link]?.title) || art.title;
-        const desc = (autoTranslate && translationCache[art.link]?.desc) || art.description;
-        const dateStr = isNaN(new Date(art.pubDate)) ? 'Reciente' : new Date(art.pubDate).toLocaleDateString('es-ES', { day: '2-digit', month: 'short' });
-
-        return `
-          <article class="bg-slate-900/90 border border-slate-800 hover:border-slate-700 rounded-xl p-5 flex flex-col justify-between transition shadow-lg">
-            <div>
-              <div class="flex items-center justify-between gap-2 mb-3">
-                <span class="text-[11px] font-medium px-2.5 py-0.5 rounded-full border ${cat.badge}">
-                  ${cat.icon} ${cat.name}
-                </span>
-                <span class="text-[11px] text-slate-400">${art.source}</span>
-              </div>
-
-              <h3 onclick="openLiveReader(${idx})" class="cursor-pointer text-base font-serif font-bold text-slate-100 hover:text-cyan-400 transition leading-snug mb-2">
-                ${title}
-              </h3>
-
-              <p class="text-xs text-slate-300 leading-relaxed line-clamp-3 mb-4">
-                ${desc || 'Pulsa en Modo Lectura o en el estudio original para ver los detalles completos.'}
-              </p>
-            </div>
-
-            <div class="pt-3 border-t border-slate-800 flex items-center justify-between text-xs">
-              <span class="text-slate-500">${dateStr}</span>
-              <div class="flex items-center gap-3">
-                <button onclick="openLiveReader(${idx})" class="text-slate-300 hover:text-cyan-300 font-medium">
-                  📖 Lectura
-                </button>
-                <a href="${art.link}" target="_blank" rel="noopener noreferrer" class="text-cyan-400 font-semibold hover:underline">
-                  Estudio ↗
-                </a>
-              </div>
-            </div>
-          </article>
-        `;
-      }).join('');
-    }
-
-    function startCountdown() {
-      if (timerInterval) clearInterval(timerInterval);
-      countdownSeconds = parseInt(document.getElementById('intervalSelect').value, 10);
-      timerInterval = setInterval(() => {
-        countdownSeconds--;
-        if (countdownSeconds <= 0) {
-          fetchAllFeeds();
-          countdownSeconds = parseInt(document.getElementById('intervalSelect').value, 10);
-        }
-        const m = String(Math.floor(countdownSeconds / 60)).padStart(2, '0');
-        const s = String(countdownSeconds % 60).padStart(2, '0');
-        document.getElementById('countdownText').textContent = `${m}:${s}`;
-      }, 1000);
-    }
-
-    window.addEventListener('DOMContentLoaded', init);
-    // Cargar automáticamente las noticias guardadas por el script de Python en GitHub Actions
-async function cargarNoticiasAutomaticas() {
-  try {
-    // Añadimos un parámetro de tiempo para evitar la caché del navegador
-    const res = await fetch('noticias_auto.json?' + new Date().getTime());
-    if (res.ok) {
-      const data = await res.json();
-      if (Array.isArray(data) && data.length > 0) {
-        liveArticles = data; // Reemplaza los artículos en vivo con el histórico actualizado
-        renderLiveView();    // Vuelve a pintar la cuadrícula en la pestaña Radar en Vivo
-      }
-    }
-  } catch (e) {
-    console.log("Usando radar en vivo estándar via API RSS.");
-  }
-}
-  </script>
-</body>
-</html>
