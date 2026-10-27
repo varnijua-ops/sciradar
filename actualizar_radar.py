@@ -69,11 +69,13 @@ def main():
     # Mantener un límite razonable (ej. las últimas 300 noticias para la hemeroteca)
     historico = historico[:300]
 
-    # Guardar archivo actualizado
-    with open(archivo_json, "w", encoding="utf-8") as f:
-        json.dump(historico, f, ensure_ascii=False, indent=2)
+  # Guardar en JSON (como respaldo)
+    with open('noticias_auto.json', 'w', encoding='utf-8') as f:
+        json.dump(noticias_finales, f, ensure_ascii=False, indent=2)
 
-    print(f"Actualización completada. Se añadieron {agregadas} noticias nuevas. Total en archivo: {len(historico)}")
+    # Guardar directamente como script JS para el frontend
+    with open('noticias.js', 'w', encoding='utf-8') as f:
+        f.write("window.NOTICIAS_AUTO = " + json.dumps(noticias_finales, ensure_ascii=False, indent=2) + ";\n")
 
 if __name__ == "__main__":
     main()
