@@ -132,4 +132,385 @@
         <div class="flex items-center gap-2">
           <button onclick="adjustFontSize(-1)" class="px-2 py-1 text-xs bg-slate-800 hover:bg-slate-700 rounded text-slate-300">A-</button>
           <button onclick="adjustFontSize(1)" class="px-2 py-1 text-xs bg-slate-800 hover:bg-slate-700 rounded text-slate-300">A+</button>
-          <button onclick="close
+          <button onclick="closeReaderModal()" class="ml-2 text-slate-400 hover:text-white text-lg font-bold px-2">✕</button>
+        </div>
+      </div>
+      <div id="readerContent" class="p-6 sm:p-8 overflow-y-auto space-y-5 font-serif leading-relaxed text-slate-200 text-base"></div>
+      <div class="px-6 py-4 bg-slate-950 border-t border-slate-800 flex flex-wrap items-center justify-between gap-3">
+        <a id="readerTranslateLink" href="#" target="_blank" rel="noopener noreferrer" class="text-xs text-slate-400 hover:text-cyan-300 underline">🌐 Traducir con Google</a>
+        <div id="readerLinks" class="flex flex-wrap items-center gap-2"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL IMPORTADOR -->
+  <div id="importModal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-2xl w-full p-6 shadow-2xl space-y-4">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <h3 class="text-lg font-bold text-white">📥 Importar Informe Científico</h3>
+        <button onclick="closeImportModal()" class="text-slate-400 hover:text-white text-lg font-bold">✕</button>
+      </div>
+      <input id="importTitleInput" type="text" placeholder="Título de la edición" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white" />
+      <textarea id="importMarkdownInput" rows="8" placeholder="Pega aquí el informe..." class="w-full bg-slate-950 border border-slate-700 rounded-lg p-3 text-xs text-slate-200 font-mono"></textarea>
+      <div class="flex justify-end gap-3 pt-2">
+        <button onclick="closeImportModal()" class="px-4 py-2 text-xs text-slate-400">Cancelar</button>
+        <button onclick="processImportedReport()" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold text-xs px-4 py-2 rounded-lg">✨ Convertir</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPT DE DATOS EXTERNO GENERADO POR PYTHON -->
+  <script src="noticias.js"></script>
+
+  <!-- LÓGICA DE LA APLICACIÓN -->
+  <script>
+    const CATEGORIES = [
+      { id: 'all', name: 'Todas las áreas', icon: '🌐', badge: 'bg-cyan-500/15 text-cyan-300 border-cyan-500/30' },
+      { id: 'astro', name: 'Astronomía y Cosmología', icon: '🔭', badge: 'bg-indigo-500/15 text-indigo-300 border-indigo-500/30' },
+      { id: 'physics', name: 'Física Cuántica y Materia', icon: '⚛️', badge: 'bg-violet-500/15 text-violet-300 border-violet-500/30' },
+      { id: 'bio', name: 'Biología y Biomedicina', icon: '🧬', badge: 'bg-emerald-500/15 text-emerald-300 border-emerald-500/30' },
+      { id: 'genetics', name: 'Genética y Epigenética', icon: '🧪', badge: 'bg-teal-500/15 text-teal-300 border-teal-500/30' },
+      { id: 'longevity', name: 'Longevidad y Salud', icon: '❤️‍🩹', badge: 'bg-rose-500/15 text-rose-300 border-rose-500/30' },
+      { id: 'math', name: 'Matemáticas', icon: '📐', badge: 'bg-amber-500/15 text-amber-300 border-amber-500/30' },
+      { id: 'ai_tech', name: 'Tecnología e IA', icon: '🤖', badge: 'bg-sky-500/15 text-sky-300 border-sky-500/30' }
+    ];
+
+    const PROVIDERS = [
+      { id: 'all', name: 'Todas' },
+      { id: 'nature', name: 'Nature' },
+      { id: 'science', name: 'Science' },
+      { id: 'arxiv', name: 'arXiv' },
+      { id: 'pubmed', name: 'PubMed' },
+      { id: 'press', name: 'ScienceDaily / Otros' }
+    ];
+
+    // Respaldo base inicial (si noticias.js aún no existe en GitHub Pages, usa este)
+    const BACKUP_ARTICLES = [
+      {
+        title: "Too much RNA can starve cells of energy, scientists discover",
+        link: "https://www.sciencedaily.com/releases/2026/10/261020085023.htm",
+        description: "Scientists have uncovered an unexpected danger lurking inside cells: too much RNA can damage the structures responsible for producing energy without relying on the immune system.",
+        pubDate: "Wed, 21 Oct 2026 09:02:34 EDT",
+        category: "longevity",
+        provider: "press",
+        source: "ScienceDaily Longevity"
+      },
+      {
+        title: "Natural compound could fight rheumatoid arthritis at its source",
+        link: "https://www.sciencedaily.com/releases/2026/10/261020085309.htm",
+        description: "A natural compound extracted from a medicinal plant has shown surprising promise against rheumatoid arthritis. In rats, it reduced joint swelling and calmed immune responses.",
+        pubDate: "Wed, 21 Oct 2026 23:37:25 EDT",
+        category: "longevity",
+        provider: "press",
+        source: "ScienceDaily Longevity"
+      },
+      {
+        title: "Millions take fish oil for brain health. A two-year study found no benefit",
+        link: "https://www.sciencedaily.com/releases/2026/10/261020085427.htm",
+        description: "A surprising two-year clinical trial found that fish oil supplements successfully delivered omega-3s to the brain but failed to improve memory or protect against age-related brain shrinkage.",
+        pubDate: "Thu, 22 Oct 2026 08:46:24 EDT",
+        category: "longevity",
+        provider: "press",
+        source: "ScienceDaily Longevity"
+      }
+    ];
+
+    // Toma las noticias directamente de window.NOTICIAS_AUTO (de noticias.js) o usa el respaldo
+    let liveArticles = (typeof window.NOTICIAS_AUTO !== 'undefined' && Array.isArray(window.NOTICIAS_AUTO) && window.NOTICIAS_AUTO.length > 0)
+      ? window.NOTICIAS_AUTO
+      : BACKUP_ARTICLES;
+
+    let currentView = 'editorial';
+    let activeCategory = 'all';
+    let activeProvider = 'all';
+    let searchQuery = '';
+    let autoTranslate = false;
+    let readerFontSize = 16;
+    let editions = [{ id: 'ed-auto', title: 'Radar Científico Automatizado', date: 'En Vivo', articles: [] }];
+    let currentEditionId = editions[0].id;
+    let translationCache = JSON.parse(localStorage.getItem('sciradar_translations') || '{}');
+
+    function init() {
+      // 1. Si noticias.js vino inyectado, inicializamos con eso
+      if (typeof window.NOTICIAS_AUTO !== 'undefined' && Array.isArray(window.NOTICIAS_AUTO) && window.NOTICIAS_AUTO.length > 0) {
+        liveArticles = window.NOTICIAS_AUTO;
+      }
+
+      renderCategories();
+      renderProviders();
+      renderEditionSelector();
+      renderEditorialView();
+      renderLiveView();
+      actualizarContadoresUI();
+
+      // Buscador
+      document.getElementById('searchInput').addEventListener('input', (e) => {
+        searchQuery = e.target.value.toLowerCase();
+        if (currentView === 'editorial') renderEditorialView();
+        else renderLiveView();
+      });
+
+      // 2. Intentar además un fetch a noticias_auto.json con timestamp por si noticias.js tardó en desplegarse
+      sincronizarJSONFondo();
+    }
+
+    async function sincronizarJSONFondo() {
+      try {
+        const res = await fetch('noticias_auto.json?t=' + Date.now());
+        if (res.ok) {
+          const data = await res.json();
+          if (Array.isArray(data) && data.length > 0) {
+            liveArticles = data;
+            actualizarContadoresUI();
+            renderEditorialView();
+            renderLiveView();
+          }
+        }
+      } catch (err) {
+        // Fallback silencioso usando liveArticles actual
+      }
+    }
+
+    function actualizarContadoresUI() {
+      const cant = liveArticles.length;
+      document.getElementById('currentEditionDate').textContent = `En vivo • ${cant} estudios científicos`;
+      document.getElementById('statusText').textContent = `${cant} artículos disponibles`;
+    }
+
+    function switchMainView(view) {
+      currentView = view;
+      const edSec = document.getElementById('editorialSection');
+      const lvSec = document.getElementById('liveSection');
+      const btnEd = document.getElementById('tabEditorialBtn');
+      const btnLv = document.getElementById('tabLiveBtn');
+
+      if (view === 'editorial') {
+        edSec.classList.remove('hidden');
+        lvSec.classList.add('hidden');
+        btnEd.className = 'px-3.5 py-1.5 rounded-lg text-xs font-semibold transition bg-cyan-500 text-slate-950 shadow';
+        btnLv.className = 'px-3.5 py-1.5 rounded-lg text-xs font-semibold transition text-slate-300 hover:text-white';
+        renderEditorialView();
+      } else {
+        edSec.classList.add('hidden');
+        lvSec.classList.remove('hidden');
+        btnLv.className = 'px-3.5 py-1.5 rounded-lg text-xs font-semibold transition bg-cyan-500 text-slate-950 shadow';
+        btnEd.className = 'px-3.5 py-1.5 rounded-lg text-xs font-semibold transition text-slate-300 hover:text-white';
+        renderLiveView();
+      }
+    }
+
+    function renderCategories() {
+      const bar = document.getElementById('categoryBar');
+      bar.innerHTML = CATEGORIES.map(cat => `
+        <button onclick="selectCategory('${cat.id}')" class="flex items-center gap-1.5 px-3 py-1 rounded-full border text-xs whitespace-nowrap transition ${cat.id === activeCategory ? 'bg-cyan-500 text-slate-950 font-semibold border-cyan-400' : 'bg-slate-800/80 text-slate-300 border-slate-700'}">
+          <span>${cat.icon}</span><span>${cat.name}</span>
+        </button>
+      `).join('');
+    }
+
+    function selectCategory(id) {
+      activeCategory = id;
+      renderCategories();
+      if (currentView === 'editorial') renderEditorialView();
+      else renderLiveView();
+    }
+
+    function renderProviders() {
+      const bar = document.getElementById('providerBar');
+      bar.innerHTML = PROVIDERS.map(p => `
+        <button onclick="selectProvider('${p.id}')" class="px-2.5 py-1 rounded-lg border text-xs whitespace-nowrap transition ${p.id === activeProvider ? 'bg-white text-slate-950 font-bold border-white' : 'bg-slate-800 text-slate-300 border-slate-700'}">
+          ${p.name}
+        </button>
+      `).join('');
+    }
+
+    function selectProvider(id) {
+      activeProvider = id;
+      renderProviders();
+      renderLiveView();
+    }
+
+    function renderEditionSelector() {
+      const sel = document.getElementById('editionSelector');
+      sel.innerHTML = editions.map(ed => `<option value="${ed.id}">${ed.date} — ${ed.title}</option>`).join('');
+    }
+
+    function selectEdition(id) {
+      currentEditionId = id;
+      renderEditorialView();
+    }
+
+    function renderEditorialView() {
+      const articlesToDisplay = liveArticles.map(art => ({
+        category: art.category || 'bio',
+        headline: (autoTranslate && translationCache[art.link]?.title) || art.title,
+        subtitle: `Fuente: ${art.source || 'Repositorio Científico'} • ${art.pubDate ? art.pubDate.slice(0, 16) : 'Reciente'}`,
+        body: (autoTranslate && translationCache[art.link]?.desc) || art.description || 'Detalles completos en el estudio original.',
+        whyItMatters: 'Capturado por el motor de rastreo continuo de SciRadar.',
+        readTime: '3 min',
+        impact: art.source || 'Radar Automático',
+        links: [{ label: 'Estudio original', url: art.link }]
+      }));
+
+      const filtered = articlesToDisplay.filter(art => {
+        const matchCat = activeCategory === 'all' || art.category === activeCategory;
+        const matchQ = !searchQuery || art.headline.toLowerCase().includes(searchQuery) || art.body.toLowerCase().includes(searchQuery);
+        return matchCat && matchQ;
+      });
+
+      const heroEl = document.getElementById('editorialHero');
+      const gridEl = document.getElementById('editorialGrid');
+
+      if (filtered.length === 0) {
+        heroEl.innerHTML = '';
+        gridEl.innerHTML = `<div class="col-span-2 text-center py-12 text-slate-400">No hay artículos en esta categoría.</div>`;
+        return;
+      }
+
+      const hero = filtered[0];
+      const heroCat = CATEGORIES.find(c => c.id === hero.category) || CATEGORIES[0];
+      heroEl.innerHTML = `
+        <div class="bg-gradient-to-br from-slate-900 via-slate-900 to-slate-850 border border-slate-700/80 rounded-2xl p-6 sm:p-8 shadow-xl">
+          <div class="flex flex-wrap items-center gap-2 mb-4">
+            <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-cyan-500 text-slate-950">★ Noticia Destacada</span>
+            <span class="text-xs font-medium px-3 py-1 rounded-full border ${heroCat.badge}">${heroCat.icon} ${heroCat.name}</span>
+          </div>
+          <h3 onclick="openEditorialReader(0)" class="cursor-pointer text-2xl sm:text-3xl font-serif font-bold text-white hover:text-cyan-300 transition leading-snug mb-3">${hero.headline}</h3>
+          <p class="text-base text-cyan-200/90 font-medium mb-4">${hero.subtitle}</p>
+          <p class="text-sm text-slate-300 leading-relaxed mb-5 font-serif line-clamp-3">${hero.body}</p>
+          <div class="flex items-center justify-between pt-4 border-t border-slate-800">
+            <a href="${hero.links[0].url}" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-slate-800 text-cyan-300 border border-slate-700">📄 Estudio original ↗</a>
+            <button onclick="openEditorialReader(0)" class="text-xs font-bold text-white bg-cyan-600 px-4 py-2 rounded-lg">📖 Leer completo</button>
+          </div>
+        </div>
+      `;
+
+      gridEl.innerHTML = filtered.slice(1).map((art, idx) => {
+        const cat = CATEGORIES.find(c => c.id === art.category) || CATEGORIES[0];
+        const realIdx = idx + 1;
+        return `
+          <article class="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between shadow-lg">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-2">
+                <span class="text-xs font-medium px-2.5 py-0.5 rounded-full border ${cat.badge}">${cat.icon} ${cat.name}</span>
+                <span class="text-[11px] text-slate-400">${art.impact}</span>
+              </div>
+              <h3 onclick="openEditorialReader(${realIdx})" class="cursor-pointer text-lg font-serif font-bold text-slate-100 hover:text-cyan-400 mt-2 mb-2">${art.headline}</h3>
+              <p class="text-xs text-slate-300 line-clamp-3">${art.body}</p>
+            </div>
+            <div class="pt-4 mt-4 border-t border-slate-800 flex items-center justify-between">
+              <a href="${art.links[0].url}" target="_blank" rel="noopener noreferrer" class="text-[11px] px-2.5 py-1 rounded bg-slate-800 text-cyan-300">Estudio ↗</a>
+              <button onclick="openEditorialReader(${realIdx})" class="text-xs text-cyan-400 font-semibold">📖 Leer →</button>
+            </div>
+          </article>
+        `;
+      }).join('');
+
+      window._currentFilteredEditorial = filtered;
+    }
+
+    function renderLiveView() {
+      const grid = document.getElementById('liveGrid');
+      const filtered = liveArticles.filter(art => {
+        const matchCat = activeCategory === 'all' || art.category === activeCategory;
+        const matchProv = activeProvider === 'all' || art.provider === activeProvider;
+        const matchQ = !searchQuery || (art.title || '').toLowerCase().includes(searchQuery) || (art.description || '').toLowerCase().includes(searchQuery);
+        return matchCat && matchProv && matchQ;
+      });
+
+      window._currentFilteredLive = filtered;
+
+      grid.innerHTML = filtered.map((art, idx) => {
+        const cat = CATEGORIES.find(c => c.id === art.category) || CATEGORIES[0];
+        const title = (autoTranslate && translationCache[art.link]?.title) || art.title;
+        const desc = (autoTranslate && translationCache[art.link]?.desc) || art.description;
+        return `
+          <article class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-2">
+                <span class="text-[11px] font-medium px-2 py-0.5 rounded-full border ${cat.badge}">${cat.icon} ${cat.name}</span>
+                <span class="text-[11px] text-slate-400">${art.source || ''}</span>
+              </div>
+              <h3 class="text-base font-serif font-bold text-slate-100 mt-1 mb-2">${title}</h3>
+              <p class="text-xs text-slate-300 line-clamp-3">${desc || ''}</p>
+            </div>
+            <div class="pt-3 mt-4 border-t border-slate-800 flex justify-between text-xs">
+              <span class="text-slate-500">${art.pubDate ? art.pubDate.slice(0, 16) : 'Reciente'}</span>
+              <a href="${art.link}" target="_blank" rel="noopener noreferrer" class="text-cyan-400 font-semibold">Estudio ↗</a>
+            </div>
+          </article>
+        `;
+      }).join('');
+    }
+
+    function openEditorialReader(idx) {
+      const art = (window._currentFilteredEditorial || [])[idx];
+      if (!art) return;
+      document.getElementById('readerBadge').textContent = art.impact;
+      document.getElementById('readerSource').textContent = art.subtitle;
+      const content = document.getElementById('readerContent');
+      content.style.fontSize = `${readerFontSize}px`;
+      content.innerHTML = `<h2 class="text-2xl font-bold text-white">${art.headline}</h2><p class="text-slate-200 mt-3">${art.body}</p>`;
+      const firstUrl = art.links?.[0]?.url || '#';
+      document.getElementById('readerTranslateLink').href = `https://translate.google.com/translate?sl=auto&tl=es&u=${encodeURIComponent(firstUrl)}`;
+      document.getElementById('readerLinks').innerHTML = `<a href="${firstUrl}" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-cyan-500 text-slate-950">Abrir estudio original ↗</a>`;
+      document.getElementById('readerModal').classList.remove('hidden');
+    }
+
+    function adjustFontSize(delta) {
+      readerFontSize = Math.min(24, Math.max(13, readerFontSize + delta));
+      document.getElementById('readerContent').style.fontSize = `${readerFontSize}px`;
+    }
+
+    async function toggleAutoTranslate() {
+      autoTranslate = !autoTranslate;
+      const statusEl = document.getElementById('translateStatus');
+      statusEl.textContent = autoTranslate ? 'ON' : 'OFF';
+      if (autoTranslate) translateVisibleLiveArticles();
+      else { renderEditorialView(); renderLiveView(); }
+    }
+
+    async function translateTextToEs(text) {
+      if (!text) return '';
+      try {
+        const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=es&dt=t&q=${encodeURIComponent(text.slice(0, 450))}`;
+        const res = await fetch(url);
+        const data = await res.json();
+        return data[0].map(seg => seg[0]).join('');
+      } catch (_) { return text; }
+    }
+
+    async function translateVisibleLiveArticles() {
+      const subset = liveArticles.slice(0, 20);
+      for (const art of subset) {
+        if (!translationCache[art.link]) {
+          const [tTitle, tDesc] = await Promise.all([
+            translateTextToEs(art.title),
+            translateTextToEs(art.description)
+          ]);
+          translationCache[art.link] = { title: tTitle, desc: tDesc };
+          renderEditorialView();
+          renderLiveView();
+        }
+      }
+      localStorage.setItem('sciradar_translations', JSON.stringify(translationCache));
+    }
+
+    function closeReaderModal() { document.getElementById('readerModal').classList.add('hidden'); }
+    function openImportModal() { document.getElementById('importModal').classList.remove('hidden'); }
+    function closeImportModal() { document.getElementById('importModal').classList.add('hidden'); }
+
+    function processImportedReport() {
+      const rawText = document.getElementById('importMarkdownInput').value.trim();
+      const customTitle = document.getElementById('importTitleInput').value.trim();
+      if (!rawText) return;
+      liveArticles.unshift({ title: customTitle || "Informe Importado", link: "#", description: rawText, source: "Informe Especial", category: "all" });
+      closeImportModal();
+      actualizarContadoresUI();
+      renderEditorialView();
+    }
+
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>
