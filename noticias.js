@@ -1,5 +1,14 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Author Correction: A chemical defence against phage infection",
+    "link": "https://www.nature.com/articles/s41586-026-11302-z",
+    "description": "<p>Nature, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/s41586-026-11302-z\">doi:10.1038/s41586-026-11302-z</a></p>Author Correction: A chemical defence against phage infection...",
+    "pubDate": "2026-10-27T20:24:59.022918",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Statins promote bone anabolism in estrogen deficiency by inducing osteogenic differentiation of skeletal stem/progenitor cells",
     "link": "https://www.nature.com/articles/s43587-026-01257-1",
     "description": "<p>Nature Aging, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/s43587-026-01257-1\">doi:10.1038/s43587-026-01257-1</a></p>Yang et al. demonstrate that statins can compensate for reduced estrogen signaling in skeletal stem and progenitor cells, promoting bone anabolism du...",
