@@ -113,7 +113,7 @@
     <div class="max-w-7xl mx-auto px-4 pb-3 flex items-center gap-2 overflow-x-auto" id="categoryBar"></div>
   </header>
 
-  <!-- SECCIÓN 1: PORTADA EDITORIAL (INFORMES DE BÚSQUEDA DE GEMINI) -->
+  <!-- SECCIÓN 1: PORTADA EDITORIAL -->
   <section id="editorialSection" class="max-w-7xl mx-auto px-4 py-6">
     <!-- Barra de Edición y Hemeroteca -->
     <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-6 mb-6 border-b border-slate-800">
@@ -176,7 +176,7 @@
     <div id="liveGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"></div>
   </section>
 
-  <!-- MODAL 1: MODO LECTURA AMIGABLE (READER VIEW) -->
+  <!-- MODAL 1: MODO LECTURA AMIGABLE -->
   <div id="readerModal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
     <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-3xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden">
       <div class="px-6 py-4 bg-slate-950 border-b border-slate-800 flex items-center justify-between">
@@ -210,7 +210,7 @@
       <div class="flex items-center justify-between border-b border-slate-800 pb-3">
         <div>
           <h3 class="text-lg font-bold text-white">📥 Importar Informe de Búsqueda de Gemini</h3>
-          <p class="text-xs text-slate-400">Pega aquí el resumen diario de las 8:00 AM (o cualquier respuesta de Gemini) y se transformará en una edición de revista.</p>
+          <p class="text-xs text-slate-400">Pega aquí el resumen diario de las 8:00 AM y se transformará en una edición de revista.</p>
         </div>
         <button onclick="closeImportModal()" class="text-slate-400 hover:text-white text-lg font-bold">✕</button>
       </div>
@@ -230,7 +230,7 @@
         <textarea
           id="importMarkdownInput"
           rows="8"
-          placeholder="Pega aquí directamente el informe con secciones (## Astronomía, ## Física...) y viñetas (* **Titular:** Explicación...)"
+          placeholder="Pega aquí directamente el informe con secciones y viñetas"
           class="w-full bg-slate-950 border border-slate-700 rounded-lg p-3 text-xs text-slate-200 font-mono focus:outline-none focus:border-cyan-400"
         ></textarea>
       </div>
@@ -298,6 +298,7 @@
       renderCategories();
       renderProviders();
       renderEditionSelector();
+      renderEditorialView(); // <--- LLAMADA CRUCIAL AÑADIDA PARA PINTAR LA PORTADA AL INICIO
       cargarNoticiasAutomaticas(); 
 
       document.getElementById('searchInput').addEventListener('input', (e) => {
@@ -387,7 +388,7 @@
 
     function renderEditionSelector() {
       const sel = document.getElementById('editionSelector');
-      sel.innerHTML = editions.map(ed => `<option value="${ed.id}">${ed.date} —${ed.title.slice(0, 42)}...</option>`).join('');
+      sel.innerHTML = editions.map(ed => `<option value="${ed.id}">${ed.date} — ${ed.title.slice(0, 42)}...</option>`).join('');
       sel.value = currentEditionId;
     }
 
@@ -400,7 +401,6 @@
     function renderEditorialView() {
       let articlesToDisplay = [];
 
-      // Si hay noticias automáticas del script de Python, las usamos para armar la portada editorial
       if (typeof liveArticles !== 'undefined' && liveArticles.length > 0) {
         articlesToDisplay = liveArticles.map(art => ({
           category: art.category || 'bio',
@@ -433,7 +433,7 @@
 
       if (filtered.length === 0) {
         heroEl.innerHTML = '';
-        gridEl.innerHTML = `<div class="col-span-2 text-center py-12 text-slate-400">No hay artículos en esta categoría. Sincronizando...</div>`;
+        gridEl.innerHTML = `<div class="col-span-2 text-center py-12 text-slate-400">Sincronizando y cargando noticias automáticas...</div>`;
         return;
       }
 
@@ -447,7 +447,7 @@
               ★ Noticia Destacada de Hoy
             </span>
             <span class="text-xs font-medium px-3 py-1 rounded-full border ${heroCat.badge}">
-              ${heroCat.icon}${heroCat.name}
+              ${heroCat.icon} ${heroCat.name}
             </span>
             <span class="text-xs text-slate-400 ml-auto">⏱️ ${hero.readTime || '3 min'}</span>
           </div>
@@ -486,3 +486,111 @@
         return `
           <article class="bg-slate-900/90 border border-slate-800 hover:border-slate-700 rounded-2xl p-6 flex flex-col justify-between transition shadow-lg">
             <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="text-xs font-medium px-2.5 py-0.5 rounded-full border ${cat.badge}">
+                  ${cat.icon} ${cat.name}
+                </span>
+                <span class="text-[11px] text-slate-400">${art.impact || 'Automático'}</span>
+              </div>
+
+              <h3 onclick="openEditorialReader(${realIdx})" class="cursor-pointer text-lg font-serif font-bold text-slate-100 hover:text-cyan-400 transition leading-snug mb-2.5">
+                ${art.headline}
+              </h3>
+
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed mb-4 font-serif line-clamp-3">
+                ${art.body}
+              </p>
+            </div>
+
+            <div class="pt-4 border-t border-slate-800/80 flex flex-wrap items-center justify-between gap-2">
+              <div class="flex flex-wrap items-center gap-1.5">
+                ${(art.links || []).map(l => `
+                  <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="text-[11px] font-medium px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-cyan-300 border border-slate-700 transition">
+                    ${l.label} ↗
+                  </a>
+                `).join('')}
+              </div>
+              <button onclick="openEditorialReader(${realIdx})" class="text-xs font-semibold text-cyan-400 hover:underline">
+                📖 Leer →
+              </button>
+            </div>
+          </article>
+        `;
+      }).join('');
+
+      window._currentFilteredEditorial = filtered;
+    }
+
+    // MODAL DE LECTURA
+    function openEditorialReader(idx) {
+      const art = (window._currentFilteredEditorial || [])[idx];
+      if (!art) return;
+      const cat = CATEGORIES.find(c => c.id === art.category) || CATEGORIES[0];
+
+      document.getElementById('readerBadge').textContent = `${cat.icon} ${cat.name}`;
+      document.getElementById('readerSource').textContent = art.impact || 'Informe Editorial SciRadar';
+
+      const content = document.getElementById('readerContent');
+      content.style.fontSize = `${readerFontSize}px`;
+      content.innerHTML = `
+        <h2 class="text-2xl sm:text-3xl font-bold text-white leading-tight">${art.headline}</h2>
+        <p class="text-lg text-cyan-300 font-sans font-medium leading-relaxed">${art.subtitle}</p>
+        <hr class="border-slate-800" />
+        <div class="space-y-4 text-slate-200 leading-relaxed">
+          <p>${art.body}</p>
+        </div>
+        ${art.whyItMatters ? `
+          <div class="bg-slate-950 border border-cyan-500/30 rounded-xl p-5 my-4 font-sans">
+            <h4 class="text-xs font-bold uppercase tracking-wider text-cyan-400 mb-1">💡 ¿Por qué es importante este hallazgo?</h4>
+            <p class="text-sm text-slate-200 leading-relaxed">${art.whyItMatters}</p>
+          </div>
+        ` : ''}
+      `;
+
+      const firstUrl = art.links?.[0]?.url || 'https://scholar.google.com';
+      document.getElementById('readerTranslateLink').href = `https://translate.google.com/translate?sl=auto&tl=es&u=${encodeURIComponent(firstUrl)}`;
+      document.getElementById('readerLinks').innerHTML = (art.links || []).map(l => `
+        <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-cyan-500 text-slate-950 hover:bg-cyan-400 transition">
+          Abrir estudio: ${l.label} ↗
+        </a>
+      `).join('');
+
+      document.getElementById('readerModal').classList.remove('hidden');
+    }
+
+    function openLiveReader(idx) {
+      const art = (window._currentFilteredLive || [])[idx];
+      if (!art) return;
+      const cat = CATEGORIES.find(c => c.id === art.category) || CATEGORIES[0];
+
+      document.getElementById('readerBadge').textContent = `${cat.icon} ${cat.name}`;
+      document.getElementById('readerSource').textContent = art.source;
+
+      const title = (autoTranslate && translationCache[art.link]?.title) || art.title;
+      const desc = (autoTranslate && translationCache[art.link]?.desc) || art.description;
+
+      const content = document.getElementById('readerContent');
+      content.style.fontSize = `${readerFontSize}px`;
+      content.innerHTML = `
+        <h2 class="text-2xl font-bold text-white leading-tight">${title}</h2>
+        <div class="text-xs font-sans text-slate-400">Fuente: ${art.source} • Publicado: ${new Date(art.pubDate).toLocaleDateString('es-ES')}</div>
+        <hr class="border-slate-800" />
+        <p class="text-slate-200 leading-relaxed">${desc || 'Detalles completos en la fuente original.'}</p>
+      `;
+
+      document.getElementById('readerTranslateLink').href = `https://translate.google.com/translate?sl=auto&tl=es&u=${encodeURIComponent(art.link)}`;
+      document.getElementById('readerLinks').innerHTML = `
+        <a href="${art.link}" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-4 py-2 rounded-lg bg-cyan-500 text-slate-950 hover:bg-cyan-400 transition">
+          Ver publicación original en ${art.source} ↗
+        </a>
+      `;
+
+      document.getElementById('readerModal').classList.remove('hidden');
+    }
+
+    function closeReaderModal() {
+      document.getElementById('readerModal').classList.add('hidden');
+    }
+
+    function adjustFontSize(delta) {
+      readerFontSize = Math.min(24, Math.max(13, readerFontSize + delta));
