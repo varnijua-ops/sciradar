@@ -2,7 +2,7 @@ name: Actualizar SciRadar Automático
 
 on:
   schedule:
-    - cron: - cron: '0 * * * *' # Se ejecuta cada 1 hora
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 permissions:
