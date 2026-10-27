@@ -115,7 +115,10 @@
     <div class="bg-slate-900/70 border border-slate-800 rounded-xl p-4 mb-6 flex flex-wrap items-center justify-between gap-4">
       <div class="flex items-center gap-2 overflow-x-auto" id="providerBar"></div>
       <div class="flex items-center gap-3 text-xs">
-        <span id="statusText" class="text-slate-400">Sincronizado correctamente.</span>
+        <span id="statusText" class="text-slate-400">Sincronizado con GitHub Actions</span>
+        <button onclick="cargarNoticiasAutomaticas()" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold px-3 py-1.5 rounded-lg transition">
+          Sincronizar ahora
+        </button>
       </div>
     </div>
     <div id="liveGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"></div>
@@ -129,11 +132,15 @@
           <span id="readerBadge" class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300"></span>
           <span id="readerSource" class="text-xs text-slate-400"></span>
         </div>
-        <button onclick="closeReaderModal()" class="text-slate-400 hover:text-white text-lg font-bold px-2">✕</button>
+        <div class="flex items-center gap-2">
+          <button onclick="adjustFontSize(-1)" class="px-2 py-1 text-xs bg-slate-800 hover:bg-slate-700 rounded text-slate-300">A-</button>
+          <button onclick="adjustFontSize(1)" class="px-2 py-1 text-xs bg-slate-800 hover:bg-slate-700 rounded text-slate-300">A+</button>
+          <button onclick="closeReaderModal()" class="ml-2 text-slate-400 hover:text-white text-lg font-bold px-2">✕</button>
+        </div>
       </div>
       <div id="readerContent" class="p-6 sm:p-8 overflow-y-auto space-y-5 font-serif leading-relaxed text-slate-200 text-base"></div>
       <div class="px-6 py-4 bg-slate-950 border-t border-slate-800 flex flex-wrap items-center justify-between gap-3">
-        <a id="readerTranslateLink" href="#" target="_blank" rel="noopener noreferrer" class="text-xs text-slate-400 hover:text-cyan-300 underline">🌐 Traducir en Google Translate</a>
+        <a id="readerTranslateLink" href="#" target="_blank" rel="noopener noreferrer" class="text-xs text-slate-400 hover:text-cyan-300 underline">🌐 Abrir estudio traducido al español en Google Translate</a>
         <div id="readerLinks" class="flex flex-wrap items-center gap-2"></div>
       </div>
     </div>
@@ -173,10 +180,10 @@
       { id: 'science', name: 'Science' },
       { id: 'arxiv', name: 'arXiv' },
       { id: 'pubmed', name: 'PubMed' },
-      { id: 'press', name: 'ScienceDaily' }
+      { id: 'press', name: 'NASA / MIT / ScienceDaily' }
     ];
 
-    // NOTICIAS PRECARGADAS DIRECTAS (Garantiza que la página nunca cargue vacía)
+    // Respaldo inicial inmediato para que la portada jamás cargue vacía
     let liveArticles = [
       {
         title: "Too much RNA can starve cells of energy, scientists discover",
@@ -213,186 +220,10 @@
     let searchQuery = '';
     let autoTranslate = false;
     let readerFontSize = 16;
-    let editions = [{ id: 'ed-1', title: 'Edición Automática Actualizada', date: 'En Vivo', articles: [] }];
+    let editions = [{ id: 'ed-auto', title: 'Feed Científico Automatizado (GitHub Actions)', date: 'En Vivo', articles: [] }];
     let currentEditionId = editions[0].id;
-    let translationCache = {};
+    let translationCache = JSON.parse(localStorage.getItem('sciradar_translations') || '{}');
 
     function init() {
       renderCategories();
-      renderProviders();
-      renderEditionSelector();
-      renderEditorialView();
-    }
-
-    function switchMainView(view) {
-      currentView = view;
-      const edSec = document.getElementById('editorialSection');
-      const lvSec = document.getElementById('liveSection');
-      const btnEd = document.getElementById('tabEditorialBtn');
-      const btnLv = document.getElementById('tabLiveBtn');
-
-      if (view === 'editorial') {
-        edSec.classList.remove('hidden');
-        lvSec.classList.add('hidden');
-        btnEd.className = 'px-3.5 py-1.5 rounded-lg text-xs font-semibold transition bg-cyan-500 text-slate-950 shadow';
-        btnLv.className = 'px-3.5 py-1.5 rounded-lg text-xs font-semibold transition text-slate-300 hover:text-white';
-        renderEditorialView();
-      } else {
-        edSec.classList.add('hidden');
-        lvSec.classList.remove('hidden');
-        btnLv.className = 'px-3.5 py-1.5 rounded-lg text-xs font-semibold transition bg-cyan-500 text-slate-950 shadow';
-        btnEd.className = 'px-3.5 py-1.5 rounded-lg text-xs font-semibold transition text-slate-300 hover:text-white';
-        renderLiveView();
-      }
-    }
-
-    function renderCategories() {
-      const bar = document.getElementById('categoryBar');
-      bar.innerHTML = CATEGORIES.map(cat => `
-        <button onclick="selectCategory('${cat.id}')" class="flex items-center gap-1.5 px-3 py-1 rounded-full border text-xs whitespace-nowrap transition ${cat.id === activeCategory ? 'bg-cyan-500 text-slate-950 font-semibold border-cyan-400' : 'bg-slate-800/80 text-slate-300 border-slate-700'}">
-          <span>${cat.icon}</span><span>${cat.name}</span>
-        </button>
-      `).join('');
-    }
-
-    function selectCategory(id) {
-      activeCategory = id;
-      renderCategories();
-      if (currentView === 'editorial') renderEditorialView();
-      else renderLiveView();
-    }
-
-    function renderProviders() {
-      const bar = document.getElementById('providerBar');
-      bar.innerHTML = PROVIDERS.map(p => `
-        <button onclick="selectProvider('${p.id}')" class="px-2.5 py-1 rounded-lg border text-xs whitespace-nowrap transition ${p.id === activeProvider ? 'bg-white text-slate-950 font-bold border-white' : 'bg-slate-800 text-slate-300 border-slate-700'}">
-          ${p.name}
-        </button>
-      `).join('');
-    }
-
-    function selectProvider(id) {
-      activeProvider = id;
-      renderProviders();
-      renderLiveView();
-    }
-
-    function renderEditionSelector() {
-      const sel = document.getElementById('editionSelector');
-      sel.innerHTML = editions.map(ed => `<option value="${ed.id}">${ed.date} — ${ed.title}</option>`).join('');
-    }
-
-    function selectEdition(id) {
-      currentEditionId = id;
-      renderEditorialView();
-    }
-
-    function renderEditorialView() {
-      const articlesToDisplay = liveArticles.map(art => ({
-        category: art.category || 'bio',
-        headline: art.title,
-        subtitle: `Actualizado desde ${art.source}`,
-        body: art.description,
-        whyItMatters: 'Monitor automático de fuentes científicas.',
-        readTime: '3 min',
-        impact: 'Radar Automático',
-        links: [{ label: 'Estudio original', url: art.link }]
-      }));
-
-      const filtered = articlesToDisplay.filter(art => {
-        const matchCat = activeCategory === 'all' || art.category === activeCategory;
-        const matchQ = !searchQuery || art.headline.toLowerCase().includes(searchQuery) || art.body.toLowerCase().includes(searchQuery);
-        return matchCat && matchQ;
-      });
-
-      const heroEl = document.getElementById('editorialHero');
-      const gridEl = document.getElementById('editorialGrid');
-
-      if (filtered.length === 0) {
-        heroEl.innerHTML = '';
-        gridEl.innerHTML = `<div class="col-span-2 text-center py-12 text-slate-400">No hay artículos en esta categoría.</div>`;
-        return;
-      }
-
-      const hero = filtered[0];
-      const heroCat = CATEGORIES.find(c => c.id === hero.category) || CATEGORIES[0];
-      heroEl.innerHTML = `
-        <div class="bg-gradient-to-br from-slate-900 via-slate-900 to-slate-850 border border-slate-700/80 rounded-2xl p-6 sm:p-8 shadow-xl">
-          <div class="flex flex-wrap items-center gap-2 mb-4">
-            <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-cyan-500 text-slate-950">★ Noticia Destacada</span>
-            <span class="text-xs font-medium px-3 py-1 rounded-full border ${heroCat.badge}">${heroCat.icon} ${heroCat.name}</span>
-          </div>
-          <h3 onclick="openEditorialReader(0)" class="cursor-pointer text-2xl sm:text-3xl font-serif font-bold text-white hover:text-cyan-300 transition leading-snug mb-3">${hero.headline}</h3>
-          <p class="text-base text-cyan-200/90 font-medium mb-4">${hero.subtitle}</p>
-          <p class="text-sm text-slate-300 leading-relaxed mb-5 font-serif line-clamp-3">${hero.body}</p>
-          <div class="flex items-center justify-between pt-4 border-t border-slate-800">
-            <a href="${hero.links[0].url}" target="_blank" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-slate-800 text-cyan-300 border border-slate-700">📄 Estudio original ↗</a>
-            <button onclick="openEditorialReader(0)" class="text-xs font-bold text-white bg-cyan-600 px-4 py-2 rounded-lg">📖 Leer completo</button>
-          </div>
-        </div>
-      `;
-
-      gridEl.innerHTML = filtered.slice(1).map((art, idx) => {
-        const cat = CATEGORIES.find(c => c.id === art.category) || CATEGORIES[0];
-        const realIdx = idx + 1;
-        return `
-          <article class="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between shadow-lg">
-            <div>
-              <span class="text-xs font-medium px-2.5 py-0.5 rounded-full border ${cat.badge}">${cat.icon} ${cat.name}</span>
-              <h3 onclick="openEditorialReader(${realIdx})" class="cursor-pointer text-lg font-serif font-bold text-slate-100 hover:text-cyan-400 mt-3 mb-2">${art.headline}</h3>
-              <p class="text-xs text-slate-300 line-clamp-3">${art.body}</p>
-            </div>
-            <div class="pt-4 border-t border-slate-800 flex items-center justify-between">
-              <a href="${art.links[0].url}" target="_blank" class="text-[11px] px-2.5 py-1 rounded bg-slate-800 text-cyan-300">Estudio ↗</a>
-              <button onclick="openEditorialReader(${realIdx})" class="text-xs text-cyan-400 font-semibold">📖 Leer →</button>
-            </div>
-          </article>
-        `;
-      }).join('');
-
-      window._currentFilteredEditorial = filtered;
-    }
-
-    function renderLiveView() {
-      const grid = document.getElementById('liveGrid');
-      grid.innerHTML = liveArticles.map((art, idx) => `
-        <article class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between">
-          <div>
-            <span class="text-[11px] text-slate-400">${art.source}</span>
-            <h3 class="text-base font-serif font-bold text-slate-100 mt-1 mb-2">${art.title}</h3>
-            <p class="text-xs text-slate-300 line-clamp-3">${art.description}</p>
-          </div>
-          <div class="pt-3 border-t border-slate-800 flex justify-between text-xs">
-            <span class="text-slate-500">Reciente</span>
-            <a href="${art.link}" target="_blank" class="text-cyan-400 font-semibold">Estudio ↗</a>
-          </div>
-        </article>
-      `).join('');
-    }
-
-    function openEditorialReader(idx) {
-      const art = (window._currentFilteredEditorial || [])[idx];
-      if (!art) return;
-      document.getElementById('readerBadge').textContent = art.impact;
-      document.getElementById('readerSource').textContent = art.subtitle;
-      document.getElementById('readerContent').innerHTML = `<h2 class="text-2xl font-bold text-white">${art.headline}</h2><p class="text-slate-200">${art.body}</p>`;
-      document.getElementById('readerModal').classList.remove('hidden');
-    }
-
-    function closeReaderModal() { document.getElementById('readerModal').classList.add('hidden'); }
-    function openImportModal() { document.getElementById('importModal').classList.remove('hidden'); }
-    function closeImportModal() { document.getElementById('importModal').classList.add('hidden'); }
-
-    function processImportedReport() {
-      const rawText = document.getElementById('importMarkdownInput').value.trim();
-      const customTitle = document.getElementById('importTitleInput').value.trim();
-      if (!rawText) return;
-      liveArticles.unshift({ title: customTitle || "Informe Importado", link: "#", description: rawText, source: "Gemini AI" });
-      closeImportModal();
-      renderEditorialView();
-    }
-
-    window.addEventListener('DOMContentLoaded', init);
-  </script>
-</body>
-</html>
+      renderProviders
