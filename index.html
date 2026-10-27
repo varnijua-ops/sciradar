@@ -4,8 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SciRadar Editorial — Diario Científico & Monitor en Tiempo Real</title>
- <!-- Carga directa de noticias generadas por Python -->
-  <script src="noticias.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <script>
@@ -76,7 +74,7 @@
         </div>
 
         <button onclick="openImportModal()" class="flex items-center gap-1.5 bg-indigo-500/20 hover:bg-indigo-500/30 text-indigo-300 border border-indigo-500/40 font-semibold text-xs px-3 py-1.5 rounded-lg transition">
-          <span>📥 Importar Informe de Gemini</span>
+          <span>📥 Importar Informe</span>
         </button>
 
         <button id="autoTranslateBtn" onclick="toggleAutoTranslate()" class="flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs px-3 py-1.5 rounded-lg transition">
@@ -117,10 +115,7 @@
     <div class="bg-slate-900/70 border border-slate-800 rounded-xl p-4 mb-6 flex flex-wrap items-center justify-between gap-4">
       <div class="flex items-center gap-2 overflow-x-auto" id="providerBar"></div>
       <div class="flex items-center gap-3 text-xs">
-        <span id="statusText" class="text-slate-400">Sincronizado con GitHub Actions</span>
-        <button onclick="cargarNoticiasAutomaticas()" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold px-3 py-1.5 rounded-lg transition">
-          Sincronizar ahora
-        </button>
+        <span id="statusText" class="text-slate-400">Cargando fuentes científicas...</span>
       </div>
     </div>
     <div id="liveGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"></div>
@@ -137,95 +132,4 @@
         <div class="flex items-center gap-2">
           <button onclick="adjustFontSize(-1)" class="px-2 py-1 text-xs bg-slate-800 hover:bg-slate-700 rounded text-slate-300">A-</button>
           <button onclick="adjustFontSize(1)" class="px-2 py-1 text-xs bg-slate-800 hover:bg-slate-700 rounded text-slate-300">A+</button>
-          <button onclick="closeReaderModal()" class="ml-2 text-slate-400 hover:text-white text-lg font-bold px-2">✕</button>
-        </div>
-      </div>
-      <div id="readerContent" class="p-6 sm:p-8 overflow-y-auto space-y-5 font-serif leading-relaxed text-slate-200 text-base"></div>
-      <div class="px-6 py-4 bg-slate-950 border-t border-slate-800 flex flex-wrap items-center justify-between gap-3">
-        <a id="readerTranslateLink" href="#" target="_blank" rel="noopener noreferrer" class="text-xs text-slate-400 hover:text-cyan-300 underline">🌐 Abrir estudio traducido al español en Google Translate</a>
-        <div id="readerLinks" class="flex flex-wrap items-center gap-2"></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- MODAL IMPORTADOR -->
-  <div id="importModal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
-    <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-2xl w-full p-6 shadow-2xl space-y-4">
-      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
-        <h3 class="text-lg font-bold text-white">📥 Importar Informe de Búsqueda de Gemini</h3>
-        <button onclick="closeImportModal()" class="text-slate-400 hover:text-white text-lg font-bold">✕</button>
-      </div>
-      <input id="importTitleInput" type="text" placeholder="Título de la edición" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white" />
-      <textarea id="importMarkdownInput" rows="8" placeholder="Pega aquí tu informe..." class="w-full bg-slate-950 border border-slate-700 rounded-lg p-3 text-xs text-slate-200 font-mono"></textarea>
-      <div class="flex justify-end gap-3 pt-2">
-        <button onclick="closeImportModal()" class="px-4 py-2 text-xs text-slate-400">Cancelar</button>
-        <button onclick="processImportedReport()" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold text-xs px-4 py-2 rounded-lg">✨ Convertir</button>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    const CATEGORIES = [
-      { id: 'all', name: 'Todas las áreas', icon: '🌐', badge: 'bg-cyan-500/15 text-cyan-300 border-cyan-500/30' },
-      { id: 'astro', name: 'Astronomía y Cosmología', icon: '🔭', badge: 'bg-indigo-500/15 text-indigo-300 border-indigo-500/30' },
-      { id: 'physics', name: 'Física Cuántica y Materia', icon: '⚛️', badge: 'bg-violet-500/15 text-violet-300 border-violet-500/30' },
-      { id: 'bio', name: 'Biología y Biomedicina', icon: '🧬', badge: 'bg-emerald-500/15 text-emerald-300 border-emerald-500/30' },
-      { id: 'genetics', name: 'Genética y Epigenética', icon: '🧪', badge: 'bg-teal-500/15 text-teal-300 border-teal-500/30' },
-      { id: 'longevity', name: 'Longevidad y Salud', icon: '❤️‍🩹', badge: 'bg-rose-500/15 text-rose-300 border-rose-500/30' },
-      { id: 'math', name: 'Matemáticas', icon: '📐', badge: 'bg-amber-500/15 text-amber-300 border-amber-500/30' },
-      { id: 'ai_tech', name: 'Tecnología e IA', icon: '🤖', badge: 'bg-sky-500/15 text-sky-300 border-sky-500/30' }
-    ];
-
-    const PROVIDERS = [
-      { id: 'all', name: 'Todas' },
-      { id: 'nature', name: 'Nature' },
-      { id: 'science', name: 'Science' },
-      { id: 'arxiv', name: 'arXiv' },
-      { id: 'pubmed', name: 'PubMed' },
-      { id: 'press', name: 'NASA / MIT / ScienceDaily' }
-    ];
-
-    // Respaldo inicial inmediato para que la portada jamás cargue vacía
-    let liveArticles = [
-      {
-        title: "Too much RNA can starve cells of energy, scientists discover",
-        link: "https://www.sciencedaily.com/releases/2026/10/261020085023.htm",
-        description: "Scientists have uncovered an unexpected danger lurking inside cells: too much RNA can damage the structures responsible for producing energy without relying on the immune system.",
-        pubDate: "Wed, 21 Oct 2026 09:02:34 EDT",
-        category: "longevity",
-        provider: "press",
-        source: "ScienceDaily Longevity"
-      },
-      {
-        title: "Natural compound could fight rheumatoid arthritis at its source",
-        link: "https://www.sciencedaily.com/releases/2026/10/261020085309.htm",
-        description: "A natural compound extracted from a medicinal plant has shown surprising promise against rheumatoid arthritis. In rats, it reduced joint swelling and calmed immune responses.",
-        pubDate: "Wed, 21 Oct 2026 23:37:25 EDT",
-        category: "longevity",
-        provider: "press",
-        source: "ScienceDaily Longevity"
-      },
-      {
-        title: "Millions take fish oil for brain health. A two-year study found no benefit",
-        link: "https://www.sciencedaily.com/releases/2026/10/261020085427.htm",
-        description: "A surprising two-year clinical trial found that fish oil supplements successfully delivered omega-3s to the brain but failed to improve memory or protect against age-related brain shrinkage.",
-        pubDate: "Thu, 22 Oct 2026 08:46:24 EDT",
-        category: "longevity",
-        provider: "press",
-        source: "ScienceDaily Longevity"
-      }
-    ];
-
-    let currentView = 'editorial';
-    let activeCategory = 'all';
-    let activeProvider = 'all';
-    let searchQuery = '';
-    let autoTranslate = false;
-    let readerFontSize = 16;
-    let editions = [{ id: 'ed-auto', title: 'Feed Científico Automatizado (GitHub Actions)', date: 'En Vivo', articles: [] }];
-    let currentEditionId = editions[0].id;
-    let translationCache = JSON.parse(localStorage.getItem('sciradar_translations') || '{}');
-
-    function init() {
-      renderCategories();
-      renderProviders
+          <button onclick="close
