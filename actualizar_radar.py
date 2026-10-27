@@ -53,10 +53,10 @@ def main():
         try:
             with open(archivo_json, "r", encoding="utf-8") as f:
                 historico = json.load(f)
-        except:
+        except Exception:
             historico = []
 
-    links_existentes = {item["link"] for item in historico}
+    links_existentes = {item["link"] for item in historico if "link" in item}
     nuevas = obtener_noticias_actuales()
 
     # Añadir las nuevas al principio del histórico
@@ -66,16 +66,17 @@ def main():
             historico.insert(0, n)
             agregadas += 1
 
-    # Mantener un límite razonable (ej. las últimas 300 noticias para la hemeroteca)
+    # Mantener las últimas 300 noticias para la hemeroteca
     historico = historico[:300]
+    print(f"Noticias nuevas agregadas: {agregadas}. Total en hemeroteca: {len(historico)}")
 
-  # Guardar en JSON (como respaldo)
+    # Guardar en JSON (como respaldo)
     with open('noticias_auto.json', 'w', encoding='utf-8') as f:
-        json.dump(noticias_finales, f, ensure_ascii=False, indent=2)
+        json.dump(historico, f, ensure_ascii=False, indent=2)
 
     # Guardar directamente como script JS para el frontend
     with open('noticias.js', 'w', encoding='utf-8') as f:
-        f.write("window.NOTICIAS_AUTO = " + json.dumps(noticias_finales, ensure_ascii=False, indent=2) + ";\n")
+        f.write("window.NOTICIAS_AUTO = " + json.dumps(historico, ensure_ascii=False, indent=2) + ";\n")
 
 if __name__ == "__main__":
     main()
