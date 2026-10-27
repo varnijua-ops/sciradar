@@ -1,5 +1,68 @@
 [
   {
+    "title": "The Gujarat Tribal Genome Project (2kTGP)",
+    "link": "https://www.nature.com/articles/s41588-026-02820-7",
+    "description": "<p>Nature Genetics, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/s41588-026-02820-7\">doi:10.1038/s41588-026-02820-7</a></p>The Gujarat Tribal Genome Project (2kTGP)...",
+    "pubDate": "2026-10-27T11:26:08.457107",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "Order in a quantum chaotic sea",
+    "link": "https://www.nature.com/articles/s41567-026-03513-y",
+    "description": "<p>Nature Physics, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/s41567-026-03513-y\">doi:10.1038/s41567-026-03513-y</a></p>Experiments with a superconducting quantum processor revealed an island of regular motion within otherwise chaotic quantum many-body dynamics and u...",
+    "pubDate": "2026-10-27T11:26:08.416306",
+    "category": "physics",
+    "provider": "nature",
+    "source": "Nature Physics"
+  },
+  {
+    "title": "Could measuring immune health reshape medical care?",
+    "link": "https://www.nature.com/articles/d41586-026-03396-2",
+    "description": "<p>Nature, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03396-2\">doi:10.1038/d41586-026-03396-2</a></p>Finding practical ways to analyse the state of a person’s immune system could guide treatment decisions and create opportunities for disease prevention....",
+    "pubDate": "2026-10-27T11:26:08.307629",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "AI watermarking efforts must encourage independent public scrutiny",
+    "link": "https://www.nature.com/articles/d41586-026-03406-3",
+    "description": "<p>Nature, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03406-3\">doi:10.1038/d41586-026-03406-3</a></p>AI watermarking efforts must encourage independent public scrutiny...",
+    "pubDate": "2026-10-27T11:26:08.307622",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Short-term academic visits to China could sustain ties",
+    "link": "https://www.nature.com/articles/d41586-026-03405-4",
+    "description": "<p>Nature, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03405-4\">doi:10.1038/d41586-026-03405-4</a></p>Short-term academic visits to China could sustain ties...",
+    "pubDate": "2026-10-27T11:26:08.307616",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "AI-hallucinated citations should be treated as research misconduct",
+    "link": "https://www.nature.com/articles/d41586-026-03407-2",
+    "description": "<p>Nature, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03407-2\">doi:10.1038/d41586-026-03407-2</a></p>AI-hallucinated citations should be treated as research misconduct...",
+    "pubDate": "2026-10-27T11:26:08.307610",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "The Nobel prize in economic science has a serious gender problem",
+    "link": "https://www.nature.com/articles/d41586-026-03404-5",
+    "description": "<p>Nature, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03404-5\">doi:10.1038/d41586-026-03404-5</a></p>The Nobel prize in economic science has a serious gender problem...",
+    "pubDate": "2026-10-27T11:26:08.307593",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
     "link": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
     "description": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits....",
