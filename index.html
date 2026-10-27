@@ -1073,6 +1073,22 @@
     }
 
     window.addEventListener('DOMContentLoaded', init);
+    // Cargar automáticamente las noticias guardadas por el script de Python en GitHub Actions
+async function cargarNoticiasAutomaticas() {
+  try {
+    // Añadimos un parámetro de tiempo para evitar la caché del navegador
+    const res = await fetch('noticias_auto.json?' + new Date().getTime());
+    if (res.ok) {
+      const data = await res.json();
+      if (Array.isArray(data) && data.length > 0) {
+        liveArticles = data; // Reemplaza los artículos en vivo con el histórico actualizado
+        renderLiveView();    // Vuelve a pintar la cuadrícula en la pestaña Radar en Vivo
+      }
+    }
+  } catch (e) {
+    console.log("Usando radar en vivo estándar via API RSS.");
+  }
+}
   </script>
 </body>
 </html>
