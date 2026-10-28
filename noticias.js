@@ -1,5 +1,14 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "3 Questions: Why infrastructure is entering a defining era",
+    "link": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
+    "description": "Professor Ali Jadbabaie describes how AI, digital transformation, climate change, and complex geopolitics are forcing engineers and policymakers to rethink how infrastructure is designed, built, and managed....",
+    "pubDate": "Wed, 28 Oct 2026 12:00:00 -0400",
+    "category": "ai_tech",
+    "provider": "press",
+    "source": "MIT News AI"
+  },
+  {
     "title": "NASA’s Artemis I mission reveals surprising radiation levels near the Moon",
     "link": "https://www.sciencedaily.com/releases/2026/10/261027063659.htm",
     "description": "NASA’s Artemis I mission has revealed that cosmic radiation near the Moon is higher than in Earth orbit, but not by as much as scientists might expect. Tiny experimental detectors also uncovered surprising details about how radiation passes through the human body, offering valuable insights for futu...",
