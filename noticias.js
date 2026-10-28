@@ -1,5 +1,32 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Population-scale single-nucleus multi-omic profiling of skeletal muscle reveals extensive context-specific genetic regulation",
+    "link": "https://www.nature.com/articles/s41588-026-02786-6",
+    "description": "<p>Nature Genetics, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/s41588-026-02786-6\">doi:10.1038/s41588-026-02786-6</a></p>Single-nucleus chromatin accessibility and transcriptome maps of human skeletal muscle identify cell-state and context-specific QTLs that colocali...",
+    "pubDate": "2026-10-28T11:28:07.042785",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "The grand plan to transform psychiatry — by personalizing mental-health care",
+    "link": "https://www.nature.com/articles/d41586-026-03391-7",
+    "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03391-7\">doi:10.1038/d41586-026-03391-7</a></p>Could a blood sample, a brain scan and a look at your phone data transform how your psychiatrist treats you?...",
+    "pubDate": "2026-10-28T11:28:06.758481",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "How personalization and psychedelics are revitalizing psychiatry",
+    "link": "https://www.nature.com/articles/d41586-026-03402-7",
+    "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03402-7\">doi:10.1038/d41586-026-03402-7</a></p>Fresh ideas are welcome in a discipline in which progress is rare — provided they are applied rigorously....",
+    "pubDate": "2026-10-28T11:28:06.758458",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Preprint-centric publishing approach gets major boost",
     "link": "https://www.nature.com/articles/d41586-026-03445-w",
     "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03445-w\">doi:10.1038/d41586-026-03445-w</a></p>European funders put weight behind controversial ‘publish, review, curate’ model for preprints....",
