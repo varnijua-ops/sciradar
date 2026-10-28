@@ -1,5 +1,14 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Preprint-centric publishing approach gets major boost",
+    "link": "https://www.nature.com/articles/d41586-026-03445-w",
+    "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03445-w\">doi:10.1038/d41586-026-03445-w</a></p>European funders put weight behind controversial ‘publish, review, curate’ model for preprints....",
+    "pubDate": "2026-10-28T10:31:06.341235",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Making machines that can listen",
     "link": "https://news.mit.edu/2026/making-machines-that-can-listen-paris-smaragdis-1028",
     "description": "Professor Paris Smaragdis develops computers with superhuman hearing for applications like speech recognition, music understanding, and environmental monitoring....",
