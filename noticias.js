@@ -1,5 +1,14 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Even stupendous black holes can’t explain dark matter",
+    "link": "https://www.nature.com/articles/d41586-026-03386-4",
+    "description": "<p>Nature, Published online: 29 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03386-4\">doi:10.1038/d41586-026-03386-4</a></p>The theoretical objects would have left a larger imprint on cosmic radiation if they were a source of the invisible force pulling together the galaxies....",
+    "pubDate": "2026-10-29T15:39:25.205428",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Less than 42 minutes of bright daylight linked to higher dementia risk",
     "link": "https://www.sciencedaily.com/releases/2026/10/261028232707.htm",
     "description": "Getting more daylight could be linked to a surprisingly powerful benefit for brain health. In a study of more than 87,000 adults, researchers found that higher daytime light exposure was associated with a 16% lower risk of dementia, with longer exposure to bright light linked to even greater reducti...",
