@@ -1,5 +1,14 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Meteors don't just burn up. What really happens is far more violent",
+    "link": "https://www.sciencedaily.com/releases/2026/10/261027063710.htm",
+    "description": "Scientists have uncovered seven surprising stages that space rocks go through as they hurtle toward Earth, revealing that melting and violent fragmentation, rather than simple evaporation, determine their fate. The discovery could help explain why meteorites scatter across the ground and how dangero...",
+    "pubDate": "Wed, 28 Oct 2026 23:06:41 EDT",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
     "title": "The brain liquidates billions of mutant neurons around the time we’re born",
     "link": "https://www.nature.com/articles/d41586-026-03444-x",
     "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03444-x\">doi:10.1038/d41586-026-03444-x</a></p>Faulty neurons can contribute to various neurological conditions, but researchers have uncovered a system that might clean them up....",
