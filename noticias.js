@@ -1,5 +1,14 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Imaging hot-electron Thomson cooling beyond the Boltzmann–Onsager framework",
+    "link": "https://www.nature.com/articles/s41567-026-03510-1",
+    "description": "<p>Nature Physics, Published online: 29 October 2026; <a href=\"https://www.nature.com/articles/s41567-026-03510-1\">doi:10.1038/s41567-026-03510-1</a></p>Classical Thomson cooling is inefficient. Now non-equilibrium energy dissipation with a breakdown of the Boltzmann–Onsager limit is demonstrated by...",
+    "pubDate": "2026-10-29T11:28:02.897784",
+    "category": "physics",
+    "provider": "nature",
+    "source": "Nature Physics"
+  },
+  {
     "title": "Meteors don't just burn up. What really happens is far more violent",
     "link": "https://www.sciencedaily.com/releases/2026/10/261027063710.htm",
     "description": "Scientists have uncovered seven surprising stages that space rocks go through as they hurtle toward Earth, revealing that melting and violent fragmentation, rather than simple evaporation, determine their fate. The discovery could help explain why meteorites scatter across the ground and how dangero...",
