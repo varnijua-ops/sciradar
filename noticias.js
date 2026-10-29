@@ -1,5 +1,59 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Rapid longitudinal flights cause time shifts and Sun compass error",
+    "link": "https://www.science.org/doi/abs/10.1126/science.adz2542?af=R",
+    "description": "Science, Volume 394, Issue 6823, Page 520-524, October 2026. <br />...",
+    "pubDate": "2026-10-29T19:37:25.685314",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
+    "title": "Chiral altermagnon in MnTe",
+    "link": "https://www.science.org/doi/abs/10.1126/science.adv3196?af=R",
+    "description": "Science, Volume 394, Issue 6823, Page 541-543, October 2026. <br />...",
+    "pubDate": "2026-10-29T19:37:25.685308",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
+    "title": "Pervasive patterns in bird songs resemble those in human speech and song and are independent of vocal learning",
+    "link": "https://www.science.org/doi/abs/10.1126/science.adr9983?af=R",
+    "description": "Science, Volume 394, Issue 6823, Page 556-561, October 2026. <br />...",
+    "pubDate": "2026-10-29T19:37:25.685303",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
+    "title": "Constructing the history of a contested region",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aem1550?af=R",
+    "description": "Science, Volume 394, Issue 6823, Page 492-492, October 2026. <br />...",
+    "pubDate": "2026-10-29T19:37:25.685297",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
+    "title": "We have some explaining to do",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aem0071?af=R",
+    "description": "Science, Volume 394, Issue 6823, Page 491-491, October 2026. <br />...",
+    "pubDate": "2026-10-29T19:37:25.685291",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
+    "title": "Spawning Season: An Experiment in Queer Parenthood",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aem8469?af=R",
+    "description": "Science, Volume 394, Issue 6823, Page 492-492, October 2026. <br />...",
+    "pubDate": "2026-10-29T19:37:25.685276",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
     "title": "Even stupendous black holes can’t explain dark matter",
     "link": "https://www.nature.com/articles/d41586-026-03386-4",
     "description": "<p>Nature, Published online: 29 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03386-4\">doi:10.1038/d41586-026-03386-4</a></p>The theoretical objects would have left a larger imprint on cosmic radiation if they were a source of the invisible force pulling together the galaxies....",
