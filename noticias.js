@@ -1,5 +1,14 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Oocyte-specific OMC1 is required for maintaining chromosome cohesion through reproductive life",
+    "link": "https://www.nature.com/articles/s43587-026-01245-5",
+    "description": "<p>Nature Aging, Published online: 29 October 2026; <a href=\"https://www.nature.com/articles/s43587-026-01245-5\">doi:10.1038/s43587-026-01245-5</a></p>Mammalian oocytes undergo prolonged meiotic arrest during which sister chromatids are linked by cohesin complexes. Cohesion deterioration during agin...",
+    "pubDate": "2026-10-29T23:24:16.679599",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
     "title": "How the US mid-term elections could shake up science",
     "link": "https://www.nature.com/articles/d41586-026-03479-0",
     "description": "<p>Nature, Published online: 29 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03479-0\">doi:10.1038/d41586-026-03479-0</a></p>A Democratic victory in Congress could halt the Trump administration’s controversial grant-review plan and curb some of its funding actions....",
