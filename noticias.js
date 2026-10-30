@@ -1,5 +1,41 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Rapid growth in a dual active galactic nucleus during a gas-rich merger at <i>z</i> ≈ 4.5",
+    "link": "https://www.nature.com/articles/s41550-026-03008-z",
+    "description": "<p>Nature Astronomy, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/s41550-026-03008-z\">doi:10.1038/s41550-026-03008-z</a></p>Observations reveal two rapidly growing supermassive black holes in a gas-rich galaxy merger just 1.3 billion years after the Big Bang. Both alre...",
+    "pubDate": "2026-10-30T14:44:09.652964",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
+    "title": "A user’s guide to building the Universe",
+    "link": "https://www.nature.com/articles/s41550-026-02998-0",
+    "description": "<p>Nature Astronomy, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/s41550-026-02998-0\">doi:10.1038/s41550-026-02998-0</a></p>A user’s guide to building the Universe...",
+    "pubDate": "2026-10-30T14:44:09.652948",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
+    "title": "I built the UK government’s metascience unit — here’s what countries need to know",
+    "link": "https://www.nature.com/articles/d41586-026-03502-4",
+    "description": "<p>Nature, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03502-4\">doi:10.1038/d41586-026-03502-4</a></p>To find evidence-backed ways to improve grant-funding processes, metascientists need freedom and money to experiment, as well as leaders who are willing to...",
+    "pubDate": "2026-10-30T14:44:09.601795",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Author Correction: Rh<sup>3+</sup> stabilized in KRh@MFI catalyses regioselective hydroformylation",
+    "link": "https://www.nature.com/articles/s41586-026-11337-2",
+    "description": "<p>Nature, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/s41586-026-11337-2\">doi:10.1038/s41586-026-11337-2</a></p>Author Correction: Rh<sup>3+</sup> stabilized in KRh@MFI catalyses regioselective hydroformylation...",
+    "pubDate": "2026-10-30T14:44:09.601746",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Type 2 diabetes breakthrough as 54% achieve remission in just 6 months",
     "link": "https://www.sciencedaily.com/releases/2026/10/261029072129.htm",
     "description": "A promising new study suggests that more than half of younger adults with type 2 diabetes could achieve remission in just six months through a combination of a low-calorie diet and structured exercise. Researchers found that 54% of participants under age 45 who followed an intensive diet and exercis...",
