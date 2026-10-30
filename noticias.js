@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Record-breaking retraction: scholarly publisher pulls 1,400 conference papers on one day",
+    "link": "https://www.nature.com/articles/d41586-026-03455-8",
+    "description": "Nature, Published online: 30 October 2026; doi:10.1038/d41586-026-03455-8Announcement by IEEE follows publication of a study showing the retracted papers are linked to paper mills.",
+    "abstract": "Nature, Published online: 30 October 2026; doi:10.1038/d41586-026-03455-8Announcement by IEEE follows publication of a study showing the retracted papers are linked to paper mills.",
+    "pubDate": "2026-10-30T21:24:31.427082",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
     "link": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
     "description": "Five MIT faculty members and two additional alumni were recently named to the&nbsp;2026 cohort of AI2050 Fellows. The honor is announced annually by Schmidt Sciences, Eric and Wendy Schmidt’s philanthropic initiative tha...",
