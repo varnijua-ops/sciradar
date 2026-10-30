@@ -1,9 +1,9 @@
 import json
 import os
+import re
 from datetime import datetime
 import feedparser
 
-# Fuentes RSS científicas principales
 FEEDS = [
     {"url": "https://www.nature.com/nature.rss", "category": "bio", "provider": "nature", "source": "Nature"},
     {"url": "https://www.nature.com/natastron.rss", "category": "astro", "provider": "nature", "source": "Nature Astronomy"},
@@ -16,6 +16,13 @@ FEEDS = [
     {"url": "https://news.mit.edu/rss/topic/artificial-intelligence2", "category": "ai_tech", "provider": "press", "source": "MIT News AI"}
 ]
 
+def limpiar_html(texto):
+    """Elimina etiquetas HTML residuales del RSS para dejar texto plano limpio."""
+    if not texto:
+        return ""
+    texto_limpio = re.sub(r'<[^>]+>', '', texto)
+    return ' '.join(texto_limpio.split())
+
 def obtener_noticias_actuales():
     nuevas_noticias = []
     seen_links = set()
@@ -25,15 +32,27 @@ def obtener_noticias_actuales():
             parsed = feedparser.parse(feed_info["url"])
             for entry in parsed.entries[:6]:
                 link = entry.get("link", "")
-                title = entry.get("title", "Sin título")
-                summary = entry.get("summary", entry.get("description", ""))
+                title = limpiar_html(entry.get("title", "Sin título"))
                 
+                # Obtener el texto más largo posible disponible en el feed
+                full_text = ""
+                if "content" in entry and len(entry.content) > 0:
+                    full_text = entry.content[0].get("value", "")
+                if not full_text:
+                    full_text = entry.get("summary", entry.get("description", ""))
+                
+                full_text_limpio = limpiar_html(full_text)
+                
+                # Resumen corto (copete para la tarjeta)
+                copete = full_text_limpio[:220] + ("..." if len(full_text_limpio) > 220 else "")
+
                 if link and link not in seen_links:
                     seen_links.add(link)
                     nuevas_noticias.append({
                         "title": title,
                         "link": link,
-                        "description": summary[:300] + "...",
+                        "description": copete,
+                        "abstract": full_text_limpio if full_text_limpio else "Consulta el documento original para acceder al abstract completo.",
                         "pubDate": entry.get("published", datetime.now().isoformat()),
                         "category": feed_info["category"],
                         "provider": feed_info["provider"],
@@ -46,9 +65,8 @@ def obtener_noticias_actuales():
 
 def main():
     archivo_json = "noticias_auto.json"
-    
-    # Cargar histórico anterior si existe
     historico = []
+    
     if os.path.exists(archivo_json):
         try:
             with open(archivo_json, "r", encoding="utf-8") as f:
@@ -59,22 +77,18 @@ def main():
     links_existentes = {item["link"] for item in historico if "link" in item}
     nuevas = obtener_noticias_actuales()
 
-    # Añadir las nuevas al principio del histórico
     agregadas = 0
     for n in nuevas:
         if n["link"] not in links_existentes:
             historico.insert(0, n)
             agregadas += 1
 
-    # Mantener las últimas 300 noticias para la hemeroteca
     historico = historico[:300]
-    print(f"Noticias nuevas agregadas: {agregadas}. Total en hemeroteca: {len(historico)}")
+    print(f"Nuevas: {agregadas} | Total: {len(historico)}")
 
-    # Guardar en JSON (como respaldo)
     with open('noticias_auto.json', 'w', encoding='utf-8') as f:
         json.dump(historico, f, ensure_ascii=False, indent=2)
 
-    # Guardar directamente como script JS para el frontend
     with open('noticias.js', 'w', encoding='utf-8') as f:
         f.write("window.NOTICIAS_AUTO = " + json.dumps(historico, ensure_ascii=False, indent=2) + ";\n")
 
