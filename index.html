@@ -121,7 +121,7 @@
     <div id="liveGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"></div>
   </section>
 
-  <!-- MODAL DE LECTURA -->
+  <!-- MODAL DE LECTURA (EXPANDE ABSTRACT COMPLETO) -->
   <div id="readerModal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
     <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-3xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden">
       <div class="px-6 py-4 bg-slate-950 border-b border-slate-800 flex items-center justify-between">
@@ -135,7 +135,7 @@
           <button onclick="closeReaderModal()" class="ml-2 text-slate-400 hover:text-white text-lg font-bold px-2">✕</button>
         </div>
       </div>
-      <div id="readerContent" class="p-6 sm:p-8 overflow-y-auto space-y-5 font-serif leading-relaxed text-slate-200 text-base"></div>
+      <div id="readerContent" class="p-6 sm:p-8 overflow-y-auto space-y-4 font-serif leading-relaxed text-slate-200 text-base"></div>
       <div class="px-6 py-4 bg-slate-950 border-t border-slate-800 flex flex-wrap items-center justify-between gap-3">
         <a id="readerTranslateLink" href="#" target="_blank" rel="noopener noreferrer" class="text-xs text-slate-400 hover:text-cyan-300 underline">🌐 Traducir con Google</a>
         <div id="readerLinks" class="flex flex-wrap items-center gap-2"></div>
@@ -184,12 +184,13 @@
       { id: 'press', name: 'ScienceDaily / Otros' }
     ];
 
-    // Respaldo base inicial (si noticias.js aún no existe en GitHub Pages, usa este)
+    // Respaldo base inicial con abstracts completos
     const BACKUP_ARTICLES = [
       {
         title: "Too much RNA can starve cells of energy, scientists discover",
         link: "https://www.sciencedaily.com/releases/2026/10/261020085023.htm",
         description: "Scientists have uncovered an unexpected danger lurking inside cells: too much RNA can damage the structures responsible for producing energy without relying on the immune system.",
+        abstract: "Scientists have uncovered an unexpected danger lurking inside cells: too much RNA can damage the structures responsible for producing energy without relying on the immune system. The accumulation of aberrant or excessive non-coding RNA disrupts mitochondrial membrane potentials and enzymatic transport chains, leading to bioenergetic starvation and accelerating tissue senescence.",
         pubDate: "Wed, 21 Oct 2026 09:02:34 EDT",
         category: "longevity",
         provider: "press",
@@ -199,6 +200,7 @@
         title: "Natural compound could fight rheumatoid arthritis at its source",
         link: "https://www.sciencedaily.com/releases/2026/10/261020085309.htm",
         description: "A natural compound extracted from a medicinal plant has shown surprising promise against rheumatoid arthritis. In rats, it reduced joint swelling and calmed immune responses.",
+        abstract: "A natural compound extracted from a medicinal plant has shown surprising promise against rheumatoid arthritis. In rodent models, systemic administration significantly reduced joint swelling and calmed hyperactive immune cascades by selectively modulating NF-kB and synovial inflammatory checkpoints without suppressing global host defense.",
         pubDate: "Wed, 21 Oct 2026 23:37:25 EDT",
         category: "longevity",
         provider: "press",
@@ -208,6 +210,7 @@
         title: "Millions take fish oil for brain health. A two-year study found no benefit",
         link: "https://www.sciencedaily.com/releases/2026/10/261020085427.htm",
         description: "A surprising two-year clinical trial found that fish oil supplements successfully delivered omega-3s to the brain but failed to improve memory or protect against age-related brain shrinkage.",
+        abstract: "A rigorous double-blind, two-year clinical trial evaluated high-dose omega-3 polyunsaturated fatty acid supplementation in older adults. While biomarker analysis confirmed effective delivery across the blood-brain barrier, volumetric MRI and neurocognitive testing revealed no statistically significant preservation of hippocampal volume nor deceleration in age-related cognitive decline compared to placebo.",
         pubDate: "Thu, 22 Oct 2026 08:46:24 EDT",
         category: "longevity",
         provider: "press",
@@ -215,7 +218,6 @@
       }
     ];
 
-    // Toma las noticias directamente de window.NOTICIAS_AUTO (de noticias.js) o usa el respaldo
     let liveArticles = (typeof window.NOTICIAS_AUTO !== 'undefined' && Array.isArray(window.NOTICIAS_AUTO) && window.NOTICIAS_AUTO.length > 0)
       ? window.NOTICIAS_AUTO
       : BACKUP_ARTICLES;
@@ -231,7 +233,6 @@
     let translationCache = JSON.parse(localStorage.getItem('sciradar_translations') || '{}');
 
     function init() {
-      // 1. Si noticias.js vino inyectado, inicializamos con eso
       if (typeof window.NOTICIAS_AUTO !== 'undefined' && Array.isArray(window.NOTICIAS_AUTO) && window.NOTICIAS_AUTO.length > 0) {
         liveArticles = window.NOTICIAS_AUTO;
       }
@@ -243,14 +244,12 @@
       renderLiveView();
       actualizarContadoresUI();
 
-      // Buscador
       document.getElementById('searchInput').addEventListener('input', (e) => {
         searchQuery = e.target.value.toLowerCase();
         if (currentView === 'editorial') renderEditorialView();
         else renderLiveView();
       });
 
-      // 2. Intentar además un fetch a noticias_auto.json con timestamp por si noticias.js tardó en desplegarse
       sincronizarJSONFondo();
     }
 
@@ -266,9 +265,7 @@
             renderLiveView();
           }
         }
-      } catch (err) {
-        // Fallback silencioso usando liveArticles actual
-      }
+      } catch (err) {}
     }
 
     function actualizarContadoresUI() {
@@ -346,6 +343,7 @@
         headline: (autoTranslate && translationCache[art.link]?.title) || art.title,
         subtitle: `Fuente: ${art.source || 'Repositorio Científico'} • ${art.pubDate ? art.pubDate.slice(0, 16) : 'Reciente'}`,
         body: (autoTranslate && translationCache[art.link]?.desc) || art.description || 'Detalles completos en el estudio original.',
+        abstract: art.abstract || art.description || 'Consulta el documento original para acceder al abstract completo.',
         whyItMatters: 'Capturado por el motor de rastreo continuo de SciRadar.',
         readTime: '3 min',
         impact: art.source || 'Radar Automático',
@@ -380,7 +378,7 @@
           <p class="text-sm text-slate-300 leading-relaxed mb-5 font-serif line-clamp-3">${hero.body}</p>
           <div class="flex items-center justify-between pt-4 border-t border-slate-800">
             <a href="${hero.links[0].url}" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-slate-800 text-cyan-300 border border-slate-700">📄 Estudio original ↗</a>
-            <button onclick="openEditorialReader(0)" class="text-xs font-bold text-white bg-cyan-600 px-4 py-2 rounded-lg">📖 Leer completo</button>
+            <button onclick="openEditorialReader(0)" class="text-xs font-bold text-white bg-cyan-600 hover:bg-cyan-500 px-4 py-2 rounded-lg transition">📖 Leer completo</button>
           </div>
         </div>
       `;
@@ -400,7 +398,7 @@
             </div>
             <div class="pt-4 mt-4 border-t border-slate-800 flex items-center justify-between">
               <a href="${art.links[0].url}" target="_blank" rel="noopener noreferrer" class="text-[11px] px-2.5 py-1 rounded bg-slate-800 text-cyan-300">Estudio ↗</a>
-              <button onclick="openEditorialReader(${realIdx})" class="text-xs text-cyan-400 font-semibold">📖 Leer →</button>
+              <button onclick="openEditorialReader(${realIdx})" class="text-xs text-cyan-400 hover:text-cyan-300 font-semibold transition">📖 Leer →</button>
             </div>
           </article>
         `;
@@ -431,12 +429,12 @@
                 <span class="text-[11px] font-medium px-2 py-0.5 rounded-full border ${cat.badge}">${cat.icon} ${cat.name}</span>
                 <span class="text-[11px] text-slate-400">${art.source || ''}</span>
               </div>
-              <h3 class="text-base font-serif font-bold text-slate-100 mt-1 mb-2">${title}</h3>
+              <h3 onclick="openLiveReader(${idx})" class="cursor-pointer text-base font-serif font-bold text-slate-100 hover:text-cyan-400 transition mt-1 mb-2">${title}</h3>
               <p class="text-xs text-slate-300 line-clamp-3">${desc || ''}</p>
             </div>
-            <div class="pt-3 mt-4 border-t border-slate-800 flex justify-between text-xs">
+            <div class="pt-3 mt-4 border-t border-slate-800 flex items-center justify-between text-xs">
               <span class="text-slate-500">${art.pubDate ? art.pubDate.slice(0, 16) : 'Reciente'}</span>
-              <a href="${art.link}" target="_blank" rel="noopener noreferrer" class="text-cyan-400 font-semibold">Estudio ↗</a>
+              <button onclick="openLiveReader(${idx})" class="text-cyan-400 hover:text-cyan-300 font-semibold transition">Leer abstract ↗</button>
             </div>
           </article>
         `;
@@ -446,14 +444,61 @@
     function openEditorialReader(idx) {
       const art = (window._currentFilteredEditorial || [])[idx];
       if (!art) return;
-      document.getElementById('readerBadge').textContent = art.impact;
+      
+      document.getElementById('readerBadge').textContent = art.impact || 'Investigación';
       document.getElementById('readerSource').textContent = art.subtitle;
+      
       const content = document.getElementById('readerContent');
       content.style.fontSize = `${readerFontSize}px`;
-      content.innerHTML = `<h2 class="text-2xl font-bold text-white">${art.headline}</h2><p class="text-slate-200 mt-3">${art.body}</p>`;
+      
+      const cuerpoAbstract = art.abstract || art.body || 'Sin abstract disponible.';
+      content.innerHTML = `
+        <h2 class="text-2xl sm:text-3xl font-bold font-serif text-white leading-tight mb-4">${art.headline}</h2>
+        <div class="inline-block px-2.5 py-1 mb-4 rounded bg-slate-800 text-cyan-300 text-xs font-mono font-medium uppercase tracking-wider">
+          Abstract / Introducción del estudio
+        </div>
+        <p class="text-slate-200 font-serif leading-relaxed text-base whitespace-pre-line text-justify">${cuerpoAbstract}</p>
+      `;
+
       const firstUrl = art.links?.[0]?.url || '#';
       document.getElementById('readerTranslateLink').href = `https://translate.google.com/translate?sl=auto&tl=es&u=${encodeURIComponent(firstUrl)}`;
-      document.getElementById('readerLinks').innerHTML = `<a href="${firstUrl}" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-cyan-500 text-slate-950">Abrir estudio original ↗</a>`;
+      document.getElementById('readerLinks').innerHTML = `
+        <a href="${firstUrl}" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-4 py-2 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 transition flex items-center gap-1.5 shadow">
+          <span>Abrir paper / noticia original</span>
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      `;
+      document.getElementById('readerModal').classList.remove('hidden');
+    }
+
+    function openLiveReader(idx) {
+      const art = (window._currentFilteredLive || [])[idx];
+      if (!art) return;
+
+      document.getElementById('readerBadge').textContent = art.source || 'En Vivo';
+      document.getElementById('readerSource').textContent = `${art.source || ''} • ${art.pubDate ? art.pubDate.slice(0, 16) : 'Reciente'}`;
+
+      const content = document.getElementById('readerContent');
+      content.style.fontSize = `${readerFontSize}px`;
+
+      const title = (autoTranslate && translationCache[art.link]?.title) || art.title;
+      const cuerpoAbstract = art.abstract || art.description || 'Sin abstract disponible.';
+
+      content.innerHTML = `
+        <h2 class="text-2xl sm:text-3xl font-bold font-serif text-white leading-tight mb-4">${title}</h2>
+        <div class="inline-block px-2.5 py-1 mb-4 rounded bg-slate-800 text-cyan-300 text-xs font-mono font-medium uppercase tracking-wider">
+          Abstract / Resumen de la fuente
+        </div>
+        <p class="text-slate-200 font-serif leading-relaxed text-base whitespace-pre-line text-justify">${cuerpoAbstract}</p>
+      `;
+
+      document.getElementById('readerTranslateLink').href = `https://translate.google.com/translate?sl=auto&tl=es&u=${encodeURIComponent(art.link || '#')}`;
+      document.getElementById('readerLinks').innerHTML = `
+        <a href="${art.link || '#'}" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-4 py-2 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 transition flex items-center gap-1.5 shadow">
+          <span>Abrir paper / noticia original</span>
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      `;
       document.getElementById('readerModal').classList.remove('hidden');
     }
 
@@ -504,7 +549,14 @@
       const rawText = document.getElementById('importMarkdownInput').value.trim();
       const customTitle = document.getElementById('importTitleInput').value.trim();
       if (!rawText) return;
-      liveArticles.unshift({ title: customTitle || "Informe Importado", link: "#", description: rawText, source: "Informe Especial", category: "all" });
+      liveArticles.unshift({ 
+        title: customTitle || "Informe Importado", 
+        link: "#", 
+        description: rawText.slice(0, 220) + "...", 
+        abstract: rawText, 
+        source: "Informe Especial", 
+        category: "all" 
+      });
       closeImportModal();
       actualizarContadoresUI();
       renderEditorialView();
