@@ -1,5 +1,86 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Type 2 diabetes breakthrough as 54% achieve remission in just 6 months",
+    "link": "https://www.sciencedaily.com/releases/2026/10/261029072129.htm",
+    "description": "A promising new study suggests that more than half of younger adults with type 2 diabetes could achieve remission in just six months through a combination of a low-calorie diet and structured exercise. Researchers found that 54% of participants under age 45 who followed an intensive diet and exercis...",
+    "pubDate": "Fri, 30 Oct 2026 08:12:46 EDT",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "A mysterious star system just 16 light-years away may be hiding habitable planets",
+    "link": "https://www.sciencedaily.com/releases/2026/10/261028232711.htm",
+    "description": "Astronomers have solved a 170-year-old planetary mystery in a nearby two-star system, discovering that a mysterious wobble was caused by stellar activity rather than a giant planet. Although Jupiter-sized worlds have been ruled out in key regions, smaller, potentially habitable planets could still b...",
+    "pubDate": "Thu, 29 Oct 2026 23:17:17 EDT",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Physicists created a tiny universe and watched time emerge without a clock",
+    "link": "https://www.sciencedaily.com/releases/2026/10/261028234703.htm",
+    "description": "Scientists have created a miniature universe in the laboratory that could help answer one of the biggest mysteries in physics: What is time, and where does it come from? Using 24,000 ultracold atoms, a University of Birmingham researcher built an isolated quantum system that repeatedly expands and c...",
+    "pubDate": "Fri, 30 Oct 2026 07:42:36 EDT",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Hubble reveals a stunning twist in how the universe emerged from darkness",
+    "link": "https://www.sciencedaily.com/releases/2026/10/261029072113.htm",
+    "description": "A surprising discovery by astronomers using the Hubble Space Telescope is challenging a leading explanation for how the early universe emerged from a dense fog of hydrogen roughly 13 billion years ago. Scientists once believed powerful winds from exploding stars helped radiation escape galaxies and ...",
+    "pubDate": "Fri, 30 Oct 2026 06:50:22 EDT",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Astronauts just gave the International Space Station a powerful upgrade",
+    "link": "https://www.sciencedaily.com/releases/2026/10/261030002931.htm",
+    "description": "Two astronauts completed a 7-hour, 11-minute spacewalk to install a new solar array on the International Space Station, bringing NASA one step closer to a major power upgrade. Once the final array is installed on November 5, the station will have up to 30% more available power, supporting critical o...",
+    "pubDate": "Fri, 30 Oct 2026 02:12:55 EDT",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Daily briefing: The three red flags of suspicious journals",
+    "link": "https://www.nature.com/articles/d41586-026-03548-4",
+    "description": "<p>Nature, Published online: 29 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03548-4\">doi:10.1038/d41586-026-03548-4</a></p>These warning signs suggest a journal might be engaging in dubious publishing activities. Plus, the brain clears out faulty neurons at birth and whether a ...",
+    "pubDate": "2026-10-30T12:29:27.719159",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Are dinosaur fossils hogging top journals? Analysis sparks debate over ‘charismatic’ finds",
+    "link": "https://www.nature.com/articles/d41586-026-03512-2",
+    "description": "<p>Nature, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03512-2\">doi:10.1038/d41586-026-03512-2</a></p>Fossils of dinosaurs, mammals and other glamorous species are over-represented in high-profile titles, suggests a study of thousands of palaeontology paper...",
+    "pubDate": "2026-10-30T12:29:27.719144",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Somewhere over the transcontinental burrito tunnel",
+    "link": "https://www.nature.com/articles/d41586-026-03368-6",
+    "description": "<p>Nature, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03368-6\">doi:10.1038/d41586-026-03368-6</a></p>Pipe dreams....",
+    "pubDate": "2026-10-30T12:29:27.719135",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Patrick Stewart dies: how Captain Picard inspired today’s science leaders",
+    "link": "https://www.nature.com/articles/d41586-026-03543-9",
+    "description": "<p>Nature, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03543-9\">doi:10.1038/d41586-026-03543-9</a></p>Researchers say his portrayal of the Star Trek character represented curiosity, thoughtfulness and an effort to understand others....",
+    "pubDate": "2026-10-30T12:29:27.719117",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "A haplotype reference panel constructed from 490,319 UK Biobank genomes improves genotype imputation for global populations",
     "link": "https://www.nature.com/articles/s41588-026-02819-0",
     "description": "<p>Nature Genetics, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/s41588-026-02819-0\">doi:10.1038/s41588-026-02819-0</a></p>A haplotype reference panel constructed from whole-genome sequencing data from 490,319 UK Biobank participants improves genotype imputation accura...",
