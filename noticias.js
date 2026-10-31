@@ -1,5 +1,25 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "A simple blood test could reveal Alzheimer’s risk 10 years before symptoms",
+    "link": "https://www.sciencedaily.com/releases/2026/10/261029072142.htm",
+    "description": "A major international study found that a simple blood test could help predict Alzheimer’s-related cognitive decline years before symptoms appear, with the highest-risk individuals facing a 38% chance of impairment within...",
+    "abstract": "A major international study found that a simple blood test could help predict Alzheimer’s-related cognitive decline years before symptoms appear, with the highest-risk individuals facing a 38% chance of impairment within five years and an estimated 78% chance within 10 years. Scientists believe the discovery could pave the way for earlier intervention and future treatments designed to prevent Alzheimer’s before memory problems begin.",
+    "pubDate": "Fri, 30 Oct 2026 20:59:52 EDT",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "Scientists smash oxygen nuclei to recreate matter from the Big Bang",
+    "link": "https://www.sciencedaily.com/releases/2026/10/261030002935.htm",
+    "description": "Scientists have recreated a primordial state of matter from the dawn of the universe by colliding oxygen nuclei at nearly the speed of light. The surprising results show that this exotic substance can form in smaller, lo...",
+    "abstract": "Scientists have recreated a primordial state of matter from the dawn of the universe by colliding oxygen nuclei at nearly the speed of light. The surprising results show that this exotic substance can form in smaller, lower-energy collisions than previously demonstrated, challenging the known boundaries of early-universe physics.",
+    "pubDate": "Fri, 30 Oct 2026 22:09:38 EDT",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
     "title": "Record-breaking retraction: scholarly publisher pulls 1,400 conference papers on one day",
     "link": "https://www.nature.com/articles/d41586-026-03455-8",
     "description": "Nature, Published online: 30 October 2026; doi:10.1038/d41586-026-03455-8Announcement by IEEE follows publication of a study showing the retracted papers are linked to paper mills.",
