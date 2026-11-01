@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Scientists say a forgotten particle may explain why the universe exists",
+    "link": "https://www.sciencedaily.com/releases/2026/10/261031221201.htm",
+    "description": "A mysterious particle overlooked for decades may hold the key to why matter survived the Big Bang, allowing stars, planets, and life to exist. Scientists believe this forgotten neutrino reshaped the early universe and ma...",
+    "abstract": "A mysterious particle overlooked for decades may hold the key to why matter survived the Big Bang, allowing stars, planets, and life to exist. Scientists believe this forgotten neutrino reshaped the early universe and may have left detectable gravitational wave signals that could help unlock the cosmos’s deepest mysteries.",
+    "pubDate": "Sun, 01 Nov 2026 00:33:36 EDT",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
     "title": "A simple blood test could reveal Alzheimer’s risk 10 years before symptoms",
     "link": "https://www.sciencedaily.com/releases/2026/10/261029072142.htm",
     "description": "A major international study found that a simple blood test could help predict Alzheimer’s-related cognitive decline years before symptoms appear, with the highest-risk individuals facing a 38% chance of impairment within...",
