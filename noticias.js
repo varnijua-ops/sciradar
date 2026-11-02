@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Recent progress in the computational study of supercooled and glassy water",
+    "link": "https://www.nature.com/articles/s41567-026-03479-x",
+    "description": "Nature Physics, Published online: 02 November 2026; doi:10.1038/s41567-026-03479-xThis Review discusses recent advances in the computational exploration of the properties of supercooled and glassy water.",
+    "abstract": "Nature Physics, Published online: 02 November 2026; doi:10.1038/s41567-026-03479-xThis Review discusses recent advances in the computational exploration of the properties of supercooled and glassy water.",
+    "pubDate": "2026-11-02T11:40:18.552914",
+    "category": "physics",
+    "provider": "nature",
+    "source": "Nature Physics"
+  },
+  {
     "title": "A catalog of transcriptome genetic regulation in a consanguineous Middle Eastern biobank",
     "link": "https://www.nature.com/articles/s41588-026-02785-7",
     "description": "Nature Genetics, Published online: 02 November 2026; doi:10.1038/s41588-026-02785-7This study reports an atlas of transcriptomic genetic effects from a Middle Eastern population biobank, revealing population-specific reg...",
