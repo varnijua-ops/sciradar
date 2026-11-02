@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Meet Neuropixels: how probes that track hundreds of brain cells at once are revolutionizing neuroscience",
+    "link": "https://www.nature.com/articles/d41586-026-03511-3",
+    "description": "Nature, Published online: 02 November 2026; doi:10.1038/d41586-026-03511-3From rodents to humans, tools that enable large-scale, single-cell neuronal recordings are exposing the inner workings of the brain.",
+    "abstract": "Nature, Published online: 02 November 2026; doi:10.1038/d41586-026-03511-3From rodents to humans, tools that enable large-scale, single-cell neuronal recordings are exposing the inner workings of the brain.",
+    "pubDate": "2026-11-02T15:44:51.446927",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Extra weight may be aging your brain faster than you think",
     "link": "https://www.sciencedaily.com/releases/2026/11/261101010559.htm",
     "description": "A major 24-year study involving more than 8,200 adults suggests that excess body weight may accelerate brain aging, leading to faster declines in memory, concentration, and decision-making skills. The connection was part...",
