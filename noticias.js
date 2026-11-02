@@ -1,5 +1,65 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "NASA's Hubble and Webb discover ancient worlds that remember their past",
+    "link": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm",
+    "description": "NASA’s Hubble and James Webb Space Telescopes have uncovered surprising clues about the solar system’s origins by studying 27 tiny, distant objects beyond Neptune. Scientists discovered that these ancient building blocks...",
+    "abstract": "NASA’s Hubble and James Webb Space Telescopes have uncovered surprising clues about the solar system’s origins by studying 27 tiny, distant objects beyond Neptune. Scientists discovered that these ancient building blocks of planets have remained remarkably unchanged for billions of years, while their unexpected sizes and numbers challenge existing theories of planet formation.",
+    "pubDate": "Sun, 01 Nov 2026 22:07:01 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "IceCube detects ghost particles with 10 billion times the energy of solar neutrinos",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261101010533.htm",
+    "description": "Mysterious particles called neutrinos constantly stream through our bodies, and scientists are now detecting incredibly powerful versions arriving from distant cosmic sources using a massive observatory buried in Antarct...",
+    "abstract": "Mysterious particles called neutrinos constantly stream through our bodies, and scientists are now detecting incredibly powerful versions arriving from distant cosmic sources using a massive observatory buried in Antarctic ice. These elusive “ghost particles” could hold extraordinary clues about the Big Bang, extreme cosmic events, and some of the universe’s greatest mysteries.",
+    "pubDate": "Mon, 02 Nov 2026 08:42:07 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "NASA’s Perseverance Mars rover breaks historic record after traveling 28 miles",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261101010536.htm",
+    "description": "NASA’s Perseverance rover has set a historic record by traveling 28.10 miles across Mars, farther than any vehicle has ever driven on another world. Armed with groundbreaking autonomous navigation technology and increasi...",
+    "abstract": "NASA’s Perseverance rover has set a historic record by traveling 28.10 miles across Mars, farther than any vehicle has ever driven on another world. Armed with groundbreaking autonomous navigation technology and increasingly advanced driving capabilities, the rover is pushing the boundaries of robotic exploration.",
+    "pubDate": "Mon, 02 Nov 2026 06:28:04 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Iranian scientists in the United States face major upheaval",
+    "link": "https://www.nature.com/articles/d41586-026-03346-y",
+    "description": "Nature, Published online: 02 November 2026; doi:10.1038/d41586-026-03346-yPressures due to the continuing US–Iran conflict are mounting as early-career researchers endure frozen immigration status, employment limbo and f...",
+    "abstract": "Nature, Published online: 02 November 2026; doi:10.1038/d41586-026-03346-yPressures due to the continuing US–Iran conflict are mounting as early-career researchers endure frozen immigration status, employment limbo and families caught in the war.",
+    "pubDate": "2026-11-02T13:57:21.922524",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Earth’s resources sustain humanity — but they come at a high price",
+    "link": "https://www.nature.com/articles/d41586-026-03506-0",
+    "description": "Nature, Published online: 02 November 2026; doi:10.1038/d41586-026-03506-0Two books explore the damage caused by our unsustainable extraction of raw materials.",
+    "abstract": "Nature, Published online: 02 November 2026; doi:10.1038/d41586-026-03506-0Two books explore the damage caused by our unsustainable extraction of raw materials.",
+    "pubDate": "2026-11-02T13:57:21.922508",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Author Correction: mTORC1 drives cell-autonomous astrocyte reactivity in tuberous sclerosis",
+    "link": "https://www.nature.com/articles/s41586-026-11350-5",
+    "description": "Nature, Published online: 02 November 2026; doi:10.1038/s41586-026-11350-5Author Correction: mTORC1 drives cell-autonomous astrocyte reactivity in tuberous sclerosis",
+    "abstract": "Nature, Published online: 02 November 2026; doi:10.1038/s41586-026-11350-5Author Correction: mTORC1 drives cell-autonomous astrocyte reactivity in tuberous sclerosis",
+    "pubDate": "2026-11-02T13:57:21.922471",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Deep and quantitative proteomic profiling of low-volume mouse serum in a cross-sectional analysis of aging",
     "link": "https://www.nature.com/articles/s43587-026-01242-8",
     "description": "Nature Aging, Published online: 02 November 2026; doi:10.1038/s43587-026-01242-8To address the technically challenging task of profiling the age-associated blood proteome in sample-limited mouse studies, the authors pres...",
