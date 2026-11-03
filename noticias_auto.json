@@ -1,5 +1,105 @@
 [
   {
+    "title": "AI-based precision prognostics and therapy personalization for childhood brain tumors",
+    "link": "https://www.nature.com/articles/s41588-026-02815-4",
+    "description": "Nature Genetics, Published online: 03 November 2026; doi:10.1038/s41588-026-02815-4Stefan et al. present MANTIS, an AI model to predict individualized survival in childhood brain tumors from routine DNA methylation profi...",
+    "abstract": "Nature Genetics, Published online: 03 November 2026; doi:10.1038/s41588-026-02815-4Stefan et al. present MANTIS, an AI model to predict individualized survival in childhood brain tumors from routine DNA methylation profiling. MANTIS may help identify patients who benefit from less intense treatment to reduce lifelong side effects.",
+    "pubDate": "2026-11-03T11:39:18.021733",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "A framework for genome-wide characterization of DNA methylation and variant effect prediction",
+    "link": "https://www.nature.com/articles/s41588-026-02807-4",
+    "description": "Nature Genetics, Published online: 03 November 2026; doi:10.1038/s41588-026-02807-4This study introduces a framework for integrating DNA methylation data across more than 90 tissues and cell types, characterizing genome-...",
+    "abstract": "Nature Genetics, Published online: 03 November 2026; doi:10.1038/s41588-026-02807-4This study introduces a framework for integrating DNA methylation data across more than 90 tissues and cell types, characterizing genome-wide methylation patterns and predicting context-specific effects of genetic variants on DNA methylation and regulatory function using a deep learning model, Wreath.",
+    "pubDate": "2026-11-03T11:39:18.021723",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "Progress and disparities in fungal genomics in the long-read era",
+    "link": "https://www.nature.com/articles/s41588-026-02790-w",
+    "description": "Nature Genetics, Published online: 03 November 2026; doi:10.1038/s41588-026-02790-wThis study examines how long-read sequencing has transformed fungal genome assemblies and uncovered genome features once hidden in fragme...",
+    "abstract": "Nature Genetics, Published online: 03 November 2026; doi:10.1038/s41588-026-02790-wThis study examines how long-read sequencing has transformed fungal genome assemblies and uncovered genome features once hidden in fragmented drafts, while also revealing that taxonomic bias and uneven annotation continue to constrain the field.",
+    "pubDate": "2026-11-03T11:39:18.021709",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "Hematotoxicity: the hidden legacy of CAR T cell therapy",
+    "link": "https://www.nature.com/articles/s41588-026-02805-6",
+    "description": "Nature Genetics, Published online: 03 November 2026; doi:10.1038/s41588-026-02805-6CD19-directed chimeric antigen receptor (CAR) T cell therapy can produce durable remission in patients with lymphoma, but persistent hema...",
+    "abstract": "Nature Genetics, Published online: 03 November 2026; doi:10.1038/s41588-026-02805-6CD19-directed chimeric antigen receptor (CAR) T cell therapy can produce durable remission in patients with lymphoma, but persistent hematological toxicities remain poorly understood. We show that clonal expansion of mutated hematopoietic clones (clonal hematopoiesis) in an inflamed bone marrow environment is linked to prolonged cytopenias, impaired immune recovery and treatment-related myeloid malignancies.",
+    "pubDate": "2026-11-03T11:39:18.021683",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "How democracy depends on science — and must protect it",
+    "link": "https://www.nature.com/articles/d41586-026-03510-4",
+    "description": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03510-4Verified information from trusted experts is crucial to help the public and governments navigate rapid changes and increasing complexity.",
+    "abstract": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03510-4Verified information from trusted experts is crucial to help the public and governments navigate rapid changes and increasing complexity.",
+    "pubDate": "2026-11-03T11:39:17.919859",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Will AI grant reviews make science more conservative?",
+    "link": "https://www.nature.com/articles/d41586-026-03340-4",
+    "description": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03340-4Researchers are questioning whether outsourcing decisions about research funding to artificial intelligence will reduce scientific novelty.",
+    "abstract": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03340-4Researchers are questioning whether outsourcing decisions about research funding to artificial intelligence will reduce scientific novelty.",
+    "pubDate": "2026-11-03T11:39:17.919848",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "China should share the evidence behind animal-testing alternatives openly",
+    "link": "https://www.nature.com/articles/d41586-026-03561-7",
+    "description": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03561-7China should share the evidence behind animal-testing alternatives openly",
+    "abstract": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03561-7China should share the evidence behind animal-testing alternatives openly",
+    "pubDate": "2026-11-03T11:39:17.919839",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Universities must measure learning, both with and without AI assistance",
+    "link": "https://www.nature.com/articles/d41586-026-03559-1",
+    "description": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03559-1Universities must measure learning, both with and without AI assistance",
+    "abstract": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03559-1Universities must measure learning, both with and without AI assistance",
+    "pubDate": "2026-11-03T11:39:17.919830",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Safety alerts must reach visiting PhD students",
+    "link": "https://www.nature.com/articles/d41586-026-03560-8",
+    "description": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03560-8Safety alerts must reach visiting PhD students",
+    "abstract": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03560-8Safety alerts must reach visiting PhD students",
+    "pubDate": "2026-11-03T11:39:17.919820",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Research bonuses need clear and fair rules",
+    "link": "https://www.nature.com/articles/d41586-026-03562-6",
+    "description": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03562-6Research bonuses need clear and fair rules",
+    "abstract": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03562-6Research bonuses need clear and fair rules",
+    "pubDate": "2026-11-03T11:39:17.919803",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Scientists reverse liver cell aging and cut Alzheimer’s-linked protein in half",
     "link": "https://www.sciencedaily.com/releases/2026/10/261031221155.htm",
     "description": "A surprising discovery suggests that rejuvenating the liver could help protect against Alzheimer’s disease and heart disease. USC researchers found that an experimental drug restored aging liver cells in rats, cutting le...",
