@@ -1,5 +1,55 @@
 [
   {
+    "title": "Language modeling screens Parkinson’s disease with self-reported questionnaires",
+    "link": "https://www.nature.com/articles/s43587-026-01260-6",
+    "description": "Nature Aging, Published online: 04 November 2026; doi:10.1038/s43587-026-01260-6Reyes et al. developed Quest2Dx, an AI model to screen Parkinson’s disease based on health questionnaires, identifying key predictors from t...",
+    "abstract": "Nature Aging, Published online: 04 November 2026; doi:10.1038/s43587-026-01260-6Reyes et al. developed Quest2Dx, an AI model to screen Parkinson’s disease based on health questionnaires, identifying key predictors from the questions to provide a low-cost, non-invasive disease insight.",
+    "pubDate": "2026-11-04T12:41:03.900315",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "Screening for Parkinson’s disease across questionnaires using language models",
+    "link": "https://www.nature.com/articles/s43587-026-01271-3",
+    "description": "Nature Aging, Published online: 04 November 2026; doi:10.1038/s43587-026-01271-3Health questionnaires have the potential to facilitate early disease detection. However, differences in question wording and formats often p...",
+    "abstract": "Nature Aging, Published online: 04 November 2026; doi:10.1038/s43587-026-01271-3Health questionnaires have the potential to facilitate early disease detection. However, differences in question wording and formats often prevent artificial intelligence (AI) models trained on one questionnaire from performing well on another. Quest2Dx encodes the meaning of each question–response pair, which enables it to screen for Parkinson’s disease on questionnaires it never encountered during training.",
+    "pubDate": "2026-11-04T12:41:03.900281",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "Unblurring the menopause transition",
+    "link": "https://www.nature.com/articles/s43587-026-01276-y",
+    "description": "Nature Aging, Published online: 04 November 2026; doi:10.1038/s43587-026-01276-yUnblurring the menopause transition",
+    "abstract": "Nature Aging, Published online: 04 November 2026; doi:10.1038/s43587-026-01276-yUnblurring the menopause transition",
+    "pubDate": "2026-11-04T12:41:03.900252",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "The Participant Engagement and Cancer Genome Sequencing Network to accelerate research in rare and understudied cancers",
+    "link": "https://www.nature.com/articles/s41588-026-02800-x",
+    "description": "Nature Genetics, Published online: 04 November 2026; doi:10.1038/s41588-026-02800-xThe Participant Engagement and Cancer Genome Sequencing (PE-CGS) Network integrates participant engagement, return of genomic results and...",
+    "abstract": "Nature Genetics, Published online: 04 November 2026; doi:10.1038/s41588-026-02800-xThe Participant Engagement and Cancer Genome Sequencing (PE-CGS) Network integrates participant engagement, return of genomic results and comprehensive data collection to advance cancer genomics research involving rare and understudied cancers.",
+    "pubDate": "2026-11-04T12:41:03.816367",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "Longitudinal single-cell profiling of breast tumors highlights immune and epigenetic mechanisms associated with sensitivity to aromatase inhibitors",
+    "link": "https://www.nature.com/articles/s41588-026-02811-8",
+    "description": "Nature Genetics, Published online: 04 November 2026; doi:10.1038/s41588-026-02811-8This longitudinal single-cell study of estrogen receptor (ER)-positive breast cancer suggests that strong estrogen signaling, ER-linked e...",
+    "abstract": "Nature Genetics, Published online: 04 November 2026; doi:10.1038/s41588-026-02811-8This longitudinal single-cell study of estrogen receptor (ER)-positive breast cancer suggests that strong estrogen signaling, ER-linked enhancers and active T cell responses could predict sensitivity to aromatase inhibitors, whereas resistance involves androgen signaling though hormone-sensing enhancer activity.",
+    "pubDate": "2026-11-04T12:41:03.816344",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
     "title": "When humans disappear, biodiversity takes a surprising turn",
     "link": "https://www.nature.com/articles/d41586-026-03505-1",
     "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03505-1For decades, conservation has worried about the risks of too many people. In some places, depopulation is the real threat.",
