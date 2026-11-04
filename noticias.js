@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Toothbrush zaps bacteria with electricity made when bristles move",
+    "link": "https://www.nature.com/articles/d41586-026-03586-y",
+    "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03586-yInnovative polymer could give the manual toothbrush its first radical redesign in more than 1,000 years.",
+    "abstract": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03586-yInnovative polymer could give the manual toothbrush its first radical redesign in more than 1,000 years.",
+    "pubDate": "2026-11-04T20:39:08.628916",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Why not to wait even a few minutes before fleeing a tsunami",
     "link": "https://www.nature.com/articles/d41586-026-03539-5",
     "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03539-5Simulation shows that hesitating can be the difference between making it to safety and not.",
