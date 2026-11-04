@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Why not to wait even a few minutes before fleeing a tsunami",
+    "link": "https://www.nature.com/articles/d41586-026-03539-5",
+    "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03539-5Simulation shows that hesitating can be the difference between making it to safety and not.",
+    "abstract": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03539-5Simulation shows that hesitating can be the difference between making it to safety and not.",
+    "pubDate": "2026-11-04T19:45:38.421912",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "AI agents run this automated biology lab that sequences DNA and more",
     "link": "https://www.nature.com/articles/d41586-026-03552-8",
     "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03552-8Self-driving lab in China requires only a simple prompt to encode messages in DNA and read them out.",
