@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SciRadar Editorial — Diario Científico & Monitor en Tiempo Real</title>
+  <title>SciRadar Editorial — Diario Científico & Divulgación</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <script>
     tailwind.config = {
       darkMode: 'class',
@@ -13,10 +15,11 @@
         extend: {
           fontFamily: {
             sans: ['Inter', 'system-ui', 'sans-serif'],
-            serif: ['Merriweather', 'Georgia', 'serif']
+            serif: ['Merriweather', 'Georgia', 'serif'],
+            mono: ['JetBrains Mono', 'monospace']
           },
           colors: {
-            slate: { 850: '#151f32', 950: '#080d18' }
+            slate: { 850: '#151f32', 900: '#0f172a', 950: '#080d18' }
           }
         }
       }
@@ -27,22 +30,18 @@
     ::-webkit-scrollbar-track { background: #0f172a; }
     ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
     ::-webkit-scrollbar-thumb:hover { background: #475569; }
-    .line-clamp-3 {
-      display: -webkit-box;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
+    .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   </style>
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen font-sans selection:bg-cyan-500 selection:text-slate-950">
 
-  <!-- CABECERA PRINCIPAL -->
+  <!-- CABECERA -->
   <header class="sticky top-0 z-30 bg-slate-900/95 backdrop-blur-md border-b border-slate-800">
     <div class="max-w-7xl mx-auto px-4 py-3.5 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
       <div class="flex flex-wrap items-center justify-between gap-4">
         <div class="flex items-center gap-3">
-          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center shadow-lg shadow-cyan-500/20">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-400 via-blue-500 to-indigo-600 flex items-center justify-center shadow-lg shadow-cyan-500/20">
             <svg class="w-6 h-6 text-slate-950" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
             </svg>
@@ -51,23 +50,23 @@
             <h1 class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
               SciRadar <span class="font-serif italic font-normal text-cyan-400">Editorial</span>
             </h1>
-            <p class="text-xs text-slate-400">Informes explicados para el lector y conexión directa con arXiv, Nature, Science y PubMed</p>
+            <p class="text-xs text-slate-400">Abstracts rigurosos de arXiv, Nature, Science y PubMed con divulgación en palabras simples</p>
           </div>
         </div>
 
         <div class="inline-flex rounded-xl bg-slate-950 p-1 border border-slate-800">
           <button id="tabEditorialBtn" onclick="switchMainView('editorial')" class="px-3.5 py-1.5 rounded-lg text-xs font-semibold transition bg-cyan-500 text-slate-950 shadow">
-            🗞️ Portada Editorial (Informes IA)
+            🗞️ Portada Editorial
           </button>
           <button id="tabLiveBtn" onclick="switchMainView('live')" class="px-3.5 py-1.5 rounded-lg text-xs font-semibold transition text-slate-300 hover:text-white">
-            📡 Radar en Vivo (RSS / APIs)
+            📡 Radar en Vivo
           </button>
         </div>
       </div>
 
       <div class="flex flex-wrap items-center gap-2.5">
         <div class="relative flex-1 sm:w-56">
-          <input id="searchInput" type="text" placeholder="Buscar tema, gen, misión..." class="w-full bg-slate-800/90 border border-slate-700 rounded-lg pl-8 pr-3 py-1.5 text-xs text-slate-100 placeholder-slate-400 focus:outline-none focus:border-cyan-400" />
+          <input id="searchInput" type="text" placeholder="Buscar tema, gen, teoría..." class="w-full bg-slate-800/90 border border-slate-700 rounded-lg pl-8 pr-3 py-1.5 text-xs text-slate-100 placeholder-slate-400 focus:outline-none focus:border-cyan-400" />
           <svg class="w-3.5 h-3.5 text-slate-400 absolute left-2.5 top-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
           </svg>
@@ -78,51 +77,52 @@
         </button>
 
         <button id="autoTranslateBtn" onclick="toggleAutoTranslate()" class="flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs px-3 py-1.5 rounded-lg transition">
-          <span>🌐 Traducir feed al ES: <strong id="translateStatus">OFF</strong></span>
+          <span>🌐 Traducir feed: <strong id="translateStatus">OFF</strong></span>
         </button>
       </div>
     </div>
 
+    <!-- Barra de Categorías -->
     <div class="max-w-7xl mx-auto px-4 pb-3 flex items-center gap-2 overflow-x-auto" id="categoryBar"></div>
   </header>
 
   <!-- SECCIÓN 1: PORTADA EDITORIAL -->
-  <section id="editorialSection" class="max-w-7xl mx-auto px-4 py-6">
+  <main id="editorialSection" class="max-w-7xl mx-auto px-4 py-6">
     <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-6 mb-6 border-b border-slate-800">
       <div>
         <div class="flex items-center gap-2 text-xs text-cyan-400 font-semibold uppercase tracking-wider">
-          <span>Edición Especial de Divulgación Científica</span>
+          <span>Hemeroteca Científica con Resúmenes y Divulgación</span>
           <span>•</span>
-          <span id="currentEditionDate">Actualizado en Vivo</span>
+          <span id="currentEditionDate">En vivo</span>
         </div>
-        <h2 id="currentEditionTitle" class="text-2xl sm:text-3xl font-serif font-bold text-white mt-1">
+        <h2 class="text-2xl sm:text-3xl font-serif font-bold text-white mt-1">
           Panorama Global de Avances Científicos
         </h2>
       </div>
 
       <div class="flex items-center gap-2">
-        <label class="text-xs text-slate-400">Hemeroteca de informes:</label>
+        <label class="text-xs text-slate-400">Ediciones:</label>
         <select id="editionSelector" onchange="selectEdition(this.value)" class="bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg px-3 py-2 focus:outline-none focus:border-cyan-400"></select>
       </div>
     </div>
 
     <div id="editorialHero" class="mb-8"></div>
     <div id="editorialGrid" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
-  </section>
+  </main>
 
-  <!-- SECCIÓN 2: RADAR EN TIEMPO REAL -->
-  <section id="liveSection" class="hidden max-w-7xl mx-auto px-4 py-6">
+  <!-- SECCIÓN 2: RADAR EN VIVO -->
+  <main id="liveSection" class="hidden max-w-7xl mx-auto px-4 py-6">
     <div class="bg-slate-900/70 border border-slate-800 rounded-xl p-4 mb-6 flex flex-wrap items-center justify-between gap-4">
       <div class="flex items-center gap-2 overflow-x-auto" id="providerBar"></div>
       <div class="flex items-center gap-3 text-xs">
-        <span id="statusText" class="text-slate-400">Cargando fuentes científicas...</span>
+        <span id="statusText" class="text-slate-400">Conectando...</span>
       </div>
     </div>
     <div id="liveGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"></div>
-  </section>
+  </main>
 
-  <!-- MODAL DE LECTURA (EXPANDE ABSTRACT COMPLETO) -->
-  <div id="readerModal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
+  <!-- MODAL 1: ABSTRACT / INTRODUCCIÓN TÉCNICA COMPLETA -->
+  <div id="readerModal" class="fixed inset-0 z-50 hidden bg-black/85 backdrop-blur-sm flex items-center justify-center p-4">
     <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-3xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden">
       <div class="px-6 py-4 bg-slate-950 border-b border-slate-800 flex items-center justify-between">
         <div class="flex items-center gap-2">
@@ -130,6 +130,9 @@
           <span id="readerSource" class="text-xs text-slate-400"></span>
         </div>
         <div class="flex items-center gap-2">
+          <button id="readerSimpleToggleBtn" class="flex items-center gap-1.5 px-3 py-1 text-xs rounded-lg bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-500/40 font-semibold transition">
+            <span>💡 Ver en palabras simples</span>
+          </button>
           <button onclick="adjustFontSize(-1)" class="px-2 py-1 text-xs bg-slate-800 hover:bg-slate-700 rounded text-slate-300">A-</button>
           <button onclick="adjustFontSize(1)" class="px-2 py-1 text-xs bg-slate-800 hover:bg-slate-700 rounded text-slate-300">A+</button>
           <button onclick="closeReaderModal()" class="ml-2 text-slate-400 hover:text-white text-lg font-bold px-2">✕</button>
@@ -143,15 +146,42 @@
     </div>
   </div>
 
-  <!-- MODAL IMPORTADOR -->
+  <!-- MODAL 2: DIVULGACIÓN CIENTÍFICA ("EN PALABRAS SIMPLES") -->
+  <div id="simpleModal" class="fixed inset-0 z-50 hidden bg-black/85 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-amber-500/40 rounded-2xl max-w-2xl w-full max-h-[90vh] flex flex-col shadow-2xl shadow-amber-500/10 overflow-hidden">
+      <div class="px-6 py-4 bg-gradient-to-r from-slate-950 via-slate-900 to-amber-950/30 border-b border-slate-800 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <span class="w-7 h-7 rounded-lg bg-amber-400/20 text-amber-300 flex items-center justify-center text-sm font-bold">💡</span>
+          <div>
+            <h4 class="text-sm font-bold text-white">Divulgación & Contexto Cotidiano</h4>
+            <p class="text-[11px] text-amber-200/80">Explicación sin tecnicismos para entender por qué importa</p>
+          </div>
+        </div>
+        <button onclick="closeSimpleModal()" class="text-slate-400 hover:text-white text-lg font-bold px-2">✕</button>
+      </div>
+
+      <div id="simpleContent" class="p-6 sm:p-7 overflow-y-auto space-y-5 text-sm text-slate-200"></div>
+
+      <div class="px-6 py-3.5 bg-slate-950 border-t border-slate-800 flex items-center justify-between">
+        <button id="simpleToTechBtn" class="text-xs text-cyan-400 hover:text-cyan-300 flex items-center gap-1 font-semibold">
+          <span>🔬 Ver Abstract y datos técnicos originales →</span>
+        </button>
+        <button onclick="closeSimpleModal()" class="px-4 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-200 transition">
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 3: IMPORTADOR DE INFORMES -->
   <div id="importModal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
     <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-2xl w-full p-6 shadow-2xl space-y-4">
       <div class="flex items-center justify-between border-b border-slate-800 pb-3">
         <h3 class="text-lg font-bold text-white">📥 Importar Informe Científico</h3>
         <button onclick="closeImportModal()" class="text-slate-400 hover:text-white text-lg font-bold">✕</button>
       </div>
-      <input id="importTitleInput" type="text" placeholder="Título de la edición" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white" />
-      <textarea id="importMarkdownInput" rows="8" placeholder="Pega aquí el informe..." class="w-full bg-slate-950 border border-slate-700 rounded-lg p-3 text-xs text-slate-200 font-mono"></textarea>
+      <input id="importTitleInput" type="text" placeholder="Título de la edición (ej: Resumen Semanal)" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white" />
+      <textarea id="importMarkdownInput" rows="8" placeholder="Pega aquí el informe o resumen de papers..." class="w-full bg-slate-950 border border-slate-700 rounded-lg p-3 text-xs text-slate-200 font-mono"></textarea>
       <div class="flex justify-end gap-3 pt-2">
         <button onclick="closeImportModal()" class="px-4 py-2 text-xs text-slate-400">Cancelar</button>
         <button onclick="processImportedReport()" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold text-xs px-4 py-2 rounded-lg">✨ Convertir</button>
@@ -184,37 +214,71 @@
       { id: 'press', name: 'ScienceDaily / Otros' }
     ];
 
-    // Respaldo base inicial con abstracts completos
+    // Artículos precargados con Abstract técnico + Explicación divulgativa
     const BACKUP_ARTICLES = [
       {
-        title: "Too much RNA can starve cells of energy, scientists discover",
-        link: "https://www.sciencedaily.com/releases/2026/10/261020085023.htm",
-        description: "Scientists have uncovered an unexpected danger lurking inside cells: too much RNA can damage the structures responsible for producing energy without relying on the immune system.",
-        abstract: "Scientists have uncovered an unexpected danger lurking inside cells: too much RNA can damage the structures responsible for producing energy without relying on the immune system. The accumulation of aberrant or excessive non-coding RNA disrupts mitochondrial membrane potentials and enzymatic transport chains, leading to bioenergetic starvation and accelerating tissue senescence.",
-        pubDate: "Wed, 21 Oct 2026 09:02:34 EDT",
-        category: "longevity",
-        provider: "press",
-        source: "ScienceDaily Longevity"
+        title: "TDCOSMO: Medición del 3% de la constante de Hubble mediante lentes gravitacionales fuertes",
+        link: "https://arxiv.org/abs/2610.14781",
+        description: "La colaboración TDCOSMO logra una medición geométrica independiente de la constante de Hubble con una incertidumbre del 3%, aportando datos decisivos sobre la tensión en la tasa de expansión cósmica.",
+        abstract: "En el marco cosmológico plano de materia oscura fría con constante cosmológica (ΛCDM), el consorcio TDCOSMO determinó un valor de H0 = 71.1 (+2.4 / -2.3) km/s/Mpc. Al integrar de manera conjunta las muestras SLACS y SL2S para mitigar sistemáticamente la degeneración del plano de masa (mass-sheet degeneracy), la precisión combinada alcanza el 3.0%. Los resultados confirman una discrepancia persistente frente a las predicciones derivadas de la radiación de fondo de microondas modeladas por Planck.",
+        simple: {
+          core: "Medir con enorme precisión a qué velocidad se está separando el universo, usando galaxias enteras como lupas gigantes cósmicas.",
+          finding: "Lograron una precisión del 3% usando lentes gravitacionales (cuando la masa de una galaxia dobla la luz de lo que hay detrás). El resultado confirma que el universo actual parece expandirse más rápido de lo que predecían los cálculos del universo primitivo.",
+          analogy: "Imagina que calculas a qué velocidad viaja un coche mirando su aceleración inicial y tu cálculo dice 100 km/h. Pero al apuntarle con un radar de velocidad en la carretera, marca 115 km/h. O el velocímetro está roto, o el coche tiene un 'turbo oculto' en su motor que no conocemos (nueva física).",
+          why: "Podría obligar a replantear el modelo estándar de la cosmología y revelar propiedades desconocidas de la energía oscura."
+        },
+        pubDate: "Wed, 04 Nov 2026 18:00:00 GMT",
+        category: "astro",
+        provider: "arxiv",
+        source: "arXiv Astrofísica"
       },
       {
-        title: "Natural compound could fight rheumatoid arthritis at its source",
-        link: "https://www.sciencedaily.com/releases/2026/10/261020085309.htm",
-        description: "A natural compound extracted from a medicinal plant has shown surprising promise against rheumatoid arthritis. In rats, it reduced joint swelling and calmed immune responses.",
-        abstract: "A natural compound extracted from a medicinal plant has shown surprising promise against rheumatoid arthritis. In rodent models, systemic administration significantly reduced joint swelling and calmed hyperactive immune cascades by selectively modulating NF-kB and synovial inflammatory checkpoints without suppressing global host defense.",
-        pubDate: "Wed, 21 Oct 2026 23:37:25 EDT",
+        title: "Cribados funcionales CRISPR rescatan la disfunción de linfocitos T asociada al envejecimiento en cáncer",
+        link: "https://pubmed.ncbi.nlm.nih.gov/42526438/",
+        description: "Cribados genómicos de célula única in vivo identifican interruptores epigenéticos y metabólicos para reactivar la respuesta antitumoral en organismos longevos.",
+        abstract: "Estudios publicados en Cell y Nature Reviews Immunology utilizaron plataformas de cribado con CRISPR de célula única in vivo para caracterizar los puntos de control del envejecimiento en linfocitos CD8+ infiltrantes de tumores. La ablación genética de reguladores específicos de la cromatina y del metabolismo celular revirtió el fenotipo exhausto de los linfocitos senescentes, restaurando su capacidad proliferativa y citotóxica en microambientes tumorales inmunodeprimidos.",
+        simple: {
+          core: "Encontrar los interruptores genéticos que devuelven la vitalidad juvenil a los glóbulos blancos que combaten el cáncer.",
+          finding: "Con la edad, los linfocitos T se 'agotan' y dejan de atacar a los tumores. Usando la tijera genética CRISPR, apagaron los genes específicos responsables de ese cansancio, logrando que vuelvan a dividirse y destruir células tumorales.",
+          analogy: "Es como quitarle a un motor viejo una válvula sucia que lo limitaba: de pronto vuelve a acelerar y responder como cuando era nuevo.",
+          why: "La gran mayoría de los pacientes con cáncer son adultos mayores, donde las terapias inmunológicas actuales suelen fallar por el envejecimiento inmune. Esto abre la puerta a reactivarlas con alta eficacia."
+        },
+        pubDate: "Wed, 04 Nov 2026 14:30:00 GMT",
         category: "longevity",
-        provider: "press",
-        source: "ScienceDaily Longevity"
+        provider: "pubmed",
+        source: "PubMed / Cell"
       },
       {
-        title: "Millions take fish oil for brain health. A two-year study found no benefit",
-        link: "https://www.sciencedaily.com/releases/2026/10/261020085427.htm",
-        description: "A surprising two-year clinical trial found that fish oil supplements successfully delivered omega-3s to the brain but failed to improve memory or protect against age-related brain shrinkage.",
-        abstract: "A rigorous double-blind, two-year clinical trial evaluated high-dose omega-3 polyunsaturated fatty acid supplementation in older adults. While biomarker analysis confirmed effective delivery across the blood-brain barrier, volumetric MRI and neurocognitive testing revealed no statistically significant preservation of hippocampal volume nor deceleration in age-related cognitive decline compared to placebo.",
-        pubDate: "Thu, 22 Oct 2026 08:46:24 EDT",
-        category: "longevity",
-        provider: "press",
-        source: "ScienceDaily Longevity"
+        title: "Mamba Quantum Eigensolver (MQE): Espacios de estado selectivos para química cuántica macromolecular",
+        link: "https://arxiv.org/abs/2610.29779",
+        description: "Una nueva arquitectura basada en modelos de estado selectivo calcula energías de enlaces en moléculas complejas con consumo lineal de memoria.",
+        abstract: "El marco algorítmico MQE adapta modelos de espacio de estados estructurados (SSMs) a la simulación del estado fundamental de Hamiltonianos moleculares de muchos cuerpos. Al evitar el cuello de botella cuadrático de la autoatención de los transformadores, la técnica permite calcular energías y transiciones de fase de catalizadores macromoleculares con una precisión comparable a la diagonalización exacta clásica.",
+        simple: {
+          core: "Simular reacciones químicas y moléculas gigantes en computadoras sin que se queden sin memoria ni se tilden.",
+          finding: "Crearon un algoritmo inteligente que predice la interacción cuántica de los electrones con una memoria que crece en línea recta, permitiendo simular moléculas mucho más grandes que los métodos de IA actuales.",
+          analogy: "Los transformadores actuales leen una molécula mirando todos los electrones contra todos a la vez (como si 100 personas hablaran todas con todas en una fiesta, requiriendo 10.000 conversaciones). Mamba escucha el flujo ordenadamente y recuerda solo lo importante, reduciendo el ruido al mínimo.",
+          why: "Acelera el diseño por computadora de nuevos fármacos, baterías más eficientes y catalizadores para capturar dióxido de carbono."
+        },
+        pubDate: "Tue, 03 Nov 2026 11:20:00 GMT",
+        category: "ai_tech",
+        provider: "arxiv",
+        source: "arXiv IA"
+      },
+      {
+        title: "Dual-Phase Flow Matching para deblending probabilístico en campos astronómicos densos",
+        link: "https://arxiv.org/abs/2610.28919",
+        description: "Algoritmos de transporte óptimo resuelven la superposición extrema de galaxias y estrellas en imágenes de telescopios espaciales profundos.",
+        abstract: "Científicos presentaron una arquitectura generativa de Flow Matching en dos fases para la deblending y fotometría de precisión de fuentes astronómicas altamente solapadas en relevamientos de cielo profundo. El método modela la distribución a posteriori sin depender de aproximaciones gaussianas, logrando identificar galaxias tenues donde los métodos de máxima verosimilitud fallan.",
+        simple: {
+          core: "Separar digitalmente las luces de galaxias que aparecen encimadas o borrosas en las fotos astronómicas.",
+          finding: "En las fotos de telescopios profundos como el James Webb, cientos de galaxias lejanas aparecen pegadas en una sola mancha. Este algoritmo aprende matemáticamente la 'forma' de cada luz y las despega limpiamente.",
+          analogy: "Es como escuchar una grabación en una cafetería ruidosa con diez personas hablando a la vez y usar un software de audio que separa con claridad impecable la voz de cada persona por pistas separadas.",
+          why: "Permite estudiar las primeras galaxias del cosmos sin confundir su brillo con el de estrellas intermedias."
+        },
+        pubDate: "Mon, 02 Nov 2026 16:45:00 GMT",
+        category: "astro",
+        provider: "arxiv",
+        source: "arXiv Astrofísica"
       }
     ];
 
@@ -228,6 +292,7 @@
     let searchQuery = '';
     let autoTranslate = false;
     let readerFontSize = 16;
+    let currentActiveIdx = null;
     let editions = [{ id: 'ed-auto', title: 'Radar Científico Automatizado', date: 'En Vivo', articles: [] }];
     let currentEditionId = editions[0].id;
     let translationCache = JSON.parse(localStorage.getItem('sciradar_translations') || '{}');
@@ -248,6 +313,20 @@
         searchQuery = e.target.value.toLowerCase();
         if (currentView === 'editorial') renderEditorialView();
         else renderLiveView();
+      });
+
+      document.getElementById('readerSimpleToggleBtn').addEventListener('click', () => {
+        if (currentActiveIdx !== null) {
+          closeReaderModal();
+          openSimpleReader(currentActiveIdx);
+        }
+      });
+
+      document.getElementById('simpleToTechBtn').addEventListener('click', () => {
+        if (currentActiveIdx !== null) {
+          closeSimpleModal();
+          openEditorialReader(currentActiveIdx);
+        }
       });
 
       sincronizarJSONFondo();
@@ -337,6 +416,16 @@
       renderEditorialView();
     }
 
+    function getSimpleExplanation(art) {
+      if (art.simple && art.simple.core) return art.simple;
+      return {
+        core: "Estudio científico recién capturado por los sensores de SciRadar.",
+        finding: art.description || "Consulta el texto completo para examinar las conclusiones metodológicas.",
+        analogy: "La ciencia avanza pieza a pieza: este estudio aporta una medición o modelo que ayuda a completar el cuadro general.",
+        why: "Proporciona datos verificados para comprender el fenómeno y alimentar futuros experimentos."
+      };
+    }
+
     function renderEditorialView() {
       const articlesToDisplay = liveArticles.map(art => ({
         category: art.category || 'bio',
@@ -344,8 +433,7 @@
         subtitle: `Fuente: ${art.source || 'Repositorio Científico'} • ${art.pubDate ? art.pubDate.slice(0, 16) : 'Reciente'}`,
         body: (autoTranslate && translationCache[art.link]?.desc) || art.description || 'Detalles completos en el estudio original.',
         abstract: art.abstract || art.description || 'Consulta el documento original para acceder al abstract completo.',
-        whyItMatters: 'Capturado por el motor de rastreo continuo de SciRadar.',
-        readTime: '3 min',
+        simple: getSimpleExplanation(art),
         impact: art.source || 'Radar Automático',
         links: [{ label: 'Estudio original', url: art.link }]
       }));
@@ -375,10 +463,20 @@
           </div>
           <h3 onclick="openEditorialReader(0)" class="cursor-pointer text-2xl sm:text-3xl font-serif font-bold text-white hover:text-cyan-300 transition leading-snug mb-3">${hero.headline}</h3>
           <p class="text-base text-cyan-200/90 font-medium mb-4">${hero.subtitle}</p>
-          <p class="text-sm text-slate-300 leading-relaxed mb-5 font-serif line-clamp-3">${hero.body}</p>
-          <div class="flex items-center justify-between pt-4 border-t border-slate-800">
-            <a href="${hero.links[0].url}" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-slate-800 text-cyan-300 border border-slate-700">📄 Estudio original ↗</a>
-            <button onclick="openEditorialReader(0)" class="text-xs font-bold text-white bg-cyan-600 hover:bg-cyan-500 px-4 py-2 rounded-lg transition">📖 Leer completo</button>
+          <p class="text-sm text-slate-300 leading-relaxed mb-6 font-serif line-clamp-3">${hero.body}</p>
+          
+          <div class="flex flex-wrap items-center justify-between gap-3 pt-4 border-t border-slate-800">
+            <a href="${hero.links[0].url}" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-cyan-300 border border-slate-700 transition">
+              📄 Paper original ↗
+            </a>
+            <div class="flex items-center gap-2">
+              <button onclick="openSimpleReader(0)" class="text-xs font-semibold px-3.5 py-2 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/40 transition flex items-center gap-1.5 shadow">
+                <span>💡 En palabras simples</span>
+              </button>
+              <button onclick="openEditorialReader(0)" class="text-xs font-bold text-white bg-cyan-600 hover:bg-cyan-500 px-4 py-2 rounded-lg transition shadow">
+                📖 Leer Abstract completo
+              </button>
+            </div>
           </div>
         </div>
       `;
@@ -391,14 +489,21 @@
             <div>
               <div class="flex items-center justify-between gap-2 mb-2">
                 <span class="text-xs font-medium px-2.5 py-0.5 rounded-full border ${cat.badge}">${cat.icon} ${cat.name}</span>
-                <span class="text-[11px] text-slate-400">${art.impact}</span>
+                <span class="text-[11px] text-slate-400 font-mono">${art.impact}</span>
               </div>
-              <h3 onclick="openEditorialReader(${realIdx})" class="cursor-pointer text-lg font-serif font-bold text-slate-100 hover:text-cyan-400 mt-2 mb-2">${art.headline}</h3>
+              <h3 onclick="openEditorialReader(${realIdx})" class="cursor-pointer text-lg font-serif font-bold text-slate-100 hover:text-cyan-400 mt-2 mb-2 transition">${art.headline}</h3>
               <p class="text-xs text-slate-300 line-clamp-3">${art.body}</p>
             </div>
-            <div class="pt-4 mt-4 border-t border-slate-800 flex items-center justify-between">
-              <a href="${art.links[0].url}" target="_blank" rel="noopener noreferrer" class="text-[11px] px-2.5 py-1 rounded bg-slate-800 text-cyan-300">Estudio ↗</a>
-              <button onclick="openEditorialReader(${realIdx})" class="text-xs text-cyan-400 hover:text-cyan-300 font-semibold transition">📖 Leer →</button>
+            <div class="pt-4 mt-5 border-t border-slate-800 flex flex-wrap items-center justify-between gap-2">
+              <a href="${art.links[0].url}" target="_blank" rel="noopener noreferrer" class="text-[11px] px-2.5 py-1 rounded bg-slate-800 text-cyan-300 hover:text-white transition">Estudio ↗</a>
+              <div class="flex items-center gap-1.5">
+                <button onclick="openSimpleReader(${realIdx})" class="text-xs px-2.5 py-1.5 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/30 font-medium transition flex items-center gap-1">
+                  <span>💡 Simple</span>
+                </button>
+                <button onclick="openEditorialReader(${realIdx})" class="text-xs px-3 py-1.5 rounded-lg bg-cyan-500/20 hover:bg-cyan-500/30 text-cyan-300 border border-cyan-500/40 font-semibold transition">
+                  📖 Abstract →
+                </button>
+              </div>
             </div>
           </article>
         `;
@@ -427,35 +532,40 @@
             <div>
               <div class="flex items-center justify-between gap-2 mb-2">
                 <span class="text-[11px] font-medium px-2 py-0.5 rounded-full border ${cat.badge}">${cat.icon} ${cat.name}</span>
-                <span class="text-[11px] text-slate-400">${art.source || ''}</span>
+                <span class="text-[11px] text-slate-400 font-mono">${art.source || ''}</span>
               </div>
               <h3 onclick="openLiveReader(${idx})" class="cursor-pointer text-base font-serif font-bold text-slate-100 hover:text-cyan-400 transition mt-1 mb-2">${title}</h3>
               <p class="text-xs text-slate-300 line-clamp-3">${desc || ''}</p>
             </div>
             <div class="pt-3 mt-4 border-t border-slate-800 flex items-center justify-between text-xs">
               <span class="text-slate-500">${art.pubDate ? art.pubDate.slice(0, 16) : 'Reciente'}</span>
-              <button onclick="openLiveReader(${idx})" class="text-cyan-400 hover:text-cyan-300 font-semibold transition">Leer abstract ↗</button>
+              <div class="flex items-center gap-2">
+                <button onclick="openLiveSimpleReader(${idx})" class="text-amber-400 hover:text-amber-300 font-semibold transition">💡 Simple</button>
+                <button onclick="openLiveReader(${idx})" class="text-cyan-400 hover:text-cyan-300 font-semibold transition">Abstract ↗</button>
+              </div>
             </div>
           </article>
         `;
       }).join('');
     }
 
+    // Modal Técnico
     function openEditorialReader(idx) {
       const art = (window._currentFilteredEditorial || [])[idx];
       if (!art) return;
-      
+      currentActiveIdx = idx;
+
       document.getElementById('readerBadge').textContent = art.impact || 'Investigación';
       document.getElementById('readerSource').textContent = art.subtitle;
-      
+
       const content = document.getElementById('readerContent');
       content.style.fontSize = `${readerFontSize}px`;
-      
+
       const cuerpoAbstract = art.abstract || art.body || 'Sin abstract disponible.';
       content.innerHTML = `
         <h2 class="text-2xl sm:text-3xl font-bold font-serif text-white leading-tight mb-4">${art.headline}</h2>
         <div class="inline-block px-2.5 py-1 mb-4 rounded bg-slate-800 text-cyan-300 text-xs font-mono font-medium uppercase tracking-wider">
-          Abstract / Introducción del estudio
+          Abstract / Introducción Oficial del Paper
         </div>
         <p class="text-slate-200 font-serif leading-relaxed text-base whitespace-pre-line text-justify">${cuerpoAbstract}</p>
       `;
@@ -464,42 +574,59 @@
       document.getElementById('readerTranslateLink').href = `https://translate.google.com/translate?sl=auto&tl=es&u=${encodeURIComponent(firstUrl)}`;
       document.getElementById('readerLinks').innerHTML = `
         <a href="${firstUrl}" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-4 py-2 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 transition flex items-center gap-1.5 shadow">
-          <span>Abrir paper / noticia original</span>
+          <span>Abrir documento original</span>
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
         </a>
       `;
       document.getElementById('readerModal').classList.remove('hidden');
     }
 
+    // Modal Divulgativo ("En palabras simples")
+    function openSimpleReader(idx) {
+      const art = (window._currentFilteredEditorial || [])[idx];
+      if (!art) return;
+      currentActiveIdx = idx;
+
+      const simple = getSimpleExplanation(art);
+      const content = document.getElementById('simpleContent');
+
+      content.innerHTML = `
+        <h3 class="text-xl sm:text-2xl font-bold font-serif text-white leading-snug">${art.headline}</h3>
+        
+        <div class="bg-amber-500/10 border-l-4 border-amber-400 p-4 rounded-r-xl">
+          <p class="text-xs font-bold uppercase tracking-wider text-amber-300 mb-1">La idea central en una frase</p>
+          <p class="text-sm font-medium text-amber-100">${simple.core}</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400 font-mono">¿Qué descubrieron o crearon?</h4>
+          <p class="text-slate-200 leading-relaxed">${simple.finding}</p>
+        </div>
+
+        <div class="bg-slate-950/70 border border-slate-800 p-4 rounded-xl space-y-1.5">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-cyan-400 font-mono">Para entenderlo con una analogía cotidiana</h4>
+          <p class="text-slate-300 italic text-sm leading-relaxed">"${simple.analogy}"</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-emerald-400 font-mono">¿Por qué esto nos importa a todos?</h4>
+          <p class="text-slate-300 leading-relaxed">${simple.why}</p>
+        </div>
+      `;
+
+      document.getElementById('simpleModal').classList.remove('hidden');
+    }
+
     function openLiveReader(idx) {
       const art = (window._currentFilteredLive || [])[idx];
       if (!art) return;
+      openEditorialReader(idx);
+    }
 
-      document.getElementById('readerBadge').textContent = art.source || 'En Vivo';
-      document.getElementById('readerSource').textContent = `${art.source || ''} • ${art.pubDate ? art.pubDate.slice(0, 16) : 'Reciente'}`;
-
-      const content = document.getElementById('readerContent');
-      content.style.fontSize = `${readerFontSize}px`;
-
-      const title = (autoTranslate && translationCache[art.link]?.title) || art.title;
-      const cuerpoAbstract = art.abstract || art.description || 'Sin abstract disponible.';
-
-      content.innerHTML = `
-        <h2 class="text-2xl sm:text-3xl font-bold font-serif text-white leading-tight mb-4">${title}</h2>
-        <div class="inline-block px-2.5 py-1 mb-4 rounded bg-slate-800 text-cyan-300 text-xs font-mono font-medium uppercase tracking-wider">
-          Abstract / Resumen de la fuente
-        </div>
-        <p class="text-slate-200 font-serif leading-relaxed text-base whitespace-pre-line text-justify">${cuerpoAbstract}</p>
-      `;
-
-      document.getElementById('readerTranslateLink').href = `https://translate.google.com/translate?sl=auto&tl=es&u=${encodeURIComponent(art.link || '#')}`;
-      document.getElementById('readerLinks').innerHTML = `
-        <a href="${art.link || '#'}" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-4 py-2 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 transition flex items-center gap-1.5 shadow">
-          <span>Abrir paper / noticia original</span>
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
-        </a>
-      `;
-      document.getElementById('readerModal').classList.remove('hidden');
+    function openLiveSimpleReader(idx) {
+      const art = (window._currentFilteredLive || [])[idx];
+      if (!art) return;
+      openSimpleReader(idx);
     }
 
     function adjustFontSize(delta) {
@@ -542,6 +669,7 @@
     }
 
     function closeReaderModal() { document.getElementById('readerModal').classList.add('hidden'); }
+    function closeSimpleModal() { document.getElementById('simpleModal').classList.add('hidden'); }
     function openImportModal() { document.getElementById('importModal').classList.remove('hidden'); }
     function closeImportModal() { document.getElementById('importModal').classList.add('hidden'); }
 
@@ -550,10 +678,16 @@
       const customTitle = document.getElementById('importTitleInput').value.trim();
       if (!rawText) return;
       liveArticles.unshift({ 
-        title: customTitle || "Informe Importado", 
+        title: customTitle || "Informe Científico Importado", 
         link: "#", 
         description: rawText.slice(0, 220) + "...", 
         abstract: rawText, 
+        simple: {
+          core: customTitle || "Informe importado por el usuario",
+          finding: rawText.slice(0, 300) + "...",
+          analogy: "Revisión temática de frontera científica agregada manualmente a la hemeroteca.",
+          why: "Información relevante para seguimiento de proyectos y análisis bibliográfico."
+        },
         source: "Informe Especial", 
         category: "all" 
       });
@@ -561,6 +695,15 @@
       actualizarContadoresUI();
       renderEditorialView();
     }
+
+    // Cerrar modales con tecla Escape
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeReaderModal();
+        closeSimpleModal();
+        closeImportModal();
+      }
+    });
 
     window.addEventListener('DOMContentLoaded', init);
   </script>
