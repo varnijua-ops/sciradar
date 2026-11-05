@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "The hidden cost of flexible work in academia: women do more parenting",
+    "link": "https://www.nature.com/articles/d41586-026-03568-0",
+    "description": "Nature, Published online: 05 November 2026; doi:10.1038/d41586-026-03568-0Policies designed to keep women in the workforce could be entrenching gendered parenting roles.",
+    "abstract": "Nature, Published online: 05 November 2026; doi:10.1038/d41586-026-03568-0Policies designed to keep women in the workforce could be entrenching gendered parenting roles.",
+    "pubDate": "2026-11-05T12:47:02.198985",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Multiscale multimodal integration of spatial omics through a deep generative model with CORAL",
     "link": "https://www.nature.com/articles/s41588-026-02821-6",
     "description": "Nature Genetics, Published online: 05 November 2026; doi:10.1038/s41588-026-02821-6Cross-scale spatial Omics Registration and Analysis via graph Learning is a deep generative model that integrates multiscale spatial mult...",
