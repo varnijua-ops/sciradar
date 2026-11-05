@@ -1,5 +1,65 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Targeting hormone conversion through dietary fiber improves polyendocrine metabolic ovarian syndrome",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aed8952?af=R",
+    "description": "Science, Volume 394, Issue 6824, November 2026.",
+    "abstract": "Science, Volume 394, Issue 6824, November 2026.",
+    "pubDate": "2026-11-05T20:35:48.010714",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
+    "title": "Glacial abrupt transitions in ocean circulation were much slower than ice-core records imply",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aed4270?af=R",
+    "description": "Science, Volume 394, Issue 6824, Page 654-659, November 2026.",
+    "abstract": "Science, Volume 394, Issue 6824, Page 654-659, November 2026.",
+    "pubDate": "2026-11-05T20:35:48.010702",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
+    "title": "Tumor metastasis co-opts liver hematopoiesis to promote immunosuppression",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aea3046?af=R",
+    "description": "Science, Volume 394, Issue 6824, November 2026.",
+    "abstract": "Science, Volume 394, Issue 6824, November 2026.",
+    "pubDate": "2026-11-05T20:35:48.010689",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
+    "title": "Discovering molecular modulators with nanoswitch screening",
+    "link": "https://www.science.org/doi/abs/10.1126/science.adt7185?af=R",
+    "description": "Science, Volume 394, Issue 6824, November 2026.",
+    "abstract": "Science, Volume 394, Issue 6824, November 2026.",
+    "pubDate": "2026-11-05T20:35:48.010676",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
+    "title": "Equivalence of pseudogap and pairing energy in a cuprate high-temperature superconductor",
+    "link": "https://www.science.org/doi/abs/10.1126/science.adt3444?af=R",
+    "description": "Science, Volume 394, Issue 6824, Page 682-685, November 2026.",
+    "abstract": "Science, Volume 394, Issue 6824, Page 682-685, November 2026.",
+    "pubDate": "2026-11-05T20:35:48.010663",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
+    "title": "A cultural history of altered artifacts",
+    "link": "https://www.science.org/doi/abs/10.1126/science.ael6284?af=R",
+    "description": "Science, Volume 394, Issue 6824, Page 600-601, November 2026.",
+    "abstract": "Science, Volume 394, Issue 6824, Page 600-601, November 2026.",
+    "pubDate": "2026-11-05T20:35:48.010642",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
     "title": "Hydrogen Derivatives Enable Cost-Effective Carbon Neutrality in China",
     "link": "https://www.nature.com/articles/s41586-026-11351-4",
     "description": "Nature, Published online: 05 November 2026; doi:10.1038/s41586-026-11351-4Hydrogen Derivatives Enable Cost-Effective Carbon Neutrality in China",
