@@ -214,7 +214,7 @@
       { id: 'press', name: 'ScienceDaily / Otros' }
     ];
 
-    // Artículos precargados con Abstract técnico + Explicación divulgativa
+    // Artículos de respaldo con divulgación personalizada
     const BACKUP_ARTICLES = [
       {
         title: "TDCOSMO: Medición del 3% de la constante de Hubble mediante lentes gravitacionales fuertes",
@@ -222,10 +222,10 @@
         description: "La colaboración TDCOSMO logra una medición geométrica independiente de la constante de Hubble con una incertidumbre del 3%, aportando datos decisivos sobre la tensión en la tasa de expansión cósmica.",
         abstract: "En el marco cosmológico plano de materia oscura fría con constante cosmológica (ΛCDM), el consorcio TDCOSMO determinó un valor de H0 = 71.1 (+2.4 / -2.3) km/s/Mpc. Al integrar de manera conjunta las muestras SLACS y SL2S para mitigar sistemáticamente la degeneración del plano de masa (mass-sheet degeneracy), la precisión combinada alcanza el 3.0%. Los resultados confirman una discrepancia persistente frente a las predicciones derivadas de la radiación de fondo de microondas modeladas por Planck.",
         simple: {
-          core: "Medir con enorme precisión a qué velocidad se está separando el universo, usando galaxias enteras como lupas gigantes cósmicas.",
-          finding: "Lograron una precisión del 3% usando lentes gravitacionales (cuando la masa de una galaxia dobla la luz de lo que hay detrás). El resultado confirma que el universo actual parece expandirse más rápido de lo que predecían los cálculos del universo primitivo.",
-          analogy: "Imagina que calculas a qué velocidad viaja un coche mirando su aceleración inicial y tu cálculo dice 100 km/h. Pero al apuntarle con un radar de velocidad en la carretera, marca 115 km/h. O el velocímetro está roto, o el coche tiene un 'turbo oculto' en su motor que no conocemos (nueva física).",
-          why: "Podría obligar a replantear el modelo estándar de la cosmología y revelar propiedades desconocidas de la energía oscura."
+          core: "Medir con enorme precisión a qué velocidad se está separando el universo, usando galaxias enteras como lupas cósmicas gigantes.",
+          finding: "Lograron una precisión del 3% usando lentes gravitacionales (la masa de una galaxia curvando la luz detrás de ella). El resultado confirma que el universo cercano se expande más rápido de lo predicho por los modelos del universo primitivo.",
+          contextoArea: "La tensión en la constante de Hubble es el misterio más grande de la cosmología moderna: nos dice que o nuestras mediciones fallan, o falta una pieza en las leyes fundamentales del cosmos.",
+          impacto: "Podría obligar a replantear el modelo estándar de la física y revelar propiedades desconocidas de la energía oscura."
         },
         pubDate: "Wed, 04 Nov 2026 18:00:00 GMT",
         category: "astro",
@@ -239,9 +239,9 @@
         abstract: "Estudios publicados en Cell y Nature Reviews Immunology utilizaron plataformas de cribado con CRISPR de célula única in vivo para caracterizar los puntos de control del envejecimiento en linfocitos CD8+ infiltrantes de tumores. La ablación genética de reguladores específicos de la cromatina y del metabolismo celular revirtió el fenotipo exhausto de los linfocitos senescentes, restaurando su capacidad proliferativa y citotóxica en microambientes tumorales inmunodeprimidos.",
         simple: {
           core: "Encontrar los interruptores genéticos que devuelven la vitalidad juvenil a los glóbulos blancos que combaten el cáncer.",
-          finding: "Con la edad, los linfocitos T se 'agotan' y dejan de atacar a los tumores. Usando la tijera genética CRISPR, apagaron los genes específicos responsables de ese cansancio, logrando que vuelvan a dividirse y destruir células tumorales.",
-          analogy: "Es como quitarle a un motor viejo una válvula sucia que lo limitaba: de pronto vuelve a acelerar y responder como cuando era nuevo.",
-          why: "La gran mayoría de los pacientes con cáncer son adultos mayores, donde las terapias inmunológicas actuales suelen fallar por el envejecimiento inmune. Esto abre la puerta a reactivarlas con alta eficacia."
+          finding: "Con la edad, los linfocitos T se agotan y dejan de atacar a los tumores. Usando edición genética CRISPR apagaron los genes responsables de ese cansancio, logrando que vuelvan a dividirse y destruir células tumorales.",
+          contextoArea: "Con los años, el sistema inmunológico sufre 'inmunosenescencia': las células defensivas pierden energía y permiten que las células malignas escapen.",
+          impacto: "La mayoría de los pacientes oncológicos son adultos mayores donde las terapias biológicas suelen fallar. Esto abre la puerta a reactivar sus propias defensas con alta efectividad."
         },
         pubDate: "Wed, 04 Nov 2026 14:30:00 GMT",
         category: "longevity",
@@ -254,31 +254,15 @@
         description: "Una nueva arquitectura basada en modelos de estado selectivo calcula energías de enlaces en moléculas complejas con consumo lineal de memoria.",
         abstract: "El marco algorítmico MQE adapta modelos de espacio de estados estructurados (SSMs) a la simulación del estado fundamental de Hamiltonianos moleculares de muchos cuerpos. Al evitar el cuello de botella cuadrático de la autoatención de los transformadores, la técnica permite calcular energías y transiciones de fase de catalizadores macromoleculares con una precisión comparable a la diagonalización exacta clásica.",
         simple: {
-          core: "Simular reacciones químicas y moléculas gigantes en computadoras sin que se queden sin memoria ni se tilden.",
-          finding: "Crearon un algoritmo inteligente que predice la interacción cuántica de los electrones con una memoria que crece en línea recta, permitiendo simular moléculas mucho más grandes que los métodos de IA actuales.",
-          analogy: "Los transformadores actuales leen una molécula mirando todos los electrones contra todos a la vez (como si 100 personas hablaran todas con todas en una fiesta, requiriendo 10.000 conversaciones). Mamba escucha el flujo ordenadamente y recuerda solo lo importante, reduciendo el ruido al mínimo.",
-          why: "Acelera el diseño por computadora de nuevos fármacos, baterías más eficientes y catalizadores para capturar dióxido de carbono."
+          core: "Simular reacciones químicas y moléculas gigantes en computadoras sin que se queden sin memoria ni colapsen.",
+          finding: "Crearon un algoritmo inteligente que predice la interacción cuántica de los electrones con una memoria que crece en línea recta, permitiendo simular moléculas mucho más grandes que los métodos actuales de IA.",
+          contextoArea: "Calcular el comportamiento de los electrones en una molécula requiere un poder de cálculo brutal: cuantas más partes tiene la molécula, más se dispara la dificultad.",
+          impacto: "Acelera el diseño por computadora de nuevos fármacos, baterías más eficientes y catalizadores para capturar dióxido de carbono sin requerir años de ensayos ciegos en laboratorio."
         },
         pubDate: "Tue, 03 Nov 2026 11:20:00 GMT",
         category: "ai_tech",
         provider: "arxiv",
         source: "arXiv IA"
-      },
-      {
-        title: "Dual-Phase Flow Matching para deblending probabilístico en campos astronómicos densos",
-        link: "https://arxiv.org/abs/2610.28919",
-        description: "Algoritmos de transporte óptimo resuelven la superposición extrema de galaxias y estrellas en imágenes de telescopios espaciales profundos.",
-        abstract: "Científicos presentaron una arquitectura generativa de Flow Matching en dos fases para la deblending y fotometría de precisión de fuentes astronómicas altamente solapadas en relevamientos de cielo profundo. El método modela la distribución a posteriori sin depender de aproximaciones gaussianas, logrando identificar galaxias tenues donde los métodos de máxima verosimilitud fallan.",
-        simple: {
-          core: "Separar digitalmente las luces de galaxias que aparecen encimadas o borrosas en las fotos astronómicas.",
-          finding: "En las fotos de telescopios profundos como el James Webb, cientos de galaxias lejanas aparecen pegadas en una sola mancha. Este algoritmo aprende matemáticamente la 'forma' de cada luz y las despega limpiamente.",
-          analogy: "Es como escuchar una grabación en una cafetería ruidosa con diez personas hablando a la vez y usar un software de audio que separa con claridad impecable la voz de cada persona por pistas separadas.",
-          why: "Permite estudiar las primeras galaxias del cosmos sin confundir su brillo con el de estrellas intermedias."
-        },
-        pubDate: "Mon, 02 Nov 2026 16:45:00 GMT",
-        category: "astro",
-        provider: "arxiv",
-        source: "arXiv Astrofísica"
       }
     ];
 
@@ -293,6 +277,7 @@
     let autoTranslate = false;
     let readerFontSize = 16;
     let currentActiveIdx = null;
+    let currentActiveType = 'editorial';
     let editions = [{ id: 'ed-auto', title: 'Radar Científico Automatizado', date: 'En Vivo', articles: [] }];
     let currentEditionId = editions[0].id;
     let translationCache = JSON.parse(localStorage.getItem('sciradar_translations') || '{}');
@@ -318,14 +303,15 @@
       document.getElementById('readerSimpleToggleBtn').addEventListener('click', () => {
         if (currentActiveIdx !== null) {
           closeReaderModal();
-          openSimpleReader(currentActiveIdx);
+          openSimpleReader(currentActiveIdx, currentActiveType);
         }
       });
 
       document.getElementById('simpleToTechBtn').addEventListener('click', () => {
         if (currentActiveIdx !== null) {
           closeSimpleModal();
-          openEditorialReader(currentActiveIdx);
+          if (currentActiveType === 'editorial') openEditorialReader(currentActiveIdx);
+          else openLiveReader(currentActiveIdx);
         }
       });
 
@@ -416,13 +402,77 @@
       renderEditorialView();
     }
 
-    function getSimpleExplanation(art) {
-      if (art.simple && art.simple.core) return art.simple;
+    // Generador dinámico e inteligente de explicaciones divulgativas
+    function generarExplicacionDivulgativa(art) {
+      if (art.simple && art.simple.core && art.simple.core !== "Informe importado por el usuario") {
+        return {
+          core: art.simple.core,
+          finding: art.simple.finding || art.description,
+          contextoArea: art.simple.contextoArea || art.simple.analogy || "Contexto científico del estudio.",
+          impacto: art.simple.impacto || art.simple.why || "Avance en la frontera del conocimiento.",
+          areaNombre: (CATEGORIES.find(c => c.id === art.category) || {}).name || "Ciencia"
+        };
+      }
+
+      const titulo = art.headline || art.title || "Investigación científica";
+      const texto = art.abstract || art.body || art.description || "";
+      const cat = art.category || "bio";
+
+      const contextos = {
+        astro: {
+          area: "Astrofísica y Cosmología",
+          enfoque: "Este trabajo estudia la física a gran escala del universo, analizando la luz, la gravedad o la materia invisible para entender el origen, la curvatura y la evolución del cosmos.",
+          impacto: "Permite poner a prueba las leyes de la relatividad y la física de partículas en condiciones extremas que jamás podríamos recrear en un laboratorio terrestre."
+        },
+        physics: {
+          area: "Física Cuántica y Materia Condensada",
+          enfoque: "Investiga cómo interactúan partículas elementales, electrones o fotones bajo condiciones extremas de frío, presión o confinamiento atómico.",
+          impacto: "Comprender estos fenómenos es la base para diseñar procesadores cuánticos tolerantes a errores, sensores de ultraprecisión y nuevos superconductores."
+        },
+        bio: {
+          area: "Biomedicina y Biología Molecular",
+          enfoque: "Analiza los mecanismos moleculares y celulares que rigen las enfermedades, la respuesta inmune y la comunicación entre tejidos vivos.",
+          impacto: "Identificar estas vías bioquímicas es el paso indispensable para formular fármacos dirigidos, tratamientos oncológicos y terapias de medicina regenerativa."
+        },
+        genetics: {
+          area: "Genética y Epigenética",
+          enfoque: "Examina cómo las instrucciones del código de ADN y las marcas químicas sobre la cromatina se activan, silencian o alteran a lo largo del tiempo.",
+          impacto: "Abre la posibilidad de corregir mutaciones causantes de patologías hereditarias o modular la expresión celular sin inducir cortes dañinos en el genoma."
+        },
+        longevity: {
+          area: "Longevidad y Biología del Envejecimiento",
+          enfoque: "Estudia las causas profundas del declive celular: daño mitocondrial, acumulación de células senescentes, pérdida de proteostasis y degradación tisular.",
+          impacto: "El objetivo no es solo extender los años de vida cronológica, sino prolongar la ventana de salud activa ('healthspan') previniendo la fragilidad orgánica."
+        },
+        ai_tech: {
+          area: "Inteligencia Artificial y Computación",
+          enfoque: "Propone nuevas arquitecturas matemáticas y algorítmicas para optimizar el procesamiento masivo de datos, la inferencia y el razonamiento lógico.",
+          impacto: "Reduce el consumo energético del cómputo avanzado, minimiza alucinaciones en modelos de lenguaje y acelera el descubrimiento científico autónomo."
+        },
+        math: {
+          area: "Matemáticas y Análisis Cuantitativo",
+          enfoque: "Desarrolla demostraciones formales, cotas analíticas y modelos geométricos para resolver problemas abiertos en ecuaciones diferenciales o teoría de probabilidades.",
+          impacto: "Brinda el marco analítico riguroso e irrefutable sobre el cual luego se apoyan la física moderna, los sistemas de optimización y la criptografía."
+        }
+      };
+
+      const ctx = contextos[cat] || contextos.bio;
+
+      // Extrae oraciones del texto real del paper
+      const oraciones = texto.split(/(?<=[.!?])\s+/).filter(s => s.trim().length > 30);
+      let oracionHallazgo = texto;
+      if (oraciones.length > 1) {
+        oracionHallazgo = oraciones.slice(0, 2).join(' ');
+      } else if (oraciones.length === 1) {
+        oracionHallazgo = oraciones[0];
+      }
+
       return {
-        core: "Estudio científico recién capturado por los sensores de SciRadar.",
-        finding: art.description || "Consulta el texto completo para examinar las conclusiones metodológicas.",
-        analogy: "La ciencia avanza pieza a pieza: este estudio aporta una medición o modelo que ayuda a completar el cuadro general.",
-        why: "Proporciona datos verificados para comprender el fenómeno y alimentar futuros experimentos."
+        core: titulo,
+        finding: oracionHallazgo,
+        contextoArea: ctx.enfoque,
+        impacto: ctx.impacto,
+        areaNombre: ctx.area
       };
     }
 
@@ -433,7 +483,7 @@
         subtitle: `Fuente: ${art.source || 'Repositorio Científico'} • ${art.pubDate ? art.pubDate.slice(0, 16) : 'Reciente'}`,
         body: (autoTranslate && translationCache[art.link]?.desc) || art.description || 'Detalles completos en el estudio original.',
         abstract: art.abstract || art.description || 'Consulta el documento original para acceder al abstract completo.',
-        simple: getSimpleExplanation(art),
+        simple: art.simple || null,
         impact: art.source || 'Radar Automático',
         links: [{ label: 'Estudio original', url: art.link }]
       }));
@@ -470,7 +520,7 @@
               📄 Paper original ↗
             </a>
             <div class="flex items-center gap-2">
-              <button onclick="openSimpleReader(0)" class="text-xs font-semibold px-3.5 py-2 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/40 transition flex items-center gap-1.5 shadow">
+              <button onclick="openSimpleReader(0, 'editorial')" class="text-xs font-semibold px-3.5 py-2 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/40 transition flex items-center gap-1.5 shadow">
                 <span>💡 En palabras simples</span>
               </button>
               <button onclick="openEditorialReader(0)" class="text-xs font-bold text-white bg-cyan-600 hover:bg-cyan-500 px-4 py-2 rounded-lg transition shadow">
@@ -497,7 +547,7 @@
             <div class="pt-4 mt-5 border-t border-slate-800 flex flex-wrap items-center justify-between gap-2">
               <a href="${art.links[0].url}" target="_blank" rel="noopener noreferrer" class="text-[11px] px-2.5 py-1 rounded bg-slate-800 text-cyan-300 hover:text-white transition">Estudio ↗</a>
               <div class="flex items-center gap-1.5">
-                <button onclick="openSimpleReader(${realIdx})" class="text-xs px-2.5 py-1.5 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/30 font-medium transition flex items-center gap-1">
+                <button onclick="openSimpleReader(${realIdx}, 'editorial')" class="text-xs px-2.5 py-1.5 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/30 font-medium transition flex items-center gap-1">
                   <span>💡 Simple</span>
                 </button>
                 <button onclick="openEditorialReader(${realIdx})" class="text-xs px-3 py-1.5 rounded-lg bg-cyan-500/20 hover:bg-cyan-500/30 text-cyan-300 border border-cyan-500/40 font-semibold transition">
@@ -540,7 +590,7 @@
             <div class="pt-3 mt-4 border-t border-slate-800 flex items-center justify-between text-xs">
               <span class="text-slate-500">${art.pubDate ? art.pubDate.slice(0, 16) : 'Reciente'}</span>
               <div class="flex items-center gap-2">
-                <button onclick="openLiveSimpleReader(${idx})" class="text-amber-400 hover:text-amber-300 font-semibold transition">💡 Simple</button>
+                <button onclick="openSimpleReader(${idx}, 'live')" class="text-amber-400 hover:text-amber-300 font-semibold transition">💡 Simple</button>
                 <button onclick="openLiveReader(${idx})" class="text-cyan-400 hover:text-cyan-300 font-semibold transition">Abstract ↗</button>
               </div>
             </div>
@@ -554,6 +604,7 @@
       const art = (window._currentFilteredEditorial || [])[idx];
       if (!art) return;
       currentActiveIdx = idx;
+      currentActiveType = 'editorial';
 
       document.getElementById('readerBadge').textContent = art.impact || 'Investigación';
       document.getElementById('readerSource').textContent = art.subtitle;
@@ -575,58 +626,85 @@
       document.getElementById('readerLinks').innerHTML = `
         <a href="${firstUrl}" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-4 py-2 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 transition flex items-center gap-1.5 shadow">
           <span>Abrir documento original</span>
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      `;
+      document.getElementById('readerModal').classList.remove('hidden');
+    }
+
+    function openLiveReader(idx) {
+      const art = (window._currentFilteredLive || [])[idx];
+      if (!art) return;
+      currentActiveIdx = idx;
+      currentActiveType = 'live';
+
+      document.getElementById('readerBadge').textContent = art.source || 'En Vivo';
+      document.getElementById('readerSource').textContent = `${art.source || ''} • ${art.pubDate ? art.pubDate.slice(0, 16) : 'Reciente'}`;
+
+      const content = document.getElementById('readerContent');
+      content.style.fontSize = `${readerFontSize}px`;
+
+      const title = (autoTranslate && translationCache[art.link]?.title) || art.title;
+      const cuerpoAbstract = art.abstract || art.description || 'Sin abstract disponible.';
+
+      content.innerHTML = `
+        <h2 class="text-2xl sm:text-3xl font-bold font-serif text-white leading-tight mb-4">${title}</h2>
+        <div class="inline-block px-2.5 py-1 mb-4 rounded bg-slate-800 text-cyan-300 text-xs font-mono font-medium uppercase tracking-wider">
+          Abstract / Resumen del Repositorio
+        </div>
+        <p class="text-slate-200 font-serif leading-relaxed text-base whitespace-pre-line text-justify">${cuerpoAbstract}</p>
+      `;
+
+      document.getElementById('readerTranslateLink').href = `https://translate.google.com/translate?sl=auto&tl=es&u=${encodeURIComponent(art.link || '#')}`;
+      document.getElementById('readerLinks').innerHTML = `
+        <a href="${art.link || '#'}" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-4 py-2 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 transition flex items-center gap-1.5 shadow">
+          <span>Abrir documento original</span>
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
         </a>
       `;
       document.getElementById('readerModal').classList.remove('hidden');
     }
 
     // Modal Divulgativo ("En palabras simples")
-    function openSimpleReader(idx) {
-      const art = (window._currentFilteredEditorial || [])[idx];
+    function openSimpleReader(idx, type = 'editorial') {
+      const art = (type === 'editorial') 
+        ? (window._currentFilteredEditorial || [])[idx] 
+        : (window._currentFilteredLive || [])[idx];
+
       if (!art) return;
       currentActiveIdx = idx;
+      currentActiveType = type;
 
-      const simple = getSimpleExplanation(art);
+      const simple = generarExplicacionDivulgativa(art);
       const content = document.getElementById('simpleContent');
 
       content.innerHTML = `
-        <h3 class="text-xl sm:text-2xl font-bold font-serif text-white leading-snug">${art.headline}</h3>
+        <div class="border-b border-slate-800 pb-3">
+          <span class="text-[11px] font-mono uppercase tracking-wider text-amber-400 font-semibold bg-amber-500/10 px-2.5 py-1 rounded-full border border-amber-500/20">
+            ${simple.areaNombre || 'Ciencia de Frontera'}
+          </span>
+          <h3 class="text-xl sm:text-2xl font-bold font-serif text-white leading-snug mt-3">${art.headline || art.title}</h3>
+        </div>
         
         <div class="bg-amber-500/10 border-l-4 border-amber-400 p-4 rounded-r-xl">
-          <p class="text-xs font-bold uppercase tracking-wider text-amber-300 mb-1">La idea central en una frase</p>
-          <p class="text-sm font-medium text-amber-100">${simple.core}</p>
+          <p class="text-xs font-bold uppercase tracking-wider text-amber-300 mb-1 font-mono">De qué trata este trabajo</p>
+          <p class="text-sm font-medium text-amber-100">${simple.contextoArea}</p>
         </div>
 
-        <div class="space-y-2">
-          <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400 font-mono">¿Qué descubrieron o crearon?</h4>
-          <p class="text-slate-200 leading-relaxed">${simple.finding}</p>
+        <div class="space-y-1.5">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400 font-mono">El hallazgo puntual del paper</h4>
+          <p class="text-slate-200 leading-relaxed text-sm bg-slate-950/70 p-4 rounded-xl border border-slate-800 font-serif">
+            ${simple.finding}
+          </p>
         </div>
 
-        <div class="bg-slate-950/70 border border-slate-800 p-4 rounded-xl space-y-1.5">
-          <h4 class="text-xs font-bold uppercase tracking-wider text-cyan-400 font-mono">Para entenderlo con una analogía cotidiana</h4>
-          <p class="text-slate-300 italic text-sm leading-relaxed">"${simple.analogy}"</p>
-        </div>
-
-        <div class="space-y-2">
-          <h4 class="text-xs font-bold uppercase tracking-wider text-emerald-400 font-mono">¿Por qué esto nos importa a todos?</h4>
-          <p class="text-slate-300 leading-relaxed">${simple.why}</p>
+        <div class="space-y-1.5">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-cyan-400 font-mono">¿Por qué importa este avance?</h4>
+          <p class="text-slate-300 leading-relaxed text-sm">${simple.impacto}</p>
         </div>
       `;
 
       document.getElementById('simpleModal').classList.remove('hidden');
-    }
-
-    function openLiveReader(idx) {
-      const art = (window._currentFilteredLive || [])[idx];
-      if (!art) return;
-      openEditorialReader(idx);
-    }
-
-    function openLiveSimpleReader(idx) {
-      const art = (window._currentFilteredLive || [])[idx];
-      if (!art) return;
-      openSimpleReader(idx);
     }
 
     function adjustFontSize(delta) {
@@ -682,12 +760,6 @@
         link: "#", 
         description: rawText.slice(0, 220) + "...", 
         abstract: rawText, 
-        simple: {
-          core: customTitle || "Informe importado por el usuario",
-          finding: rawText.slice(0, 300) + "...",
-          analogy: "Revisión temática de frontera científica agregada manualmente a la hemeroteca.",
-          why: "Información relevante para seguimiento de proyectos y análisis bibliográfico."
-        },
         source: "Informe Especial", 
         category: "all" 
       });
@@ -696,7 +768,7 @@
       renderEditorialView();
     }
 
-    // Cerrar modales con tecla Escape
+    // Tecla Escape para cerrar modales
     window.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         closeReaderModal();
