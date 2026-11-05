@@ -1,5 +1,25 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Hydrogen Derivatives Enable Cost-Effective Carbon Neutrality in China",
+    "link": "https://www.nature.com/articles/s41586-026-11351-4",
+    "description": "Nature, Published online: 05 November 2026; doi:10.1038/s41586-026-11351-4Hydrogen Derivatives Enable Cost-Effective Carbon Neutrality in China",
+    "abstract": "Nature, Published online: 05 November 2026; doi:10.1038/s41586-026-11351-4Hydrogen Derivatives Enable Cost-Effective Carbon Neutrality in China",
+    "pubDate": "2026-11-05T17:47:26.681896",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Opportunistically Detecting Signs of Hypertension on a Consumer Smartwatch",
+    "link": "https://www.nature.com/articles/s41586-026-11336-3",
+    "description": "Nature, Published online: 05 November 2026; doi:10.1038/s41586-026-11336-3Opportunistically Detecting Signs of Hypertension on a Consumer Smartwatch",
+    "abstract": "Nature, Published online: 05 November 2026; doi:10.1038/s41586-026-11336-3Opportunistically Detecting Signs of Hypertension on a Consumer Smartwatch",
+    "pubDate": "2026-11-05T17:47:26.681872",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Scientists solve 30-year-old mystery and discover a hidden defense against inflammation",
     "link": "https://www.sciencedaily.com/releases/2026/11/261101010554.htm",
     "description": "Scientists have solved a decades-old mystery and uncovered a hidden immune system defense that protects healthy cells from the very inflammation meant to fight infections. The surprising discovery could lead to new appro...",
