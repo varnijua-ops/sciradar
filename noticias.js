@@ -1,5 +1,35 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Scientists solve 30-year-old mystery and discover a hidden defense against inflammation",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261101010554.htm",
+    "description": "Scientists have solved a decades-old mystery and uncovered a hidden immune system defense that protects healthy cells from the very inflammation meant to fight infections. The surprising discovery could lead to new appro...",
+    "abstract": "Scientists have solved a decades-old mystery and uncovered a hidden immune system defense that protects healthy cells from the very inflammation meant to fight infections. The surprising discovery could lead to new approaches for treating cancer, inflammatory bowel disease, and other conditions involving excessive inflammation.",
+    "pubDate": "Thu, 05 Nov 2026 06:05:46 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "Scientists discover mysterious “lonely” brain waves linked to memory loss",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261101010556.htm",
+    "description": "Scientists have uncovered a surprising link between Alzheimer’s-related protein buildup, disrupted brain waves during deep sleep, and fading memory. The findings suggest that hidden changes in how the brain processes mem...",
+    "abstract": "Scientists have uncovered a surprising link between Alzheimer’s-related protein buildup, disrupted brain waves during deep sleep, and fading memory. The findings suggest that hidden changes in how the brain processes memories overnight may contribute to age-related memory loss long before Alzheimer’s symptoms appear.",
+    "pubDate": "Thu, 05 Nov 2026 07:50:34 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "Goodbye, cavities? Scientists create gel that could regrow tooth enamel",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261104005059.htm",
+    "description": "Scientists have developed a revolutionary gel that could regrow lost tooth enamel by harnessing minerals naturally found in saliva, potentially overcoming one of dentistry’s biggest limitations. The regenerated enamel be...",
+    "abstract": "Scientists have developed a revolutionary gel that could regrow lost tooth enamel by harnessing minerals naturally found in saliva, potentially overcoming one of dentistry’s biggest limitations. The regenerated enamel behaves much like healthy enamel, raising hopes for a simple treatment that could repair damaged teeth, prevent decay, and reduce sensitivity.",
+    "pubDate": "Thu, 05 Nov 2026 06:37:26 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
     "title": "The hidden cost of flexible work in academia: women do more parenting",
     "link": "https://www.nature.com/articles/d41586-026-03568-0",
     "description": "Nature, Published online: 05 November 2026; doi:10.1038/d41586-026-03568-0Policies designed to keep women in the workforce could be entrenching gendered parenting roles.",
