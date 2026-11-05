@@ -1,5 +1,45 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Multiscale multimodal integration of spatial omics through a deep generative model with CORAL",
+    "link": "https://www.nature.com/articles/s41588-026-02821-6",
+    "description": "Nature Genetics, Published online: 05 November 2026; doi:10.1038/s41588-026-02821-6Cross-scale spatial Omics Registration and Analysis via graph Learning is a deep generative model that integrates multiscale spatial mult...",
+    "abstract": "Nature Genetics, Published online: 05 November 2026; doi:10.1038/s41588-026-02821-6Cross-scale spatial Omics Registration and Analysis via graph Learning is a deep generative model that integrates multiscale spatial multi-omics data using graph-attention aggregation mechanisms, enabling a comprehensive spatial analysis.",
+    "pubDate": "2026-11-05T10:49:41.502457",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "An information-theoretic framework for inferring T cell dynamics from single-cell RNA and T cell receptor sequencing",
+    "link": "https://www.nature.com/articles/s41588-026-02781-x",
+    "description": "Nature Genetics, Published online: 05 November 2026; doi:10.1038/s41588-026-02781-xT cells provide a unique setting for quantification of the relationship between genotype and phenotype. The authors introduce TCRi, an in...",
+    "abstract": "Nature Genetics, Published online: 05 November 2026; doi:10.1038/s41588-026-02781-xT cells provide a unique setting for quantification of the relationship between genotype and phenotype. The authors introduce TCRi, an information-theoretic framework for this, and find mutual information to be a robust determinant of immunotherapeutic response.",
+    "pubDate": "2026-11-05T10:49:41.502441",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "AI-guided cancer survival prediction could spare some children high-dose brain radiation",
+    "link": "https://www.nature.com/articles/s41588-026-02816-3",
+    "description": "Nature Genetics, Published online: 05 November 2026; doi:10.1038/s41588-026-02816-3We developed a multimodal artificial intelligence (AI)-based model to generate time-dependent, individualized survival predictions for pa...",
+    "abstract": "Nature Genetics, Published online: 05 November 2026; doi:10.1038/s41588-026-02816-3We developed a multimodal artificial intelligence (AI)-based model to generate time-dependent, individualized survival predictions for patients with childhood brain tumors. This may help better identify candidates for therapy de-escalation, maintaining survival while reducing lifelong treatment-related side effects.",
+    "pubDate": "2026-11-05T10:49:41.502419",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "The prospects for standardization of optical brightness of satellites",
+    "link": "https://www.nature.com/articles/s41550-026-03015-0",
+    "description": "Nature Astronomy, Published online: 05 November 2026; doi:10.1038/s41550-026-03015-0Protecting the night sky from optical interference by satellites needs a standard that goes beyond a simple brightness limit to consider...",
+    "abstract": "Nature Astronomy, Published online: 05 November 2026; doi:10.1038/s41550-026-03015-0Protecting the night sky from optical interference by satellites needs a standard that goes beyond a simple brightness limit to consider the aggregate impact of constellations. We discuss the infrastructure and tools required to achieve this.",
+    "pubDate": "2026-11-05T10:49:40.746157",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
     "title": "Clearing up a robot’s fuzzy memory",
     "link": "https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
     "description": "In an emergency, a human might someday ask a robotic assistant to fetch a wall-mounted defibrillator located down the hall. But if the robot has incorrectly labeled the defibrillator as a fire extinguisher in its stored ...",
