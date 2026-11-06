@@ -1,5 +1,105 @@
 [
   {
+    "title": "An anti-aging drug may help protect the brain before Alzheimer's symptoms begin",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261104084017.htm",
+    "description": "A surprising new study suggests that an anti-aging drug could help protect people genetically predisposed to Alzheimer's disease. Researchers found that just four weeks of low-dose rapamycin improved brain blood flow in ...",
+    "abstract": "A surprising new study suggests that an anti-aging drug could help protect people genetically predisposed to Alzheimer's disease. Researchers found that just four weeks of low-dose rapamycin improved brain blood flow in healthy middle-aged adults carrying the high-risk APOE4 gene variant, with women showing the strongest benefits. Because declining blood flow can occur years before Alzheimer's symptoms appear, the discovery raises hopes for preventing or delaying the disease before memory loss begins.",
+    "pubDate": "Thu, 05 Nov 2026 20:11:19 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "NASA’s Swift telescope falls to Earth after nearly 22 years in space",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261105224545.htm",
+    "description": "After nearly 22 years of exploring the universe’s most violent explosions, NASA’s Swift Observatory has re-entered Earth’s atmosphere over Indonesia. Originally designed to last just two years, the pioneering space teles...",
+    "abstract": "After nearly 22 years of exploring the universe’s most violent explosions, NASA’s Swift Observatory has re-entered Earth’s atmosphere over Indonesia. Originally designed to last just two years, the pioneering space telescope transformed our understanding of black holes, exploding stars, and mysterious cosmic outbursts.",
+    "pubDate": "Fri, 06 Nov 2026 02:12:55 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Don't miss: Meteor showers, fireballs, and a supermoon light up November's night sky",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261105224547.htm",
+    "description": "November's night sky is packed with celestial wonders, from bright meteor fireballs and a close pairing of Mars and Jupiter to a spectacular supermoon. Meanwhile, NASA's Voyager 1 is making history by becoming the first ...",
+    "abstract": "November's night sky is packed with celestial wonders, from bright meteor fireballs and a close pairing of Mars and Jupiter to a spectacular supermoon. Meanwhile, NASA's Voyager 1 is making history by becoming the first spacecraft to reach a distance of one light-day from Earth.",
+    "pubDate": "Fri, 06 Nov 2026 03:21:08 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Altered protein cysteine reactivity in senescent cells is a vulnerability for senolysis to ameliorate aging",
+    "link": "https://www.nature.com/articles/s43587-026-01253-5",
+    "description": "Nature Aging, Published online: 06 November 2026; doi:10.1038/s43587-026-01253-5Wu, Yang, Li and colleagues identify vanadyl sulfate, a dietary supplement, as a senolytic that targets altered cysteine reactivity in senes...",
+    "abstract": "Nature Aging, Published online: 06 November 2026; doi:10.1038/s43587-026-01253-5Wu, Yang, Li and colleagues identify vanadyl sulfate, a dietary supplement, as a senolytic that targets altered cysteine reactivity in senescent cells, improving age-related conditions and extending lifespan in mice.",
+    "pubDate": "2026-11-06T11:41:22.461861",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "Some follicles take the slow lane",
+    "link": "https://www.nature.com/articles/s43587-026-01269-x",
+    "description": "Nature Aging, Published online: 06 November 2026; doi:10.1038/s43587-026-01269-xLiang and colleagues show that, in mice, activated oocytes can persist for almost a year within ovarian secondary follicles by adopting a st...",
+    "abstract": "Nature Aging, Published online: 06 November 2026; doi:10.1038/s43587-026-01269-xLiang and colleagues show that, in mice, activated oocytes can persist for almost a year within ovarian secondary follicles by adopting a state of reduced biosynthetic and metabolic activity. Improved understanding of the mechanism that underpins how and when ovarian follicles persist has implications for the dynamics of female reproductive aging.",
+    "pubDate": "2026-11-06T11:41:22.461820",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "NAD+ precursor fails in Parkinson’s disease",
+    "link": "https://www.nature.com/articles/s43587-026-01277-x",
+    "description": "Nature Aging, Published online: 06 November 2026; doi:10.1038/s43587-026-01277-xNAD+ precursor fails in Parkinson’s disease",
+    "abstract": "Nature Aging, Published online: 06 November 2026; doi:10.1038/s43587-026-01277-xNAD+ precursor fails in Parkinson’s disease",
+    "pubDate": "2026-11-06T11:41:22.461788",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "Efficient and accurate mixed model association tool for single-cell eQTL analysis",
+    "link": "https://www.nature.com/articles/s41588-026-02798-2",
+    "description": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02798-2SAIGE-QTL is a framework for eQTL mapping that directly models single-cell read counts using a Poisson mixed model, achieving improved st...",
+    "abstract": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02798-2SAIGE-QTL is a framework for eQTL mapping that directly models single-cell read counts using a Poisson mixed model, achieving improved statistical efficiency and power and enabling rare variant set-based testing in the single-cell eQTL setting.",
+    "pubDate": "2026-11-06T11:41:22.410879",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "Coherence enhancement through equilibration to near-zero optical temperatures",
+    "link": "https://www.nature.com/articles/s41567-026-03520-z",
+    "description": "Nature Physics, Published online: 06 November 2026; doi:10.1038/s41567-026-03520-zPhase-space conservation bars coherence enhancement in passive linear optics, a limit often bypassed by gain or feedback. Here conservativ...",
+    "abstract": "Nature Physics, Published online: 06 November 2026; doi:10.1038/s41567-026-03520-zPhase-space conservation bars coherence enhancement in passive linear optics, a limit often bypassed by gain or feedback. Here conservative nonlinearity reshapes phase space, thermodynamically driving incoherent light towards a coherent equilibrium.",
+    "pubDate": "2026-11-06T11:41:22.356506",
+    "category": "physics",
+    "provider": "nature",
+    "source": "Nature Physics"
+  },
+  {
+    "title": "Daily briefing: Toothbrush zaps bacteria to clear plaque",
+    "link": "https://www.nature.com/articles/d41586-026-03596-w",
+    "description": "Nature, Published online: 05 November 2026; doi:10.1038/d41586-026-03596-wThe manual toothbrush cleans by generating a bacteria-killing electrical charge. Plus, what ‘historic’ US mid-term results mean for science and a ...",
+    "abstract": "Nature, Published online: 05 November 2026; doi:10.1038/d41586-026-03596-wThe manual toothbrush cleans by generating a bacteria-killing electrical charge. Plus, what ‘historic’ US mid-term results mean for science and a genetics lab run by AI-powered robots.",
+    "pubDate": "2026-11-06T11:41:22.246634",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "The palaeo cave art that hid in plain sight for 26,000 years",
+    "link": "https://www.nature.com/articles/d41586-026-03585-z",
+    "description": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03585-zHundreds of engravings were spotted in a widely visited cave — some include signs of animation.",
+    "abstract": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03585-zHundreds of engravings were spotted in a widely visited cave — some include signs of animation.",
+    "pubDate": "2026-11-06T11:41:22.246555",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Targeting hormone conversion through dietary fiber improves polyendocrine metabolic ovarian syndrome",
     "link": "https://www.science.org/doi/abs/10.1126/science.aed8952?af=R",
     "description": "Science, Volume 394, Issue 6824, November 2026.",
