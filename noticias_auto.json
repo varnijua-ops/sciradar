@@ -1,5 +1,65 @@
 [
   {
+    "title": "Robust fine-mapping in the presence of linkage disequilibrium mismatch",
+    "link": "https://www.nature.com/articles/s41588-026-02780-y",
+    "description": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02780-yRSparsePro performs robust fine-mapping in the presence of linkage disequilibrium mismatch by coupling a probabilistic graphical model wi...",
+    "abstract": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02780-yRSparsePro performs robust fine-mapping in the presence of linkage disequilibrium mismatch by coupling a probabilistic graphical model with a variational inference algorithm, identifying credible sets with higher power and coverage than existing methods.",
+    "pubDate": "2026-11-06T17:38:08.836991",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "Quantitative lineage tracing in mouse embryogenesis",
+    "link": "https://www.nature.com/articles/s41588-026-02856-9",
+    "description": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02856-9Quantitative lineage tracing in mouse embryogenesis",
+    "abstract": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02856-9Quantitative lineage tracing in mouse embryogenesis",
+    "pubDate": "2026-11-06T17:38:08.836962",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "New neuronal microexons linked to autism",
+    "link": "https://www.nature.com/articles/s41588-026-02855-w",
+    "description": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02855-wNew neuronal microexons linked to autism",
+    "abstract": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02855-wNew neuronal microexons linked to autism",
+    "pubDate": "2026-11-06T17:38:08.836950",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "MMEJ repair safeguards cancer ecDNA",
+    "link": "https://www.nature.com/articles/s41588-026-02857-8",
+    "description": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02857-8MMEJ repair safeguards cancer ecDNA",
+    "abstract": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02857-8MMEJ repair safeguards cancer ecDNA",
+    "pubDate": "2026-11-06T17:38:08.836936",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "Mapping somatic mutations in every corner of the genome",
+    "link": "https://www.nature.com/articles/s41588-026-02854-x",
+    "description": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02854-xMapping somatic mutations in every corner of the genome",
+    "abstract": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02854-xMapping somatic mutations in every corner of the genome",
+    "pubDate": "2026-11-06T17:38:08.836912",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "Briefing Chat: Meet the snakes that cartwheel away from trouble",
+    "link": "https://www.nature.com/articles/d41586-026-03632-9",
+    "description": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03632-9Nature staff discuss an acrobatic reptile defence strategy — plus, evidence of fossilized dinosaur blood cells.",
+    "abstract": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03632-9Nature staff discuss an acrobatic reptile defence strategy — plus, evidence of fossilized dinosaur blood cells.",
+    "pubDate": "2026-11-06T17:38:08.586061",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Cholera bacterium’s good deed: inspiring a glue with rare properties",
     "link": "https://www.nature.com/articles/d41586-026-03630-x",
     "description": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03630-xAn adhesive that binds strongly even under water was inspired by a protein made by a feared pathogen.",
