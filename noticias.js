@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Cholera bacterium’s good deed: inspiring a glue with rare properties",
+    "link": "https://www.nature.com/articles/d41586-026-03630-x",
+    "description": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03630-xAn adhesive that binds strongly even under water was inspired by a protein made by a feared pathogen.",
+    "abstract": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03630-xAn adhesive that binds strongly even under water was inspired by a protein made by a feared pathogen.",
+    "pubDate": "2026-11-06T14:49:52.945394",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "‘Mathematics is more than a mechanical process’ — why I think the field will survive OpenAI’s disruption",
     "link": "https://www.nature.com/articles/d41586-026-03622-x",
     "description": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03622-xArtificial intelligence could take the field into new territory, but researchers must create the rules and institutions that keep humans at its ce...",
