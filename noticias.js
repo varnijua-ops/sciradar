@@ -1,5 +1,35 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "‘Mathematics is more than a mechanical process’ — why I think the field will survive OpenAI’s disruption",
+    "link": "https://www.nature.com/articles/d41586-026-03622-x",
+    "description": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03622-xArtificial intelligence could take the field into new territory, but researchers must create the rules and institutions that keep humans at its ce...",
+    "abstract": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03622-xArtificial intelligence could take the field into new territory, but researchers must create the rules and institutions that keep humans at its centre.",
+    "pubDate": "2026-11-06T13:58:58.924035",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Preprint platform offers to pay researchers to review papers, but questions remain",
+    "link": "https://www.nature.com/articles/d41586-026-03442-z",
+    "description": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03442-zA reviewer can earn US$200 through XSci’s scheme if they deliver their work within five days.",
+    "abstract": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03442-zA reviewer can earn US$200 through XSci’s scheme if they deliver their work within five days.",
+    "pubDate": "2026-11-06T13:58:58.924023",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Medicinal plants, lessons from mushrooms and the power of smell: Books in brief",
+    "link": "https://www.nature.com/articles/d41586-026-03595-x",
+    "description": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03595-xAndrew Robinson reviews five of the best science picks.",
+    "abstract": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03595-xAndrew Robinson reviews five of the best science picks.",
+    "pubDate": "2026-11-06T13:58:58.924007",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Author Correction: Lyman continuum escape during the onset of galactic winds in compact starbursts",
     "link": "https://www.nature.com/articles/s41550-026-03039-6",
     "description": "Nature Astronomy, Published online: 06 November 2026; doi:10.1038/s41550-026-03039-6Author Correction: Lyman continuum escape during the onset of galactic winds in compact starbursts",
