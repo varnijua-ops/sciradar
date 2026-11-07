@@ -1,5 +1,35 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Drinking 2–3 cups of coffee a day linked to dramatically lower dementia risk",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261105224550.htm",
+    "description": "Drinking two to three cups of caffeinated coffee daily was linked to a dramatically lower risk of dementia and better cognitive functioning in a study spanning up to 43 years. The benefits appeared regardless of genetic ...",
+    "abstract": "Drinking two to three cups of caffeinated coffee daily was linked to a dramatically lower risk of dementia and better cognitive functioning in a study spanning up to 43 years. The benefits appeared regardless of genetic risk, but decaffeinated coffee did not show the same association.",
+    "pubDate": "Sat, 07 Nov 2026 05:16:19 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "A dead star's mysterious rings reveal what could happen when our Sun dies",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261104012250.htm",
+    "description": "Astronomers have discovered a strange double ring of planetary wreckage around a dead star, revealing a possible preview of our Solar System's distant future. The two rings are separated by a mysterious gap that research...",
+    "abstract": "Astronomers have discovered a strange double ring of planetary wreckage around a dead star, revealing a possible preview of our Solar System's distant future. The two rings are separated by a mysterious gap that researchers believe is maintained by surviving planetary bodies, including one potentially as large as Pluto or the Moon. Their different chemical compositions suggest they may contain the remains of separate destroyed planets.",
+    "pubDate": "Fri, 06 Nov 2026 17:12:56 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Rubin Observatory discovers two hidden companions of the Milky Way. Hundreds more may be waiting",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261104012252.htm",
+    "description": "The Vera C. Rubin Observatory has already uncovered two previously unknown companions of the Milky Way using preliminary observations covering just 7% of the night sky. The discoveries include an extremely faint galaxy 3...",
+    "abstract": "The Vera C. Rubin Observatory has already uncovered two previously unknown companions of the Milky Way using preliminary observations covering just 7% of the night sky. The discoveries include an extremely faint galaxy 355,000 light-years away and a star cluster hidden behind cosmic dust. Scientists suspect hundreds of additional satellite galaxies remain undiscovered, and Rubin's powerful telescope could finally bring them into view.",
+    "pubDate": "Sat, 07 Nov 2026 04:12:43 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
     "title": "In Vivo CRISPR Base Editing of ANGPTL3 for Durable Lipid Lowering",
     "link": "https://www.nature.com/articles/s41586-026-11233-9",
     "description": "Nature, Published online: 06 November 2026; doi:10.1038/s41586-026-11233-9In Vivo CRISPR Base Editing of ANGPTL3 for Durable Lipid Lowering",
