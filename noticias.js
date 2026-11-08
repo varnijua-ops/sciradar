@@ -1,5 +1,35 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Stronger flu shot linked to nearly 55% lower Alzheimer's risk",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261105224609.htm",
+    "description": "A surprising new study suggests that a stronger flu shot could offer older adults significantly greater protection against Alzheimer's disease. Researchers at UTHealth Houston analyzed nearly 200,000 adults ages 65 and o...",
+    "abstract": "A surprising new study suggests that a stronger flu shot could offer older adults significantly greater protection against Alzheimer's disease. Researchers at UTHealth Houston analyzed nearly 200,000 adults ages 65 and older and found that those who received a high-dose influenza vaccine had a nearly 55% lower risk of developing Alzheimer's, compared with a 40% reduction previously associated with the standard-dose vaccine.",
+    "pubDate": "Sat, 07 Nov 2026 21:52:28 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "Mysterious gas leaks suggest Mars may still be volcanically alive",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261106174525.htm",
+    "description": "Mysterious gas emissions and fresh volcanic fissures suggest that Mars may not be geologically dead after all, with hot magma potentially still active deep underground. The discovery could point to hidden pockets of warm...",
+    "abstract": "Mysterious gas emissions and fresh volcanic fissures suggest that Mars may not be geologically dead after all, with hot magma potentially still active deep underground. The discovery could point to hidden pockets of warmth and chemical energy capable of supporting microbial life beneath the Red Planet’s surface.",
+    "pubDate": "Sat, 07 Nov 2026 20:09:55 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "A nuclear blast could save Earth from an asteroid, but there's a catch",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261106174532.htm",
+    "description": "A nuclear explosion might save Earth from a deadly asteroid, but new research suggests that hitting the wrong side could make the difference between success and disaster. Scientists found that an asteroid's irregular sha...",
+    "abstract": "A nuclear explosion might save Earth from a deadly asteroid, but new research suggests that hitting the wrong side could make the difference between success and disaster. Scientists found that an asteroid's irregular shape can dramatically affect how it responds to an X-ray blast, with deflection effectiveness varying nearly fivefold depending on the angle.",
+    "pubDate": "Sun, 08 Nov 2026 05:11:25 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
     "title": "Drinking 2–3 cups of coffee a day linked to dramatically lower dementia risk",
     "link": "https://www.sciencedaily.com/releases/2026/11/261105224550.htm",
     "description": "Drinking two to three cups of caffeinated coffee daily was linked to a dramatically lower risk of dementia and better cognitive functioning in a study spanning up to 43 years. The benefits appeared regardless of genetic ...",
