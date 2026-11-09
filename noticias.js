@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "COP31 kicks off as planet faces imminent overshoot of 1.5°C climate target",
+    "link": "https://www.nature.com/articles/d41586-026-03631-w",
+    "description": "Nature, Published online: 09 November 2026; doi:10.1038/d41586-026-03631-wScientists say governments must commit to carbon dioxide removal if world is to bring temperatures back down to safer limits.",
+    "abstract": "Nature, Published online: 09 November 2026; doi:10.1038/d41586-026-03631-wScientists say governments must commit to carbon dioxide removal if world is to bring temperatures back down to safer limits.",
+    "pubDate": "2026-11-09T06:59:27.558908",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "AI-assisted learning platform helps robots reason beyond literal commands",
     "link": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
     "description": "Humans are intuitive by nature. We can sense meaning beyond the literal words that we encounter. Now, a new artificial intelligence-assisted learning platform developed by MIT engineers is enabling robots to read larger ...",
