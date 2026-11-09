@@ -1,5 +1,45 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "The edge of the Sun",
+    "link": "https://www.nature.com/articles/s41567-026-03515-w",
+    "description": "Nature Physics, Published online: 09 November 2026; doi:10.1038/s41567-026-03515-wDefining the solar radius is not as easy as it might seem. José Vaquero tells us a story of eclipses, meridian lines, astronomical archive...",
+    "abstract": "Nature Physics, Published online: 09 November 2026; doi:10.1038/s41567-026-03515-wDefining the solar radius is not as easy as it might seem. José Vaquero tells us a story of eclipses, meridian lines, astronomical archives and space observations.",
+    "pubDate": "2026-11-09T18:39:45.450851",
+    "category": "physics",
+    "provider": "nature",
+    "source": "Nature Physics"
+  },
+  {
+    "title": "Nobel neutrinos",
+    "link": "https://www.nature.com/articles/s41567-026-03543-6",
+    "description": "Nature Physics, Published online: 09 November 2026; doi:10.1038/s41567-026-03543-6The Nobel Prize in Physics 2026 has been awarded to Francis Halzen “for decisive contributions to the IceCube Neutrino Observatory and the...",
+    "abstract": "Nature Physics, Published online: 09 November 2026; doi:10.1038/s41567-026-03543-6The Nobel Prize in Physics 2026 has been awarded to Francis Halzen “for decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin”.",
+    "pubDate": "2026-11-09T18:39:45.450830",
+    "category": "physics",
+    "provider": "nature",
+    "source": "Nature Physics"
+  },
+  {
+    "title": "The cost of easy answers",
+    "link": "https://www.nature.com/articles/s41567-026-03525-8",
+    "description": "Nature Physics, Published online: 09 November 2026; doi:10.1038/s41567-026-03525-8The cost of easy answers",
+    "abstract": "Nature Physics, Published online: 09 November 2026; doi:10.1038/s41567-026-03525-8The cost of easy answers",
+    "pubDate": "2026-11-09T18:39:45.450792",
+    "category": "physics",
+    "provider": "nature",
+    "source": "Nature Physics"
+  },
+  {
+    "title": "He spent a year on ‘Mars’: NASA science officer emerges from mock mission",
+    "link": "https://www.nature.com/articles/d41586-026-03588-w",
+    "description": "Nature, Published online: 09 November 2026; doi:10.1038/d41586-026-03588-wEngineer Matthew Montgomery, who just finished a 378-day simulated Mars mission, talks about what it was like to be out of contact with the rest o...",
+    "abstract": "Nature, Published online: 09 November 2026; doi:10.1038/d41586-026-03588-wEngineer Matthew Montgomery, who just finished a 378-day simulated Mars mission, talks about what it was like to be out of contact with the rest of humanity for a two-week blackout.",
+    "pubDate": "2026-11-09T18:39:45.362253",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "How academic freedom is changing around the world — by the numbers",
     "link": "https://www.nature.com/articles/d41586-026-02998-0",
     "description": "Nature, Published online: 09 November 2026; doi:10.1038/d41586-026-02998-0Nature reports on five countries where academic freedom either plummeted or soared in recent years.",
