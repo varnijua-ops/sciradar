@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "How to make failure your friend and teacher in science",
+    "link": "https://www.nature.com/articles/d41586-026-03654-3",
+    "description": "Nature, Published online: 09 November 2026; doi:10.1038/d41586-026-03654-3Apprentices develop expertise after doing monotonous tasks repeatedly and learning from their mistakes. Scientists are no different, argues Ruth M...",
+    "abstract": "Nature, Published online: 09 November 2026; doi:10.1038/d41586-026-03654-3Apprentices develop expertise after doing monotonous tasks repeatedly and learning from their mistakes. Scientists are no different, argues Ruth Morgan.",
+    "pubDate": "2026-11-09T20:39:46.898121",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "The edge of the Sun",
     "link": "https://www.nature.com/articles/s41567-026-03515-w",
     "description": "Nature Physics, Published online: 09 November 2026; doi:10.1038/s41567-026-03515-wDefining the solar radius is not as easy as it might seem. José Vaquero tells us a story of eclipses, meridian lines, astronomical archive...",
