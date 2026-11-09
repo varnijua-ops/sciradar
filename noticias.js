@@ -1,5 +1,45 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Common osteoporosis drugs linked to 24% lower dementia risk in major study",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261108233037.htm",
+    "description": "A massive study of more than 120,000 older adults suggests that common osteoporosis drugs may reduce the risk of Alzheimer’s disease and other dementias by up to 24%. The surprising findings raise the possibility that me...",
+    "abstract": "A massive study of more than 120,000 older adults suggests that common osteoporosis drugs may reduce the risk of Alzheimer’s disease and other dementias by up to 24%. The surprising findings raise the possibility that medications already used to strengthen bones could also help protect the aging brain.",
+    "pubDate": "Mon, 09 Nov 2026 02:36:14 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "Caltech robot makes history by building a structure in space",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261108233043.htm",
+    "description": "For the first time, a robot has autonomously built part of a structure in space, demonstrating a breakthrough that could fundamentally change space exploration. The technology could one day allow scientists to construct ...",
+    "abstract": "For the first time, a robot has autonomously built part of a structure in space, demonstrating a breakthrough that could fundamentally change space exploration. The technology could one day allow scientists to construct enormous telescopes, communications antennas, and solar power stations in orbit, far beyond the size limits of today's rockets.",
+    "pubDate": "Mon, 09 Nov 2026 05:01:13 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "NASA reveals bold new plan to return astronauts to the Moon in 2028",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261108233054.htm",
+    "description": "NASA has revealed an accelerated plan to land astronauts on the Moon in 2028, with SpaceX and Blue Origin developing competing lunar landers and a crucial orbital test scheduled for 2027. Faster rocket preparations, new ...",
+    "abstract": "NASA has revealed an accelerated plan to land astronauts on the Moon in 2028, with SpaceX and Blue Origin developing competing lunar landers and a crucial orbital test scheduled for 2027. Faster rocket preparations, new lightweight spacesuits, and redesigned missions could help pave the way for a permanent lunar presence and future human exploration of Mars.",
+    "pubDate": "Mon, 09 Nov 2026 04:13:28 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Carlo Rovelli says fundamental physics is overrated",
+    "link": "https://www.nature.com/articles/d41586-026-03626-7",
+    "description": "Nature, Published online: 09 November 2026; doi:10.1038/d41586-026-03626-7The theoretical physicist unpacks the need for more humility in science and whether artificial intelligence could ever become conscious.",
+    "abstract": "Nature, Published online: 09 November 2026; doi:10.1038/d41586-026-03626-7The theoretical physicist unpacks the need for more humility in science and whether artificial intelligence could ever become conscious.",
+    "pubDate": "2026-11-09T12:48:45.918411",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "A multi-tissue atlas of genetic regulatory effects in sheep",
     "link": "https://www.nature.com/articles/s41588-026-02825-2",
     "description": "Nature Genetics, Published online: 09 November 2026; doi:10.1038/s41588-026-02825-2This study presents SheepGTEx, a comprehensive multi-tissue atlas of genetic regulatory variants derived from 6,761 samples across 51 tis...",
