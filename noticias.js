@@ -1,5 +1,25 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "How academic freedom is changing around the world — by the numbers",
+    "link": "https://www.nature.com/articles/d41586-026-02998-0",
+    "description": "Nature, Published online: 09 November 2026; doi:10.1038/d41586-026-02998-0Nature reports on five countries where academic freedom either plummeted or soared in recent years.",
+    "abstract": "Nature, Published online: 09 November 2026; doi:10.1038/d41586-026-02998-0Nature reports on five countries where academic freedom either plummeted or soared in recent years.",
+    "pubDate": "2026-11-09T15:46:41.102990",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Author Correction: Histone H3 trimethylation at lysine 36 guides m6A RNA modification co-transcriptionally",
+    "link": "https://www.nature.com/articles/s41586-026-11375-w",
+    "description": "Nature, Published online: 09 November 2026; doi:10.1038/s41586-026-11375-wAuthor Correction: Histone H3 trimethylation at lysine 36 guides m6A RNA modification co-transcriptionally",
+    "abstract": "Nature, Published online: 09 November 2026; doi:10.1038/s41586-026-11375-wAuthor Correction: Histone H3 trimethylation at lysine 36 guides m6A RNA modification co-transcriptionally",
+    "pubDate": "2026-11-09T15:46:41.102960",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Common osteoporosis drugs linked to 24% lower dementia risk in major study",
     "link": "https://www.sciencedaily.com/releases/2026/11/261108233037.htm",
     "description": "A massive study of more than 120,000 older adults suggests that common osteoporosis drugs may reduce the risk of Alzheimer’s disease and other dementias by up to 24%. The surprising findings raise the possibility that me...",
