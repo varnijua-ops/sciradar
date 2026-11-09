@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Einstein's equations reveal how gravity could break, reconnect, and release energy",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261104084011.htm",
+    "description": "More than a century after Einstein revolutionized our understanding of gravity, scientists have uncovered a surprising new phenomenon hidden within his equations. Researchers at Columbia University and Universidad Adolfo...",
+    "abstract": "More than a century after Einstein revolutionized our understanding of gravity, scientists have uncovered a surprising new phenomenon hidden within his equations. Researchers at Columbia University and Universidad Adolfo Ibáñez have identified a theoretical process called \"gravitational reconnection,\" in which structures within gravitational fields can break apart and reconnect, transferring energy into matter.",
+    "pubDate": "Sun, 08 Nov 2026 17:14:42 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
     "title": "Stronger flu shot linked to nearly 55% lower Alzheimer's risk",
     "link": "https://www.sciencedaily.com/releases/2026/11/261105224609.htm",
     "description": "A surprising new study suggests that a stronger flu shot could offer older adults significantly greater protection against Alzheimer's disease. Researchers at UTHealth Houston analyzed nearly 200,000 adults ages 65 and o...",
