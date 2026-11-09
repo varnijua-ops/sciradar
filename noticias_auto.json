@@ -1,5 +1,45 @@
 [
   {
+    "title": "A multi-tissue atlas of genetic regulatory effects in sheep",
+    "link": "https://www.nature.com/articles/s41588-026-02825-2",
+    "description": "Nature Genetics, Published online: 09 November 2026; doi:10.1038/s41588-026-02825-2This study presents SheepGTEx, a comprehensive multi-tissue atlas of genetic regulatory variants derived from 6,761 samples across 51 tis...",
+    "abstract": "Nature Genetics, Published online: 09 November 2026; doi:10.1038/s41588-026-02825-2This study presents SheepGTEx, a comprehensive multi-tissue atlas of genetic regulatory variants derived from 6,761 samples across 51 tissues, providing insights into complex traits, population selection and domestication history in sheep.",
+    "pubDate": "2026-11-09T11:42:52.021378",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "Active-flow-driven DNA remodelling generates millimetre-scale mechanical oscillations",
+    "link": "https://www.nature.com/articles/s41567-026-03505-y",
+    "description": "Nature Physics, Published online: 09 November 2026; doi:10.1038/s41567-026-03505-yActive matter can exhibit turbulent or coherent flows. Now it is shown that active flows can entangle DNA polymers, leading to a non-equil...",
+    "abstract": "Nature Physics, Published online: 09 November 2026; doi:10.1038/s41567-026-03505-yActive matter can exhibit turbulent or coherent flows. Now it is shown that active flows can entangle DNA polymers, leading to a non-equilibrium transition from disordered turbulence to periodic motion.",
+    "pubDate": "2026-11-09T11:42:51.971090",
+    "category": "physics",
+    "provider": "nature",
+    "source": "Nature Physics"
+  },
+  {
+    "title": "Bound states in the continuum through quantum interference in ultracold atomic collisions",
+    "link": "https://www.nature.com/articles/s41567-026-03519-6",
+    "description": "Nature Physics, Published online: 09 November 2026; doi:10.1038/s41567-026-03519-6Resonances in ultracold collisions couple to scattering states, causing interactions and loss. Now it is shown that the interference of Fe...",
+    "abstract": "Nature Physics, Published online: 09 November 2026; doi:10.1038/s41567-026-03519-6Resonances in ultracold collisions couple to scattering states, causing interactions and loss. Now it is shown that the interference of Feshbach resonances creates a bound state in the continuum that decouples from elastic and inelastic scattering.",
+    "pubDate": "2026-11-09T11:42:51.971066",
+    "category": "physics",
+    "provider": "nature",
+    "source": "Nature Physics"
+  },
+  {
+    "title": "The super El Niño is more than a climate shock – it’s a health one, too",
+    "link": "https://www.nature.com/articles/d41586-026-03628-5",
+    "description": "Nature, Published online: 09 November 2026; doi:10.1038/d41586-026-03628-5Food shortages and disease outbreaks are to be expected and need to be addressed together.",
+    "abstract": "Nature, Published online: 09 November 2026; doi:10.1038/d41586-026-03628-5Food shortages and disease outbreaks are to be expected and need to be addressed together.",
+    "pubDate": "2026-11-09T11:42:51.871629",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "AI has transformed maths — this is how we got here",
     "link": "https://www.nature.com/articles/d41586-026-03627-6",
     "description": "Nature, Published online: 09 November 2026; doi:10.1038/d41586-026-03627-6The story of how maths came to run the world, and created the artificial-intelligence models that might surpass human mathematicians.",
