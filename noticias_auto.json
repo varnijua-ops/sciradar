@@ -1,5 +1,45 @@
 [
   {
+    "title": "Mitochondria-derived extracellular vesicles mediate Alzheimer’s disease pathology through transmitting microglial Ggt1",
+    "link": "https://www.nature.com/articles/s43587-026-01263-3",
+    "description": "Nature Aging, Published online: 10 November 2026; doi:10.1038/s43587-026-01263-3Li, Xia, Sun, Jia et al. identify a pathological role for mitovesicles in Alzheimer’s disease using patient brain samples and mouse models. ...",
+    "abstract": "Nature Aging, Published online: 10 November 2026; doi:10.1038/s43587-026-01263-3Li, Xia, Sun, Jia et al. identify a pathological role for mitovesicles in Alzheimer’s disease using patient brain samples and mouse models. Within mitovesicles, the authors identify Ggt1 as an enriched component, implicated in driving pathology.",
+    "pubDate": "2026-11-10T11:40:23.960716",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "Efficient count-based models improve power and robustness for large-scale single-cell eQTL mapping",
+    "link": "https://www.nature.com/articles/s41588-026-02830-5",
+    "description": "Nature Genetics, Published online: 10 November 2026; doi:10.1038/s41588-026-02830-5This study presents jaxQTL, an efficient count-based pseudobulk single-cell eQTL mapping framework. When applied to OneK1K data, jaxQTL d...",
+    "abstract": "Nature Genetics, Published online: 10 November 2026; doi:10.1038/s41588-026-02830-5This study presents jaxQTL, an efficient count-based pseudobulk single-cell eQTL mapping framework. When applied to OneK1K data, jaxQTL discovers more eGenes than existing methods while running faster.",
+    "pubDate": "2026-11-10T11:40:22.988858",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "Twin gas rings observed around a white dwarf",
+    "link": "https://www.nature.com/articles/s41550-026-03003-4",
+    "description": "Nature Astronomy, Published online: 10 November 2026; doi:10.1038/s41550-026-03003-4The observation of quadruple-peaked emission lines from WD J1328−1450 suggests that there are two separate, concentric rings of gas arou...",
+    "abstract": "Nature Astronomy, Published online: 10 November 2026; doi:10.1038/s41550-026-03003-4The observation of quadruple-peaked emission lines from WD J1328−1450 suggests that there are two separate, concentric rings of gas around the white dwarf. This finding could indicate the presence of two asteroid-sized to Pluto-sized planetary bodies that have survived disruption by the gravitational forces of the white dwarf.",
+    "pubDate": "2026-11-10T11:40:21.924919",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
+    "title": "PhDs worldwide are having a shake up — why now?",
+    "link": "https://www.nature.com/articles/d41586-026-03017-y",
+    "description": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03017-yGovernment-supported initiatives around the globe aim to change the PhD, with the goal of providing fresh talent to the private sector.",
+    "abstract": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03017-yGovernment-supported initiatives around the globe aim to change the PhD, with the goal of providing fresh talent to the private sector.",
+    "pubDate": "2026-11-10T11:40:20.915108",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "How microbes can secure the critical minerals the world needs",
     "link": "https://www.nature.com/articles/d41586-026-03629-4",
     "description": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03629-4To sustain supplies of key metals, policymakers should support the infrastructure needed to deploy mining biotechnologies on a large scale.",
