@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Mongolia’s iconic grasslands are in crisis — invisible fungi could help save them",
+    "link": "https://www.nature.com/articles/d41586-026-03589-9",
+    "description": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03589-9Clues from Mongolia suggest that underground fungal networks might be key for reviving degraded land and preserving plant biodiversity.",
+    "abstract": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03589-9Clues from Mongolia suggest that underground fungal networks might be key for reviving degraded land and preserving plant biodiversity.",
+    "pubDate": "2026-11-10T13:58:23.247798",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Mitochondria-derived extracellular vesicles mediate Alzheimer’s disease pathology through transmitting microglial Ggt1",
     "link": "https://www.nature.com/articles/s43587-026-01263-3",
     "description": "Nature Aging, Published online: 10 November 2026; doi:10.1038/s43587-026-01263-3Li, Xia, Sun, Jia et al. identify a pathological role for mitovesicles in Alzheimer’s disease using patient brain samples and mouse models. ...",
