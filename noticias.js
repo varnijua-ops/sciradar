@@ -1,5 +1,55 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "How microbes can secure the critical minerals the world needs",
+    "link": "https://www.nature.com/articles/d41586-026-03629-4",
+    "description": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03629-4To sustain supplies of key metals, policymakers should support the infrastructure needed to deploy mining biotechnologies on a large scale.",
+    "abstract": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03629-4To sustain supplies of key metals, policymakers should support the infrastructure needed to deploy mining biotechnologies on a large scale.",
+    "pubDate": "2026-11-10T10:43:11.257614",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Why your physics project needs an anthropologist",
+    "link": "https://www.nature.com/articles/d41586-026-03623-w",
+    "description": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03623-wPicking a site for an observatory should be about more than science. Humanities scholars have a crucial role in responsible siting.",
+    "abstract": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03623-wPicking a site for an observatory should be about more than science. Humanities scholars have a crucial role in responsible siting.",
+    "pubDate": "2026-11-10T10:43:11.257604",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Students need AI-free spaces to learn core skills",
+    "link": "https://www.nature.com/articles/d41586-026-03644-5",
+    "description": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03644-5Students need AI-free spaces to learn core skills",
+    "abstract": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03644-5Students need AI-free spaces to learn core skills",
+    "pubDate": "2026-11-10T10:43:11.257595",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Chile’s postdoc rules risk driving talent away",
+    "link": "https://www.nature.com/articles/d41586-026-03643-6",
+    "description": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03643-6Chile’s postdoc rules risk driving talent away",
+    "abstract": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03643-6Chile’s postdoc rules risk driving talent away",
+    "pubDate": "2026-11-10T10:43:11.257585",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "PhD funding mechanisms should protect the right to disagree with supervisors",
+    "link": "https://www.nature.com/articles/d41586-026-03645-4",
+    "description": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03645-4PhD funding mechanisms should protect the right to disagree with supervisors",
+    "abstract": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03645-4PhD funding mechanisms should protect the right to disagree with supervisors",
+    "pubDate": "2026-11-10T10:43:11.257562",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "MIT-led team receives funding to develop next-generation alternatives to modern weed killers",
     "link": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
     "description": "MIT researchers will lead an up to $53 million effort, awarded by the U.S. Advanced Research Projects Agency for Health (ARPA-H) as part of its STREAM (Systems for Tracking and Resilience in Efficient Agricultural-input ...",
