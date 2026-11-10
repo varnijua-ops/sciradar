@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "A practically perfect plesiosaur",
+    "link": "https://www.nature.com/articles/d41586-026-03278-7",
+    "description": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03278-7A very well preserved ancient marine reptile and a Latin poem that describes an optical phenomenon, in this week’s pick from the Nature archive.",
+    "abstract": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03278-7A very well preserved ancient marine reptile and a Latin poem that describes an optical phenomenon, in this week’s pick from the Nature archive.",
+    "pubDate": "2026-11-10T14:46:24.228399",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Mongolia’s iconic grasslands are in crisis — invisible fungi could help save them",
     "link": "https://www.nature.com/articles/d41586-026-03589-9",
     "description": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03589-9Clues from Mongolia suggest that underground fungal networks might be key for reviving degraded land and preserving plant biodiversity.",
