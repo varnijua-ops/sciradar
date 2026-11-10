@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "California votes to give record $8.4 billion to medical research",
+    "link": "https://www.nature.com/articles/d41586-026-03635-6",
+    "description": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03635-6The cash infusion, earmarked for immunology studies, is the largest ever for science authorized by a US public vote — but it has drawn criticism.",
+    "abstract": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03635-6The cash infusion, earmarked for immunology studies, is the largest ever for science authorized by a US public vote — but it has drawn criticism.",
+    "pubDate": "2026-11-10T15:33:44.404328",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "A practically perfect plesiosaur",
     "link": "https://www.nature.com/articles/d41586-026-03278-7",
     "description": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03278-7A very well preserved ancient marine reptile and a Latin poem that describes an optical phenomenon, in this week’s pick from the Nature archive.",
