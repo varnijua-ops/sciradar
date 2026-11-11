@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Rattlesnakes have personalities too — to venomous effect",
+    "link": "https://www.nature.com/articles/d41586-026-03536-8",
+    "description": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03536-8A snake’s defensiveness might affect how much venom it produces in a laboratory test.",
+    "abstract": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03536-8A snake’s defensiveness might affect how much venom it produces in a laboratory test.",
+    "pubDate": "2026-11-11T21:19:31.561582",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Too dry for cacti: extreme droughts could push iconic species to extinction",
     "link": "https://www.nature.com/articles/d41586-026-03671-2",
     "description": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03671-2Analysis reveals these plants face severe habitat loss across the Americas — plus, researchers test a new way to diagnose obesity.",
