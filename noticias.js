@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Too dry for cacti: extreme droughts could push iconic species to extinction",
+    "link": "https://www.nature.com/articles/d41586-026-03671-2",
+    "description": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03671-2Analysis reveals these plants face severe habitat loss across the Americas — plus, researchers test a new way to diagnose obesity.",
+    "abstract": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03671-2Analysis reveals these plants face severe habitat loss across the Americas — plus, researchers test a new way to diagnose obesity.",
+    "pubDate": "2026-11-11T17:44:48.631613",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Salty grains in Saturn’s outermost ring formed from the slow freeze of plumes from the moon Enceladus",
     "link": "https://www.nature.com/articles/d41586-026-03489-y",
     "description": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03489-yOne of Saturn’s rings consists of a diverse population of icy and rocky grains, each with a distinct composition. How this came about might now ha...",
