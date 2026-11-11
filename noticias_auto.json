@@ -1,5 +1,45 @@
 [
   {
+    "title": "Eating less protein could slow aging, review of 350 studies finds",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261108203714.htm",
+    "description": "A major review of more than 350 studies suggests that eating less protein could slow aging, improve metabolic health, and potentially extend lifespan, challenging the widespread belief that more protein is always better....",
+    "abstract": "A major review of more than 350 studies suggests that eating less protein could slow aging, improve metabolic health, and potentially extend lifespan, challenging the widespread belief that more protein is always better. Researchers warn that many sedentary adults may be consuming too much protein, while emphasizing that individual needs depend on age and physical activity.",
+    "pubDate": "Tue, 10 Nov 2026 07:48:16 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "Astronomers discover hidden alien planet in James Webb images",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261108233028.htm",
+    "description": "A breakthrough in telescope imaging could reveal countless alien worlds that have been hiding in plain sight. Scientists developed a new technique that uses a digital twin of the James Webb Space Telescope to remove the ...",
+    "abstract": "A breakthrough in telescope imaging could reveal countless alien worlds that have been hiding in plain sight. Scientists developed a new technique that uses a digital twin of the James Webb Space Telescope to remove the overwhelming glare of stars, making faint exoplanets two to 15 times easier to detect than with conventional methods. The technology has already uncovered a previously hidden planet in existing telescope data and could reveal many more.",
+    "pubDate": "Tue, 10 Nov 2026 18:56:04 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "NASA offers $500,000 to develop next-generation electric rocket engines",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261109205404.htm",
+    "description": "NASA is putting $500,000 on the line in a new competition to accelerate the development of advanced electric rocket engines for satellites and future space exploration. The AMPERE Challenge will reward up to two U.S. com...",
+    "abstract": "NASA is putting $500,000 on the line in a new competition to accelerate the development of advanced electric rocket engines for satellites and future space exploration. The AMPERE Challenge will reward up to two U.S. companies with cash prizes and access to NASA testing facilities to help bring promising propulsion technology closer to real-world missions.",
+    "pubDate": "Mon, 09 Nov 2026 21:36:21 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "NASA’s CHAPEA Mars crew finally emerges after more than a year in isolation",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261109205406.htm",
+    "description": "After more than a year of simulated life on Mars, four NASA volunteers have finally emerged from isolation, bringing a remarkable space exploration experiment to an end. Their experiences growing food, conserving resourc...",
+    "abstract": "After more than a year of simulated life on Mars, four NASA volunteers have finally emerged from isolation, bringing a remarkable space exploration experiment to an end. Their experiences growing food, conserving resources, and overcoming Mars-like challenges could help NASA prepare for humanity's future on the Moon and Mars.",
+    "pubDate": "Tue, 10 Nov 2026 00:00:41 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
     "title": "California votes to give record $8.4 billion to medical research",
     "link": "https://www.nature.com/articles/d41586-026-03635-6",
     "description": "Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03635-6The cash infusion, earmarked for immunology studies, is the largest ever for science authorized by a US public vote — but it has drawn criticism.",
