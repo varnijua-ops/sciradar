@@ -1,5 +1,45 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Obesity linked to up to 27% lower risk of death in dementia",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261109205401.htm",
+    "description": "A surprising study of more than 4,500 older adults found that people who were overweight or obese when diagnosed with dementia had a 16% to 27% lower risk of death than those at a normal weight. Researchers suspect that ...",
+    "abstract": "A surprising study of more than 4,500 older adults found that people who were overweight or obese when diagnosed with dementia had a 16% to 27% lower risk of death than those at a normal weight. Researchers suspect that extra energy and muscle reserves may help patients survive the disease's toll on the body, although the reason for the survival advantage remains unclear.",
+    "pubDate": "Wed, 11 Nov 2026 07:59:57 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "A radical theory says the universe is twice as old as we thought",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261108233040.htm",
+    "description": "A provocative new cosmological model suggests the Universe could be 26.7 billion years old and might not need dark matter or dark energy to explain its behavior. University of Ottawa researchers tested the theory against...",
+    "abstract": "A provocative new cosmological model suggests the Universe could be 26.7 billion years old and might not need dark matter or dark energy to explain its behavior. University of Ottawa researchers tested the theory against several major astronomical observations, finding that it could explain galaxy rotation, cosmic expansion, and the formation of early elements.",
+    "pubDate": "Wed, 11 Nov 2026 01:46:30 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Hideki Shirakawa obituary: chemist who showed that plastics can conduct electricity",
+    "link": "https://www.nature.com/articles/d41586-026-03633-8",
+    "description": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03633-8Nobel prizewinner’s accidental discovery led to new forms of materials, light-emitting diodes and solar cells.",
+    "abstract": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03633-8Nobel prizewinner’s accidental discovery led to new forms of materials, light-emitting diodes and solar cells.",
+    "pubDate": "2026-11-11T14:01:54.525252",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "How to avoid aliens and live",
+    "link": "https://www.nature.com/articles/d41586-026-03515-z",
+    "description": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03515-zSilence is golden.",
+    "abstract": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03515-zSilence is golden.",
+    "pubDate": "2026-11-11T14:01:54.525217",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "A retinol–SREBP1–ELOVL6 lipogenic axis remodels NK cell biomechanics and constrains immune surveillance during aging",
     "link": "https://www.nature.com/articles/s43587-026-01262-4",
     "description": "Nature Aging, Published online: 11 November 2026; doi:10.1038/s43587-026-01262-4Liu and colleagues report that age-associated retinol-driven lipid remodeling alters NK cell biomechanics and impairs cytotoxic immune surve...",
