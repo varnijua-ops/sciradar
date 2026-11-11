@@ -1,5 +1,25 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Saturation genome editing of BRCA1 across cell types improves interpretation of variant pathogenicity",
+    "link": "https://www.nature.com/articles/s41588-026-02832-3",
+    "description": "Nature Genetics, Published online: 11 November 2026; doi:10.1038/s41588-026-02832-3Saturation genome editing maps the functional effects of thousands of BRCA1 variants across two complementary cell models. Discordantly s...",
+    "abstract": "Nature Genetics, Published online: 11 November 2026; doi:10.1038/s41588-026-02832-3Saturation genome editing maps the functional effects of thousands of BRCA1 variants across two complementary cell models. Discordantly scored variants reflect the importance of context and provide insights for improving BRCA1 variant interpretation.",
+    "pubDate": "2026-11-11T11:43:30.750554",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "Biotech innovations are an opportunity to limit climate change",
+    "link": "https://www.nature.com/articles/d41586-026-03621-y",
+    "description": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03621-yAgricultural biotechnology once found itself in opposition to environmental science. Now it could reduce the impact of food systems on global warm...",
+    "abstract": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03621-yAgricultural biotechnology once found itself in opposition to environmental science. Now it could reduce the impact of food systems on global warming and biodiversity loss.",
+    "pubDate": "2026-11-11T11:43:30.542714",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Altermagnetism in a new light",
     "link": "https://www.nature.com/articles/s41567-026-03532-9",
     "description": "Nature Physics, Published online: 11 November 2026; doi:10.1038/s41567-026-03532-9Altermagnets host spin-split bands despite zero net magnetization. A photonic crystal now reproduces this symmetry-driven phenomenon using...",
