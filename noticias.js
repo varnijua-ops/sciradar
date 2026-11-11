@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "A retinol–SREBP1–ELOVL6 lipogenic axis remodels NK cell biomechanics and constrains immune surveillance during aging",
+    "link": "https://www.nature.com/articles/s43587-026-01262-4",
+    "description": "Nature Aging, Published online: 11 November 2026; doi:10.1038/s43587-026-01262-4Liu and colleagues report that age-associated retinol-driven lipid remodeling alters NK cell biomechanics and impairs cytotoxic immune surve...",
+    "abstract": "Nature Aging, Published online: 11 November 2026; doi:10.1038/s43587-026-01262-4Liu and colleagues report that age-associated retinol-driven lipid remodeling alters NK cell biomechanics and impairs cytotoxic immune surveillance. They identify ELOVL6 as a potential target to restore NK cell-mediated tumor control during aging.",
+    "pubDate": "2026-11-11T12:47:07.547345",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
     "title": "Saturation genome editing of BRCA1 across cell types improves interpretation of variant pathogenicity",
     "link": "https://www.nature.com/articles/s41588-026-02832-3",
     "description": "Nature Genetics, Published online: 11 November 2026; doi:10.1038/s41588-026-02832-3Saturation genome editing maps the functional effects of thousands of BRCA1 variants across two complementary cell models. Discordantly s...",
