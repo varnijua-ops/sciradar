@@ -1,5 +1,55 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Salty grains in Saturn’s outermost ring formed from the slow freeze of plumes from the moon Enceladus",
+    "link": "https://www.nature.com/articles/d41586-026-03489-y",
+    "description": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03489-yOne of Saturn’s rings consists of a diverse population of icy and rocky grains, each with a distinct composition. How this came about might now ha...",
+    "abstract": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03489-yOne of Saturn’s rings consists of a diverse population of icy and rocky grains, each with a distinct composition. How this came about might now have an explanation.",
+    "pubDate": "2026-11-11T16:41:18.706914",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Even giant anteaters in the remote Amazon have microplastics in their blood",
+    "link": "https://www.nature.com/articles/d41586-026-03660-5",
+    "description": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03660-5A map of the movements of Brazilian wildlife and their exposure to human activities can inform protection initiatives.",
+    "abstract": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03660-5A map of the movements of Brazilian wildlife and their exposure to human activities can inform protection initiatives.",
+    "pubDate": "2026-11-11T16:41:18.706895",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Efficient catalyst-controlled C–H arylation of arenes",
+    "link": "https://www.nature.com/articles/s41586-026-11391-w",
+    "description": "Nature, Published online: 11 November 2026; doi:10.1038/s41586-026-11391-wEfficient catalyst-controlled C–H arylation of arenes",
+    "abstract": "Nature, Published online: 11 November 2026; doi:10.1038/s41586-026-11391-wEfficient catalyst-controlled C–H arylation of arenes",
+    "pubDate": "2026-11-11T16:41:18.706865",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Getting a grasp on the global wildlife trade",
+    "link": "https://www.nature.com/articles/d41586-026-03591-1",
+    "description": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03591-1A study reports that about 107,000 species are traded worldwide, legally or illegally — more than double a previous estimate.",
+    "abstract": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03591-1A study reports that about 107,000 species are traded worldwide, legally or illegally — more than double a previous estimate.",
+    "pubDate": "2026-11-11T16:41:18.706848",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Iconic first image of black hole holds up to scrutiny",
+    "link": "https://www.nature.com/articles/d41586-026-03642-7",
+    "description": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03642-7Picture produced by fresh analysis of the data that yielded the first-ever image of a black hole outputs the same, ring-like shape.",
+    "abstract": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03642-7Picture produced by fresh analysis of the data that yielded the first-ever image of a black hole outputs the same, ring-like shape.",
+    "pubDate": "2026-11-11T16:41:18.706821",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "AI’s energy paradox: will the AI boom strain energy systems or be the source of solutions?",
     "link": "https://www.nature.com/articles/d41586-026-03412-5",
     "description": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03412-5Ginelle Greene-Dewasmes is leading a community of interdisciplinary specialists exploring how to make the energy use of artificial intelligence ne...",
