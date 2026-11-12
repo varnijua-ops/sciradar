@@ -1,5 +1,25 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Optimal learning of quantum channels in diamond distance",
+    "link": "https://www.nature.com/articles/s41567-026-03499-7",
+    "description": "Nature Physics, Published online: 12 November 2026; doi:10.1038/s41567-026-03499-7Quantum channels can be used to describe the evolution of quantum states, including both unitary evolution and measurement. Now the optima...",
+    "abstract": "Nature Physics, Published online: 12 November 2026; doi:10.1038/s41567-026-03499-7Quantum channels can be used to describe the evolution of quantum states, including both unitary evolution and measurement. Now the optimal number of uses needed to learn an unknown channel to any fixed accuracy has been found.",
+    "pubDate": "2026-11-12T11:45:11.660323",
+    "category": "physics",
+    "provider": "nature",
+    "source": "Nature Physics"
+  },
+  {
+    "title": "A long-period transient with a Sun-like companion",
+    "link": "https://www.nature.com/articles/s41550-026-03016-z",
+    "description": "Nature Astronomy, Published online: 12 November 2026; doi:10.1038/s41550-026-03016-zA new type of long-period radio transient has been discovered, consisting of a white dwarf and a Sun-like star. This system raises quest...",
+    "abstract": "Nature Astronomy, Published online: 12 November 2026; doi:10.1038/s41550-026-03016-zA new type of long-period radio transient has been discovered, consisting of a white dwarf and a Sun-like star. This system raises questions about the role of binary interactions and magnetic fields in generating the radio emission.",
+    "pubDate": "2026-11-12T11:45:10.616659",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
     "title": "Earth's fiery birth may have created hundreds of oceans' worth of water",
     "link": "https://www.sciencedaily.com/releases/2026/11/261110042549.htm",
     "description": "Earth's water may have been born in the planet's fiery atmosphere rather than delivered by icy comets or asteroids. Scientists discovered that rocky pebbles reacting with hydrogen under extreme heat can produce water in ...",
@@ -2861,23 +2881,5 @@ window.NOTICIAS_AUTO = [
     "category": "astro",
     "provider": "nature",
     "source": "Nature Astronomy"
-  },
-  {
-    "title": "Evolutionary ‘game-changer’: weird armoured amphibian lived in ancient seas",
-    "link": "https://www.nature.com/articles/d41586-026-03440-1",
-    "description": "<p>Nature, Published online: 26 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03440-1\">doi:10.1038/d41586-026-03440-1</a></p>The creature’s armour cladding probably enabled it to tolerate the salty seas of the Late Triassic....",
-    "pubDate": "2026-10-27T05:01:20.852356",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Glimpsing archaeal microbes on the move",
-    "link": "https://www.nature.com/articles/d41586-026-03259-w",
-    "description": "<p>Nature, Published online: 26 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03259-w\">doi:10.1038/d41586-026-03259-w</a></p>How and when did cells gain the ability to crawl? Live imaging of cells from close relatives of early eukaryotes fills in a major gap in the understanding ...",
-    "pubDate": "2026-10-27T05:01:20.852349",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
   }
 ];
