@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "RSV vaccines slash infections: data show jabs’ staggering success against dangerous virus",
+    "link": "https://www.nature.com/articles/d41586-026-03573-3",
+    "description": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03573-3Vaccines and monoclonal antibody injections are cutting hospitalizations for the respiratory virus.",
+    "abstract": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03573-3Vaccines and monoclonal antibody injections are cutting hospitalizations for the respiratory virus.",
+    "pubDate": "2026-11-12T12:49:10.005861",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Optimal learning of quantum channels in diamond distance",
     "link": "https://www.nature.com/articles/s41567-026-03499-7",
     "description": "Nature Physics, Published online: 12 November 2026; doi:10.1038/s41567-026-03499-7Quantum channels can be used to describe the evolution of quantum states, including both unitary evolution and measurement. Now the optima...",
@@ -2869,15 +2879,6 @@ window.NOTICIAS_AUTO = [
     "link": "https://www.nature.com/articles/s41550-026-03004-3",
     "description": "<p>Nature Astronomy, Published online: 26 October 2026; <a href=\"https://www.nature.com/articles/s41550-026-03004-3\">doi:10.1038/s41550-026-03004-3</a></p>Scientists discovered a white dwarf star circled by two nested rings of gas that were probably shaped by two hidden planetary bodies, one asteroi...",
     "pubDate": "2026-10-27T05:01:20.905166",
-    "category": "astro",
-    "provider": "nature",
-    "source": "Nature Astronomy"
-  },
-  {
-    "title": "Retention of primordial atmospheres through giant impacts",
-    "link": "https://www.nature.com/articles/s41550-026-03006-1",
-    "description": "<p>Nature Astronomy, Published online: 26 October 2026; <a href=\"https://www.nature.com/articles/s41550-026-03006-1\">doi:10.1038/s41550-026-03006-1</a></p>Giant impacts help rocky planets retain hydrogen-rich atmospheres because accreted mass increases atmospheric gravitational binding more than col...",
-    "pubDate": "2026-10-27T05:01:20.905149",
     "category": "astro",
     "provider": "nature",
     "source": "Nature Astronomy"
