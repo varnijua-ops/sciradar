@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Author Correction: SLAMF6 as a drug-targetable suppressor of T cell immunity against cancer",
+    "link": "https://www.nature.com/articles/s41586-026-11409-3",
+    "description": "Nature, Published online: 12 November 2026; doi:10.1038/s41586-026-11409-3Author Correction: SLAMF6 as a drug-targetable suppressor of T cell immunity against cancer",
+    "abstract": "Nature, Published online: 12 November 2026; doi:10.1038/s41586-026-11409-3Author Correction: SLAMF6 as a drug-targetable suppressor of T cell immunity against cancer",
+    "pubDate": "2026-11-12T14:04:23.689941",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "RSV vaccines slash infections: data show jabs’ staggering success against dangerous virus",
     "link": "https://www.nature.com/articles/d41586-026-03573-3",
     "description": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03573-3Vaccines and monoclonal antibody injections are cutting hospitalizations for the respiratory virus.",
@@ -2870,15 +2880,6 @@ window.NOTICIAS_AUTO = [
     "link": "https://www.nature.com/articles/s41550-026-03013-2",
     "description": "<p>Nature Astronomy, Published online: 23 October 2026; <a href=\"https://www.nature.com/articles/s41550-026-03013-2\">doi:10.1038/s41550-026-03013-2</a></p>AIMS mid-infrared spectroscopy of the Mg I 12.32 µm line during an X1.5 flare reveals magnetic field weakening beneath impulsive-phase ribbons vi...",
     "pubDate": "2026-10-27T05:01:20.905173",
-    "category": "astro",
-    "provider": "nature",
-    "source": "Nature Astronomy"
-  },
-  {
-    "title": "A double debris disc around a white dwarf sculpted by two planetary bodies",
-    "link": "https://www.nature.com/articles/s41550-026-03004-3",
-    "description": "<p>Nature Astronomy, Published online: 26 October 2026; <a href=\"https://www.nature.com/articles/s41550-026-03004-3\">doi:10.1038/s41550-026-03004-3</a></p>Scientists discovered a white dwarf star circled by two nested rings of gas that were probably shaped by two hidden planetary bodies, one asteroi...",
-    "pubDate": "2026-10-27T05:01:20.905166",
     "category": "astro",
     "provider": "nature",
     "source": "Nature Astronomy"
