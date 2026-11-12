@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Massive atlas of brain region linked to a host of diseases is the most detailed yet",
+    "link": "https://www.nature.com/articles/d41586-026-03565-3",
+    "description": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03565-3A global team profiled nearly 26 million brain cells from the basal ganglia to build a cross-species reference database that will help to understa...",
+    "abstract": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03565-3A global team profiled nearly 26 million brain cells from the basal ganglia to build a cross-species reference database that will help to understand conditions from Parkinson’s disease to addiction.",
+    "pubDate": "2026-11-12T16:48:38.095014",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Author Correction: SLAMF6 as a drug-targetable suppressor of T cell immunity against cancer",
     "link": "https://www.nature.com/articles/s41586-026-11409-3",
     "description": "Nature, Published online: 12 November 2026; doi:10.1038/s41586-026-11409-3Author Correction: SLAMF6 as a drug-targetable suppressor of T cell immunity against cancer",
@@ -2871,15 +2881,6 @@ window.NOTICIAS_AUTO = [
     "link": "https://www.nature.com/articles/s41550-026-03007-0",
     "description": "<p>Nature Astronomy, Published online: 23 October 2026; <a href=\"https://www.nature.com/articles/s41550-026-03007-0\">doi:10.1038/s41550-026-03007-0</a></p>GRB 160425A emitted two sub-bursts in short succession with differing properties, indicative of two distinct progenitor types: collapsar and stel...",
     "pubDate": "2026-10-27T05:01:20.905180",
-    "category": "astro",
-    "provider": "nature",
-    "source": "Nature Astronomy"
-  },
-  {
-    "title": "Apparent magnetic field decay in a solar flare from Zeeman splitting of the Mg I 12.32-µm line",
-    "link": "https://www.nature.com/articles/s41550-026-03013-2",
-    "description": "<p>Nature Astronomy, Published online: 23 October 2026; <a href=\"https://www.nature.com/articles/s41550-026-03013-2\">doi:10.1038/s41550-026-03013-2</a></p>AIMS mid-infrared spectroscopy of the Mg I 12.32 µm line during an X1.5 flare reveals magnetic field weakening beneath impulsive-phase ribbons vi...",
-    "pubDate": "2026-10-27T05:01:20.905173",
     "category": "astro",
     "provider": "nature",
     "source": "Nature Astronomy"
