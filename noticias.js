@@ -1,5 +1,25 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Record-breaking Ebola outbreak: phone data reconstruct first weeks of spread",
+    "link": "https://www.nature.com/articles/d41586-026-03666-z",
+    "description": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03666-zThe Bundibugyo virus strain was circulating for weeks before its detection in May, but was missed owing to surveillance failures, testing gaps and...",
+    "abstract": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03666-zThe Bundibugyo virus strain was circulating for weeks before its detection in May, but was missed owing to surveillance failures, testing gaps and funding cuts, researchers say.",
+    "pubDate": "2026-11-12T19:42:17.282630",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Who needs sex? Kelp reproduce asexually when no mate is nearby",
+    "link": "https://www.nature.com/articles/d41586-026-03665-0",
+    "description": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03665-0Insights into the reproductive modes of brown algae could help in the fight to protect them in warming climate.",
+    "abstract": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03665-0Insights into the reproductive modes of brown algae could help in the fight to protect them in warming climate.",
+    "pubDate": "2026-11-12T19:42:17.282600",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Animal models illuminate causal mechanisms of social determinants of aging to advance experimental social geroscience",
     "link": "https://www.nature.com/articles/s43587-026-01144-9",
     "description": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01144-9Social gradients in aging are well known, but their biological basis remains unclear. Bartolomucci and colleagues discuss data from animal m...",
@@ -2874,23 +2894,5 @@ window.NOTICIAS_AUTO = [
     "category": "genetics",
     "provider": "nature",
     "source": "Nature Genetics"
-  },
-  {
-    "title": "fastGxE is a powerful method for uncovering genotype–environment interactions in biobanks",
-    "link": "https://www.nature.com/articles/s41588-026-02806-5",
-    "description": "<p>Nature Genetics, Published online: 26 October 2026; <a href=\"https://www.nature.com/articles/s41588-026-02806-5\">doi:10.1038/s41588-026-02806-5</a></p>fastGxE is a scalable and powerful method that accelerates genome-wide scans for genotype–environment interactions in biobank datasets. When appli...",
-    "pubDate": "2026-10-27T05:01:20.996278",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "Beating the break-even point with autonomous quantum error correction",
-    "link": "https://www.nature.com/articles/s41567-026-03486-y",
-    "description": "<p>Nature Physics, Published online: 23 October 2026; <a href=\"https://www.nature.com/articles/s41567-026-03486-y\">doi:10.1038/s41567-026-03486-y</a></p>Conventional quantum error correction requires repeated measurements and real-time feedback, which are technically complex. An autonomous implement...",
-    "pubDate": "2026-10-27T05:01:20.952804",
-    "category": "physics",
-    "provider": "nature",
-    "source": "Nature Physics"
   }
 ];
