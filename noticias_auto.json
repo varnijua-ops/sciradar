@@ -1,5 +1,25 @@
 [
   {
+    "title": "NASA’s Parker Solar Probe discovers a hidden pattern in the Sun’s chaotic magnetic fields",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261109205411.htm",
+    "description": "NASA’s Parker Solar Probe has revealed a surprising secret hidden within the chaos of space: turbulent magnetic fields reverse their direction of rotation when examined at extremely small scales. The discovery exposes an...",
+    "abstract": "NASA’s Parker Solar Probe has revealed a surprising secret hidden within the chaos of space: turbulent magnetic fields reverse their direction of rotation when examined at extremely small scales. The discovery exposes an unexpected pattern in solar wind turbulence that could help scientists better understand solar activity and predict geomagnetic storms.",
+    "pubDate": "Wed, 11 Nov 2026 20:45:09 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "A massive new simulation reveals how the universe emerged from darkness",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm",
+    "description": "A groundbreaking new supercomputer simulation is revealing how the universe escaped its cosmic dark age and transformed into a cosmos filled with stars and galaxies. Called Lumina, it recreates 2 billion years of early c...",
+    "abstract": "A groundbreaking new supercomputer simulation is revealing how the universe escaped its cosmic dark age and transformed into a cosmos filled with stars and galaxies. Called Lumina, it recreates 2 billion years of early cosmic history across a region 1.6 billion light-years wide, capturing extraordinary details that previous simulations could not.",
+    "pubDate": "Wed, 11 Nov 2026 23:07:24 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
     "title": "Rattlesnakes have personalities too — to venomous effect",
     "link": "https://www.nature.com/articles/d41586-026-03536-8",
     "description": "Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03536-8A snake’s defensiveness might affect how much venom it produces in a laboratory test.",
@@ -2854,24 +2874,6 @@
     "link": "https://www.nature.com/articles/d41586-026-03398-0",
     "description": "<p>Nature, Published online: 26 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03398-0\">doi:10.1038/d41586-026-03398-0</a></p>Nature’s survey of almost 4,000 researchers shows that you’re not alone if you struggle to make ends meet or your last pay rise is a distant memory....",
     "pubDate": "2026-10-27T05:01:20.852330",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Women might have invented language — but not alone",
-    "link": "https://www.nature.com/articles/d41586-026-03392-6",
-    "description": "<p>Nature, Published online: 26 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03392-6\">doi:10.1038/d41586-026-03392-6</a></p>An eloquent analysis of the origins of human speech suggests that social cohesion, not conflict, drove our use of words....",
-    "pubDate": "2026-10-27T05:01:20.852322",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Nerve activity initiates autoimmune hair loss",
-    "link": "https://www.nature.com/articles/d41586-026-03258-x",
-    "description": "<p>Nature, Published online: 26 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03258-x\">doi:10.1038/d41586-026-03258-x</a></p>Understanding the triggers of autoimmunity might lead to better therapies, with hair loss among the conditions for which underpinning factors have come to ...",
-    "pubDate": "2026-10-27T05:01:20.852305",
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
