@@ -1,5 +1,65 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Atmospheric O2 reveals a strengthening ocean carbon sink and a stagnant net land sink since 1990",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aed9544?af=R",
+    "description": "Science, Volume 394, Issue 6825, Page 799-803, November 2026.",
+    "abstract": "Science, Volume 394, Issue 6825, Page 799-803, November 2026.",
+    "pubDate": "2026-11-12T20:37:27.931015",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
+    "title": "AI-monitored bioadhesive for sutureless microvascular anastomosis",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aed8712?af=R",
+    "description": "Science, Volume 394, Issue 6825, Page 779-785, November 2026.",
+    "abstract": "Science, Volume 394, Issue 6825, Page 779-785, November 2026.",
+    "pubDate": "2026-11-12T20:37:27.931002",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
+    "title": "Giant elastoresistance in magic-angle twisted bilayer graphene",
+    "link": "https://www.science.org/doi/abs/10.1126/science.adz0597?af=R",
+    "description": "Science, Volume 394, Issue 6825, Page 768-772, November 2026.",
+    "abstract": "Science, Volume 394, Issue 6825, Page 768-772, November 2026.",
+    "pubDate": "2026-11-12T20:37:27.930991",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
+    "title": "Differentiation of stem-like CD4+ T cells modulates early effector responses in colorectal cancer",
+    "link": "https://www.science.org/doi/abs/10.1126/science.ady7788?af=R",
+    "description": "Science, Volume 394, Issue 6825, November 2026.",
+    "abstract": "Science, Volume 394, Issue 6825, November 2026.",
+    "pubDate": "2026-11-12T20:37:27.930978",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
+    "title": "Tales from the Viking dead",
+    "link": "https://www.science.org/doi/abs/10.1126/science.ael6608?af=R",
+    "description": "Science, Volume 394, Issue 6825, Page 726-726, November 2026.",
+    "abstract": "Science, Volume 394, Issue 6825, Page 726-726, November 2026.",
+    "pubDate": "2026-11-12T20:37:27.930965",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
+    "title": "Mysticism meets empiricism",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aei8923?af=R",
+    "description": "Science, Volume 394, Issue 6825, Page 727-727, November 2026.",
+    "abstract": "Science, Volume 394, Issue 6825, Page 727-727, November 2026.",
+    "pubDate": "2026-11-12T20:37:27.930943",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
     "title": "Record-breaking Ebola outbreak: phone data reconstruct first weeks of spread",
     "link": "https://www.nature.com/articles/d41586-026-03666-z",
     "description": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03666-zThe Bundibugyo virus strain was circulating for weeks before its detection in May, but was missed owing to surveillance failures, testing gaps and...",
@@ -2840,59 +2900,5 @@ window.NOTICIAS_AUTO = [
     "category": "longevity",
     "provider": "nature",
     "source": "Nature Aging"
-  },
-  {
-    "title": "Type 2 immunity as a counter-regulatory axis in aging",
-    "link": "https://www.nature.com/articles/s43587-026-01265-1",
-    "description": "<p>Nature Aging, Published online: 23 October 2026; <a href=\"https://www.nature.com/articles/s43587-026-01265-1\">doi:10.1038/s43587-026-01265-1</a></p>Chronic low-grade inflammation is a hallmark of aging, but the endogenous programs that normally restrain it are far less understood than its drivers...",
-    "pubDate": "2026-10-27T05:01:21.042009",
-    "category": "longevity",
-    "provider": "nature",
-    "source": "Nature Aging"
-  },
-  {
-    "title": "Near-complete assembly of wild emmer wheat unveils centromere reorganization during polyploid evolution",
-    "link": "https://www.nature.com/articles/s41588-026-02808-3",
-    "description": "<p>Nature Genetics, Published online: 22 October 2026; <a href=\"https://www.nature.com/articles/s41588-026-02808-3\">doi:10.1038/s41588-026-02808-3</a></p>A near-complete genome assembly of wild emmer wheat with resolved centromeric regions across 14 chromosomes highlights subgenome-associated patter...",
-    "pubDate": "2026-10-27T05:01:20.996316",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "High false sign rates in transcriptome-wide association studies",
-    "link": "https://www.nature.com/articles/s41588-026-02796-4",
-    "description": "<p>Nature Genetics, Published online: 22 October 2026; <a href=\"https://www.nature.com/articles/s41588-026-02796-4\">doi:10.1038/s41588-026-02796-4</a></p>This study finds that the direction of effect captured by transcriptome-wide association studies is often reversed relative to the true biological...",
-    "pubDate": "2026-10-27T05:01:20.996311",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "Co-regulation confounds direction of genetic effects in transcriptome-wide association studies",
-    "link": "https://www.nature.com/articles/s41588-026-02793-7",
-    "description": "<p>Nature Genetics, Published online: 22 October 2026; <a href=\"https://www.nature.com/articles/s41588-026-02793-7\">doi:10.1038/s41588-026-02793-7</a></p>Co-regulation of gene expression profiles across cell types arising from linkage disequilibrium makes it challenging to distinguish causal variant...",
-    "pubDate": "2026-10-27T05:01:20.996305",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "Quantification method affects replicability of eQTL analysis, colocalization and TWAS",
-    "link": "https://www.nature.com/articles/s41588-026-02827-0",
-    "description": "<p>Nature Genetics, Published online: 26 October 2026; <a href=\"https://www.nature.com/articles/s41588-026-02827-0\">doi:10.1038/s41588-026-02827-0</a></p>This study finds that upstream RNA-seq processing steps, specifically transcript annotations and quantification methods, can affect eQTL mapping, ...",
-    "pubDate": "2026-10-27T05:01:20.996300",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "Interferon-α directs hematopoietic stem cells toward competing fates",
-    "link": "https://www.nature.com/articles/s41588-026-02797-3",
-    "description": "<p>Nature Genetics, Published online: 26 October 2026; <a href=\"https://www.nature.com/articles/s41588-026-02797-3\">doi:10.1038/s41588-026-02797-3</a></p>Chronic inflammation drives clonal hematopoietic expansions, yet IFNα depletes clones in myeloproliferative neoplasms. A new study tackles this pa...",
-    "pubDate": "2026-10-27T05:01:20.996293",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
   }
 ];
