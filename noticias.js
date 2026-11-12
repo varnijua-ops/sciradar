@@ -1,5 +1,85 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Animal models illuminate causal mechanisms of social determinants of aging to advance experimental social geroscience",
+    "link": "https://www.nature.com/articles/s43587-026-01144-9",
+    "description": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01144-9Social gradients in aging are well known, but their biological basis remains unclear. Bartolomucci and colleagues discuss data from animal m...",
+    "abstract": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01144-9Social gradients in aging are well known, but their biological basis remains unclear. Bartolomucci and colleagues discuss data from animal models revealing causal links and molecular pathways of social adversity and introduce the principles of experimental social geroscience.",
+    "pubDate": "2026-11-12T17:41:47.784449",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "Environmental health resilience and exposure reduction for healthy aging and longevity",
+    "link": "https://www.nature.com/articles/s43587-026-01231-x",
+    "description": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01231-xJi et al. define environmental health resilience factors such as green spaces, age-friendly design and climate-resilient infrastructure as m...",
+    "abstract": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01231-xJi et al. define environmental health resilience factors such as green spaces, age-friendly design and climate-resilient infrastructure as modifiers of exposure–response relationships, which help to explain divergent aging trajectories and offer a framework to advance healthspan equity.",
+    "pubDate": "2026-11-12T17:41:47.784440",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "To understand how social factors shape aging, we need to measure trajectories rather than states",
+    "link": "https://www.nature.com/articles/s43587-026-01205-z",
+    "description": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01205-zTo understand how social disadvantage becomes biologically embedded, aging research must move beyond one-time assessments and instead track ...",
+    "abstract": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01205-zTo understand how social disadvantage becomes biologically embedded, aging research must move beyond one-time assessments and instead track continuous, harmonized trajectories of health across the life course. Measuring both peak attainment and rates of decline — and pairing these with dynamic social exposures — will reveal when and how inequities shape aging, and where intervention can have the greatest effect.",
+    "pubDate": "2026-11-12T17:41:47.784430",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "Scaling productive aging to mitigate cumulative disadvantage",
+    "link": "https://www.nature.com/articles/s43587-026-01174-3",
+    "description": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01174-3Productive engagement among older adults — which spans employment, volunteering and family caregiving — functions as a multidimensional driv...",
+    "abstract": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01174-3Productive engagement among older adults — which spans employment, volunteering and family caregiving — functions as a multidimensional driver of healthspan, economic stability and social cohesion across individual and societal levels. Here we advocate for a paradigmatic shift from observational research towards intersectional, experimental interventions designed to mitigate cumulative, life-course disadvantages.",
+    "pubDate": "2026-11-12T17:41:47.784418",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "When social determinants of health intersect with crisis, one-size-fits-all humanitarian responses fall short for older people",
+    "link": "https://www.nature.com/articles/s43587-026-01266-0",
+    "description": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01266-0When social determinants of health intersect with crisis, one-size-fits-all humanitarian responses fall short for older people",
+    "abstract": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01266-0When social determinants of health intersect with crisis, one-size-fits-all humanitarian responses fall short for older people",
+    "pubDate": "2026-11-12T17:41:47.784405",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "Social factors shape health as we age",
+    "link": "https://www.nature.com/articles/s43587-026-01291-z",
+    "description": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01291-zOur knowledge that social factors can influence health is abundant and has shaped research and policy across medicine, public health and soc...",
+    "abstract": "Nature Aging, Published online: 12 November 2026; doi:10.1038/s43587-026-01291-zOur knowledge that social factors can influence health is abundant and has shaped research and policy across medicine, public health and society for decades. In this special issue, Nature Aging features a collection of reviews and opinion articles that explore how social factors influence healthy aging across the life course and become biologically embedded.",
+    "pubDate": "2026-11-12T17:41:47.784391",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "Retention of primordial atmospheres through giant impacts",
+    "link": "https://www.nature.com/articles/s41550-026-03006-1",
+    "description": "Nature Astronomy, Published online: 26 October 2026; doi:10.1038/s41550-026-03006-1Giant impacts help rocky planets retain hydrogen-rich atmospheres because accreted mass increases atmospheric gravitational binding more ...",
+    "abstract": "Nature Astronomy, Published online: 26 October 2026; doi:10.1038/s41550-026-03006-1Giant impacts help rocky planets retain hydrogen-rich atmospheres because accreted mass increases atmospheric gravitational binding more than collisional heating drives atmospheric loss. This may explain the bimodal radius distribution of exoplanets.",
+    "pubDate": "2026-11-12T17:41:46.497512",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
+    "title": "This little brown mushroom is laced with a hallucinogen — and lethal toxins",
+    "link": "https://www.nature.com/articles/d41586-026-03639-2",
+    "description": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03639-2A Florida fungus might combine the psychedelic compound psilocybin with deadly chemicals to defend itself against hungry animals.",
+    "abstract": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03639-2A Florida fungus might combine the psychedelic compound psilocybin with deadly chemicals to defend itself against hungry animals.",
+    "pubDate": "2026-11-12T17:41:46.449388",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Massive atlas of brain region linked to a host of diseases is the most detailed yet",
     "link": "https://www.nature.com/articles/d41586-026-03565-3",
     "description": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03565-3A global team profiled nearly 26 million brain cells from the basal ganglia to build a cross-species reference database that will help to understa...",
@@ -2812,77 +2892,5 @@ window.NOTICIAS_AUTO = [
     "category": "physics",
     "provider": "nature",
     "source": "Nature Physics"
-  },
-  {
-    "title": "Particle collisions on a quantum computer",
-    "link": "https://www.nature.com/articles/s41567-026-03490-2",
-    "description": "<p>Nature Physics, Published online: 23 October 2026; <a href=\"https://www.nature.com/articles/s41567-026-03490-2\">doi:10.1038/s41567-026-03490-2</a></p>Elementary particle physics rests on the discovery of particles produced in high-energy collider experiments. Now, a model collision above the thre...",
-    "pubDate": "2026-10-27T05:01:20.952798",
-    "category": "physics",
-    "provider": "nature",
-    "source": "Nature Physics"
-  },
-  {
-    "title": "Maxwell’s demon with memory",
-    "link": "https://www.nature.com/articles/s41567-026-03509-8",
-    "description": "<p>Nature Physics, Published online: 23 October 2026; <a href=\"https://www.nature.com/articles/s41567-026-03509-8\">doi:10.1038/s41567-026-03509-8</a></p>Maxwell’s demon may produce work using the information it obtains by measuring the system as fuel. Now, it is shown that the amount of produced wor...",
-    "pubDate": "2026-10-27T05:01:20.952793",
-    "category": "physics",
-    "provider": "nature",
-    "source": "Nature Physics"
-  },
-  {
-    "title": "Three-dimensional cell morphology is mediated by curvature sensing and interfacial stress",
-    "link": "https://www.nature.com/articles/s41567-026-03482-2",
-    "description": "<p>Nature Physics, Published online: 26 October 2026; <a href=\"https://www.nature.com/articles/s41567-026-03482-2\">doi:10.1038/s41567-026-03482-2</a></p>Cells adhering to micro-curved surfaces can exhibit either complete adhesion or partial interior detachment. This is now found to be determined by ...",
-    "pubDate": "2026-10-27T05:01:20.952786",
-    "category": "physics",
-    "provider": "nature",
-    "source": "Nature Physics"
-  },
-  {
-    "title": "Curvature and cell mechanics control tissue organization",
-    "link": "https://www.nature.com/articles/s41567-026-03496-w",
-    "description": "<p>Nature Physics, Published online: 26 October 2026; <a href=\"https://www.nature.com/articles/s41567-026-03496-w\">doi:10.1038/s41567-026-03496-w</a></p>Tissue geometry mechanically regulates cell behaviour across scales. Now, it can be predicted when cells switch from full adhesion to rapid partial...",
-    "pubDate": "2026-10-27T05:01:20.952780",
-    "category": "physics",
-    "provider": "nature",
-    "source": "Nature Physics"
-  },
-  {
-    "title": "A simple twist to altermagnetism",
-    "link": "https://www.nature.com/articles/s41567-026-03495-x",
-    "description": "<p>Nature Physics, Published online: 26 October 2026; <a href=\"https://www.nature.com/articles/s41567-026-03495-x\">doi:10.1038/s41567-026-03495-x</a></p>Two-dimensional altermagnets hold promise for next-generation spintronics but remain difficult to synthesize. Now, altermagnetism has been observed...",
-    "pubDate": "2026-10-27T05:01:20.952765",
-    "category": "physics",
-    "provider": "nature",
-    "source": "Nature Physics"
-  },
-  {
-    "title": "A self-shadowing black hole accretion disk at sub-Eddington luminosities",
-    "link": "https://www.nature.com/articles/s41550-026-03005-2",
-    "description": "<p>Nature Astronomy, Published online: 22 October 2026; <a href=\"https://www.nature.com/articles/s41550-026-03005-2\">doi:10.1038/s41550-026-03005-2</a></p>A multiwavelength study reveals a vertically extended inner disk in a black hole X-ray binary at unexpectedly low luminosities, reshaping its emi...",
-    "pubDate": "2026-10-27T05:01:20.905191",
-    "category": "astro",
-    "provider": "nature",
-    "source": "Nature Astronomy"
-  },
-  {
-    "title": "An enriched methane D/H ratio in the interstellar object 3I/ATLAS",
-    "link": "https://www.nature.com/articles/s41550-026-03002-5",
-    "description": "<p>Nature Astronomy, Published online: 23 October 2026; <a href=\"https://www.nature.com/articles/s41550-026-03002-5\">doi:10.1038/s41550-026-03002-5</a></p>JWST spectra of interstellar object 3I/ATLAS reveal an enhanced D/H ratio in methane compared with measurements of Solar System objects. The high...",
-    "pubDate": "2026-10-27T05:01:20.905185",
-    "category": "astro",
-    "provider": "nature",
-    "source": "Nature Astronomy"
-  },
-  {
-    "title": "An intertwined short and long γ-ray burst with a 4-minute separation",
-    "link": "https://www.nature.com/articles/s41550-026-03007-0",
-    "description": "<p>Nature Astronomy, Published online: 23 October 2026; <a href=\"https://www.nature.com/articles/s41550-026-03007-0\">doi:10.1038/s41550-026-03007-0</a></p>GRB 160425A emitted two sub-bursts in short succession with differing properties, indicative of two distinct progenitor types: collapsar and stel...",
-    "pubDate": "2026-10-27T05:01:20.905180",
-    "category": "astro",
-    "provider": "nature",
-    "source": "Nature Astronomy"
   }
 ];
