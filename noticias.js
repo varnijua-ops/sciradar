@@ -1,5 +1,25 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "A unified framework for defining and analyzing spatial niches in spatial omics data analysis",
+    "link": "https://www.nature.com/articles/s41588-026-02813-6",
+    "description": "Nature Genetics, Published online: 13 November 2026; doi:10.1038/s41588-026-02813-6In this Perspective, Liu and Li clarify how ‘spatial niche’ is used in spatial omics, categorize neighborhoods, domains and biological ec...",
+    "abstract": "Nature Genetics, Published online: 13 November 2026; doi:10.1038/s41588-026-02813-6In this Perspective, Liu and Li clarify how ‘spatial niche’ is used in spatial omics, categorize neighborhoods, domains and biological ecosystems as distinct definitions, and provide a decision framework for choosing definitions and analyses.",
+    "pubDate": "2026-11-13T11:43:08.426123",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "Accept all changes",
+    "link": "https://www.nature.com/articles/d41586-026-03516-y",
+    "description": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03516-yIt’s the end — or is it?",
+    "abstract": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03516-yIt’s the end — or is it?",
+    "pubDate": "2026-11-13T11:43:07.234338",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Helping robots fit into the human workplace",
     "link": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
     "description": "Despite fears about robots replacing humans at work, there are still plenty of things humans can do far better than machines. That’s fine with Robust AI, a startup building robots designed to complement what humans do be...",
@@ -2884,24 +2904,6 @@ window.NOTICIAS_AUTO = [
     "link": "https://www.science.org/doi/abs/10.1126/science.adt1992?af=R",
     "description": "Science, Volume 394, Issue 6822, Page 419-422, October 2026. <br />...",
     "pubDate": "2026-10-27T05:01:21.477627",
-    "category": "physics",
-    "provider": "science",
-    "source": "Science"
-  },
-  {
-    "title": "The microscope and the metaphor",
-    "link": "https://www.science.org/doi/abs/10.1126/science.aej4196?af=R",
-    "description": "Science, Volume 394, Issue 6822, Page 386-387, October 2026. <br />...",
-    "pubDate": "2026-10-27T05:01:21.477620",
-    "category": "physics",
-    "provider": "science",
-    "source": "Science"
-  },
-  {
-    "title": "The Monarch Bear",
-    "link": "https://www.science.org/doi/abs/10.1126/science.aem5501?af=R",
-    "description": "Science, Volume 394, Issue 6822, Page 387-387, October 2026. <br />...",
-    "pubDate": "2026-10-27T05:01:21.477604",
     "category": "physics",
     "provider": "science",
     "source": "Science"
