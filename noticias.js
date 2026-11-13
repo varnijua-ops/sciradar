@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Number of international students arriving in US plunges — worrying scientists",
+    "link": "https://www.nature.com/articles/d41586-026-03668-x",
+    "description": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03668-xDeclines in students from China and India are driving the trend, which researchers say could slow the progress of US science.",
+    "abstract": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03668-xDeclines in students from China and India are driving the trend, which researchers say could slow the progress of US science.",
+    "pubDate": "2026-11-13T20:40:43.732670",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Just publish it",
     "link": "https://www.nature.com/articles/s41567-026-03524-9",
     "description": "Nature Physics, Published online: 13 November 2026; doi:10.1038/s41567-026-03524-9Just publish it",
@@ -2913,14 +2923,5 @@ window.NOTICIAS_AUTO = [
     "category": "ai_tech",
     "provider": "press",
     "source": "MIT News AI"
-  },
-  {
-    "title": "Scientists find 10 different diets linked to slower aging",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261019093439.htm",
-    "description": "A study by DZNE finds that healthy eating is associated with slower biological aging—and that there is more than one way to eat healthily. The researchers examined ten dietary patterns considered healthy, including the Mediterranean, Nordic, and a plant-based diet, as well as the DASH diet, which is...",
-    "pubDate": "Tue, 20 Oct 2026 21:58:07 EDT",
-    "category": "longevity",
-    "provider": "press",
-    "source": "ScienceDaily Longevity"
   }
 ];
