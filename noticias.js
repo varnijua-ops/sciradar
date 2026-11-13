@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Found: a protein that drives ageing without unleashing inflammation",
+    "link": "https://www.nature.com/articles/d41586-026-03638-3",
+    "description": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03638-3Aged mice engineered to lack granzyme K have improved heart and liver function and less kidney damage.",
+    "abstract": "Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03638-3Aged mice engineered to lack granzyme K have improved heart and liver function and less kidney damage.",
+    "pubDate": "2026-11-13T04:45:09.980296",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "NASA’s Perseverance confirms a key ingredient for life hidden in ancient Mars rocks",
     "link": "https://www.sciencedaily.com/releases/2026/11/261111005908.htm",
     "description": "NASA's Perseverance rover has confirmed complex organic carbon just beneath the surface of ancient Martian rocks, raising intriguing questions about the Red Planet's potential to have supported life. The remarkable prese...",
@@ -2890,15 +2900,6 @@ window.NOTICIAS_AUTO = [
     "link": "https://www.nature.com/articles/s43587-026-01234-8",
     "description": "<p>Nature Aging, Published online: 14 October 2026; <a href=\"https://www.nature.com/articles/s43587-026-01234-8\">doi:10.1038/s43587-026-01234-8</a></p>Plesa, Jung and colleagues conduct an in vitro transcriptomic reprogramming screen and identify splicing factor SRSF1 as capable of reducing transcri...",
     "pubDate": "2026-10-27T05:01:21.042039",
-    "category": "longevity",
-    "provider": "nature",
-    "source": "Nature Aging"
-  },
-  {
-    "title": "Senescent-like activated naive B cells contribute to progression to clinical rheumatoid arthritis",
-    "link": "https://www.nature.com/articles/s43587-026-01236-6",
-    "description": "<p>Nature Aging, Published online: 14 October 2026; <a href=\"https://www.nature.com/articles/s43587-026-01236-6\">doi:10.1038/s43587-026-01236-6</a></p>Applying single-cell multiomics to people at risk of rheumatoid arthritis, Wu, Zhang, Moon and colleagues identify an expansion of activated, senesce...",
-    "pubDate": "2026-10-27T05:01:21.042034",
     "category": "longevity",
     "provider": "nature",
     "source": "Nature Aging"
