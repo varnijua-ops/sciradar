@@ -1,5 +1,45 @@
 [
   {
+    "title": "The aging human brain exhibits reduced hemodynamic and cerebrospinal fluid flow waves during sleep",
+    "link": "https://www.nature.com/articles/s43587-026-01270-4",
+    "description": "Nature Aging, Published online: 13 November 2026; doi:10.1038/s43587-026-01270-4This work shows that cerebrospinal fluid flow during sleep is impaired in the aging human brain, before the onset of any neurological disord...",
+    "abstract": "Nature Aging, Published online: 13 November 2026; doi:10.1038/s43587-026-01270-4This work shows that cerebrospinal fluid flow during sleep is impaired in the aging human brain, before the onset of any neurological disorder, and identifies parallel neural and cerebrovascular mechanisms contributing to this difference.",
+    "pubDate": "2026-11-13T12:47:15.970130",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "Aging disrupts sleep-driven brain fluid flow",
+    "link": "https://www.nature.com/articles/s43587-026-01296-8",
+    "description": "Nature Aging, Published online: 13 November 2026; doi:10.1038/s43587-026-01296-8We show that cerebrospinal fluid (CSF), the liquid that surrounds and protects the brain, has reduced flow during sleep in the aging human b...",
+    "abstract": "Nature Aging, Published online: 13 November 2026; doi:10.1038/s43587-026-01296-8We show that cerebrospinal fluid (CSF), the liquid that surrounds and protects the brain, has reduced flow during sleep in the aging human brain. We identified two mechanisms that contribute to this decline: disrupted sleep and impaired blood vessel function. These findings suggest that age-related reductions in CSF flow can arise through multiple pathways.",
+    "pubDate": "2026-11-13T12:47:15.970112",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "A catalogue of insights from the fourth LIGO–Virgo–KAGRA observing run",
+    "link": "https://www.nature.com/articles/s41550-026-03011-4",
+    "description": "Nature Astronomy, Published online: 13 November 2026; doi:10.1038/s41550-026-03011-4Gravitational waves have now been detected in their hundreds, allowing access to an ever more diverse population of merging black hole b...",
+    "abstract": "Nature Astronomy, Published online: 13 November 2026; doi:10.1038/s41550-026-03011-4Gravitational waves have now been detected in their hundreds, allowing access to an ever more diverse population of merging black hole binaries. This Perspective reviews the discoveries from the fourth observing run of the LIGO–Virgo–KAGRA detectors and their impact across astronomy.",
+    "pubDate": "2026-11-13T12:47:15.833838",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
+    "title": "Chinese graduate students are now choosing to stay closer to home",
+    "link": "https://www.nature.com/articles/d41586-026-03456-7",
+    "description": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03456-7Malaysia, Hong Kong and Macau are the new hot destinations for students.",
+    "abstract": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03456-7Malaysia, Hong Kong and Macau are the new hot destinations for students.",
+    "pubDate": "2026-11-13T12:47:15.795254",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "A unified framework for defining and analyzing spatial niches in spatial omics data analysis",
     "link": "https://www.nature.com/articles/s41588-026-02813-6",
     "description": "Nature Genetics, Published online: 13 November 2026; doi:10.1038/s41588-026-02813-6In this Perspective, Liu and Li clarify how ‘spatial niche’ is used in spatial omics, categorize neighborhoods, domains and biological ec...",
@@ -2871,41 +2911,5 @@
     "category": "astro",
     "provider": "press",
     "source": "ScienceDaily Space"
-  },
-  {
-    "title": "Intron retention regulates STAT2 function and associates with immunotherapy response in lung cancer",
-    "link": "https://www.science.org/doi/abs/10.1126/science.aea7156?af=R",
-    "description": "Science, Volume 394, Issue 6822, October 2026. <br />...",
-    "pubDate": "2026-10-27T05:01:21.477645",
-    "category": "physics",
-    "provider": "science",
-    "source": "Science"
-  },
-  {
-    "title": "BAK and BAX form a multiprotein complex to drive mtDNA efflux and caspase-independent cell death",
-    "link": "https://www.science.org/doi/abs/10.1126/science.aea2181?af=R",
-    "description": "Science, Volume 394, Issue 6822, October 2026. <br />...",
-    "pubDate": "2026-10-27T05:01:21.477639",
-    "category": "physics",
-    "provider": "science",
-    "source": "Science"
-  },
-  {
-    "title": "Wireless electrocatalytic closed-loop system for drug-free management of diabesity",
-    "link": "https://www.science.org/doi/abs/10.1126/science.ady8560?af=R",
-    "description": "Science, Volume 394, Issue 6822, October 2026. <br />...",
-    "pubDate": "2026-10-27T05:01:21.477633",
-    "category": "physics",
-    "provider": "science",
-    "source": "Science"
-  },
-  {
-    "title": "Thermodynamic origin of the phonon Hall effect in a honeycomb antiferromagnet",
-    "link": "https://www.science.org/doi/abs/10.1126/science.adt1992?af=R",
-    "description": "Science, Volume 394, Issue 6822, Page 419-422, October 2026. <br />...",
-    "pubDate": "2026-10-27T05:01:21.477627",
-    "category": "physics",
-    "provider": "science",
-    "source": "Science"
   }
 ]
