@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Just publish it",
+    "link": "https://www.nature.com/articles/s41567-026-03524-9",
+    "description": "Nature Physics, Published online: 13 November 2026; doi:10.1038/s41567-026-03524-9Just publish it",
+    "abstract": "Nature Physics, Published online: 13 November 2026; doi:10.1038/s41567-026-03524-9Just publish it",
+    "pubDate": "2026-11-13T17:38:40.698834",
+    "category": "physics",
+    "provider": "nature",
+    "source": "Nature Physics"
+  },
+  {
     "title": "Helium peekaboo",
     "link": "https://www.nature.com/articles/s41550-026-03029-8",
     "description": "Nature Astronomy, Published online: 13 November 2026; doi:10.1038/s41550-026-03029-8Helium peekaboo",
@@ -2909,15 +2919,6 @@ window.NOTICIAS_AUTO = [
     "link": "https://www.sciencedaily.com/releases/2026/10/261019093439.htm",
     "description": "A study by DZNE finds that healthy eating is associated with slower biological aging—and that there is more than one way to eat healthily. The researchers examined ten dietary patterns considered healthy, including the Mediterranean, Nordic, and a plant-based diet, as well as the DASH diet, which is...",
     "pubDate": "Tue, 20 Oct 2026 21:58:07 EDT",
-    "category": "longevity",
-    "provider": "press",
-    "source": "ScienceDaily Longevity"
-  },
-  {
-    "title": "Too much RNA can starve cells of energy, scientists discover",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261020085023.htm",
-    "description": "Scientists have uncovered an unexpected danger lurking inside cells: too much RNA can damage the structures responsible for producing energy. A new study found that excess RNA, including the normally essential messenger RNA (mRNA), can directly disrupt mitochondria without relying on the immune syst...",
-    "pubDate": "Wed, 21 Oct 2026 09:02:34 EDT",
     "category": "longevity",
     "provider": "press",
     "source": "ScienceDaily Longevity"
