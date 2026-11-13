@@ -1,5 +1,45 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Helium peekaboo",
+    "link": "https://www.nature.com/articles/s41550-026-03029-8",
+    "description": "Nature Astronomy, Published online: 13 November 2026; doi:10.1038/s41550-026-03029-8Helium peekaboo",
+    "abstract": "Nature Astronomy, Published online: 13 November 2026; doi:10.1038/s41550-026-03029-8Helium peekaboo",
+    "pubDate": "2026-11-13T16:40:45.803803",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
+    "title": "Paradoxical advocacy",
+    "link": "https://www.nature.com/articles/s41550-026-03031-0",
+    "description": "Nature Astronomy, Published online: 13 November 2026; doi:10.1038/s41550-026-03031-0Paradoxical advocacy",
+    "abstract": "Nature Astronomy, Published online: 13 November 2026; doi:10.1038/s41550-026-03031-0Paradoxical advocacy",
+    "pubDate": "2026-11-13T16:40:45.803791",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
+    "title": "Curtain call for two strongly lensed supernovae",
+    "link": "https://www.nature.com/articles/s41550-026-03033-y",
+    "description": "Nature Astronomy, Published online: 13 November 2026; doi:10.1038/s41550-026-03033-yCurtain call for two strongly lensed supernovae",
+    "abstract": "Nature Astronomy, Published online: 13 November 2026; doi:10.1038/s41550-026-03033-yCurtain call for two strongly lensed supernovae",
+    "pubDate": "2026-11-13T16:40:45.803778",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
+    "title": "Looking for another pot of gold",
+    "link": "https://www.nature.com/articles/s41550-026-03030-1",
+    "description": "Nature Astronomy, Published online: 13 November 2026; doi:10.1038/s41550-026-03030-1Looking for another pot of gold",
+    "abstract": "Nature Astronomy, Published online: 13 November 2026; doi:10.1038/s41550-026-03030-1Looking for another pot of gold",
+    "pubDate": "2026-11-13T16:40:45.803753",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
     "title": "This AI ‘mechanic’ can peer inside the black box of other neural networks",
     "link": "https://www.nature.com/articles/d41586-026-03679-8",
     "description": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03679-8Being able to target and debug systems could improve artificial-intelligence safety and utility.",
@@ -2878,42 +2918,6 @@ window.NOTICIAS_AUTO = [
     "link": "https://www.sciencedaily.com/releases/2026/10/261020085023.htm",
     "description": "Scientists have uncovered an unexpected danger lurking inside cells: too much RNA can damage the structures responsible for producing energy. A new study found that excess RNA, including the normally essential messenger RNA (mRNA), can directly disrupt mitochondria without relying on the immune syst...",
     "pubDate": "Wed, 21 Oct 2026 09:02:34 EDT",
-    "category": "longevity",
-    "provider": "press",
-    "source": "ScienceDaily Longevity"
-  },
-  {
-    "title": "Natural compound could fight rheumatoid arthritis at its source",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261020085309.htm",
-    "description": "A natural compound extracted from a medicinal plant has shown surprising promise against rheumatoid arthritis. In rats, it reduced joint swelling, protected cartilage, and calmed the immune responses responsible for chronic inflammation. Scientists discovered that the compound works by targeting a s...",
-    "pubDate": "Wed, 21 Oct 2026 23:37:25 EDT",
-    "category": "longevity",
-    "provider": "press",
-    "source": "ScienceDaily Longevity"
-  },
-  {
-    "title": "Millions take fish oil for brain health. A two-year study found no benefit",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261020085427.htm",
-    "description": "A surprising two-year clinical trial found that fish oil supplements successfully delivered omega-3s to the brain but failed to improve memory or protect against Alzheimer's-related brain shrinkage. Researchers suspect that getting these nutrients through a healthy diet may offer benefits that suppl...",
-    "pubDate": "Thu, 22 Oct 2026 08:46:24 EDT",
-    "category": "longevity",
-    "provider": "press",
-    "source": "ScienceDaily Longevity"
-  },
-  {
-    "title": "Mediterranean diet may boost tiny proteins that protect the heart and brain",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261023003337.htm",
-    "description": "Scientists have uncovered a surprising new clue to why the Mediterranean diet is so good for the heart, brain, and healthy aging. Researchers at USC found that older adults who closely followed the diet had higher levels of two tiny proteins, humanin and SHMOOSE, produced by the mitochondria, the en...",
-    "pubDate": "Sat, 24 Oct 2026 21:38:38 EDT",
-    "category": "longevity",
-    "provider": "press",
-    "source": "ScienceDaily Longevity"
-  },
-  {
-    "title": "Low-dose aspirin linked to 70% lower dementia risk, but there's a catch",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261024222026.htm",
-    "description": "A common, inexpensive medication could hold an unexpected clue to preventing dementia. Researchers found that older adults with a specific genetic profile had a 70% lower relative risk of dementia when taking low-dose aspirin, even though previous studies found no overall protective effect. The disc...",
-    "pubDate": "Sun, 25 Oct 2026 06:21:48 EDT",
     "category": "longevity",
     "provider": "press",
     "source": "ScienceDaily Longevity"
