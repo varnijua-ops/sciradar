@@ -1,5 +1,55 @@
 [
   {
+    "title": "AI-powered bionic eye breakthrough could help the blind see again",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261110042553.htm",
+    "description": "Scientists have developed an AI-powered approach that makes experimental bionic vision technology more precise, helping predict the flashes and shapes of light perceived by a blind man with a brain implant. By learning h...",
+    "abstract": "Scientists have developed an AI-powered approach that makes experimental bionic vision technology more precise, helping predict the flashes and shapes of light perceived by a blind man with a brain implant. By learning how an individual's brain responds to electrical stimulation, the technology could bring researchers closer to restoring some degree of sight to people with blindness.",
+    "pubDate": "Thu, 12 Nov 2026 06:55:55 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "Scientists discover a hidden danger of viral infections that vaccines may prevent",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261112025531.htm",
+    "description": "A new study reveals that viral infections may leave behind hidden damage to the immune system long after symptoms disappear. Researchers found that mice recovering from an acute infection experienced lasting changes to t...",
+    "abstract": "A new study reveals that viral infections may leave behind hidden damage to the immune system long after symptoms disappear. Researchers found that mice recovering from an acute infection experienced lasting changes to their spleens and weakened immune responses, potentially leaving them more vulnerable to future threats. Surprisingly, prior vaccination completely prevented these harmful changes in the mouse model.",
+    "pubDate": "Fri, 13 Nov 2026 07:55:11 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "Dark energy may have flipped from negative to positive 9.5 billion years ago",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261111005901.htm",
+    "description": "A mysterious force driving the expansion of the Universe may have undergone a dramatic reversal billions of years ago. Scientists exploring an overlooked branch of an alternative gravity theory discovered that dark energ...",
+    "abstract": "A mysterious force driving the expansion of the Universe may have undergone a dramatic reversal billions of years ago. Scientists exploring an overlooked branch of an alternative gravity theory discovered that dark energy could have switched from negative to positive roughly 9.5 billion years ago, potentially changing how we understand cosmic history.",
+    "pubDate": "Fri, 13 Nov 2026 06:08:34 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "The Sun unleashed a monster storm. Earth may have made it worse",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261111005905.htm",
+    "description": "The massive solar storm that illuminated skies worldwide in May 2024 has uncovered an unexpected twist: Earth's own atmosphere may have helped make the storm so powerful. Satellite measurements revealed that roughly 85% ...",
+    "abstract": "The massive solar storm that illuminated skies worldwide in May 2024 has uncovered an unexpected twist: Earth's own atmosphere may have helped make the storm so powerful. Satellite measurements revealed that roughly 85% of the charged particles fueling the disturbance originated from Earth's upper atmosphere rather than the solar wind. Scientists also detected an extraordinary 40% weakening of Earth's magnetic field high above the planet.",
+    "pubDate": "Fri, 13 Nov 2026 04:49:36 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Is the climate totally cooked? What the data say",
+    "link": "https://www.nature.com/articles/d41586-026-03716-6",
+    "description": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03716-6In the first of our new podcast series, a Nature reporter looks for reasons for hope in the face of overwhelming climate anxiety.",
+    "abstract": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03716-6In the first of our new podcast series, a Nature reporter looks for reasons for hope in the face of overwhelming climate anxiety.",
+    "pubDate": "2026-11-13T14:00:21.950411",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "The aging human brain exhibits reduced hemodynamic and cerebrospinal fluid flow waves during sleep",
     "link": "https://www.nature.com/articles/s43587-026-01270-4",
     "description": "Nature Aging, Published online: 13 November 2026; doi:10.1038/s43587-026-01270-4This work shows that cerebrospinal fluid flow during sleep is impaired in the aging human brain, before the onset of any neurological disord...",
@@ -2863,51 +2913,6 @@
     "link": "https://www.sciencedaily.com/releases/2026/10/261021231244.htm",
     "description": "A massive analysis of 2,884 exploding stars has uncovered new evidence that dark energy, the mysterious force accelerating the universe’s expansion, may change over time. The findings challenge a cornerstone of modern cosmology and could reshape our understanding of how the universe works....",
     "pubDate": "Thu, 22 Oct 2026 22:54:41 EDT",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
-  },
-  {
-    "title": "Astronomers uncover a mysterious magnetic web above the Sun",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261023023723.htm",
-    "description": "The Sun’s seemingly peaceful regions are hiding a surprisingly complex magnetic world. Using a balloon-borne telescope high above Earth, scientists discovered delicate, thread-like magnetic structures woven through the solar atmosphere, apparently shaped by twisting motions on the Sun’s surface. The...",
-    "pubDate": "Sat, 24 Oct 2026 08:23:38 EDT",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
-  },
-  {
-    "title": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261023023734.htm",
-    "description": "Tiny samples from asteroid Bennu are rewriting scientists' understanding of how our Solar System formed. New evidence suggests that Bennu was born where material from the inner and outer Solar System mixed, with Jupiter playing a surprising role in shaping its formation....",
-    "pubDate": "Sat, 24 Oct 2026 08:50:06 EDT",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
-  },
-  {
-    "title": "Astronomers may have discovered the first moon beyond our Solar System",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261023023736.htm",
-    "description": "Astronomers have uncovered evidence of a bizarre, potentially historic discovery: the first moon ever detected beyond our Solar System. Unlike familiar moons, this mysterious object is at least as massive as Jupiter and orbits a brown dwarf, which itself circles a star. The unusual arrangement chall...",
-    "pubDate": "Sat, 24 Oct 2026 23:13:05 EDT",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
-  },
-  {
-    "title": "Three giant black holes discovered in a galaxy from the dawn of time",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261024222000.htm",
-    "description": "Astronomers have discovered three actively feeding black holes inside a single galaxy more than 12.5 billion light-years away, revealing a remarkable scene from the universe’s infancy. Two of the black holes are separated by just 620 light-years and are expected to eventually merge, while a third lu...",
-    "pubDate": "Sun, 25 Oct 2026 08:07:01 EDT",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
-  },
-  {
-    "title": "A 2,700-year-old solar eclipse just revealed something surprising about Earth",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261025073055.htm",
-    "description": "A solar eclipse recorded more than 2,700 years ago is revealing surprising secrets about Earth's rotation and the Sun's ancient behavior. By correcting an eight-kilometer error in the location of an ancient Chinese capital, scientists were able to reconstruct a total solar eclipse that occurred in 7...",
-    "pubDate": "Mon, 26 Oct 2026 07:06:08 EDT",
     "category": "astro",
     "provider": "press",
     "source": "ScienceDaily Space"
