@@ -1,5 +1,15 @@
 [
   {
+    "title": "This AI ‘mechanic’ can peer inside the black box of other neural networks",
+    "link": "https://www.nature.com/articles/d41586-026-03679-8",
+    "description": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03679-8Being able to target and debug systems could improve artificial-intelligence safety and utility.",
+    "abstract": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03679-8Being able to target and debug systems could improve artificial-intelligence safety and utility.",
+    "pubDate": "2026-11-13T15:35:30.527946",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "AI-powered bionic eye breakthrough could help the blind see again",
     "link": "https://www.sciencedaily.com/releases/2026/11/261110042553.htm",
     "description": "Scientists have developed an AI-powered approach that makes experimental bionic vision technology more precise, helping predict the flashes and shapes of light perceived by a blind man with a brain implant. By learning h...",
@@ -2907,14 +2917,5 @@
     "category": "longevity",
     "provider": "press",
     "source": "ScienceDaily Longevity"
-  },
-  {
-    "title": "Nearly 3,000 exploding stars challenge our understanding of the Universe",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261021231244.htm",
-    "description": "A massive analysis of 2,884 exploding stars has uncovered new evidence that dark energy, the mysterious force accelerating the universe’s expansion, may change over time. The findings challenge a cornerstone of modern cosmology and could reshape our understanding of how the universe works....",
-    "pubDate": "Thu, 22 Oct 2026 22:54:41 EDT",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
   }
 ]
