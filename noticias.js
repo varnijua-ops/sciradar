@@ -1,5 +1,45 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Stanford scientists discover hidden brain signals that predict Alzheimer’s years before symptoms",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261112230444.htm",
+    "description": "Stanford researchers have discovered that hidden patterns of brain activity can predict Alzheimer’s risk years before memory problems appear, potentially offering an earlier warning than traditional biomarkers. The same ...",
+    "abstract": "Stanford researchers have discovered that hidden patterns of brain activity can predict Alzheimer’s risk years before memory problems appear, potentially offering an earlier warning than traditional biomarkers. The same patterns also reveal which brains are unusually resistant to aging, raising hopes for future treatments that could help protect memory.",
+    "pubDate": "Sat, 14 Nov 2026 07:25:05 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "A new fiber supplement could help millions suffering from irritable bowel syndrome",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261112230450.htm",
+    "description": "Scientists have developed a promising new fiber supplement that improves gut health in people with irritable bowel syndrome (IBS) without worsening bloating, pain, or other digestive symptoms. The specially designed blen...",
+    "abstract": "Scientists have developed a promising new fiber supplement that improves gut health in people with irritable bowel syndrome (IBS) without worsening bloating, pain, or other digestive symptoms. The specially designed blend also improved gut-related anxiety and produced surprisingly rapid changes in gut bacteria, potentially offering a new way to manage IBS.",
+    "pubDate": "Sat, 14 Nov 2026 07:35:36 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "Scientists find a simple daily routine linked to less pain and depression",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261113231624.htm",
+    "description": "A simple change to your daily routine could make a surprising difference in how you feel, both physically and mentally. University of Missouri researchers found that older adults who followed consistent daily schedules r...",
+    "abstract": "A simple change to your daily routine could make a surprising difference in how you feel, both physically and mentally. University of Missouri researchers found that older adults who followed consistent daily schedules reported less physical pain and fewer symptoms of depression, even when they struggled with insomnia. Keeping regular times for sleeping, eating, and other activities may help regulate the body's internal clock, which influences mood, sleep, and overall health.",
+    "pubDate": "Sat, 14 Nov 2026 07:48:01 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "A giant icy world hiding beyond Pluto could be our sixth dwarf planet",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261112230447.htm",
+    "description": "Astronomers have uncovered a potentially enormous new dwarf planet beyond Pluto, hidden for years in one of the most crowded regions of the night sky. The discovery of 2026 ED138 could expand the solar system's official ...",
+    "abstract": "Astronomers have uncovered a potentially enormous new dwarf planet beyond Pluto, hidden for years in one of the most crowded regions of the night sky. The discovery of 2026 ED138 could expand the solar system's official dwarf planet family and hints that more mysterious worlds may be lurking far beyond Neptune.",
+    "pubDate": "Sat, 14 Nov 2026 06:58:42 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
     "title": "Yale scientists reveal what really slows aging and what doesn't",
     "link": "https://www.sciencedaily.com/releases/2026/11/261112230452.htm",
     "description": "Yale researchers have discovered that certain prescription drugs, healthy diets, and exercise can measurably slow biological aging, while popular anti-aging supplements appear largely ineffective. Their analysis of 51 st...",
@@ -2885,42 +2925,6 @@ window.NOTICIAS_AUTO = [
     "link": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
     "description": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits....",
     "pubDate": "Mon, 19 Oct 2026 14:20:00 -0400",
-    "category": "ai_tech",
-    "provider": "press",
-    "source": "MIT News AI"
-  },
-  {
-    "title": "This design software reimagines everyday objects as self-aware devices",
-    "link": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
-    "description": "“X-Hinges” helps design and 3D print items like lamps and gloves with an interactive twist: automatically embedded sensors that perceive and adaptively respond to human contact....",
-    "pubDate": "Thu, 22 Oct 2026 16:45:00 -0400",
-    "category": "ai_tech",
-    "provider": "press",
-    "source": "MIT News AI"
-  },
-  {
-    "title": "Q&A: How AI came to model the “messy” human mind",
-    "link": "https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023",
-    "description": "Assistant Professor Benjamin Lindquist studies how engineers deliberately injected randomness into early AI, giving rise to deep-learning models that sometimes hallucinate....",
-    "pubDate": "Fri, 23 Oct 2026 00:00:00 -0400",
-    "category": "ai_tech",
-    "provider": "press",
-    "source": "MIT News AI"
-  },
-  {
-    "title": "Reinforcing the value of human understanding at MIT",
-    "link": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
-    "description": "During the School of Humanities, Arts, and Social Sciences’ 75th Anniversary Symposium, President Sally Kornbluth said “MIT has never needed your particular insight and guidance more than we do now.”...",
-    "pubDate": "Fri, 23 Oct 2026 15:35:00 -0400",
-    "category": "ai_tech",
-    "provider": "press",
-    "source": "MIT News AI"
-  },
-  {
-    "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
-    "link": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
-    "description": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs....",
-    "pubDate": "Fri, 23 Oct 2026 17:00:00 -0400",
     "category": "ai_tech",
     "provider": "press",
     "source": "MIT News AI"
