@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Yale scientists reveal what really slows aging and what doesn't",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261112230452.htm",
+    "description": "Yale researchers have discovered that certain prescription drugs, healthy diets, and exercise can measurably slow biological aging, while popular anti-aging supplements appear largely ineffective. Their analysis of 51 st...",
+    "abstract": "Yale researchers have discovered that certain prescription drugs, healthy diets, and exercise can measurably slow biological aging, while popular anti-aging supplements appear largely ineffective. Their analysis of 51 studies could transform how scientists evaluate anti-aging treatments, although whether these biological changes actually extend life remains uncertain.",
+    "pubDate": "Fri, 13 Nov 2026 23:26:12 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
     "title": "Number of international students arriving in US plunges — worrying scientists",
     "link": "https://www.nature.com/articles/d41586-026-03668-x",
     "description": "Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03668-xDeclines in students from China and India are driving the trend, which researchers say could slow the progress of US science.",
@@ -2911,15 +2921,6 @@ window.NOTICIAS_AUTO = [
     "link": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
     "description": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs....",
     "pubDate": "Fri, 23 Oct 2026 17:00:00 -0400",
-    "category": "ai_tech",
-    "provider": "press",
-    "source": "MIT News AI"
-  },
-  {
-    "title": "At New York Climate Week 2026, MIT connects with a global network",
-    "link": "https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026",
-    "description": "A cross-section of the MIT community convened discussions on topics ranging from data centers and super pollutants to agriculture and education....",
-    "pubDate": "Mon, 26 Oct 2026 15:00:00 -0400",
     "category": "ai_tech",
     "provider": "press",
     "source": "MIT News AI"
