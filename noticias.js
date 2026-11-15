@@ -1,5 +1,25 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Astronomers discover a dead star spinning every 8 minutes and sending mysterious radio pulses",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm",
+    "description": "Scientists have discovered a strange stellar pair more than 5,000 light-years away, where a dead star spinning every eight minutes produces mysterious radio pulses while orbiting a Sun-like star. The breakthrough also re...",
+    "abstract": "Scientists have discovered a strange stellar pair more than 5,000 light-years away, where a dead star spinning every eight minutes produces mysterious radio pulses while orbiting a Sun-like star. The breakthrough also revealed massive magnetic storms on the companion star, offering fresh clues to one of astronomy's emerging mysteries.",
+    "pubDate": "Sun, 15 Nov 2026 08:04:09 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Uranus and Neptune’s bizarre magnetic fields may finally be explained",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261114202204.htm",
+    "description": "The strange, wildly tilted magnetic fields of Uranus and Neptune have puzzled scientists since NASA's Voyager 2 spacecraft explored the planets in the 1980s. New simulations suggest that extreme conditions deep inside th...",
+    "abstract": "The strange, wildly tilted magnetic fields of Uranus and Neptune have puzzled scientists since NASA's Voyager 2 spacecraft explored the planets in the 1980s. New simulations suggest that extreme conditions deep inside these icy giants create unusual electrical properties that could explain their magnetic fields. Remarkably, the models indicate that their magnetic poles could shift by tens of degrees within just a few decades, far faster than Earth's.",
+    "pubDate": "Sun, 15 Nov 2026 08:43:22 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
     "title": "Alzheimer’s may start shrinking two brain regions years before memory loss",
     "link": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
     "description": "Johns Hopkins scientists have uncovered hidden warning signs of Alzheimer’s disease that may appear up to a decade before memory loss begins. Brain scans revealed that two regions involved in memory and emotion start shr...",
@@ -2909,24 +2929,6 @@ window.NOTICIAS_AUTO = [
     "link": "https://www.nature.com/articles/d41586-026-03406-3",
     "description": "<p>Nature, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03406-3\">doi:10.1038/d41586-026-03406-3</a></p>AI watermarking efforts must encourage independent public scrutiny...",
     "pubDate": "2026-10-27T11:26:08.307622",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Short-term academic visits to China could sustain ties",
-    "link": "https://www.nature.com/articles/d41586-026-03405-4",
-    "description": "<p>Nature, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03405-4\">doi:10.1038/d41586-026-03405-4</a></p>Short-term academic visits to China could sustain ties...",
-    "pubDate": "2026-10-27T11:26:08.307616",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "AI-hallucinated citations should be treated as research misconduct",
-    "link": "https://www.nature.com/articles/d41586-026-03407-2",
-    "description": "<p>Nature, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03407-2\">doi:10.1038/d41586-026-03407-2</a></p>AI-hallucinated citations should be treated as research misconduct...",
-    "pubDate": "2026-10-27T11:26:08.307610",
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
