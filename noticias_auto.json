@@ -1,5 +1,25 @@
 [
   {
+    "title": "Alzheimer’s may start shrinking two brain regions years before memory loss",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
+    "description": "Johns Hopkins scientists have uncovered hidden warning signs of Alzheimer’s disease that may appear up to a decade before memory loss begins. Brain scans revealed that two regions involved in memory and emotion start shr...",
+    "abstract": "Johns Hopkins scientists have uncovered hidden warning signs of Alzheimer’s disease that may appear up to a decade before memory loss begins. Brain scans revealed that two regions involved in memory and emotion start shrinking before the hippocampus, the area doctors typically examine for signs of Alzheimer’s. These early changes are linked to abnormal tau protein buildup and could provide a powerful new way to identify people at risk.",
+    "pubDate": "Sat, 14 Nov 2026 23:31:56 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "Euclid discovers ancient cosmic beacons from the dawn of time, shining like a trillion suns",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261112230504.htm",
+    "description": "ESA’s Euclid space telescope has discovered 31 ancient quasars, including two record-breaking objects that shone with the brightness of a trillion Suns when the Universe was just 670 million years old. Powered by superma...",
+    "abstract": "ESA’s Euclid space telescope has discovered 31 ancient quasars, including two record-breaking objects that shone with the brightness of a trillion Suns when the Universe was just 670 million years old. Powered by supermassive black holes, these extraordinary cosmic beacons reveal a time when the first galaxies were still taking shape.",
+    "pubDate": "Sat, 14 Nov 2026 20:52:47 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
     "title": "Stanford scientists discover hidden brain signals that predict Alzheimer’s years before symptoms",
     "link": "https://www.sciencedaily.com/releases/2026/11/261112230444.htm",
     "description": "Stanford researchers have discovered that hidden patterns of brain activity can predict Alzheimer’s risk years before memory problems appear, potentially offering an earlier warning than traditional biomarkers. The same ...",
@@ -2910,23 +2930,5 @@
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
-  },
-  {
-    "title": "The Nobel prize in economic science has a serious gender problem",
-    "link": "https://www.nature.com/articles/d41586-026-03404-5",
-    "description": "<p>Nature, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03404-5\">doi:10.1038/d41586-026-03404-5</a></p>The Nobel prize in economic science has a serious gender problem...",
-    "pubDate": "2026-10-27T11:26:08.307593",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
-    "link": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
-    "description": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits....",
-    "pubDate": "Mon, 19 Oct 2026 14:20:00 -0400",
-    "category": "ai_tech",
-    "provider": "press",
-    "source": "MIT News AI"
   }
 ]
