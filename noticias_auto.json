@@ -1,5 +1,25 @@
 [
   {
+    "title": "Principles and assumptions underlying domain detection in spatial transcriptomics",
+    "link": "https://www.nature.com/articles/s41588-026-02812-7",
+    "description": "Nature Genetics, Published online: 16 November 2026; doi:10.1038/s41588-026-02812-7This review evaluates 47 spatial-omics clustering methods categorized by core algorithm. To guide researchers, Panwar et al. provide a re...",
+    "abstract": "Nature Genetics, Published online: 16 November 2026; doi:10.1038/s41588-026-02812-7This review evaluates 47 spatial-omics clustering methods categorized by core algorithm. To guide researchers, Panwar et al. provide a research question-driven decision tree that highlights analytical gaps and helps with optimal method selection.",
+    "pubDate": "2026-11-16T10:30:15.489861",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "High-quality pig pan-genome resources illuminate centromere evolution and enhance genotype–phenotype mapping",
+    "link": "https://www.nature.com/articles/s41588-026-02829-y",
+    "description": "Nature Genetics, Published online: 16 November 2026; doi:10.1038/s41588-026-02829-yPig genomic resources comprising 3 telomere-to-telomere genomes and 16 chromosome-level assemblies, integrated with transcriptomic and me...",
+    "abstract": "Nature Genetics, Published online: 16 November 2026; doi:10.1038/s41588-026-02829-yPig genomic resources comprising 3 telomere-to-telomere genomes and 16 chromosome-level assemblies, integrated with transcriptomic and metabolomic profiles, highlight centromere evolution and facilitate genotype–phenotype mapping.",
+    "pubDate": "2026-11-16T10:30:15.489838",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
     "title": "Astronomers discover a dead star spinning every 8 minutes and sending mysterious radio pulses",
     "link": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm",
     "description": "Scientists have discovered a strange stellar pair more than 5,000 light-years away, where a dead star spinning every eight minutes produces mysterious radio pulses while orbiting a Sun-like star. The breakthrough also re...",
@@ -2914,23 +2934,5 @@
     "category": "physics",
     "provider": "nature",
     "source": "Nature Physics"
-  },
-  {
-    "title": "Could measuring immune health reshape medical care?",
-    "link": "https://www.nature.com/articles/d41586-026-03396-2",
-    "description": "<p>Nature, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03396-2\">doi:10.1038/d41586-026-03396-2</a></p>Finding practical ways to analyse the state of a person’s immune system could guide treatment decisions and create opportunities for disease prevention....",
-    "pubDate": "2026-10-27T11:26:08.307629",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "AI watermarking efforts must encourage independent public scrutiny",
-    "link": "https://www.nature.com/articles/d41586-026-03406-3",
-    "description": "<p>Nature, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03406-3\">doi:10.1038/d41586-026-03406-3</a></p>AI watermarking efforts must encourage independent public scrutiny...",
-    "pubDate": "2026-10-27T11:26:08.307622",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
   }
 ]
