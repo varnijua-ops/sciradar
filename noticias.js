@@ -1,5 +1,25 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Chinese scientist sacked after child died in gene-editing trial",
+    "link": "https://www.nature.com/articles/d41586-026-03752-2",
+    "description": "Nature, Published online: 16 November 2026; doi:10.1038/d41586-026-03752-2Institutions and other researchers involved have also been reprimanded.",
+    "abstract": "Nature, Published online: 16 November 2026; doi:10.1038/d41586-026-03752-2Institutions and other researchers involved have also been reprimanded.",
+    "pubDate": "2026-11-16T17:50:28.720580",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Architecture of a portal complex embedded in the poxvirus core",
+    "link": "https://www.nature.com/articles/s41586-026-11399-2",
+    "description": "Nature, Published online: 16 November 2026; doi:10.1038/s41586-026-11399-2Architecture of a portal complex embedded in the poxvirus core",
+    "abstract": "Nature, Published online: 16 November 2026; doi:10.1038/s41586-026-11399-2Architecture of a portal complex embedded in the poxvirus core",
+    "pubDate": "2026-11-16T17:50:28.720551",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Scientists discover that the heart doesn't age the way we thought",
     "link": "https://www.sciencedaily.com/releases/2026/11/261115085550.htm",
     "description": "Scientists have discovered that the heart ages unevenly, with surprising hotspots of inflammation and scarring concentrated in the valves and major blood vessels rather than the heart muscle. The findings challenge long-...",
@@ -2926,24 +2946,6 @@ window.NOTICIAS_AUTO = [
     "link": "https://www.nature.com/articles/d41586-026-03391-7",
     "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03391-7\">doi:10.1038/d41586-026-03391-7</a></p>Could a blood sample, a brain scan and a look at your phone data transform how your psychiatrist treats you?...",
     "pubDate": "2026-10-28T11:28:06.758481",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "How personalization and psychedelics are revitalizing psychiatry",
-    "link": "https://www.nature.com/articles/d41586-026-03402-7",
-    "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03402-7\">doi:10.1038/d41586-026-03402-7</a></p>Fresh ideas are welcome in a discipline in which progress is rare — provided they are applied rigorously....",
-    "pubDate": "2026-10-28T11:28:06.758458",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Preprint-centric publishing approach gets major boost",
-    "link": "https://www.nature.com/articles/d41586-026-03445-w",
-    "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03445-w\">doi:10.1038/d41586-026-03445-w</a></p>European funders put weight behind controversial ‘publish, review, curate’ model for preprints....",
-    "pubDate": "2026-10-28T10:31:06.341235",
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
