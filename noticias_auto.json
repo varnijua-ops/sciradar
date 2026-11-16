@@ -1,5 +1,65 @@
 [
   {
+    "title": "Scientists discover that the heart doesn't age the way we thought",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261115085550.htm",
+    "description": "Scientists have discovered that the heart ages unevenly, with surprising hotspots of inflammation and scarring concentrated in the valves and major blood vessels rather than the heart muscle. The findings challenge long-...",
+    "abstract": "Scientists have discovered that the heart ages unevenly, with surprising hotspots of inflammation and scarring concentrated in the valves and major blood vessels rather than the heart muscle. The findings challenge long-standing assumptions about cardiac aging and could help researchers develop new ways to protect the heart as we grow older.",
+    "pubDate": "Mon, 16 Nov 2026 09:16:56 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "NASA is offering $1 million for bold ideas to help build a Moon base",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261115085542.htm",
+    "description": "NASA is offering $1 million in its new Moon Base Challenge, inviting U.S. students to develop innovative solutions for building humanity’s first permanent lunar outpost. From power systems to astronaut safety, their idea...",
+    "abstract": "NASA is offering $1 million in its new Moon Base Challenge, inviting U.S. students to develop innovative solutions for building humanity’s first permanent lunar outpost. From power systems to astronaut safety, their ideas could help make long-term life on the Moon possible and pave the way to Mars.",
+    "pubDate": "Mon, 16 Nov 2026 09:02:10 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "NASA smashed into an asteroid. Now Hera has revealed a strange new world",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm",
+    "description": "A European spacecraft has revealed a mysterious, crater-covered side of the asteroid Didymos as it prepares to investigate the aftermath of NASA’s historic 2022 asteroid impact. The mission could uncover new clues about ...",
+    "abstract": "A European spacecraft has revealed a mysterious, crater-covered side of the asteroid Didymos as it prepares to investigate the aftermath of NASA’s historic 2022 asteroid impact. The mission could uncover new clues about the collision and help turn asteroid deflection into a powerful defense against future threats to Earth.",
+    "pubDate": "Mon, 16 Nov 2026 08:40:11 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Earth, a cosmic spectacle",
+    "link": "https://www.nature.com/articles/s41550-026-03014-1",
+    "description": "Nature Astronomy, Published online: 16 November 2026; doi:10.1038/s41550-026-03014-1Earth, a cosmic spectacle",
+    "abstract": "Nature Astronomy, Published online: 16 November 2026; doi:10.1038/s41550-026-03014-1Earth, a cosmic spectacle",
+    "pubDate": "2026-11-16T14:43:31.217256",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
+    "title": "As El Niño builds, studies of extreme marine heatwaves must start now",
+    "link": "https://www.nature.com/articles/d41586-026-03715-7",
+    "description": "Nature, Published online: 16 November 2026; doi:10.1038/d41586-026-03715-7Researchers must track warming oceans and use the knowledge gained to inform strategies for sustaining fisheries and communities that depend on th...",
+    "abstract": "Nature, Published online: 16 November 2026; doi:10.1038/d41586-026-03715-7Researchers must track warming oceans and use the knowledge gained to inform strategies for sustaining fisheries and communities that depend on them.",
+    "pubDate": "2026-11-16T14:43:30.089561",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "The climate is in crisis — here’s four things we can do",
+    "link": "https://www.nature.com/articles/d41586-026-03760-2",
+    "description": "Nature, Published online: 16 November 2026; doi:10.1038/d41586-026-03760-2More needs to be done to combat climate change, but what? We discuss some big ideas to rein in emissions.",
+    "abstract": "Nature, Published online: 16 November 2026; doi:10.1038/d41586-026-03760-2More needs to be done to combat climate change, but what? We discuss some big ideas to rein in emissions.",
+    "pubDate": "2026-11-16T14:43:30.089537",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "MIT scientists discover a surprising way to boost the brain’s nighttime cleaning system",
     "link": "https://www.sciencedaily.com/releases/2026/11/261115085533.htm",
     "description": "MIT scientists discovered that carefully timed bursts of gentle pink noise during sleep can strengthen the brain’s natural cleaning waves, which help flush away potentially harmful waste. The breakthrough could pave the ...",
@@ -2884,60 +2944,6 @@
     "link": "https://www.nature.com/articles/d41586-026-03445-w",
     "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03445-w\">doi:10.1038/d41586-026-03445-w</a></p>European funders put weight behind controversial ‘publish, review, curate’ model for preprints....",
     "pubDate": "2026-10-28T10:31:06.341235",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Making machines that can listen",
-    "link": "https://news.mit.edu/2026/making-machines-that-can-listen-paris-smaragdis-1028",
-    "description": "Professor Paris Smaragdis develops computers with superhuman hearing for applications like speech recognition, music understanding, and environmental monitoring....",
-    "pubDate": "Wed, 28 Oct 2026 00:00:00 -0400",
-    "category": "ai_tech",
-    "provider": "press",
-    "source": "MIT News AI"
-  },
-  {
-    "title": "Methane emissions remain flat even as biggest US oil region opens the tap",
-    "link": "https://www.nature.com/articles/d41586-026-03388-2",
-    "description": "<p>Nature, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03388-2\">doi:10.1038/d41586-026-03388-2</a></p>Output of the greenhouse gas from the Permian Basin has remained near constant over a period during which oil and gas production tripled....",
-    "pubDate": "2026-10-28T00:23:43.846809",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Learner collaborates with MIT peers to develop book of AI insights",
-    "link": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
-    "description": "Prabha Jha used her experience with MIT Open Learning’s program for senior executives to develop AI solutions for her employer, Verizon, and to write a book....",
-    "pubDate": "Tue, 27 Oct 2026 16:55:00 -0400",
-    "category": "ai_tech",
-    "provider": "press",
-    "source": "MIT News AI"
-  },
-  {
-    "title": "Author Correction: A chemical defence against phage infection",
-    "link": "https://www.nature.com/articles/s41586-026-11302-z",
-    "description": "<p>Nature, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/s41586-026-11302-z\">doi:10.1038/s41586-026-11302-z</a></p>Author Correction: A chemical defence against phage infection...",
-    "pubDate": "2026-10-27T20:24:59.022918",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Statins promote bone anabolism in estrogen deficiency by inducing osteogenic differentiation of skeletal stem/progenitor cells",
-    "link": "https://www.nature.com/articles/s43587-026-01257-1",
-    "description": "<p>Nature Aging, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/s43587-026-01257-1\">doi:10.1038/s43587-026-01257-1</a></p>Yang et al. demonstrate that statins can compensate for reduced estrogen signaling in skeletal stem and progenitor cells, promoting bone anabolism du...",
-    "pubDate": "2026-10-27T18:08:45.298338",
-    "category": "longevity",
-    "provider": "nature",
-    "source": "Nature Aging"
-  },
-  {
-    "title": "Making ‘mind pictures’ takes mental effort",
-    "link": "https://www.nature.com/articles/d41586-026-03276-9",
-    "description": "<p>Nature, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03276-9\">doi:10.1038/d41586-026-03276-9</a></p>How forming internal imagery is amusing but tiring, and the worry induced by lists of chemicals in foods, in this week’s pick from the Nature archive....",
-    "pubDate": "2026-10-27T18:08:44.992304",
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
