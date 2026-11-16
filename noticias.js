@@ -1,5 +1,35 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Antarctica as a guide for future astrobiology ethics",
+    "link": "https://www.nature.com/articles/s41550-026-03019-w",
+    "description": "Nature Astronomy, Published online: 16 November 2026; doi:10.1038/s41550-026-03019-wHow can we develop an ethical framework for space exploration and astrobiology, given that so many of their challenges are new or even u...",
+    "abstract": "Nature Astronomy, Published online: 16 November 2026; doi:10.1038/s41550-026-03019-wHow can we develop an ethical framework for space exploration and astrobiology, given that so many of their challenges are new or even unknown? One way is by applying lessons from Antarctica, where an ethics-based system has guided human activity for decades.",
+    "pubDate": "2026-11-16T18:42:16.227341",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
+    "title": "The staggering actuality of planetary protection",
+    "link": "https://www.nature.com/articles/s41550-026-03035-w",
+    "description": "Nature Astronomy, Published online: 16 November 2026; doi:10.1038/s41550-026-03035-wPlanetary protection must continually evolve together with expanding space exploration activities to mitigate the developing risks of co...",
+    "abstract": "Nature Astronomy, Published online: 16 November 2026; doi:10.1038/s41550-026-03035-wPlanetary protection must continually evolve together with expanding space exploration activities to mitigate the developing risks of contamination. As we are approaching a new phase of human presence in the cosmos, its enduring principles face new scientific, ethical, and regulatory challenges.",
+    "pubDate": "2026-11-16T18:42:16.227311",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
+    "title": "Planetary protection for the next era of Mars exploration",
+    "link": "https://www.nature.com/articles/s41550-026-03018-x",
+    "description": "Nature Astronomy, Published online: 16 November 2026; doi:10.1038/s41550-026-03018-xThe Committee for Space Research (COSPAR) Planetary Protection Policy has successfully enabled decades of Mars exploration while safegua...",
+    "abstract": "Nature Astronomy, Published online: 16 November 2026; doi:10.1038/s41550-026-03018-xThe Committee for Space Research (COSPAR) Planetary Protection Policy has successfully enabled decades of Mars exploration while safeguarding astrobiological investigations. Here updates to the policy are proposed, to ensure that it remains effective for future mission architectures and exploration objectives.",
+    "pubDate": "2026-11-16T18:42:16.227271",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
     "title": "Chinese scientist sacked after child died in gene-editing trial",
     "link": "https://www.nature.com/articles/d41586-026-03752-2",
     "description": "Nature, Published online: 16 November 2026; doi:10.1038/d41586-026-03752-2Institutions and other researchers involved have also been reprimanded.",
@@ -2919,33 +2949,6 @@ window.NOTICIAS_AUTO = [
     "link": "https://www.nature.com/articles/d41586-026-03248-z",
     "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03248-z\">doi:10.1038/d41586-026-03248-z</a></p>The largest analysis of its kind reveals the public’s changing relationship with science and the people who do it....",
     "pubDate": "2026-10-28T12:28:10.640208",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "These three red flags could unmask dodgy journals",
-    "link": "https://www.nature.com/articles/d41586-026-03325-3",
-    "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03325-3\">doi:10.1038/d41586-026-03325-3</a></p>As poor publishing practices proliferate, scholarly databases are under pressure to ensure the titles they list are reputable....",
-    "pubDate": "2026-10-28T12:28:10.640196",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Population-scale single-nucleus multi-omic profiling of skeletal muscle reveals extensive context-specific genetic regulation",
-    "link": "https://www.nature.com/articles/s41588-026-02786-6",
-    "description": "<p>Nature Genetics, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/s41588-026-02786-6\">doi:10.1038/s41588-026-02786-6</a></p>Single-nucleus chromatin accessibility and transcriptome maps of human skeletal muscle identify cell-state and context-specific QTLs that colocali...",
-    "pubDate": "2026-10-28T11:28:07.042785",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "The grand plan to transform psychiatry — by personalizing mental-health care",
-    "link": "https://www.nature.com/articles/d41586-026-03391-7",
-    "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03391-7\">doi:10.1038/d41586-026-03391-7</a></p>Could a blood sample, a brain scan and a look at your phone data transform how your psychiatrist treats you?...",
-    "pubDate": "2026-10-28T11:28:06.758481",
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
