@@ -1,5 +1,25 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Can AI actually help the climate? Nations want to harness the technology to cut emissions",
+    "link": "https://www.nature.com/articles/d41586-026-03763-z",
+    "description": "Nature, Published online: 16 November 2026; doi:10.1038/d41586-026-03763-zCountries pledge to use artificial-intelligence tools to accelerate the adoption of clean energy — but that potential is unproven.",
+    "abstract": "Nature, Published online: 16 November 2026; doi:10.1038/d41586-026-03763-zCountries pledge to use artificial-intelligence tools to accelerate the adoption of clean energy — but that potential is unproven.",
+    "pubDate": "2026-11-16T21:38:40.379395",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Secrets of the vampires: genomes reveal how these bats live off blood alone",
+    "link": "https://www.nature.com/articles/d41586-026-03706-8",
+    "description": "Nature, Published online: 16 November 2026; doi:10.1038/d41586-026-03706-8Expandable stomachs allow these flying mammals to gulp large amounts of blood, and fluid-handling genes help them to fly home after all that liqui...",
+    "abstract": "Nature, Published online: 16 November 2026; doi:10.1038/d41586-026-03706-8Expandable stomachs allow these flying mammals to gulp large amounts of blood, and fluid-handling genes help them to fly home after all that liquid.",
+    "pubDate": "2026-11-16T21:38:40.379361",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Antarctica as a guide for future astrobiology ethics",
     "link": "https://www.nature.com/articles/s41550-026-03019-w",
     "description": "Nature Astronomy, Published online: 16 November 2026; doi:10.1038/s41550-026-03019-wHow can we develop an ethical framework for space exploration and astrobiology, given that so many of their challenges are new or even u...",
@@ -2931,24 +2951,6 @@ window.NOTICIAS_AUTO = [
     "link": "https://www.nature.com/articles/d41586-026-03476-3",
     "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03476-3\">doi:10.1038/d41586-026-03476-3</a></p>A marked rise in submissions for the European Research Council’s grants is pushing down success rates....",
     "pubDate": "2026-10-28T13:44:01.118785",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "What students think about my teaching doesn’t matter. Am I wrong?",
-    "link": "https://www.nature.com/articles/d41586-026-02202-3",
-    "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-02202-3\">doi:10.1038/d41586-026-02202-3</a></p>A jury weighs in on whether teaching assessments are popularity contests or an important tool....",
-    "pubDate": "2026-10-28T13:44:01.118750",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "How the pandemic changed trust in science — in four charts",
-    "link": "https://www.nature.com/articles/d41586-026-03248-z",
-    "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03248-z\">doi:10.1038/d41586-026-03248-z</a></p>The largest analysis of its kind reveals the public’s changing relationship with science and the people who do it....",
-    "pubDate": "2026-10-28T12:28:10.640208",
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
