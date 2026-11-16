@@ -1,5 +1,75 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "MIT scientists discover a surprising way to boost the brain’s nighttime cleaning system",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261115085533.htm",
+    "description": "MIT scientists discovered that carefully timed bursts of gentle pink noise during sleep can strengthen the brain’s natural cleaning waves, which help flush away potentially harmful waste. The breakthrough could pave the ...",
+    "abstract": "MIT scientists discovered that carefully timed bursts of gentle pink noise during sleep can strengthen the brain’s natural cleaning waves, which help flush away potentially harmful waste. The breakthrough could pave the way for new treatments aimed at improving sleep and memory while potentially reducing the buildup of proteins linked to Alzheimer’s disease.",
+    "pubDate": "Sun, 15 Nov 2026 20:40:04 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "The secret to building Moon bases may be hiding in emergency blankets",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261115085549.htm",
+    "description": "Scientists have turned the thin plastic used in emergency blankets into remarkably strong insulation that could help astronauts survive the Moon's extreme temperatures. Built from hundreds of stacked layers, the material...",
+    "abstract": "Scientists have turned the thin plastic used in emergency blankets into remarkably strong insulation that could help astronauts survive the Moon's extreme temperatures. Built from hundreds of stacked layers, the material withstands crushing pressure without losing its thermal protection, potentially paving the way for tougher, longer-lasting lunar habitats.",
+    "pubDate": "Sun, 15 Nov 2026 22:51:01 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Extending qubit lifetime beyond break-even and enhancing quantum sensing by autonomous quantum error correction",
+    "link": "https://www.nature.com/articles/s41567-026-03493-z",
+    "description": "Nature Physics, Published online: 16 November 2026; doi:10.1038/s41567-026-03493-zA measurement-free quantum error-correction protocol is shown to extend the lifetime of a bosonic logical qubit beyond the best physical q...",
+    "abstract": "Nature Physics, Published online: 16 November 2026; doi:10.1038/s41567-026-03493-zA measurement-free quantum error-correction protocol is shown to extend the lifetime of a bosonic logical qubit beyond the best physical qubit in the same system. This also offers prospects for enhanced quantum sensing.",
+    "pubDate": "2026-11-16T11:54:36.438166",
+    "category": "physics",
+    "provider": "nature",
+    "source": "Nature Physics"
+  },
+  {
+    "title": "Extension of coherence time beyond breakeven point using only drives and dissipation",
+    "link": "https://www.nature.com/articles/s41567-026-03528-5",
+    "description": "Nature Physics, Published online: 16 November 2026; doi:10.1038/s41567-026-03528-5An autonomous quantum error correction protocol based on engineered drives and dissipation extends the coherence time of a bosonic logical...",
+    "abstract": "Nature Physics, Published online: 16 November 2026; doi:10.1038/s41567-026-03528-5An autonomous quantum error correction protocol based on engineered drives and dissipation extends the coherence time of a bosonic logical qubit beyond that of the best physical qubit in the same system.",
+    "pubDate": "2026-11-16T11:54:36.438150",
+    "category": "physics",
+    "provider": "nature",
+    "source": "Nature Physics"
+  },
+  {
+    "title": "150 years proving fundamental science is worth the wait",
+    "link": "https://www.nature.com/articles/s41567-026-03538-3",
+    "description": "Nature Physics, Published online: 16 November 2026; doi:10.1038/s41567-026-03538-3Founded in 1876, the Indian Association for the Cultivation of Science created an early space for Indians to pursue science. Its achieveme...",
+    "abstract": "Nature Physics, Published online: 16 November 2026; doi:10.1038/s41567-026-03538-3Founded in 1876, the Indian Association for the Cultivation of Science created an early space for Indians to pursue science. Its achievements offer valuable lessons for strengthening today’s research landscape in India.",
+    "pubDate": "2026-11-16T11:54:36.438128",
+    "category": "physics",
+    "provider": "nature",
+    "source": "Nature Physics"
+  },
+  {
+    "title": "Is the sixth great extinction imminent? Scientists must draw on natural history for clues",
+    "link": "https://www.nature.com/articles/d41586-026-03712-w",
+    "description": "Nature, Published online: 16 November 2026; doi:10.1038/d41586-026-03712-wA lack of crosstalk between research disciplines is hampering scholars’ ability to fully examine how people have altered Earth’s biodiversity.",
+    "abstract": "Nature, Published online: 16 November 2026; doi:10.1038/d41586-026-03712-wA lack of crosstalk between research disciplines is hampering scholars’ ability to fully examine how people have altered Earth’s biodiversity.",
+    "pubDate": "2026-11-16T11:54:36.341585",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "The psychology of imaginary friends — and why they are good for kids",
+    "link": "https://www.nature.com/articles/d41586-026-03713-9",
+    "description": "Nature, Published online: 16 November 2026; doi:10.1038/d41586-026-03713-9Children often conjure up invisible pals to keep them company. A psychologist delves into the reasons why.",
+    "abstract": "Nature, Published online: 16 November 2026; doi:10.1038/d41586-026-03713-9Children often conjure up invisible pals to keep them company. A psychologist delves into the reasons why.",
+    "pubDate": "2026-11-16T11:54:36.341558",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Principles and assumptions underlying domain detection in spatial transcriptomics",
     "link": "https://www.nature.com/articles/s41588-026-02812-7",
     "description": "Nature Genetics, Published online: 16 November 2026; doi:10.1038/s41588-026-02812-7This review evaluates 47 spatial-omics clustering methods categorized by core algorithm. To guide researchers, Panwar et al. provide a re...",
@@ -2871,68 +2941,5 @@ window.NOTICIAS_AUTO = [
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
-  },
-  {
-    "title": "Scientists discover a surprising clue to why some brains resist Alzheimer’s",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261025222538.htm",
-    "description": "Why do some people stay mentally sharp even when their brains show signs of Alzheimer’s disease? Scientists in the Netherlands may have uncovered an important clue hidden in a rare group of immature brain cells. Researchers discovered that these cells remain present even in people over 80, but their...",
-    "pubDate": "Tue, 27 Oct 2026 00:02:26 EDT",
-    "category": "longevity",
-    "provider": "press",
-    "source": "ScienceDaily Longevity"
-  },
-  {
-    "title": "Smithsonian scientists just recreated the first 2 billion years of the Universe",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261026225600.htm",
-    "description": "Scientists have created one of the largest and most detailed simulations of the early universe ever made, offering an extraordinary new glimpse into the cosmos shortly after the Big Bang. Called Lumina, the groundbreaking simulation recreates the universe’s first 2 billion years, showing how dark ma...",
-    "pubDate": "Tue, 27 Oct 2026 05:48:35 EDT",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
-  },
-  {
-    "title": "James Webb discovers a scorching lava planet with a “giant sunscreen”",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261026225603.htm",
-    "description": "A scorching lava planet 280 light-years away has surprised astronomers by apparently maintaining a thick atmosphere despite conditions that should have stripped it away billions of years ago. James Webb Space Telescope observations suggest that TOI-561 b reflects about 75% of incoming starlight, pos...",
-    "pubDate": "Tue, 27 Oct 2026 06:20:52 EDT",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
-  },
-  {
-    "title": "Why pharma firms are betting billions on psychedelic drugs despite setbacks",
-    "link": "https://www.nature.com/articles/d41586-026-03390-8",
-    "description": "<p>Nature, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03390-8\">doi:10.1038/d41586-026-03390-8</a></p>Regulatory pushback stalled the field. But researchers are optimistic about mind-altering drugs as potential treatments for depression and mood disorders....",
-    "pubDate": "2026-10-27T12:27:05.636862",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "How to keep tabs on the tools in your lab",
-    "link": "https://www.nature.com/articles/d41586-026-02814-9",
-    "description": "<p>Nature, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-02814-9\">doi:10.1038/d41586-026-02814-9</a></p>Misplaced or borrowed laboratory equipment can bring experiments to a halt. Scientists explain how they stop essential kit from going missing....",
-    "pubDate": "2026-10-27T12:27:05.636856",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "The Gujarat Tribal Genome Project (2kTGP)",
-    "link": "https://www.nature.com/articles/s41588-026-02820-7",
-    "description": "<p>Nature Genetics, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/s41588-026-02820-7\">doi:10.1038/s41588-026-02820-7</a></p>The Gujarat Tribal Genome Project (2kTGP)...",
-    "pubDate": "2026-10-27T11:26:08.457107",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "Order in a quantum chaotic sea",
-    "link": "https://www.nature.com/articles/s41567-026-03513-y",
-    "description": "<p>Nature Physics, Published online: 27 October 2026; <a href=\"https://www.nature.com/articles/s41567-026-03513-y\">doi:10.1038/s41567-026-03513-y</a></p>Experiments with a superconducting quantum processor revealed an island of regular motion within otherwise chaotic quantum many-body dynamics and u...",
-    "pubDate": "2026-10-27T11:26:08.416306",
-    "category": "physics",
-    "provider": "nature",
-    "source": "Nature Physics"
   }
 ];
