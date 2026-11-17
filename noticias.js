@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "US Supreme Court rebuffs White House effort to cut research grants",
+    "link": "https://www.nature.com/articles/d41586-026-03765-x",
+    "description": "Nature, Published online: 16 November 2026; doi:10.1038/d41586-026-03765-xThe high court has declined for now to intervene in a key case, meaning that lower court rulings that restored several hundred terminated grants w...",
+    "abstract": "Nature, Published online: 16 November 2026; doi:10.1038/d41586-026-03765-xThe high court has declined for now to intervene in a key case, meaning that lower court rulings that restored several hundred terminated grants will stand.",
+    "pubDate": "2026-11-17T01:59:22.673215",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Can AI actually help the climate? Nations want to harness the technology to cut emissions",
     "link": "https://www.nature.com/articles/d41586-026-03763-z",
     "description": "Nature, Published online: 16 November 2026; doi:10.1038/d41586-026-03763-zCountries pledge to use artificial-intelligence tools to accelerate the adoption of clean energy — but that potential is unproven.",
@@ -2945,14 +2955,5 @@ window.NOTICIAS_AUTO = [
     "category": "astro",
     "provider": "press",
     "source": "ScienceDaily Space"
-  },
-  {
-    "title": "Is research funding now a lottery? Elite funder ERC swamped by applications",
-    "link": "https://www.nature.com/articles/d41586-026-03476-3",
-    "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03476-3\">doi:10.1038/d41586-026-03476-3</a></p>A marked rise in submissions for the European Research Council’s grants is pushing down success rates....",
-    "pubDate": "2026-10-28T13:44:01.118785",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
   }
 ];
