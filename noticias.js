@@ -1,5 +1,25 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Open up peer review to early-career researchers",
+    "link": "https://www.nature.com/articles/d41586-026-03707-7",
+    "description": "Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03707-7The peer-review process lacks participation from those most immersed in day-to-day research. An initiative from Nature Portfolio is helping to cha...",
+    "abstract": "Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03707-7The peer-review process lacks participation from those most immersed in day-to-day research. An initiative from Nature Portfolio is helping to change that, with benefits for science.",
+    "pubDate": "2026-11-17T14:02:21.546462",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "New US Congress should ‘reimagine’ science — not just return to the past",
+    "link": "https://www.nature.com/articles/d41586-026-03709-5",
+    "description": "Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03709-5For science policy to be effective, the public must be engaged in the process of funding research.",
+    "abstract": "Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03709-5For science policy to be effective, the public must be engaged in the process of funding research.",
+    "pubDate": "2026-11-17T14:02:21.546429",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "ESA’s Hera spacecraft is flying rectangles around NASA’s asteroid crash site",
     "link": "https://www.sciencedaily.com/releases/2026/11/261115085545.htm",
     "description": "Europe’s Hera spacecraft has arrived at the scene of NASA’s historic asteroid collision to uncover what really happened when a spacecraft slammed into Dimorphos in 2022. Its close-up investigation could reveal whether th...",
@@ -2949,23 +2969,5 @@ window.NOTICIAS_AUTO = [
     "category": "physics",
     "provider": "science",
     "source": "Science"
-  },
-  {
-    "title": "Even stupendous black holes can’t explain dark matter",
-    "link": "https://www.nature.com/articles/d41586-026-03386-4",
-    "description": "<p>Nature, Published online: 29 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03386-4\">doi:10.1038/d41586-026-03386-4</a></p>The theoretical objects would have left a larger imprint on cosmic radiation if they were a source of the invisible force pulling together the galaxies....",
-    "pubDate": "2026-10-29T15:39:25.205428",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Less than 42 minutes of bright daylight linked to higher dementia risk",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261028232707.htm",
-    "description": "Getting more daylight could be linked to a surprisingly powerful benefit for brain health. In a study of more than 87,000 adults, researchers found that higher daytime light exposure was associated with a 16% lower risk of dementia, with longer exposure to bright light linked to even greater reducti...",
-    "pubDate": "Thu, 29 Oct 2026 07:30:32 EDT",
-    "category": "longevity",
-    "provider": "press",
-    "source": "ScienceDaily Longevity"
   }
 ];
