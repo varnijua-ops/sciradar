@@ -1,5 +1,35 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "ESA’s Hera spacecraft is flying rectangles around NASA’s asteroid crash site",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261115085545.htm",
+    "description": "Europe’s Hera spacecraft has arrived at the scene of NASA’s historic asteroid collision to uncover what really happened when a spacecraft slammed into Dimorphos in 2022. Its close-up investigation could reveal whether th...",
+    "abstract": "Europe’s Hera spacecraft has arrived at the scene of NASA’s historic asteroid collision to uncover what really happened when a spacecraft slammed into Dimorphos in 2022. Its close-up investigation could reveal whether the impact left a crater or reshaped the asteroid entirely, providing crucial clues for protecting Earth from future threats.",
+    "pubDate": "Tue, 17 Nov 2026 05:45:41 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "A mysterious twist in the universe’s oldest light could reveal new physics",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm",
+    "description": "Scientists have spotted hints of a mysterious rotation in the universe’s oldest light that could reveal new physics and shed light on dark matter and dark energy. A new technique developed at UC San Diego could help rule...",
+    "abstract": "Scientists have spotted hints of a mysterious rotation in the universe’s oldest light that could reveal new physics and shed light on dark matter and dark energy. A new technique developed at UC San Diego could help rule out misleading telescope errors, bringing researchers closer to determining whether the strange signal is real.",
+    "pubDate": "Tue, 17 Nov 2026 07:14:04 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "The world’s most precious brain samples — and what they teach us about being human",
+    "link": "https://www.nature.com/articles/d41586-026-03711-x",
+    "description": "Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03711-xHow do human neurons behave in their natural environment? To answer that question, you need rare brain samples taken from living humans — and very...",
+    "abstract": "Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03711-xHow do human neurons behave in their natural environment? To answer that question, you need rare brain samples taken from living humans — and very steady hands.",
+    "pubDate": "2026-11-17T12:44:53.022178",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Aged natural killer cells get back into shape",
     "link": "https://www.nature.com/articles/s43587-026-01288-8",
     "description": "Nature Aging, Published online: 17 November 2026; doi:10.1038/s43587-026-01288-8Aging natural killer (NK) cells might retain their killing machinery yet struggle to deploy it. Liu and colleagues now link this defect to r...",
@@ -2937,32 +2967,5 @@ window.NOTICIAS_AUTO = [
     "category": "longevity",
     "provider": "press",
     "source": "ScienceDaily Longevity"
-  },
-  {
-    "title": "NASA discovers Jupiter’s invisible shield is more complex than Earth’s",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261028232715.htm",
-    "description": "NASA’s Juno spacecraft has discovered that Jupiter uses a surprisingly complex system of powerful plasma waves and multiple shock regions to defend against the solar wind. The findings reveal major differences between Jupiter and Earth and could help scientists understand the enormous shock waves pr...",
-    "pubDate": "Thu, 29 Oct 2026 08:26:25 EDT",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
-  },
-  {
-    "title": "Einstein's equations may explain the universe without dark energy",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261028232719.htm",
-    "description": "Mathematicians have uncovered what they argue is a fundamental flaw in the standard model of the universe, potentially challenging the need for dark energy. Their calculations suggest that the mathematical framework used to describe cosmic expansion is inherently unstable and that the universe could...",
-    "pubDate": "Thu, 29 Oct 2026 08:07:58 EDT",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
-  },
-  {
-    "title": "Imaging hot-electron Thomson cooling beyond the Boltzmann–Onsager framework",
-    "link": "https://www.nature.com/articles/s41567-026-03510-1",
-    "description": "<p>Nature Physics, Published online: 29 October 2026; <a href=\"https://www.nature.com/articles/s41567-026-03510-1\">doi:10.1038/s41567-026-03510-1</a></p>Classical Thomson cooling is inefficient. Now non-equilibrium energy dissipation with a breakdown of the Boltzmann–Onsager limit is demonstrated by...",
-    "pubDate": "2026-10-29T11:28:02.897784",
-    "category": "physics",
-    "provider": "nature",
-    "source": "Nature Physics"
   }
 ];
