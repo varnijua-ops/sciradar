@@ -1,5 +1,45 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "How measuring the state of nature can reverse biodiversity loss",
+    "link": "https://www.nature.com/articles/d41586-026-03714-8",
+    "description": "Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03714-8A collective effort by governments, communities and businesses to track the impacts of conservation and restoration is essential to maintaining na...",
+    "abstract": "Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03714-8A collective effort by governments, communities and businesses to track the impacts of conservation and restoration is essential to maintaining nature and the services it provides.",
+    "pubDate": "2026-11-17T10:49:53.094149",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Should we move from artificial intelligence to artificial life?",
+    "link": "https://www.nature.com/articles/d41586-026-03743-3",
+    "description": "Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03743-3Should we move from artificial intelligence to artificial life?",
+    "abstract": "Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03743-3Should we move from artificial intelligence to artificial life?",
+    "pubDate": "2026-11-17T10:49:53.094140",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "AI wearables could exploit people’s most vulnerable moments",
+    "link": "https://www.nature.com/articles/d41586-026-03742-4",
+    "description": "Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03742-4AI wearables could exploit people’s most vulnerable moments",
+    "abstract": "Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03742-4AI wearables could exploit people’s most vulnerable moments",
+    "pubDate": "2026-11-17T10:49:53.094131",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "The prospect of a ‘super’ El Niño demands better ocean monitoring",
+    "link": "https://www.nature.com/articles/d41586-026-03744-2",
+    "description": "Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03744-2The prospect of a ‘super’ El Niño demands better ocean monitoring",
+    "abstract": "Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03744-2The prospect of a ‘super’ El Niño demands better ocean monitoring",
+    "pubDate": "2026-11-17T10:49:53.094117",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Learning the language of machine learning",
     "link": "https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117",
     "description": "When deploying deep learning models in high-stakes scenarios, researchers would like to understand how they work. Today, this requires unraveling an enormously complex network of internal processing nodes to understand w...",
@@ -2918,42 +2958,6 @@ window.NOTICIAS_AUTO = [
     "link": "https://www.nature.com/articles/d41586-026-03260-3",
     "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03260-3\">doi:10.1038/d41586-026-03260-3</a></p>A map of Africa’s water demand reveals that the scarcity of water is only part of the problem facing the continent — management is a separate challenge....",
     "pubDate": "2026-10-28T17:33:33.472493",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "This Arabian desert was once a lush paradise. Why did ancient humans avoid it?",
-    "link": "https://www.nature.com/articles/d41586-026-03484-3",
-    "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03484-3\">doi:10.1038/d41586-026-03484-3</a></p>Expedition revealed that water wasn’t enough for human settlement — plus, proposals to block sunlight get serious....",
-    "pubDate": "2026-10-28T17:33:33.472461",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Why did ancient humans avoid this lush paradise",
-    "link": "https://www.nature.com/articles/d41586-026-03486-1",
-    "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03486-1\">doi:10.1038/d41586-026-03486-1</a></p>A new expedition into the Rub’ al Khali desert finds no evidence of ancient human settlement....",
-    "pubDate": "2026-10-28T17:33:33.472454",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Back-to-monomer depolymerization of silicones by deoxygenative chlorination",
-    "link": "https://www.nature.com/articles/s41586-026-11335-4",
-    "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/s41586-026-11335-4\">doi:10.1038/s41586-026-11335-4</a></p>Back-to-monomer depolymerization of silicones by deoxygenative chlorination...",
-    "pubDate": "2026-10-28T17:33:33.472447",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Switchable Chlorine Atom Transfer Radical Reactions",
-    "link": "https://www.nature.com/articles/s41586-026-11348-z",
-    "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/s41586-026-11348-z\">doi:10.1038/s41586-026-11348-z</a></p>Switchable Chlorine Atom Transfer Radical Reactions...",
-    "pubDate": "2026-10-28T17:33:33.472432",
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
