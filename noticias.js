@@ -1,5 +1,35 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Aged natural killer cells get back into shape",
+    "link": "https://www.nature.com/articles/s43587-026-01288-8",
+    "description": "Nature Aging, Published online: 17 November 2026; doi:10.1038/s43587-026-01288-8Aging natural killer (NK) cells might retain their killing machinery yet struggle to deploy it. Liu and colleagues now link this defect to r...",
+    "abstract": "Nature Aging, Published online: 17 November 2026; doi:10.1038/s43587-026-01288-8Aging natural killer (NK) cells might retain their killing machinery yet struggle to deploy it. Liu and colleagues now link this defect to retinoid-associated lipid remodeling, and show that inhibiting fatty acyl chain elongation restores the mechanical features of NK cells that are essential for antitumor activity in preclinical models of human cancers.",
+    "pubDate": "2026-11-17T11:38:17.450704",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "Evolutionary lineage-specific and heterochromatin-independent repression of transposon-derived sequences",
+    "link": "https://www.nature.com/articles/s41588-026-02823-4",
+    "description": "Nature Genetics, Published online: 17 November 2026; doi:10.1038/s41588-026-02823-4This study identifies SCAN zinc-finger proteins as rapidly evolving transcription factors that target lineage-specific transposable eleme...",
+    "abstract": "Nature Genetics, Published online: 17 November 2026; doi:10.1038/s41588-026-02823-4This study identifies SCAN zinc-finger proteins as rapidly evolving transcription factors that target lineage-specific transposable elements and restrict their regulatory activity without canonical repressive chromatin modifications.",
+    "pubDate": "2026-11-17T11:38:16.729711",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "Integrated QTL mapping and CRISPR screening in pooled iPSC-derived microglia reveals genetic drivers of neurodegenerative risk",
+    "link": "https://www.nature.com/articles/s41588-026-02843-0",
+    "description": "Nature Genetics, Published online: 17 November 2026; doi:10.1038/s41588-026-02843-0This study presents a scalable framework for understanding the genetic determinants of gene expression and cellular phenotype in stem-cel...",
+    "abstract": "Nature Genetics, Published online: 17 November 2026; doi:10.1038/s41588-026-02843-0This study presents a scalable framework for understanding the genetic determinants of gene expression and cellular phenotype in stem-cell-derived microglia-like cells and linking these to neurodegenerative disease.",
+    "pubDate": "2026-11-17T11:38:16.729689",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
     "title": "How measuring the state of nature can reverse biodiversity loss",
     "link": "https://www.nature.com/articles/d41586-026-03714-8",
     "description": "Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03714-8A collective effort by governments, communities and businesses to track the impacts of conservation and restoration is essential to maintaining na...",
@@ -2934,32 +2964,5 @@ window.NOTICIAS_AUTO = [
     "category": "physics",
     "provider": "nature",
     "source": "Nature Physics"
-  },
-  {
-    "title": "Meteors don't just burn up. What really happens is far more violent",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261027063710.htm",
-    "description": "Scientists have uncovered seven surprising stages that space rocks go through as they hurtle toward Earth, revealing that melting and violent fragmentation, rather than simple evaporation, determine their fate. The discovery could help explain why meteorites scatter across the ground and how dangero...",
-    "pubDate": "Wed, 28 Oct 2026 23:06:41 EDT",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
-  },
-  {
-    "title": "The brain liquidates billions of mutant neurons around the time we’re born",
-    "link": "https://www.nature.com/articles/d41586-026-03444-x",
-    "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03444-x\">doi:10.1038/d41586-026-03444-x</a></p>Faulty neurons can contribute to various neurological conditions, but researchers have uncovered a system that might clean them up....",
-    "pubDate": "2026-10-28T17:33:33.472501",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Accounting of Africa’s water reveals a management gap",
-    "link": "https://www.nature.com/articles/d41586-026-03260-3",
-    "description": "<p>Nature, Published online: 28 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03260-3\">doi:10.1038/d41586-026-03260-3</a></p>A map of Africa’s water demand reveals that the scarcity of water is only part of the problem facing the continent — management is a separate challenge....",
-    "pubDate": "2026-10-28T17:33:33.472493",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
   }
 ];
