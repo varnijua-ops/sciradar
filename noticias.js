@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "‘Light and sound’ therapy for Alzheimer’s flops in long-anticipated trial",
+    "link": "https://www.nature.com/articles/d41586-026-03770-0",
+    "description": "Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03770-0A closely watched study found no cognitive benefit from a brain-stimulating headset designed to treat Alzheimer’s disease.",
+    "abstract": "Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03770-0A closely watched study found no cognitive benefit from a brain-stimulating headset designed to treat Alzheimer’s disease.",
+    "pubDate": "2026-11-17T16:50:38.208825",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Is academia’s risk-averse culture stifling scientific discovery?",
     "link": "https://www.nature.com/articles/d41586-026-03772-y",
     "description": "Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03772-yFear of failure can cause researchers to stay within their comfort zone, impacting innovation, argues Nessa Carey.",
@@ -2959,15 +2969,6 @@ window.NOTICIAS_AUTO = [
     "link": "https://www.science.org/doi/abs/10.1126/science.adr9983?af=R",
     "description": "Science, Volume 394, Issue 6823, Page 556-561, October 2026. <br />...",
     "pubDate": "2026-10-29T19:37:25.685303",
-    "category": "physics",
-    "provider": "science",
-    "source": "Science"
-  },
-  {
-    "title": "Constructing the history of a contested region",
-    "link": "https://www.science.org/doi/abs/10.1126/science.aem1550?af=R",
-    "description": "Science, Volume 394, Issue 6823, Page 492-492, October 2026. <br />...",
-    "pubDate": "2026-10-29T19:37:25.685297",
     "category": "physics",
     "provider": "science",
     "source": "Science"
