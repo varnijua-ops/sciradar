@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Limited genomic predictability of complex trait evolution despite genotype-phenotype stability",
+    "link": "https://www.science.org/doi/abs/10.1126/science.aee0342?af=R",
+    "description": "Science, Volume 394, Issue 6825, November 2026.",
+    "abstract": "Science, Volume 394, Issue 6825, November 2026.",
+    "pubDate": "2026-11-18T20:42:20.981803",
+    "category": "physics",
+    "provider": "science",
+    "source": "Science"
+  },
+  {
     "title": "This featherweight, flying robot carries its own sensors and computers",
     "link": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
     "description": "Over the past decade, MIT researchers have developed aerial microrobots with bumblebee-like speed, agility, and durability, for tasks like precision agriculture or search-and-rescue. But these featherweight microrobots c...",
@@ -2981,15 +2991,6 @@ window.NOTICIAS_AUTO = [
     "link": "https://www.nature.com/articles/d41586-026-03502-4",
     "description": "<p>Nature, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03502-4\">doi:10.1038/d41586-026-03502-4</a></p>To find evidence-backed ways to improve grant-funding processes, metascientists need freedom and money to experiment, as well as leaders who are willing to...",
     "pubDate": "2026-10-30T14:44:09.601795",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Author Correction: Rh<sup>3+</sup> stabilized in KRh@MFI catalyses regioselective hydroformylation",
-    "link": "https://www.nature.com/articles/s41586-026-11337-2",
-    "description": "<p>Nature, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/s41586-026-11337-2\">doi:10.1038/s41586-026-11337-2</a></p>Author Correction: Rh<sup>3+</sup> stabilized in KRh@MFI catalyses regioselective hydroformylation...",
-    "pubDate": "2026-10-30T14:44:09.601746",
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
