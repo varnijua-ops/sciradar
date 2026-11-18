@@ -1,5 +1,45 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "MIT discovers that aging weakens the brain’s nighttime cleaning system",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm",
+    "description": "MIT researchers have discovered that the brain’s natural waste-removal system becomes significantly less effective during sleep as people age. The decline is linked to weaker deep-sleep brain waves and changes in blood f...",
+    "abstract": "MIT researchers have discovered that the brain’s natural waste-removal system becomes significantly less effective during sleep as people age. The decline is linked to weaker deep-sleep brain waves and changes in blood flow, potentially offering new clues about why aging increases the risk of Alzheimer's disease and dementia. Surprisingly, some older adults retain the same powerful cleansing waves seen in younger people.",
+    "pubDate": "Wed, 18 Nov 2026 07:06:44 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "A little-known protein could be a powerful weapon against Alzheimer’s",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261114202233.htm",
+    "description": "Scientists have uncovered a powerful natural defense against Alzheimer’s disease that could open the door to new treatments. By boosting a protein called SORLA, researchers significantly reduced toxic tau tangles, protec...",
+    "abstract": "Scientists have uncovered a powerful natural defense against Alzheimer’s disease that could open the door to new treatments. By boosting a protein called SORLA, researchers significantly reduced toxic tau tangles, protected connections between brain cells, and prevented some of the brain shrinkage associated with neurodegeneration in mice. Removing the protein made the damage worse, highlighting its critical protective role.",
+    "pubDate": "Wed, 18 Nov 2026 06:53:30 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "NASA pushes Mars helicopter blades beyond the speed of sound",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261117033920.htm",
+    "description": "NASA has successfully tested Mars helicopter rotor blades at supersonic speeds, boosting potential lift by 30% and overcoming a major obstacle to more powerful aircraft on the Red Planet. The breakthrough could enable ne...",
+    "abstract": "NASA has successfully tested Mars helicopter rotor blades at supersonic speeds, boosting potential lift by 30% and overcoming a major obstacle to more powerful aircraft on the Red Planet. The breakthrough could enable next-generation helicopters to carry heavier scientific equipment, fly farther, and explore places beyond the reach of traditional rovers.",
+    "pubDate": "Tue, 17 Nov 2026 22:16:19 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "How to make AI data centres more sustainable",
+    "link": "https://www.nature.com/articles/d41586-026-03708-6",
+    "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03708-6Tech companies and governments face opposition over data centres’ expansion, in part because of their huge power requirements. They must not be po...",
+    "abstract": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03708-6Tech companies and governments face opposition over data centres’ expansion, in part because of their huge power requirements. They must not be powered with fossil fuels.",
+    "pubDate": "2026-11-18T12:51:34.718199",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "At-home microbiome tests are taking off. Can they be trusted?",
     "link": "https://www.nature.com/articles/d41586-026-03710-y",
     "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03710-yOur reporter mailed off her poo to find out what two companies say about her microbiome. Here’s what she found.",
@@ -2943,41 +2983,5 @@ window.NOTICIAS_AUTO = [
     "category": "genetics",
     "provider": "nature",
     "source": "Nature Genetics"
-  },
-  {
-    "title": "Ethical challenges in patient-focused drug development for rare genetic diseases",
-    "link": "https://www.nature.com/articles/s41588-026-02824-3",
-    "description": "<p>Nature Genetics, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/s41588-026-02824-3\">doi:10.1038/s41588-026-02824-3</a></p>Patient and family groups increasingly drive the development of drugs for rare diseases, from trial design to regulatory strategy. This model of p...",
-    "pubDate": "2026-10-30T11:24:55.498019",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "Motors use biased diffusion to shepherd diffusible proteins on microtubules",
-    "link": "https://www.nature.com/articles/s41567-026-03489-9",
-    "description": "<p>Nature Physics, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/s41567-026-03489-9\">doi:10.1038/s41567-026-03489-9</a></p>Microtubules are bound by active motors and passively diffusing proteins. Now it is shown that this mixture of active and passive molecules is a re...",
-    "pubDate": "2026-10-30T11:24:55.417208",
-    "category": "physics",
-    "provider": "nature",
-    "source": "Nature Physics"
-  },
-  {
-    "title": "Automated inverse design of metainterfaces with tailored friction laws",
-    "link": "https://www.nature.com/articles/s41567-026-03503-0",
-    "description": "<p>Nature Physics, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/s41567-026-03503-0\">doi:10.1038/s41567-026-03503-0</a></p>Understanding friction between contacting surfaces is important to improve device performance. Now a method is shown to discover materials that off...",
-    "pubDate": "2026-10-30T11:24:55.417203",
-    "category": "physics",
-    "provider": "nature",
-    "source": "Nature Physics"
-  },
-  {
-    "title": "Multiparticle quantum walks in a dipole-conserving Bose–Hubbard model",
-    "link": "https://www.nature.com/articles/s41567-026-03512-z",
-    "description": "<p>Nature Physics, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/s41567-026-03512-z\">doi:10.1038/s41567-026-03512-z</a></p>Strong potential gradients can localize individual particles, but interactions can still generate collective motion. An experiment with ultracold a...",
-    "pubDate": "2026-10-30T11:24:55.417197",
-    "category": "physics",
-    "provider": "nature",
-    "source": "Nature Physics"
   }
 ];
