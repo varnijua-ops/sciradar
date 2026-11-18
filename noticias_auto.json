@@ -1,5 +1,15 @@
 [
   {
+    "title": "At-home microbiome tests are taking off. Can they be trusted?",
+    "link": "https://www.nature.com/articles/d41586-026-03710-y",
+    "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03710-yOur reporter mailed off her poo to find out what two companies say about her microbiome. Here’s what she found.",
+    "abstract": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03710-yOur reporter mailed off her poo to find out what two companies say about her microbiome. Here’s what she found.",
+    "pubDate": "2026-11-18T11:48:19.303948",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Regularized ensemble polygenic risk prediction with GWAS summary statistics",
     "link": "https://www.nature.com/articles/s41588-026-02844-z",
     "description": "Nature Genetics, Published online: 18 November 2026; doi:10.1038/s41588-026-02844-zPUMAS-ensemble combines multiple polygenic risk scores using genome-wide association study summary statistics, improving genetic risk pre...",
@@ -2966,15 +2976,6 @@
     "link": "https://www.nature.com/articles/s41567-026-03512-z",
     "description": "<p>Nature Physics, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/s41567-026-03512-z\">doi:10.1038/s41567-026-03512-z</a></p>Strong potential gradients can localize individual particles, but interactions can still generate collective motion. An experiment with ultracold a...",
     "pubDate": "2026-10-30T11:24:55.417197",
-    "category": "physics",
-    "provider": "nature",
-    "source": "Nature Physics"
-  },
-  {
-    "title": "Thermodynamic demonstration of tetracriticality and multicomponent superconductivity in UTe<sub>2</sub>",
-    "link": "https://www.nature.com/articles/s41567-026-03504-z",
-    "description": "<p>Nature Physics, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/s41567-026-03504-z\">doi:10.1038/s41567-026-03504-z</a></p>Prior measurements of the phase diagram of UTe2 contain a triple point that is forbidden by thermodynamics. Now, an additional phase boundary is di...",
-    "pubDate": "2026-10-30T11:24:55.417191",
     "category": "physics",
     "provider": "nature",
     "source": "Nature Physics"
