@@ -1,5 +1,35 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Kings of the jungle? This early human had surprising survival skills that rivalled ours",
+    "link": "https://www.nature.com/articles/d41586-026-03777-7",
+    "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03777-7Teeth found in south China challenge the idea that Homo erectus was limited to woodlands and savannahs.",
+    "abstract": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03777-7Teeth found in south China challenge the idea that Homo erectus was limited to woodlands and savannahs.",
+    "pubDate": "2026-11-18T17:47:14.604989",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Tropical land-use intensification reshapes biodiversity in expected and unexpected ways",
+    "link": "https://www.nature.com/articles/d41586-026-03602-1",
+    "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03602-1Global agricultural demand has increased over the past few decades, driving land-use intensification in some of the world’s most biodiverse region...",
+    "abstract": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03602-1Global agricultural demand has increased over the past few decades, driving land-use intensification in some of the world’s most biodiverse regions. An assessment of some 40,000 species, from soil microorganisms to vertebrates, in Sumatra, Indonesia, reveals that agricultural intensification threatens biodiversity through species loss and changes in community composition across different spatial scales.",
+    "pubDate": "2026-11-18T17:47:14.604972",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "First observation of a giant star swallowing its neighbour",
+    "link": "https://www.nature.com/articles/d41586-026-03784-8",
+    "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03784-8Finding provides new insights into what happens within stellar mergers — plus, using quantum physics to securely pinpoint someone’s location.",
+    "abstract": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03784-8Finding provides new insights into what happens within stellar mergers — plus, using quantum physics to securely pinpoint someone’s location.",
+    "pubDate": "2026-11-18T17:47:14.604913",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "A grant to hand out more grants — and build a research area",
     "link": "https://www.nature.com/articles/d41586-026-03689-6",
     "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03689-6A rapid microgrants scheme called the Field Building Accelerator aims to launch new scientific fields.",
@@ -2962,32 +2992,5 @@ window.NOTICIAS_AUTO = [
     "category": "longevity",
     "provider": "press",
     "source": "ScienceDaily Longevity"
-  },
-  {
-    "title": "A mysterious star system just 16 light-years away may be hiding habitable planets",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261028232711.htm",
-    "description": "Astronomers have solved a 170-year-old planetary mystery in a nearby two-star system, discovering that a mysterious wobble was caused by stellar activity rather than a giant planet. Although Jupiter-sized worlds have been ruled out in key regions, smaller, potentially habitable planets could still b...",
-    "pubDate": "Thu, 29 Oct 2026 23:17:17 EDT",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
-  },
-  {
-    "title": "Physicists created a tiny universe and watched time emerge without a clock",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261028234703.htm",
-    "description": "Scientists have created a miniature universe in the laboratory that could help answer one of the biggest mysteries in physics: What is time, and where does it come from? Using 24,000 ultracold atoms, a University of Birmingham researcher built an isolated quantum system that repeatedly expands and c...",
-    "pubDate": "Fri, 30 Oct 2026 07:42:36 EDT",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
-  },
-  {
-    "title": "Hubble reveals a stunning twist in how the universe emerged from darkness",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261029072113.htm",
-    "description": "A surprising discovery by astronomers using the Hubble Space Telescope is challenging a leading explanation for how the early universe emerged from a dense fog of hydrogen roughly 13 billion years ago. Scientists once believed powerful winds from exploding stars helped radiation escape galaxies and ...",
-    "pubDate": "Fri, 30 Oct 2026 06:50:22 EDT",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
   }
 ];
