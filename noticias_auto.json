@@ -1,5 +1,25 @@
 [
   {
+    "title": "Regularized ensemble polygenic risk prediction with GWAS summary statistics",
+    "link": "https://www.nature.com/articles/s41588-026-02844-z",
+    "description": "Nature Genetics, Published online: 18 November 2026; doi:10.1038/s41588-026-02844-zPUMAS-ensemble combines multiple polygenic risk scores using genome-wide association study summary statistics, improving genetic risk pre...",
+    "abstract": "Nature Genetics, Published online: 18 November 2026; doi:10.1038/s41588-026-02844-zPUMAS-ensemble combines multiple polygenic risk scores using genome-wide association study summary statistics, improving genetic risk prediction across traits and ancestry groups without requiring individual-level training data.",
+    "pubDate": "2026-11-18T10:50:07.308794",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "Excess intergalactic heating around a dual quasar system 2.8 Gyr after the Big Bang",
+    "link": "https://www.nature.com/articles/s41550-026-03025-y",
+    "description": "Nature Astronomy, Published online: 18 November 2026; doi:10.1038/s41550-026-03025-yThe thermal Sunyaev–Zel’dovich effect allows the detection of extremely hot gas outflows in a two-quasar system 2.8 billion years after ...",
+    "abstract": "Nature Astronomy, Published online: 18 November 2026; doi:10.1038/s41550-026-03025-yThe thermal Sunyaev–Zel’dovich effect allows the detection of extremely hot gas outflows in a two-quasar system 2.8 billion years after the Big Bang. The gas has enough energy to dictate the evolution of the entire large-scale environment.",
+    "pubDate": "2026-11-18T10:50:05.141957",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
     "title": "Helping AI text detectors keep up with changing conditions",
     "link": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
     "description": "A teacher who believes a student’s term paper may have been written by a large language model (LLM) can use a tool for detecting artificial intelligence-generated text to help confirm their suspicions. But the teacher ma...",
@@ -2958,23 +2978,5 @@
     "category": "physics",
     "provider": "nature",
     "source": "Nature Physics"
-  },
-  {
-    "title": "The challenge of recognition in large scientific collaborations",
-    "link": "https://www.nature.com/articles/s41567-026-03511-0",
-    "description": "<p>Nature Physics, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/s41567-026-03511-0\">doi:10.1038/s41567-026-03511-0</a></p>The authorship practices of large collaborations can hide individual contributions. A recognition programme developed by the LIGO Scientific Collab...",
-    "pubDate": "2026-10-30T11:24:55.417175",
-    "category": "physics",
-    "provider": "nature",
-    "source": "Nature Physics"
-  },
-  {
-    "title": "Oocyte-specific OMC1 is required for maintaining chromosome cohesion through reproductive life",
-    "link": "https://www.nature.com/articles/s43587-026-01245-5",
-    "description": "<p>Nature Aging, Published online: 29 October 2026; <a href=\"https://www.nature.com/articles/s43587-026-01245-5\">doi:10.1038/s43587-026-01245-5</a></p>Mammalian oocytes undergo prolonged meiotic arrest during which sister chromatids are linked by cohesin complexes. Cohesion deterioration during agin...",
-    "pubDate": "2026-10-29T23:24:16.679599",
-    "category": "longevity",
-    "provider": "nature",
-    "source": "Nature Aging"
   }
 ]
