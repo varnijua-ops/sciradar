@@ -1,5 +1,45 @@
 [
   {
+    "title": "Comparing plasma p-tau217 and plasma p-tau217/Aβ42 with CSF biomarkers for assessing Alzheimer’s disease pathology",
+    "link": "https://www.nature.com/articles/s43587-026-01259-z",
+    "description": "Nature Aging, Published online: 18 November 2026; doi:10.1038/s43587-026-01259-zBlood tests for Alzheimer’s disease, including regulatory authorized p-tau217 and p-tau217/AB42, are accessible and cost-effective diagnosti...",
+    "abstract": "Nature Aging, Published online: 18 November 2026; doi:10.1038/s43587-026-01259-zBlood tests for Alzheimer’s disease, including regulatory authorized p-tau217 and p-tau217/AB42, are accessible and cost-effective diagnostic tools. This study shows that they perform similarly to authorized cerebrospinal fluid tests in detecting Alzheimer’s disease pathology in patients.",
+    "pubDate": "2026-11-18T14:05:58.135872",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "Author Correction: ZDHHC11-mediated palmitoylation alleviates chondrocyte senescence and serves as a therapeutic target for osteoarthritis",
+    "link": "https://www.nature.com/articles/s43587-026-01299-5",
+    "description": "Nature Aging, Published online: 18 November 2026; doi:10.1038/s43587-026-01299-5Author Correction: ZDHHC11-mediated palmitoylation alleviates chondrocyte senescence and serves as a therapeutic target for osteoarthritis",
+    "abstract": "Nature Aging, Published online: 18 November 2026; doi:10.1038/s43587-026-01299-5Author Correction: ZDHHC11-mediated palmitoylation alleviates chondrocyte senescence and serves as a therapeutic target for osteoarthritis",
+    "pubDate": "2026-11-18T14:05:58.135844",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "The right to do wrong",
+    "link": "https://www.nature.com/articles/d41586-026-03517-x",
+    "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03517-xAn equal chance.",
+    "abstract": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03517-xAn equal chance.",
+    "pubDate": "2026-11-18T14:05:54.341179",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Are you a budding science sleuth? Take our plagiarism quiz to test your skills",
+    "link": "https://www.nature.com/articles/d41586-026-03040-z",
+    "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03040-zSleuths and publishers seize on ‘tortured phrases’ to detect research fraud. Sometimes they can raise a smile.",
+    "abstract": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03040-zSleuths and publishers seize on ‘tortured phrases’ to detect research fraud. Sometimes they can raise a smile.",
+    "pubDate": "2026-11-18T14:05:54.341166",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "MIT discovers that aging weakens the brain’s nighttime cleaning system",
     "link": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm",
     "description": "MIT researchers have discovered that the brain’s natural waste-removal system becomes significantly less effective during sleep as people age. The decline is linked to weaker deep-sleep brain waves and changes in blood f...",
@@ -2947,41 +2987,5 @@
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
-  },
-  {
-    "title": "Are dinosaur fossils hogging top journals? Analysis sparks debate over ‘charismatic’ finds",
-    "link": "https://www.nature.com/articles/d41586-026-03512-2",
-    "description": "<p>Nature, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03512-2\">doi:10.1038/d41586-026-03512-2</a></p>Fossils of dinosaurs, mammals and other glamorous species are over-represented in high-profile titles, suggests a study of thousands of palaeontology paper...",
-    "pubDate": "2026-10-30T12:29:27.719144",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Somewhere over the transcontinental burrito tunnel",
-    "link": "https://www.nature.com/articles/d41586-026-03368-6",
-    "description": "<p>Nature, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03368-6\">doi:10.1038/d41586-026-03368-6</a></p>Pipe dreams....",
-    "pubDate": "2026-10-30T12:29:27.719135",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Patrick Stewart dies: how Captain Picard inspired today’s science leaders",
-    "link": "https://www.nature.com/articles/d41586-026-03543-9",
-    "description": "<p>Nature, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03543-9\">doi:10.1038/d41586-026-03543-9</a></p>Researchers say his portrayal of the Star Trek character represented curiosity, thoughtfulness and an effort to understand others....",
-    "pubDate": "2026-10-30T12:29:27.719117",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "A haplotype reference panel constructed from 490,319 UK Biobank genomes improves genotype imputation for global populations",
-    "link": "https://www.nature.com/articles/s41588-026-02819-0",
-    "description": "<p>Nature Genetics, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/s41588-026-02819-0\">doi:10.1038/s41588-026-02819-0</a></p>A haplotype reference panel constructed from whole-genome sequencing data from 490,319 UK Biobank participants improves genotype imputation accura...",
-    "pubDate": "2026-10-30T11:24:55.498034",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
   }
 ]
