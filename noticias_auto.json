@@ -1,5 +1,15 @@
 [
   {
+    "title": "Sore throat? The brain has surprising control over how ill you feel",
+    "link": "https://www.nature.com/articles/d41586-026-03774-w",
+    "description": "Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03774-wThe brain might decode pathogens, store memories of previous illnesses and prepare the body for future threats.",
+    "abstract": "Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03774-wThe brain might decode pathogens, store memories of previous illnesses and prepare the body for future threats.",
+    "pubDate": "2026-11-19T11:46:22.119334",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Optimizing phenotype scale improves genetic analyses in large-scale biobanks",
     "link": "https://www.nature.com/articles/s41588-026-02826-1",
     "description": "Nature Genetics, Published online: 19 November 2026; doi:10.1038/s41588-026-02826-1SIQReg is a data-driven approach for optimizing phenotype scale transformation that substantially reduces scale-dependent heterogeneity w...",
@@ -2987,14 +2997,5 @@
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
-  },
-  {
-    "title": "Rapid growth in a dual active galactic nucleus during a gas-rich merger at <i>z</i> ≈ 4.5",
-    "link": "https://www.nature.com/articles/s41550-026-03008-z",
-    "description": "<p>Nature Astronomy, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/s41550-026-03008-z\">doi:10.1038/s41550-026-03008-z</a></p>Observations reveal two rapidly growing supermassive black holes in a gas-rich galaxy merger just 1.3 billion years after the Big Bang. Both alre...",
-    "pubDate": "2026-10-30T14:44:09.652964",
-    "category": "astro",
-    "provider": "nature",
-    "source": "Nature Astronomy"
   }
 ]
