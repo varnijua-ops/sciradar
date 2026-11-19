@@ -1,5 +1,25 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Optimizing phenotype scale improves genetic analyses in large-scale biobanks",
+    "link": "https://www.nature.com/articles/s41588-026-02826-1",
+    "description": "Nature Genetics, Published online: 19 November 2026; doi:10.1038/s41588-026-02826-1SIQReg is a data-driven approach for optimizing phenotype scale transformation that substantially reduces scale-dependent heterogeneity w...",
+    "abstract": "Nature Genetics, Published online: 19 November 2026; doi:10.1038/s41588-026-02826-1SIQReg is a data-driven approach for optimizing phenotype scale transformation that substantially reduces scale-dependent heterogeneity while preserving biologically plausible nonadditive signals and improving power to detect additive signals.",
+    "pubDate": "2026-11-19T10:48:14.405732",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "Tracing genetic risk of neurodegenerative disease through variants affecting microglial function",
+    "link": "https://www.nature.com/articles/s41588-026-02839-w",
+    "description": "Nature Genetics, Published online: 19 November 2026; doi:10.1038/s41588-026-02839-wWe combined pooled differentiation of 261 human induced pluripotent stem cell lines into microglia-like cells with single-cell transcript...",
+    "abstract": "Nature Genetics, Published online: 19 November 2026; doi:10.1038/s41588-026-02839-wWe combined pooled differentiation of 261 human induced pluripotent stem cell lines into microglia-like cells with single-cell transcriptomics, cellular phenotyping and CRISPR screening to trace neurodegenerative risk variants through to microglial function. This approach identified genetic drivers that influence microglial differentiation, migration and phagocytosis, including disease-relevant effects at LRRK2 and TREM2.",
+    "pubDate": "2026-11-19T10:48:14.405716",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
     "title": "Limited genomic predictability of complex trait evolution despite genotype-phenotype stability",
     "link": "https://www.science.org/doi/abs/10.1126/science.aee0342?af=R",
     "description": "Science, Volume 394, Issue 6825, November 2026.",
@@ -2976,23 +2996,5 @@ window.NOTICIAS_AUTO = [
     "category": "astro",
     "provider": "nature",
     "source": "Nature Astronomy"
-  },
-  {
-    "title": "A user’s guide to building the Universe",
-    "link": "https://www.nature.com/articles/s41550-026-02998-0",
-    "description": "<p>Nature Astronomy, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/s41550-026-02998-0\">doi:10.1038/s41550-026-02998-0</a></p>A user’s guide to building the Universe...",
-    "pubDate": "2026-10-30T14:44:09.652948",
-    "category": "astro",
-    "provider": "nature",
-    "source": "Nature Astronomy"
-  },
-  {
-    "title": "I built the UK government’s metascience unit — here’s what countries need to know",
-    "link": "https://www.nature.com/articles/d41586-026-03502-4",
-    "description": "<p>Nature, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03502-4\">doi:10.1038/d41586-026-03502-4</a></p>To find evidence-backed ways to improve grant-funding processes, metascientists need freedom and money to experiment, as well as leaders who are willing to...",
-    "pubDate": "2026-10-30T14:44:09.601795",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
   }
 ];
