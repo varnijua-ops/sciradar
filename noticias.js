@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "People entering old age now have better memory than their parents did",
+    "link": "https://www.nature.com/articles/d41586-026-03783-9",
+    "description": "Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03783-9Older people today maintain memory function for longer than previous generations did, according to a study of 219,000 adults.",
+    "abstract": "Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03783-9Older people today maintain memory function for longer than previous generations did, according to a study of 219,000 adults.",
+    "pubDate": "2026-11-19T15:46:28.496977",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Study reveals data centers’ long-distance damage to air quality",
     "link": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
     "description": "The rapid expansion of data centers for artificial intelligence causes negative health and air quality impacts in regions far from where the brick-and-mortar facilities are located, according to a new study by MIT resear...",
@@ -2988,15 +2998,5 @@ window.NOTICIAS_AUTO = [
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
-  },
-  {
-    "title": "Scientists say a forgotten particle may explain why the universe exists",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261031221201.htm",
-    "description": "A mysterious particle overlooked for decades may hold the key to why matter survived the Big Bang, allowing stars, planets, and life to exist. Scientists believe this forgotten neutrino reshaped the early universe and ma...",
-    "abstract": "A mysterious particle overlooked for decades may hold the key to why matter survived the Big Bang, allowing stars, planets, and life to exist. Scientists believe this forgotten neutrino reshaped the early universe and may have left detectable gravitational wave signals that could help unlock the cosmos’s deepest mysteries.",
-    "pubDate": "Sun, 01 Nov 2026 00:33:36 EDT",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
   }
 ];
