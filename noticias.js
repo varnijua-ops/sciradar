@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "AI is ditching hallucinated references — and other bad habits",
+    "link": "https://www.nature.com/articles/d41586-026-03753-1",
+    "description": "Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03753-1An analysis finds that many undesirable LLM behaviours dissipate after about 16 months.",
+    "abstract": "Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03753-1An analysis finds that many undesirable LLM behaviours dissipate after about 16 months.",
+    "pubDate": "2026-11-19T12:52:48.128601",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Sore throat? The brain has surprising control over how ill you feel",
     "link": "https://www.nature.com/articles/d41586-026-03774-w",
     "description": "Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03774-wThe brain might decode pathogens, store memories of previous illnesses and prepare the body for future threats.",
@@ -2988,14 +2998,5 @@ window.NOTICIAS_AUTO = [
     "category": "ai_tech",
     "provider": "press",
     "source": "MIT News AI"
-  },
-  {
-    "title": "Briefing Chat: Could your pet live longer? Longevity research comes to animals",
-    "link": "https://www.nature.com/articles/d41586-026-03553-7",
-    "description": "<p>Nature, Published online: 30 October 2026; <a href=\"https://www.nature.com/articles/d41586-026-03553-7\">doi:10.1038/d41586-026-03553-7</a></p>Nature staff discuss the emerging field of pet longevity — plus, a researcher decides not to care about their student reviews. Are they wrong?...",
-    "pubDate": "2026-10-30T17:29:38.426130",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
   }
 ];
