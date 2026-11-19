@@ -1,5 +1,25 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "University students are biggest spreaders of COVID",
+    "link": "https://www.nature.com/articles/d41586-026-03746-0",
+    "description": "Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03746-0Undergraduates were the first group to spread genetic variants of SARS-CoV-2 during the pandemic, mega-analysis finds.",
+    "abstract": "Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03746-0Undergraduates were the first group to spread genetic variants of SARS-CoV-2 during the pandemic, mega-analysis finds.",
+    "pubDate": "2026-11-19T17:46:42.235733",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Calcium catalysed nucleophilic fluorination",
+    "link": "https://www.nature.com/articles/s41586-026-11445-z",
+    "description": "Nature, Published online: 19 November 2026; doi:10.1038/s41586-026-11445-zCalcium catalysed nucleophilic fluorination",
+    "abstract": "Nature, Published online: 19 November 2026; doi:10.1038/s41586-026-11445-zCalcium catalysed nucleophilic fluorination",
+    "pubDate": "2026-11-19T17:46:42.235688",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "More tropical cyclones hit peak fury at the worst possible time",
     "link": "https://www.nature.com/articles/d41586-026-03748-y",
     "description": "Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03748-yClimate change is creating conditions that pump up the intensity of hurricanes and typhoons just as the storms reach the coast.",
@@ -2978,25 +2998,5 @@ window.NOTICIAS_AUTO = [
     "category": "physics",
     "provider": "nature",
     "source": "Nature Physics"
-  },
-  {
-    "title": "A catalog of transcriptome genetic regulation in a consanguineous Middle Eastern biobank",
-    "link": "https://www.nature.com/articles/s41588-026-02785-7",
-    "description": "Nature Genetics, Published online: 02 November 2026; doi:10.1038/s41588-026-02785-7This study reports an atlas of transcriptomic genetic effects from a Middle Eastern population biobank, revealing population-specific reg...",
-    "abstract": "Nature Genetics, Published online: 02 November 2026; doi:10.1038/s41588-026-02785-7This study reports an atlas of transcriptomic genetic effects from a Middle Eastern population biobank, revealing population-specific regulatory variants and links to clinically relevant traits.",
-    "pubDate": "2026-11-02T10:45:00.497457",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "Clonal hematopoiesis and cytopenias following CAR19 therapy",
-    "link": "https://www.nature.com/articles/s41588-026-02795-5",
-    "description": "Nature Genetics, Published online: 02 November 2026; doi:10.1038/s41588-026-02795-5This study shows that clonal hematopoiesis expands after chimeric antigen receptor (CAR) T cell therapy and contributes to secondary myel...",
-    "abstract": "Nature Genetics, Published online: 02 November 2026; doi:10.1038/s41588-026-02795-5This study shows that clonal hematopoiesis expands after chimeric antigen receptor (CAR) T cell therapy and contributes to secondary myeloid cancers. In addition, the CAR vector frequently integrates into pre-existing clonal hematopoiesis.",
-    "pubDate": "2026-11-02T10:45:00.497437",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
   }
 ];
