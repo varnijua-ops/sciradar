@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "More tropical cyclones hit peak fury at the worst possible time",
+    "link": "https://www.nature.com/articles/d41586-026-03748-y",
+    "description": "Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03748-yClimate change is creating conditions that pump up the intensity of hurricanes and typhoons just as the storms reach the coast.",
+    "abstract": "Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03748-yClimate change is creating conditions that pump up the intensity of hurricanes and typhoons just as the storms reach the coast.",
+    "pubDate": "2026-11-19T16:53:05.054229",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "People entering old age now have better memory than their parents did",
     "link": "https://www.nature.com/articles/d41586-026-03783-9",
     "description": "Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03783-9Older people today maintain memory function for longer than previous generations did, according to a study of 219,000 adults.",
@@ -2988,15 +2998,5 @@ window.NOTICIAS_AUTO = [
     "category": "genetics",
     "provider": "nature",
     "source": "Nature Genetics"
-  },
-  {
-    "title": "Measles made a stealthy return as another virus took the spotlight",
-    "link": "https://www.nature.com/articles/d41586-026-03387-3",
-    "description": "Nature, Published online: 02 November 2026; doi:10.1038/d41586-026-03387-3Vaccination rates dropped after the COVID-19 pandemic disrupted public-health programmes and their funding.",
-    "abstract": "Nature, Published online: 02 November 2026; doi:10.1038/d41586-026-03387-3Vaccination rates dropped after the COVID-19 pandemic disrupted public-health programmes and their funding.",
-    "pubDate": "2026-11-02T02:38:45.530277",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
   }
 ];
