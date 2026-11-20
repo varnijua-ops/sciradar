@@ -1,5 +1,35 @@
 [
   {
+    "title": "Multiancestry genome-wide association and integrative multiomics analyses implicate key pathways in endometriosis",
+    "link": "https://www.nature.com/articles/s41588-026-02810-9",
+    "description": "Nature Genetics, Published online: 20 November 2026; doi:10.1038/s41588-026-02810-9Multiancestry genome-wide association coupled with integrative multiomics analyses identify risk loci for endometriosis and implicate key...",
+    "abstract": "Nature Genetics, Published online: 20 November 2026; doi:10.1038/s41588-026-02810-9Multiancestry genome-wide association coupled with integrative multiomics analyses identify risk loci for endometriosis and implicate key genes and pathways underlying its pathogenesis, including roles for immune cell types and cellular proliferation.",
+    "pubDate": "2026-11-20T11:45:32.030907",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "How to turn impostor syndrome into a superpower",
+    "link": "https://www.nature.com/articles/d41586-026-03465-6",
+    "description": "Nature, Published online: 20 November 2026; doi:10.1038/d41586-026-03465-6A nagging sense that you don’t belong can keep you grounded and might help to improve your performance.",
+    "abstract": "Nature, Published online: 20 November 2026; doi:10.1038/d41586-026-03465-6A nagging sense that you don’t belong can keep you grounded and might help to improve your performance.",
+    "pubDate": "2026-11-20T11:45:31.896061",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Author Correction: SARS-CoV-2 mRNA vaccines sensitize tumours to immune checkpoint blockade",
+    "link": "https://www.nature.com/articles/s41586-026-10974-x",
+    "description": "Nature, Published online: 20 November 2026; doi:10.1038/s41586-026-10974-xAuthor Correction: SARS-CoV-2 mRNA vaccines sensitize tumours to immune checkpoint blockade",
+    "abstract": "Nature, Published online: 20 November 2026; doi:10.1038/s41586-026-10974-xAuthor Correction: SARS-CoV-2 mRNA vaccines sensitize tumours to immune checkpoint blockade",
+    "pubDate": "2026-11-20T11:45:31.896049",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "The nature of the Norma arm as a bar-driven star-forming shock front",
     "link": "https://www.nature.com/articles/s41550-026-03010-5",
     "description": "Nature Astronomy, Published online: 20 November 2026; doi:10.1038/s41550-026-03010-5The Norma spiral arm reveals that stars can form under very diverse conditions in the Universe. Galaxy simulations suggest that masers, ...",
@@ -2968,35 +2998,5 @@
     "category": "ai_tech",
     "provider": "press",
     "source": "MIT News AI"
-  },
-  {
-    "title": "Meet Neuropixels: how probes that track hundreds of brain cells at once are revolutionizing neuroscience",
-    "link": "https://www.nature.com/articles/d41586-026-03511-3",
-    "description": "Nature, Published online: 02 November 2026; doi:10.1038/d41586-026-03511-3From rodents to humans, tools that enable large-scale, single-cell neuronal recordings are exposing the inner workings of the brain.",
-    "abstract": "Nature, Published online: 02 November 2026; doi:10.1038/d41586-026-03511-3From rodents to humans, tools that enable large-scale, single-cell neuronal recordings are exposing the inner workings of the brain.",
-    "pubDate": "2026-11-02T15:44:51.446927",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Extra weight may be aging your brain faster than you think",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261101010559.htm",
-    "description": "A major 24-year study involving more than 8,200 adults suggests that excess body weight may accelerate brain aging, leading to faster declines in memory, concentration, and decision-making skills. The connection was part...",
-    "abstract": "A major 24-year study involving more than 8,200 adults suggests that excess body weight may accelerate brain aging, leading to faster declines in memory, concentration, and decision-making skills. The connection was particularly strong among people over 65, raising concerns about the long-term effects of obesity on brain health.",
-    "pubDate": "Mon, 02 Nov 2026 08:55:28 EST",
-    "category": "longevity",
-    "provider": "press",
-    "source": "ScienceDaily Longevity"
-  },
-  {
-    "title": "NASA's Hubble and Webb discover ancient worlds that remember their past",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261031221209.htm",
-    "description": "NASA’s Hubble and James Webb Space Telescopes have uncovered surprising clues about the solar system’s origins by studying 27 tiny, distant objects beyond Neptune. Scientists discovered that these ancient building blocks...",
-    "abstract": "NASA’s Hubble and James Webb Space Telescopes have uncovered surprising clues about the solar system’s origins by studying 27 tiny, distant objects beyond Neptune. Scientists discovered that these ancient building blocks of planets have remained remarkably unchanged for billions of years, while their unexpected sizes and numbers challenge existing theories of planet formation.",
-    "pubDate": "Sun, 01 Nov 2026 22:07:01 EST",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
   }
 ]
