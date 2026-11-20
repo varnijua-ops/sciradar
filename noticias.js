@@ -1,5 +1,55 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "This simple habit is linked to a 33% lower risk of Alzheimer's",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261118065536.htm",
+    "description": "Reading for pleasure may have surprisingly powerful benefits for the brain, with studies linking it to better memory, reduced stress, improved mental health, and a lower risk of dementia. Researchers highlight findings t...",
+    "abstract": "Reading for pleasure may have surprisingly powerful benefits for the brain, with studies linking it to better memory, reduced stress, improved mental health, and a lower risk of dementia. Researchers highlight findings that just five minutes of fiction can reduce stress by up to 20%, while reading has also been associated with a 33% lower risk of Alzheimer's disease.",
+    "pubDate": "Fri, 20 Nov 2026 07:06:07 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "US science academy urges journals to fix errors more quickly",
+    "link": "https://www.nature.com/articles/d41586-026-03787-5",
+    "description": "Nature, Published online: 20 November 2026; doi:10.1038/d41586-026-03787-5Long-awaited report makes recommendations for strengthening the reliability of the scientific record.",
+    "abstract": "Nature, Published online: 20 November 2026; doi:10.1038/d41586-026-03787-5Long-awaited report makes recommendations for strengthening the reliability of the scientific record.",
+    "pubDate": "2026-11-20T14:06:03.821285",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "‘Incredibly frustrating’: prestigious fellowship applications close in just 21 hours",
+    "link": "https://www.nature.com/articles/d41586-026-03805-6",
+    "description": "Nature, Published online: 20 November 2026; doi:10.1038/d41586-026-03805-6The Humboldt Foundation says that applications for its fellowships have increased markedly in the past two years, but they did not anticipate the ...",
+    "abstract": "Nature, Published online: 20 November 2026; doi:10.1038/d41586-026-03805-6The Humboldt Foundation says that applications for its fellowships have increased markedly in the past two years, but they did not anticipate the influx this month.",
+    "pubDate": "2026-11-20T14:06:03.821272",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Fraud helps little fire ants to survive and conquer",
+    "link": "https://www.nature.com/articles/d41586-026-03776-8",
+    "description": "Nature, Published online: 20 November 2026; doi:10.1038/d41586-026-03776-8Invasive ants in China overcome larger rivals with a crafty stratagem and vigorous attack.",
+    "abstract": "Nature, Published online: 20 November 2026; doi:10.1038/d41586-026-03776-8Invasive ants in China overcome larger rivals with a crafty stratagem and vigorous attack.",
+    "pubDate": "2026-11-20T14:06:03.821240",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "How AI is affecting science careers",
+    "link": "https://www.nature.com/articles/d41586-026-03680-1",
+    "description": "Nature, Published online: 20 November 2026; doi:10.1038/d41586-026-03680-1Join a free webinar to discuss how the technology is changing researchers' roles, their skills and job security.",
+    "abstract": "Nature, Published online: 20 November 2026; doi:10.1038/d41586-026-03680-1Join a free webinar to discuss how the technology is changing researchers' roles, their skills and job security.",
+    "pubDate": "2026-11-20T14:06:03.821200",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Scientists turn Moon dust into LEGO-like bricks for future lunar bases",
     "link": "https://www.sciencedaily.com/releases/2026/11/261119194525.htm",
     "description": "Scientists have found a way to 3D-print Moon dust into LEGO-like bricks, raising the possibility of building lunar bases using materials already on the Moon. The experimental blocks still need to be strengthened, but the...",
@@ -2948,55 +2998,5 @@ window.NOTICIAS_AUTO = [
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
-  },
-  {
-    "title": "Safety alerts must reach visiting PhD students",
-    "link": "https://www.nature.com/articles/d41586-026-03560-8",
-    "description": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03560-8Safety alerts must reach visiting PhD students",
-    "abstract": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03560-8Safety alerts must reach visiting PhD students",
-    "pubDate": "2026-11-03T11:39:17.919820",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Research bonuses need clear and fair rules",
-    "link": "https://www.nature.com/articles/d41586-026-03562-6",
-    "description": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03562-6Research bonuses need clear and fair rules",
-    "abstract": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03562-6Research bonuses need clear and fair rules",
-    "pubDate": "2026-11-03T11:39:17.919803",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Scientists reverse liver cell aging and cut Alzheimer’s-linked protein in half",
-    "link": "https://www.sciencedaily.com/releases/2026/10/261031221155.htm",
-    "description": "A surprising discovery suggests that rejuvenating the liver could help protect against Alzheimer’s disease and heart disease. USC researchers found that an experimental drug restored aging liver cells in rats, cutting le...",
-    "abstract": "A surprising discovery suggests that rejuvenating the liver could help protect against Alzheimer’s disease and heart disease. USC researchers found that an experimental drug restored aging liver cells in rats, cutting levels of an Alzheimer’s-linked protein in half and bringing bad cholesterol down to youthful levels. The treatment also revived a previously unknown communication system that helps liver cells remove harmful substances from the bloodstream.",
-    "pubDate": "Mon, 02 Nov 2026 19:34:59 EST",
-    "category": "longevity",
-    "provider": "press",
-    "source": "ScienceDaily Longevity"
-  },
-  {
-    "title": "Scientists discover new Alzheimer’s drug that repairs DNA damage and reduces brain inflammation",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261102075806.htm",
-    "description": "Scientists have discovered that a drug originally developed for spinal cord injuries can tackle several key features of Alzheimer’s disease, including DNA damage and inflammation. Already tested for initial safety in hum...",
-    "abstract": "Scientists have discovered that a drug originally developed for spinal cord injuries can tackle several key features of Alzheimer’s disease, including DNA damage and inflammation. Already tested for initial safety in humans, the experimental treatment could offer a faster path toward therapies that target the disease at its roots.",
-    "pubDate": "Mon, 02 Nov 2026 23:11:58 EST",
-    "category": "longevity",
-    "provider": "press",
-    "source": "ScienceDaily Longevity"
-  },
-  {
-    "title": "Scientists just found a loophole that could let black holes split in two",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261101010525.htm",
-    "description": "Scientists have discovered a possible loophole in the laws that normally prevent black holes from splitting apart, suggesting that extremely fast-spinning black holes might divide into two. The surprising finding raises ...",
-    "abstract": "Scientists have discovered a possible loophole in the laws that normally prevent black holes from splitting apart, suggesting that extremely fast-spinning black holes might divide into two. The surprising finding raises the possibility of an entirely new black hole phenomenon that future telescopes could potentially detect.",
-    "pubDate": "Mon, 02 Nov 2026 20:27:49 EST",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
   }
 ];
