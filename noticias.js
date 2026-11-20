@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Lifting weights reduces muscle loss from obesity drugs",
+    "link": "https://www.nature.com/articles/d41586-026-03751-3",
+    "description": "Nature, Published online: 20 November 2026; doi:10.1038/d41586-026-03751-3Resistance exercise could help middle-aged and older individuals to maintain muscle mass and strength during weight-loss treatment.",
+    "abstract": "Nature, Published online: 20 November 2026; doi:10.1038/d41586-026-03751-3Resistance exercise could help middle-aged and older individuals to maintain muscle mass and strength during weight-loss treatment.",
+    "pubDate": "2026-11-20T06:53:51.541027",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "AI helps researchers investigate how thousands of medical studies share code",
     "link": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
     "description": "The data and code that underpin a research study can tell us what was actually done, and how. In a medical study, for example, how were patients selected for inclusion? How were missing values handled? How were the resul...",
@@ -2988,15 +2998,5 @@ window.NOTICIAS_AUTO = [
     "category": "astro",
     "provider": "press",
     "source": "ScienceDaily Space"
-  },
-  {
-    "title": "Iranian scientists in the United States face major upheaval",
-    "link": "https://www.nature.com/articles/d41586-026-03346-y",
-    "description": "Nature, Published online: 02 November 2026; doi:10.1038/d41586-026-03346-yPressures due to the continuing US–Iran conflict are mounting as early-career researchers endure frozen immigration status, employment limbo and f...",
-    "abstract": "Nature, Published online: 02 November 2026; doi:10.1038/d41586-026-03346-yPressures due to the continuing US–Iran conflict are mounting as early-career researchers endure frozen immigration status, employment limbo and families caught in the war.",
-    "pubDate": "2026-11-02T13:57:21.922524",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
   }
 ];
