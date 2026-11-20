@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Author Correction: m6A epitranscriptomic regulation of tissue homeostasis during primate aging",
+    "link": "https://www.nature.com/articles/s43587-026-01298-6",
+    "description": "Nature Aging, Published online: 20 November 2026; doi:10.1038/s43587-026-01298-6Author Correction: m6A epitranscriptomic regulation of tissue homeostasis during primate aging",
+    "abstract": "Nature Aging, Published online: 20 November 2026; doi:10.1038/s43587-026-01298-6Author Correction: m6A epitranscriptomic regulation of tissue homeostasis during primate aging",
+    "pubDate": "2026-11-20T09:47:29.159674",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
     "title": "Lifting weights reduces muscle loss from obesity drugs",
     "link": "https://www.nature.com/articles/d41586-026-03751-3",
     "description": "Nature, Published online: 20 November 2026; doi:10.1038/d41586-026-03751-3Resistance exercise could help middle-aged and older individuals to maintain muscle mass and strength during weight-loss treatment.",
@@ -2985,16 +2995,6 @@ window.NOTICIAS_AUTO = [
     "description": "Mysterious particles called neutrinos constantly stream through our bodies, and scientists are now detecting incredibly powerful versions arriving from distant cosmic sources using a massive observatory buried in Antarct...",
     "abstract": "Mysterious particles called neutrinos constantly stream through our bodies, and scientists are now detecting incredibly powerful versions arriving from distant cosmic sources using a massive observatory buried in Antarctic ice. These elusive “ghost particles” could hold extraordinary clues about the Big Bang, extreme cosmic events, and some of the universe’s greatest mysteries.",
     "pubDate": "Mon, 02 Nov 2026 08:42:07 EST",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
-  },
-  {
-    "title": "NASA’s Perseverance Mars rover breaks historic record after traveling 28 miles",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261101010536.htm",
-    "description": "NASA’s Perseverance rover has set a historic record by traveling 28.10 miles across Mars, farther than any vehicle has ever driven on another world. Armed with groundbreaking autonomous navigation technology and increasi...",
-    "abstract": "NASA’s Perseverance rover has set a historic record by traveling 28.10 miles across Mars, farther than any vehicle has ever driven on another world. Armed with groundbreaking autonomous navigation technology and increasingly advanced driving capabilities, the rover is pushing the boundaries of robotic exploration.",
-    "pubDate": "Mon, 02 Nov 2026 06:28:04 EST",
     "category": "astro",
     "provider": "press",
     "source": "ScienceDaily Space"
