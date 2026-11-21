@@ -1,5 +1,25 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261120075547.htm",
+    "description": "After eight years and 10 billion kilometers in space, a groundbreaking X-ray telescope heading to Mercury has captured its first cosmic observations and is performing even better than scientists expected. The instrument ...",
+    "abstract": "After eight years and 10 billion kilometers in space, a groundbreaking X-ray telescope heading to Mercury has captured its first cosmic observations and is performing even better than scientists expected. The instrument could soon reveal Mercury's hidden chemical secrets and transform our understanding of how the solar system's smallest planet formed.",
+    "pubDate": "Fri, 20 Nov 2026 21:11:14 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "NASA’s Voyager 1 is now so far away that light takes 24 hours to reach it",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm",
+    "description": "NASA’s Voyager 1 has reached an extraordinary milestone, traveling 16.1 billion miles from Earth to become the first spacecraft so distant that its signals take a full day to reach us. Nearly 50 years after launch, the a...",
+    "abstract": "NASA’s Voyager 1 has reached an extraordinary milestone, traveling 16.1 billion miles from Earth to become the first spacecraft so distant that its signals take a full day to reach us. Nearly 50 years after launch, the aging probe continues its historic journey through interstellar space, pushing the limits of human exploration despite dwindling power and technical challenges.",
+    "pubDate": "Fri, 20 Nov 2026 21:24:22 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
     "title": "New approach enables physically consistent AI models of chaotic systems",
     "link": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
     "description": "Modeling of complex, chaotic processes such as weather and climate patterns and turbulent flows in aviation or in ocean currents has advanced enormously in recent years. However, such models are still prone to drift into...",
@@ -2975,26 +2995,6 @@ window.NOTICIAS_AUTO = [
     "description": "Nature Genetics, Published online: 03 November 2026; doi:10.1038/s41588-026-02807-4This study introduces a framework for integrating DNA methylation data across more than 90 tissues and cell types, characterizing genome-...",
     "abstract": "Nature Genetics, Published online: 03 November 2026; doi:10.1038/s41588-026-02807-4This study introduces a framework for integrating DNA methylation data across more than 90 tissues and cell types, characterizing genome-wide methylation patterns and predicting context-specific effects of genetic variants on DNA methylation and regulatory function using a deep learning model, Wreath.",
     "pubDate": "2026-11-03T11:39:18.021723",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "Progress and disparities in fungal genomics in the long-read era",
-    "link": "https://www.nature.com/articles/s41588-026-02790-w",
-    "description": "Nature Genetics, Published online: 03 November 2026; doi:10.1038/s41588-026-02790-wThis study examines how long-read sequencing has transformed fungal genome assemblies and uncovered genome features once hidden in fragme...",
-    "abstract": "Nature Genetics, Published online: 03 November 2026; doi:10.1038/s41588-026-02790-wThis study examines how long-read sequencing has transformed fungal genome assemblies and uncovered genome features once hidden in fragmented drafts, while also revealing that taxonomic bias and uneven annotation continue to constrain the field.",
-    "pubDate": "2026-11-03T11:39:18.021709",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "Hematotoxicity: the hidden legacy of CAR T cell therapy",
-    "link": "https://www.nature.com/articles/s41588-026-02805-6",
-    "description": "Nature Genetics, Published online: 03 November 2026; doi:10.1038/s41588-026-02805-6CD19-directed chimeric antigen receptor (CAR) T cell therapy can produce durable remission in patients with lymphoma, but persistent hema...",
-    "abstract": "Nature Genetics, Published online: 03 November 2026; doi:10.1038/s41588-026-02805-6CD19-directed chimeric antigen receptor (CAR) T cell therapy can produce durable remission in patients with lymphoma, but persistent hematological toxicities remain poorly understood. We show that clonal expansion of mutated hematopoietic clones (clonal hematopoiesis) in an inflamed bone marrow environment is linked to prolonged cytopenias, impaired immune recovery and treatment-related myeloid malignancies.",
-    "pubDate": "2026-11-03T11:39:18.021683",
     "category": "genetics",
     "provider": "nature",
     "source": "Nature Genetics"
