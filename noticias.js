@@ -1,5 +1,35 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "NASA's powerful Moon rocket engine roars through a dramatic 200-second test",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261120075551.htm",
+    "description": "NASA has successfully tested a powerful RS-25 rocket engine, firing it for 200 seconds to gather data that could make future Moon missions safer and more reliable. The test supports preparations for the 2028 Artemis IV M...",
+    "abstract": "NASA has successfully tested a powerful RS-25 rocket engine, firing it for 200 seconds to gather data that could make future Moon missions safer and more reliable. The test supports preparations for the 2028 Artemis IV Moon landing and NASA’s ultimate ambition of sending astronauts to Mars.",
+    "pubDate": "Fri, 20 Nov 2026 07:55:51 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "A giant star swallowed another star. James Webb reveals the aftermath",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261120075556.htm",
+    "description": "Astronomers have witnessed a spectacular cosmic collision in the Andromeda galaxy, where a small star spiraled into a giant star 18,000 times brighter than the Sun, triggering a violent eruption. NASA’s James Webb Space ...",
+    "abstract": "Astronomers have witnessed a spectacular cosmic collision in the Andromeda galaxy, where a small star spiraled into a giant star 18,000 times brighter than the Sun, triggering a violent eruption. NASA’s James Webb Space Telescope captured the aftermath just 47 days later, revealing new details about how two stars can merge into one.",
+    "pubDate": "Sat, 21 Nov 2026 09:53:40 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Time may be far stranger than we realize. Scientists have a way to test it",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261120075558.htm",
+    "description": "Time may be far stranger than we realize, and scientists have proposed a way to detect clocks experiencing multiple flows of time simultaneously. Using atomic clocks with dramatically enhanced sensitivity, researchers ho...",
+    "abstract": "Time may be far stranger than we realize, and scientists have proposed a way to detect clocks experiencing multiple flows of time simultaneously. Using atomic clocks with dramatically enhanced sensitivity, researchers hope to reveal a never-before-observed quantum effect that could transform our understanding of time and gravity.",
+    "pubDate": "Sat, 21 Nov 2026 10:09:46 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
     "title": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
     "link": "https://www.sciencedaily.com/releases/2026/11/261120075547.htm",
     "description": "After eight years and 10 billion kilometers in space, a groundbreaking X-ray telescope heading to Mercury has captured its first cosmic observations and is performing even better than scientists expected. The instrument ...",
@@ -2968,35 +2998,5 @@ window.NOTICIAS_AUTO = [
     "category": "astro",
     "provider": "press",
     "source": "ScienceDaily Space"
-  },
-  {
-    "title": "Cities are changing — and architects must adapt",
-    "link": "https://www.nature.com/articles/d41586-026-03508-y",
-    "description": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03508-yClimate change is reshaping urban environments. Architect Carlo Ratti tells Nature that technology offers solutions, but citizens must get the fin...",
-    "abstract": "Nature, Published online: 03 November 2026; doi:10.1038/d41586-026-03508-yClimate change is reshaping urban environments. Architect Carlo Ratti tells Nature that technology offers solutions, but citizens must get the final say.",
-    "pubDate": "2026-11-03T12:44:02.864931",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "AI-based precision prognostics and therapy personalization for childhood brain tumors",
-    "link": "https://www.nature.com/articles/s41588-026-02815-4",
-    "description": "Nature Genetics, Published online: 03 November 2026; doi:10.1038/s41588-026-02815-4Stefan et al. present MANTIS, an AI model to predict individualized survival in childhood brain tumors from routine DNA methylation profi...",
-    "abstract": "Nature Genetics, Published online: 03 November 2026; doi:10.1038/s41588-026-02815-4Stefan et al. present MANTIS, an AI model to predict individualized survival in childhood brain tumors from routine DNA methylation profiling. MANTIS may help identify patients who benefit from less intense treatment to reduce lifelong side effects.",
-    "pubDate": "2026-11-03T11:39:18.021733",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "A framework for genome-wide characterization of DNA methylation and variant effect prediction",
-    "link": "https://www.nature.com/articles/s41588-026-02807-4",
-    "description": "Nature Genetics, Published online: 03 November 2026; doi:10.1038/s41588-026-02807-4This study introduces a framework for integrating DNA methylation data across more than 90 tissues and cell types, characterizing genome-...",
-    "abstract": "Nature Genetics, Published online: 03 November 2026; doi:10.1038/s41588-026-02807-4This study introduces a framework for integrating DNA methylation data across more than 90 tissues and cell types, characterizing genome-wide methylation patterns and predicting context-specific effects of genetic variants on DNA methylation and regulatory function using a deep learning model, Wreath.",
-    "pubDate": "2026-11-03T11:39:18.021723",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
   }
 ];
