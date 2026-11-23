@@ -1,5 +1,25 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "How to make climate anxiety your superpower",
+    "link": "https://www.nature.com/articles/d41586-026-03818-1",
+    "description": "Nature, Published online: 23 November 2026; doi:10.1038/d41586-026-03818-1Climate change can provoke anxiety in many. Here’s how one Nature reporter channelled his anxiety into action.",
+    "abstract": "Nature, Published online: 23 November 2026; doi:10.1038/d41586-026-03818-1Climate change can provoke anxiety in many. Here’s how one Nature reporter channelled his anxiety into action.",
+    "pubDate": "2026-11-23T15:52:45.553074",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "‘Mozart of maths’ Terence Tao is your guide to what underpins reality",
+    "link": "https://www.nature.com/articles/d41586-026-03720-w",
+    "description": "Nature, Published online: 23 November 2026; doi:10.1038/d41586-026-03720-wA Fields Medallist reveals how curiosity about numbers can lead to solutions in the real world.",
+    "abstract": "Nature, Published online: 23 November 2026; doi:10.1038/d41586-026-03720-wA Fields Medallist reveals how curiosity about numbers can lead to solutions in the real world.",
+    "pubDate": "2026-11-23T15:52:45.553058",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "A galactic shock wave could rewrite the map of the Milky Way",
     "link": "https://www.sciencedaily.com/releases/2026/11/261122060329.htm",
     "description": "A surprising discovery suggests the Milky Way may be making stars in places where most galaxies cannot. Scientists found evidence that a massive rotating structure near the galactic center is creating powerful shock wave...",
@@ -2975,26 +2995,6 @@ window.NOTICIAS_AUTO = [
     "description": "Nature Aging, Published online: 04 November 2026; doi:10.1038/s43587-026-01260-6Reyes et al. developed Quest2Dx, an AI model to screen Parkinson’s disease based on health questionnaires, identifying key predictors from t...",
     "abstract": "Nature Aging, Published online: 04 November 2026; doi:10.1038/s43587-026-01260-6Reyes et al. developed Quest2Dx, an AI model to screen Parkinson’s disease based on health questionnaires, identifying key predictors from the questions to provide a low-cost, non-invasive disease insight.",
     "pubDate": "2026-11-04T12:41:03.900315",
-    "category": "longevity",
-    "provider": "nature",
-    "source": "Nature Aging"
-  },
-  {
-    "title": "Screening for Parkinson’s disease across questionnaires using language models",
-    "link": "https://www.nature.com/articles/s43587-026-01271-3",
-    "description": "Nature Aging, Published online: 04 November 2026; doi:10.1038/s43587-026-01271-3Health questionnaires have the potential to facilitate early disease detection. However, differences in question wording and formats often p...",
-    "abstract": "Nature Aging, Published online: 04 November 2026; doi:10.1038/s43587-026-01271-3Health questionnaires have the potential to facilitate early disease detection. However, differences in question wording and formats often prevent artificial intelligence (AI) models trained on one questionnaire from performing well on another. Quest2Dx encodes the meaning of each question–response pair, which enables it to screen for Parkinson’s disease on questionnaires it never encountered during training.",
-    "pubDate": "2026-11-04T12:41:03.900281",
-    "category": "longevity",
-    "provider": "nature",
-    "source": "Nature Aging"
-  },
-  {
-    "title": "Unblurring the menopause transition",
-    "link": "https://www.nature.com/articles/s43587-026-01276-y",
-    "description": "Nature Aging, Published online: 04 November 2026; doi:10.1038/s43587-026-01276-yUnblurring the menopause transition",
-    "abstract": "Nature Aging, Published online: 04 November 2026; doi:10.1038/s43587-026-01276-yUnblurring the menopause transition",
-    "pubDate": "2026-11-04T12:41:03.900252",
     "category": "longevity",
     "provider": "nature",
     "source": "Nature Aging"
