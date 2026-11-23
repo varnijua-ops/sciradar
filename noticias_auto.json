@@ -1,5 +1,45 @@
 [
   {
+    "title": "Author Correction: Abundant ammonia and nitrogen-rich soluble organic matter in samples from asteroid (101955) Bennu",
+    "link": "https://www.nature.com/articles/s41550-026-03052-9",
+    "description": "Nature Astronomy, Published online: 23 November 2026; doi:10.1038/s41550-026-03052-9Author Correction: Abundant ammonia and nitrogen-rich soluble organic matter in samples from asteroid (101955) Bennu",
+    "abstract": "Nature Astronomy, Published online: 23 November 2026; doi:10.1038/s41550-026-03052-9Author Correction: Abundant ammonia and nitrogen-rich soluble organic matter in samples from asteroid (101955) Bennu",
+    "pubDate": "2026-11-23T16:46:54.857380",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
+    "title": "Architecture of the poxvirus early-transcription machinery and portal complex",
+    "link": "https://www.nature.com/articles/s41586-026-11458-8",
+    "description": "Nature, Published online: 23 November 2026; doi:10.1038/s41586-026-11458-8Architecture of the poxvirus early-transcription machinery and portal complex",
+    "abstract": "Nature, Published online: 23 November 2026; doi:10.1038/s41586-026-11458-8Architecture of the poxvirus early-transcription machinery and portal complex",
+    "pubDate": "2026-11-23T16:46:54.806206",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Continuous N-to-C Peptide Synthesis",
+    "link": "https://www.nature.com/articles/s41586-026-11448-w",
+    "description": "Nature, Published online: 23 November 2026; doi:10.1038/s41586-026-11448-wContinuous N-to-C Peptide Synthesis",
+    "abstract": "Nature, Published online: 23 November 2026; doi:10.1038/s41586-026-11448-wContinuous N-to-C Peptide Synthesis",
+    "pubDate": "2026-11-23T16:46:54.806192",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Hexa-substituted benzene synthesis with non-classical carbocations",
+    "link": "https://www.nature.com/articles/s41586-026-11449-9",
+    "description": "Nature, Published online: 23 November 2026; doi:10.1038/s41586-026-11449-9Hexa-substituted benzene synthesis with non-classical carbocations",
+    "abstract": "Nature, Published online: 23 November 2026; doi:10.1038/s41586-026-11449-9Hexa-substituted benzene synthesis with non-classical carbocations",
+    "pubDate": "2026-11-23T16:46:54.806167",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "How to make climate anxiety your superpower",
     "link": "https://www.nature.com/articles/d41586-026-03818-1",
     "description": "Nature, Published online: 23 November 2026; doi:10.1038/d41586-026-03818-1Climate change can provoke anxiety in many. Here’s how one Nature reporter channelled his anxiety into action.",
@@ -2958,45 +2998,5 @@
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
-  },
-  {
-    "title": "The oracle of the second quadrant",
-    "link": "https://www.nature.com/articles/d41586-026-03369-5",
-    "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03369-5It all adds up.",
-    "abstract": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03369-5It all adds up.",
-    "pubDate": "2026-11-04T14:49:28.224799",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Parkinson’s: beyond the brain",
-    "link": "https://www.nature.com/articles/d41586-026-03173-1",
-    "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03173-1Parkinson’s disease might develop in the gut before reaching the brain, and the environment could have a crucial role in triggering the disease.",
-    "abstract": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03173-1Parkinson’s disease might develop in the gut before reaching the brain, and the environment could have a crucial role in triggering the disease.",
-    "pubDate": "2026-11-04T14:49:28.224773",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "NASA is racing against time to save the Hubble Space Telescope",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261104012254.htm",
-    "description": "NASA is exploring a daring plan to save the legendary Hubble Space Telescope from its eventual fiery plunge into Earth's atmosphere. After more than 35 years of groundbreaking discoveries, Hubble is slowly losing altitud...",
-    "abstract": "NASA is exploring a daring plan to save the legendary Hubble Space Telescope from its eventual fiery plunge into Earth's atmosphere. After more than 35 years of groundbreaking discoveries, Hubble is slowly losing altitude, and without intervention, it could fall back to Earth as early as 2033 or 2034. To keep the iconic observatory operating, NASA is asking private space companies to propose innovative ways to boost Hubble into a higher orbit, upgrade its capabilities, or safely dispose of it when its mission finally ends.",
-    "pubDate": "Wed, 04 Nov 2026 06:22:33 EST",
-    "category": "astro",
-    "provider": "press",
-    "source": "ScienceDaily Space"
-  },
-  {
-    "title": "Language modeling screens Parkinson’s disease with self-reported questionnaires",
-    "link": "https://www.nature.com/articles/s43587-026-01260-6",
-    "description": "Nature Aging, Published online: 04 November 2026; doi:10.1038/s43587-026-01260-6Reyes et al. developed Quest2Dx, an AI model to screen Parkinson’s disease based on health questionnaires, identifying key predictors from t...",
-    "abstract": "Nature Aging, Published online: 04 November 2026; doi:10.1038/s43587-026-01260-6Reyes et al. developed Quest2Dx, an AI model to screen Parkinson’s disease based on health questionnaires, identifying key predictors from the questions to provide a low-cost, non-invasive disease insight.",
-    "pubDate": "2026-11-04T12:41:03.900315",
-    "category": "longevity",
-    "provider": "nature",
-    "source": "Nature Aging"
   }
 ]
