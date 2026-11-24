@@ -1,5 +1,15 @@
 [
   {
+    "title": "How acidic compounds in human sweat open a mosquito ion channel",
+    "link": "https://www.nature.com/articles/d41586-026-03381-9",
+    "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03381-9Structures of a mosquito receptor bound to acids from human skin could inspire tactics to stifle the attraction of malaria-carrying mosquitoes to ...",
+    "abstract": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03381-9Structures of a mosquito receptor bound to acids from human skin could inspire tactics to stifle the attraction of malaria-carrying mosquitoes to humans.",
+    "pubDate": "2026-11-24T14:10:39.740052",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Blend public cash and private innovation to unlock drug development",
     "link": "https://www.nature.com/articles/d41586-026-03723-7",
     "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03723-7Common health conditions lack medicines and treatments because industry finds them too risky to invest in. Here’s what would help.",
@@ -2988,15 +2998,5 @@
     "category": "genetics",
     "provider": "nature",
     "source": "Nature Genetics"
-  },
-  {
-    "title": "The prospects for standardization of optical brightness of satellites",
-    "link": "https://www.nature.com/articles/s41550-026-03015-0",
-    "description": "Nature Astronomy, Published online: 05 November 2026; doi:10.1038/s41550-026-03015-0Protecting the night sky from optical interference by satellites needs a standard that goes beyond a simple brightness limit to consider...",
-    "abstract": "Nature Astronomy, Published online: 05 November 2026; doi:10.1038/s41550-026-03015-0Protecting the night sky from optical interference by satellites needs a standard that goes beyond a simple brightness limit to consider the aggregate impact of constellations. We discuss the infrastructure and tools required to achieve this.",
-    "pubDate": "2026-11-05T10:49:40.746157",
-    "category": "astro",
-    "provider": "nature",
-    "source": "Nature Astronomy"
   }
 ]
