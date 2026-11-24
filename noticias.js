@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "COP31 went down in flames over fossil fuels — it sends an important message",
+    "link": "https://www.nature.com/articles/d41586-026-03827-0",
+    "description": "Nature, Published online: 23 November 2026; doi:10.1038/d41586-026-03827-0Nature reporter James Dinneen reflects on the first international climate summit to collapse since 2009.",
+    "abstract": "Nature, Published online: 23 November 2026; doi:10.1038/d41586-026-03827-0Nature reporter James Dinneen reflects on the first international climate summit to collapse since 2009.",
+    "pubDate": "2026-11-24T00:42:19.144941",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Many languages, one common neural code",
     "link": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123",
     "description": "Languages take on thousands of forms. Some are tonal, like Vietnamese, where shifts in pitch convey distinct meanings. English relies on precise word orders, but this matters less for Russian, where words can be swapped ...",
@@ -2985,16 +2995,6 @@ window.NOTICIAS_AUTO = [
     "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03165-1Researchers are reporting encouraging results for a disease that affects millions of people worldwide.",
     "abstract": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03165-1Researchers are reporting encouraging results for a disease that affects millions of people worldwide.",
     "pubDate": "2026-11-04T14:49:28.224916",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Clearing the way for a transformative stem-cell treatment for Parkinson’s disease",
-    "link": "https://www.nature.com/articles/d41586-026-03167-z",
-    "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03167-zMost Parkinson’s therapies aim to reduce the motor-control symptoms that the disease triggers. But stem-cell transplants in the brain could alter ...",
-    "abstract": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03167-zMost Parkinson’s therapies aim to reduce the motor-control symptoms that the disease triggers. But stem-cell transplants in the brain could alter the disease at a more fundamental level.",
-    "pubDate": "2026-11-04T14:49:28.224854",
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
