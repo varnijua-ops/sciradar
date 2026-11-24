@@ -1,5 +1,45 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Submission caps aren’t enough to tackle AI slop",
+    "link": "https://www.nature.com/articles/d41586-026-03823-4",
+    "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03823-4Submission caps aren’t enough to tackle AI slop",
+    "abstract": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03823-4Submission caps aren’t enough to tackle AI slop",
+    "pubDate": "2026-11-24T10:46:42.557619",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Himalayan disasters demand biodiversity conservation across borders",
+    "link": "https://www.nature.com/articles/d41586-026-03825-2",
+    "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03825-2Himalayan disasters demand biodiversity conservation across borders",
+    "abstract": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03825-2Himalayan disasters demand biodiversity conservation across borders",
+    "pubDate": "2026-11-24T10:46:42.557606",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "The science on AI consciousness must acknowledge uncertainty",
+    "link": "https://www.nature.com/articles/d41586-026-03822-5",
+    "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03822-5The science on AI consciousness must acknowledge uncertainty",
+    "abstract": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03822-5The science on AI consciousness must acknowledge uncertainty",
+    "pubDate": "2026-11-24T10:46:42.557596",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Fight AI slop without punishing legitimate researchers",
+    "link": "https://www.nature.com/articles/d41586-026-03824-3",
+    "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03824-3Fight AI slop without punishing legitimate researchers",
+    "abstract": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03824-3Fight AI slop without punishing legitimate researchers",
+    "pubDate": "2026-11-24T10:46:42.557580",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "COP31 went down in flames over fossil fuels — it sends an important message",
     "link": "https://www.nature.com/articles/d41586-026-03827-0",
     "description": "Nature, Published online: 23 November 2026; doi:10.1038/d41586-026-03827-0Nature reporter James Dinneen reflects on the first international climate summit to collapse since 2009.",
@@ -2955,46 +2995,6 @@ window.NOTICIAS_AUTO = [
     "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03582-2Genomes from thousands of ancient individuals show how migrations helped shape Celtic and Germanic languages — plus, how the brain may regulate em...",
     "abstract": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03582-2Genomes from thousands of ancient individuals show how migrations helped shape Celtic and Germanic languages — plus, how the brain may regulate emotions differently than we thought.",
     "pubDate": "2026-11-04T17:40:27.426387",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Spider snooze stages",
-    "link": "https://www.nature.com/articles/d41586-026-03487-0",
-    "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03487-0How similar are vertebrate and invertebrate sleeping behaviours? An analysis of spiders offers insights about how sleep evolved.",
-    "abstract": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03487-0How similar are vertebrate and invertebrate sleeping behaviours? An analysis of spiders offers insights about how sleep evolved.",
-    "pubDate": "2026-11-04T17:40:27.426350",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Is social media changing children’s brains? Here’s what the science says",
-    "link": "https://www.nature.com/articles/d41586-026-03343-1",
-    "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03343-1Some countries are introducing sweeping social-media bans for young people, but the impact of screen time is still under investigation.",
-    "abstract": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03343-1Some countries are introducing sweeping social-media bans for young people, but the impact of screen time is still under investigation.",
-    "pubDate": "2026-11-04T15:42:24.249094",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "A guide to Nature Index tables",
-    "link": "https://www.nature.com/articles/d41586-026-03344-0",
-    "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03344-0Information on the methodology used in the ranking for the 2026 Nature Spotlight: Neuroscience.",
-    "abstract": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03344-0Information on the methodology used in the ranking for the 2026 Nature Spotlight: Neuroscience.",
-    "pubDate": "2026-11-04T15:42:24.249048",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Progress accelerates in Parkinson’s treatments",
-    "link": "https://www.nature.com/articles/d41586-026-03165-1",
-    "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03165-1Researchers are reporting encouraging results for a disease that affects millions of people worldwide.",
-    "abstract": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03165-1Researchers are reporting encouraging results for a disease that affects millions of people worldwide.",
-    "pubDate": "2026-11-04T14:49:28.224916",
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
