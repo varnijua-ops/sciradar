@@ -1,5 +1,65 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Cannabis users develop psychosis years earlier, and the gap grows with age",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261123005346.htm",
+    "description": "A major analysis of 149 studies found that cannabis users develop psychosis an average of 2.5 years earlier than non-users, with the difference growing to more than six years among adults 30 and older. Researchers warn t...",
+    "abstract": "A major analysis of 149 studies found that cannabis users develop psychosis an average of 2.5 years earlier than non-users, with the difference growing to more than six years among adults 30 and older. Researchers warn that cannabis-related psychiatric risks may accumulate over time, challenging the belief that using marijuana after adolescence is relatively safe.",
+    "pubDate": "Tue, 24 Nov 2026 05:57:44 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "Ancient rocks from the Moon’s far side rewrite the Solar System’s violent past",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261121221136.htm",
+    "description": "Scientists studying ancient rocks from the Moon’s far side have uncovered surprising evidence that challenges decades of thinking about the Solar System’s violent past. Instead of a single catastrophic bombardment, aster...",
+    "abstract": "Scientists studying ancient rocks from the Moon’s far side have uncovered surprising evidence that challenges decades of thinking about the Solar System’s violent past. Instead of a single catastrophic bombardment, asteroid impacts appear to have declined gradually over billions of years, revealing new clues about Earth's early evolution and the origins of life.",
+    "pubDate": "Tue, 24 Nov 2026 05:24:43 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Exhaustive rearrangement of an enhancer reveals that dependency-syntax encodes tissue specificity",
+    "link": "https://www.nature.com/articles/s41588-026-02838-x",
+    "description": "Nature Genetics, Published online: 24 November 2026; doi:10.1038/s41588-026-02838-xExhaustive rearrangement of an enhancer, tested by bulk and single-cell assays in whole embryos, reveals that transcription factor bindin...",
+    "abstract": "Nature Genetics, Published online: 24 November 2026; doi:10.1038/s41588-026-02838-xExhaustive rearrangement of an enhancer, tested by bulk and single-cell assays in whole embryos, reveals that transcription factor binding site order, orientation and spacing (syntax) control enhancer activity and tissue specificity.",
+    "pubDate": "2026-11-24T11:46:01.251078",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "Rich quantum phase diagram revealed in semimetallic rhombohedral graphene",
+    "link": "https://www.nature.com/articles/s41567-026-03456-4",
+    "description": "Nature Physics, Published online: 24 November 2026; doi:10.1038/s41567-026-03456-4Previous studies of rhombohedral graphene have focused on a single topological and flat conduction or valence band isolated by strong elec...",
+    "abstract": "Nature Physics, Published online: 24 November 2026; doi:10.1038/s41567-026-03456-4Previous studies of rhombohedral graphene have focused on a single topological and flat conduction or valence band isolated by strong electric fields. Rhombohedral hexalayer graphene is now found to host various quantum phenomena in the correlated semimetallic regime, featuring symmetry breaking, electric-field-driven band inversion, dual-carrier superconductivity and ferroelectric orbital magnetism.",
+    "pubDate": "2026-11-24T11:46:01.210348",
+    "category": "physics",
+    "provider": "nature",
+    "source": "Nature Physics"
+  },
+  {
+    "title": "AI is ‘the end of mathematics as we know it’ — where does the field go next?",
+    "link": "https://www.nature.com/articles/d41586-026-03719-3",
+    "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03719-3Mathematicians are bracing for a future when their profession could be mostly delegated to machines.",
+    "abstract": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03719-3Mathematicians are bracing for a future when their profession could be mostly delegated to machines.",
+    "pubDate": "2026-11-24T11:46:01.123984",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Pakistani astronaut to become first foreign visitor to China’s space station",
+    "link": "https://www.nature.com/articles/d41586-026-03829-y",
+    "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03829-yMuhammad Zeeshan Ali is flying this week to the Tiangong module aboard a Chinese spacecraft.",
+    "abstract": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03829-yMuhammad Zeeshan Ali is flying this week to the Tiangong module aboard a Chinese spacecraft.",
+    "pubDate": "2026-11-24T11:46:01.123972",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Submission caps aren’t enough to tackle AI slop",
     "link": "https://www.nature.com/articles/d41586-026-03823-4",
     "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03823-4Submission caps aren’t enough to tackle AI slop",
@@ -2938,65 +2998,5 @@ window.NOTICIAS_AUTO = [
     "category": "ai_tech",
     "provider": "press",
     "source": "MIT News AI"
-  },
-  {
-    "title": "First-of-its-kind planetary wreckage holds clues to our Solar System’s fate",
-    "link": "https://www.nature.com/articles/d41586-026-03537-7",
-    "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03537-7Astronomers spot an unprecedented double disk of debris around a dead star.",
-    "abstract": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03537-7Astronomers spot an unprecedented double disk of debris around a dead star.",
-    "pubDate": "2026-11-04T21:38:04.904431",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Toothbrush zaps bacteria with electricity made when bristles move",
-    "link": "https://www.nature.com/articles/d41586-026-03586-y",
-    "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03586-yInnovative polymer could give the manual toothbrush its first radical redesign in more than 1,000 years.",
-    "abstract": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03586-yInnovative polymer could give the manual toothbrush its first radical redesign in more than 1,000 years.",
-    "pubDate": "2026-11-04T20:39:08.628916",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Why not to wait even a few minutes before fleeing a tsunami",
-    "link": "https://www.nature.com/articles/d41586-026-03539-5",
-    "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03539-5Simulation shows that hesitating can be the difference between making it to safety and not.",
-    "abstract": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03539-5Simulation shows that hesitating can be the difference between making it to safety and not.",
-    "pubDate": "2026-11-04T19:45:38.421912",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "AI agents run this automated biology lab that sequences DNA and more",
-    "link": "https://www.nature.com/articles/d41586-026-03552-8",
-    "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03552-8Self-driving lab in China requires only a simple prompt to encode messages in DNA and read them out.",
-    "abstract": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03552-8Self-driving lab in China requires only a simple prompt to encode messages in DNA and read them out.",
-    "pubDate": "2026-11-04T17:40:27.426422",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Carbon radical generation by irreversible metal-to-ligand charge transfer",
-    "link": "https://www.nature.com/articles/s41586-026-11368-9",
-    "description": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11368-9Carbon radical generation by irreversible metal-to-ligand charge transfer",
-    "abstract": "Nature, Published online: 04 November 2026; doi:10.1038/s41586-026-11368-9Carbon radical generation by irreversible metal-to-ligand charge transfer",
-    "pubDate": "2026-11-04T17:40:27.426398",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Ancient DNA charts spread of Celtic and Germanic languages",
-    "link": "https://www.nature.com/articles/d41586-026-03582-2",
-    "description": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03582-2Genomes from thousands of ancient individuals show how migrations helped shape Celtic and Germanic languages — plus, how the brain may regulate em...",
-    "abstract": "Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03582-2Genomes from thousands of ancient individuals show how migrations helped shape Celtic and Germanic languages — plus, how the brain may regulate emotions differently than we thought.",
-    "pubDate": "2026-11-04T17:40:27.426387",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
   }
 ];
