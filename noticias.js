@@ -1,5 +1,25 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "The brain keeps the score: how trauma leaves molecular scars in cells",
+    "link": "https://www.nature.com/articles/d41586-026-03821-6",
+    "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03821-6Large postmortem study identifies epigenetic changes in the brain linked to post-traumatic stress disorder.",
+    "abstract": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03821-6Large postmortem study identifies epigenetic changes in the brain linked to post-traumatic stress disorder.",
+    "pubDate": "2026-11-24T15:54:10.063813",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Richard of Wallingford and his Rectangulus",
+    "link": "https://www.nature.com/articles/d41586-026-03725-5",
+    "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03725-5The life of the man who brought trigonometry to England, and experiments begin on a newly completed accelerator at CERN, in our weekly dip into Na...",
+    "abstract": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03725-5The life of the man who brought trigonometry to England, and experiments begin on a newly completed accelerator at CERN, in our weekly dip into Nature’s archive.",
+    "pubDate": "2026-11-24T15:54:10.063767",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "How acidic compounds in human sweat open a mosquito ion channel",
     "link": "https://www.nature.com/articles/d41586-026-03381-9",
     "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03381-9Structures of a mosquito receptor bound to acids from human skin could inspire tactics to stifle the attraction of malaria-carrying mosquitoes to ...",
@@ -2975,26 +2995,6 @@ window.NOTICIAS_AUTO = [
     "description": "Nature Genetics, Published online: 05 November 2026; doi:10.1038/s41588-026-02821-6Cross-scale spatial Omics Registration and Analysis via graph Learning is a deep generative model that integrates multiscale spatial mult...",
     "abstract": "Nature Genetics, Published online: 05 November 2026; doi:10.1038/s41588-026-02821-6Cross-scale spatial Omics Registration and Analysis via graph Learning is a deep generative model that integrates multiscale spatial multi-omics data using graph-attention aggregation mechanisms, enabling a comprehensive spatial analysis.",
     "pubDate": "2026-11-05T10:49:41.502457",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "An information-theoretic framework for inferring T cell dynamics from single-cell RNA and T cell receptor sequencing",
-    "link": "https://www.nature.com/articles/s41588-026-02781-x",
-    "description": "Nature Genetics, Published online: 05 November 2026; doi:10.1038/s41588-026-02781-xT cells provide a unique setting for quantification of the relationship between genotype and phenotype. The authors introduce TCRi, an in...",
-    "abstract": "Nature Genetics, Published online: 05 November 2026; doi:10.1038/s41588-026-02781-xT cells provide a unique setting for quantification of the relationship between genotype and phenotype. The authors introduce TCRi, an information-theoretic framework for this, and find mutual information to be a robust determinant of immunotherapeutic response.",
-    "pubDate": "2026-11-05T10:49:41.502441",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "AI-guided cancer survival prediction could spare some children high-dose brain radiation",
-    "link": "https://www.nature.com/articles/s41588-026-02816-3",
-    "description": "Nature Genetics, Published online: 05 November 2026; doi:10.1038/s41588-026-02816-3We developed a multimodal artificial intelligence (AI)-based model to generate time-dependent, individualized survival predictions for pa...",
-    "abstract": "Nature Genetics, Published online: 05 November 2026; doi:10.1038/s41588-026-02816-3We developed a multimodal artificial intelligence (AI)-based model to generate time-dependent, individualized survival predictions for patients with childhood brain tumors. This may help better identify candidates for therapy de-escalation, maintaining survival while reducing lifelong treatment-related side effects.",
-    "pubDate": "2026-11-05T10:49:41.502419",
     "category": "genetics",
     "provider": "nature",
     "source": "Nature Genetics"
