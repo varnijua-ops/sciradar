@@ -1,5 +1,35 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Succumbing to certainty is a failure in science",
+    "link": "https://www.nature.com/articles/d41586-026-03837-y",
+    "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03837-yResearchers can face pressure from policymakers and politicians to provide single, definitive answers to complex challenges. They should resist, s...",
+    "abstract": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03837-yResearchers can face pressure from policymakers and politicians to provide single, definitive answers to complex challenges. They should resist, says Andy Stirling.",
+    "pubDate": "2026-11-25T12:57:05.647879",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Gut microbes can adapt to our ageing bodies",
+    "link": "https://www.nature.com/articles/d41586-026-03268-9",
+    "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03268-9A study of more than 10,000 individuals reveals specific mutations in gut bacteria that arise during human ageing, but few mutations associated wi...",
+    "abstract": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03268-9A study of more than 10,000 individuals reveals specific mutations in gut bacteria that arise during human ageing, but few mutations associated with disease.",
+    "pubDate": "2026-11-25T12:57:05.647841",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "From sketch to publication-ready flowchart: how AI tools can bridge the gap",
+    "link": "https://www.nature.com/articles/d41586-026-03513-1",
+    "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03513-1The use of generative AI is a practical way to translate hand-drawn scientific diagrams into digital formats without handing over total control, e...",
+    "abstract": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03513-1The use of generative AI is a practical way to translate hand-drawn scientific diagrams into digital formats without handing over total control, explains Ensar Aydemir.",
+    "pubDate": "2026-11-25T12:57:05.647826",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Physicists just sent an unblockable message through a brick wall using gravity",
     "link": "https://www.sciencedaily.com/releases/2026/11/261123005343.htm",
     "description": "Scientists have successfully transmitted a message through a brick wall using nothing but gravity, an old elevator, and an incredibly sensitive detector. By moving a massive counterweight between two positions, researche...",
@@ -2968,35 +2998,5 @@ window.NOTICIAS_AUTO = [
     "category": "longevity",
     "provider": "nature",
     "source": "Nature Aging"
-  },
-  {
-    "title": "Efficient and accurate mixed model association tool for single-cell eQTL analysis",
-    "link": "https://www.nature.com/articles/s41588-026-02798-2",
-    "description": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02798-2SAIGE-QTL is a framework for eQTL mapping that directly models single-cell read counts using a Poisson mixed model, achieving improved st...",
-    "abstract": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02798-2SAIGE-QTL is a framework for eQTL mapping that directly models single-cell read counts using a Poisson mixed model, achieving improved statistical efficiency and power and enabling rare variant set-based testing in the single-cell eQTL setting.",
-    "pubDate": "2026-11-06T11:41:22.410879",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "Coherence enhancement through equilibration to near-zero optical temperatures",
-    "link": "https://www.nature.com/articles/s41567-026-03520-z",
-    "description": "Nature Physics, Published online: 06 November 2026; doi:10.1038/s41567-026-03520-zPhase-space conservation bars coherence enhancement in passive linear optics, a limit often bypassed by gain or feedback. Here conservativ...",
-    "abstract": "Nature Physics, Published online: 06 November 2026; doi:10.1038/s41567-026-03520-zPhase-space conservation bars coherence enhancement in passive linear optics, a limit often bypassed by gain or feedback. Here conservative nonlinearity reshapes phase space, thermodynamically driving incoherent light towards a coherent equilibrium.",
-    "pubDate": "2026-11-06T11:41:22.356506",
-    "category": "physics",
-    "provider": "nature",
-    "source": "Nature Physics"
-  },
-  {
-    "title": "Daily briefing: Toothbrush zaps bacteria to clear plaque",
-    "link": "https://www.nature.com/articles/d41586-026-03596-w",
-    "description": "Nature, Published online: 05 November 2026; doi:10.1038/d41586-026-03596-wThe manual toothbrush cleans by generating a bacteria-killing electrical charge. Plus, what ‘historic’ US mid-term results mean for science and a ...",
-    "abstract": "Nature, Published online: 05 November 2026; doi:10.1038/d41586-026-03596-wThe manual toothbrush cleans by generating a bacteria-killing electrical charge. Plus, what ‘historic’ US mid-term results mean for science and a genetics lab run by AI-powered robots.",
-    "pubDate": "2026-11-06T11:41:22.246634",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
   }
 ];
