@@ -1,5 +1,45 @@
 [
   {
+    "title": "Bone force loading extends lifespan in mice",
+    "link": "https://www.nature.com/articles/s43587-026-01303-y",
+    "description": "Nature Aging, Published online: 25 November 2026; doi:10.1038/s43587-026-01303-yBone force loading extends lifespan in mice",
+    "abstract": "Nature Aging, Published online: 25 November 2026; doi:10.1038/s43587-026-01303-yBone force loading extends lifespan in mice",
+    "pubDate": "2026-11-25T10:51:16.079131",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "Uncovering directionally and temporally variable genes with STAVAG",
+    "link": "https://www.nature.com/articles/s41588-026-02853-y",
+    "description": "Nature Genetics, Published online: 25 November 2026; doi:10.1038/s41588-026-02853-yThis study introduces the concepts of directionally and temporally variable genes and develops STAVAG to identify them, prioritizing cand...",
+    "abstract": "Nature Genetics, Published online: 25 November 2026; doi:10.1038/s41588-026-02853-yThis study introduces the concepts of directionally and temporally variable genes and develops STAVAG to identify them, prioritizing candidate genes for downstream experiments and potential clinical applications.",
+    "pubDate": "2026-11-25T10:51:16.043014",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "Supersolid crystals of dipolar excitons in a lattice",
+    "link": "https://www.nature.com/articles/s41567-026-03522-x",
+    "description": "Nature Physics, Published online: 25 November 2026; doi:10.1038/s41567-026-03522-xSupersolids have previously been observed in weakly interacting scenarios. Now several supersolid phases are demonstrated in a strongly co...",
+    "abstract": "Nature Physics, Published online: 25 November 2026; doi:10.1038/s41567-026-03522-xSupersolids have previously been observed in weakly interacting scenarios. Now several supersolid phases are demonstrated in a strongly correlated system of dipolar excitons confined to a lattice with long-range hopping.",
+    "pubDate": "2026-11-25T10:51:16.007895",
+    "category": "physics",
+    "provider": "nature",
+    "source": "Nature Physics"
+  },
+  {
+    "title": "Coherent manipulation of interacting electron qubits on solid neon",
+    "link": "https://www.nature.com/articles/s41567-026-03529-4",
+    "description": "Nature Physics, Published online: 25 November 2026; doi:10.1038/s41567-026-03529-4Electrons on the surface of solid neon have been established as high-quality individual qubits. Now two-qubit gates have been demonstrated...",
+    "abstract": "Nature Physics, Published online: 25 November 2026; doi:10.1038/s41567-026-03529-4Electrons on the surface of solid neon have been established as high-quality individual qubits. Now two-qubit gates have been demonstrated using the strong coupling between electrons confined in close proximity to each other.",
+    "pubDate": "2026-11-25T10:51:16.007871",
+    "category": "physics",
+    "provider": "nature",
+    "source": "Nature Physics"
+  },
+  {
     "title": "New nose drops restore youthful memory and fight Alzheimer’s in aging mice",
     "link": "https://www.sciencedaily.com/releases/2026/11/261123005337.htm",
     "description": "A revolutionary new nasal treatment has restored youthful learning and memory performance in aging mice while preventing severe cognitive decline in mice with Alzheimer’s-like disease. Developed using technology similar ...",
@@ -2958,45 +2998,5 @@
     "category": "physics",
     "provider": "science",
     "source": "Science"
-  },
-  {
-    "title": "Hydrogen Derivatives Enable Cost-Effective Carbon Neutrality in China",
-    "link": "https://www.nature.com/articles/s41586-026-11351-4",
-    "description": "Nature, Published online: 05 November 2026; doi:10.1038/s41586-026-11351-4Hydrogen Derivatives Enable Cost-Effective Carbon Neutrality in China",
-    "abstract": "Nature, Published online: 05 November 2026; doi:10.1038/s41586-026-11351-4Hydrogen Derivatives Enable Cost-Effective Carbon Neutrality in China",
-    "pubDate": "2026-11-05T17:47:26.681896",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Opportunistically Detecting Signs of Hypertension on a Consumer Smartwatch",
-    "link": "https://www.nature.com/articles/s41586-026-11336-3",
-    "description": "Nature, Published online: 05 November 2026; doi:10.1038/s41586-026-11336-3Opportunistically Detecting Signs of Hypertension on a Consumer Smartwatch",
-    "abstract": "Nature, Published online: 05 November 2026; doi:10.1038/s41586-026-11336-3Opportunistically Detecting Signs of Hypertension on a Consumer Smartwatch",
-    "pubDate": "2026-11-05T17:47:26.681872",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Scientists solve 30-year-old mystery and discover a hidden defense against inflammation",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261101010554.htm",
-    "description": "Scientists have solved a decades-old mystery and uncovered a hidden immune system defense that protects healthy cells from the very inflammation meant to fight infections. The surprising discovery could lead to new appro...",
-    "abstract": "Scientists have solved a decades-old mystery and uncovered a hidden immune system defense that protects healthy cells from the very inflammation meant to fight infections. The surprising discovery could lead to new approaches for treating cancer, inflammatory bowel disease, and other conditions involving excessive inflammation.",
-    "pubDate": "Thu, 05 Nov 2026 06:05:46 EST",
-    "category": "longevity",
-    "provider": "press",
-    "source": "ScienceDaily Longevity"
-  },
-  {
-    "title": "Scientists discover mysterious “lonely” brain waves linked to memory loss",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261101010556.htm",
-    "description": "Scientists have uncovered a surprising link between Alzheimer’s-related protein buildup, disrupted brain waves during deep sleep, and fading memory. The findings suggest that hidden changes in how the brain processes mem...",
-    "abstract": "Scientists have uncovered a surprising link between Alzheimer’s-related protein buildup, disrupted brain waves during deep sleep, and fading memory. The findings suggest that hidden changes in how the brain processes memories overnight may contribute to age-related memory loss long before Alzheimer’s symptoms appear.",
-    "pubDate": "Thu, 05 Nov 2026 07:50:34 EST",
-    "category": "longevity",
-    "provider": "press",
-    "source": "ScienceDaily Longevity"
   }
 ]
