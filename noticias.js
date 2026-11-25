@@ -1,5 +1,45 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "What is the Riemann hypothesis? A guide to the famed conjecture that rules prime numbers",
+    "link": "https://www.nature.com/articles/d41586-026-03854-x",
+    "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03854-xThe biggest problem in mathematics has to do with a statistical test familiar to scientists.",
+    "abstract": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03854-xThe biggest problem in mathematics has to do with a statistical test familiar to scientists.",
+    "pubDate": "2026-11-25T17:40:17.284969",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "How arteries keep their shape in the face of overgrowth-inducing mutations",
+    "link": "https://www.nature.com/articles/d41586-026-03491-4",
+    "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03491-4Why do cancer-associated mutations cause some blood vessels to develop abnormally, but not arteries? The answer lies in the identity and maturity ...",
+    "abstract": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03491-4Why do cancer-associated mutations cause some blood vessels to develop abnormally, but not arteries? The answer lies in the identity and maturity of the affected cells.",
+    "pubDate": "2026-11-25T17:40:17.284960",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "An in situ redox-converted molecule for all-perovskite tandem solar cells",
+    "link": "https://www.nature.com/articles/s41586-026-11465-9",
+    "description": "Nature, Published online: 25 November 2026; doi:10.1038/s41586-026-11465-9An in situ redox-converted molecule for all-perovskite tandem solar cells",
+    "abstract": "Nature, Published online: 25 November 2026; doi:10.1038/s41586-026-11465-9An in situ redox-converted molecule for all-perovskite tandem solar cells",
+    "pubDate": "2026-11-25T17:40:17.284941",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Dual proofs of legendary Riemann hypothesis stun mathematicians",
+    "link": "https://www.nature.com/articles/d41586-026-03853-y",
+    "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03853-yExperts say the AI and human-written proofs will need careful checking — plus, the fallout from the COP31 climate conference.",
+    "abstract": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03853-yExperts say the AI and human-written proofs will need careful checking — plus, the fallout from the COP31 climate conference.",
+    "pubDate": "2026-11-25T17:40:17.284932",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Can Beijing scale up its smart-city ambitions?",
     "link": "https://www.nature.com/articles/d41586-026-03470-9",
     "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03470-9The world’s leading science city is testing AI and intelligent transport at scale, but linking data across its innovation hubs remains a challenge...",
@@ -2958,45 +2998,5 @@ window.NOTICIAS_AUTO = [
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
-  },
-  {
-    "title": "Medicinal plants, lessons from mushrooms and the power of smell: Books in brief",
-    "link": "https://www.nature.com/articles/d41586-026-03595-x",
-    "description": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03595-xAndrew Robinson reviews five of the best science picks.",
-    "abstract": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03595-xAndrew Robinson reviews five of the best science picks.",
-    "pubDate": "2026-11-06T13:58:58.924007",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Author Correction: Lyman continuum escape during the onset of galactic winds in compact starbursts",
-    "link": "https://www.nature.com/articles/s41550-026-03039-6",
-    "description": "Nature Astronomy, Published online: 06 November 2026; doi:10.1038/s41550-026-03039-6Author Correction: Lyman continuum escape during the onset of galactic winds in compact starbursts",
-    "abstract": "Nature Astronomy, Published online: 06 November 2026; doi:10.1038/s41550-026-03039-6Author Correction: Lyman continuum escape during the onset of galactic winds in compact starbursts",
-    "pubDate": "2026-11-06T12:44:09.787968",
-    "category": "astro",
-    "provider": "nature",
-    "source": "Nature Astronomy"
-  },
-  {
-    "title": "ESC (DC)2",
-    "link": "https://www.nature.com/articles/d41586-026-03450-z",
-    "description": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03450-zSecurity issues.",
-    "abstract": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03450-zSecurity issues.",
-    "pubDate": "2026-11-06T12:44:09.730267",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "An anti-aging drug may help protect the brain before Alzheimer's symptoms begin",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261104084017.htm",
-    "description": "A surprising new study suggests that an anti-aging drug could help protect people genetically predisposed to Alzheimer's disease. Researchers found that just four weeks of low-dose rapamycin improved brain blood flow in ...",
-    "abstract": "A surprising new study suggests that an anti-aging drug could help protect people genetically predisposed to Alzheimer's disease. Researchers found that just four weeks of low-dose rapamycin improved brain blood flow in healthy middle-aged adults carrying the high-risk APOE4 gene variant, with women showing the strongest benefits. Because declining blood flow can occur years before Alzheimer's symptoms appear, the discovery raises hopes for preventing or delaying the disease before memory loss begins.",
-    "pubDate": "Thu, 05 Nov 2026 20:11:19 EST",
-    "category": "longevity",
-    "provider": "press",
-    "source": "ScienceDaily Longevity"
   }
 ];
