@@ -1,5 +1,75 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Physicists just sent an unblockable message through a brick wall using gravity",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261123005343.htm",
+    "description": "Scientists have successfully transmitted a message through a brick wall using nothing but gravity, an old elevator, and an incredibly sensitive detector. By moving a massive counterweight between two positions, researche...",
+    "abstract": "Scientists have successfully transmitted a message through a brick wall using nothing but gravity, an old elevator, and an incredibly sensitive detector. By moving a massive counterweight between two positions, researchers encoded the word \"Gravity\" into tiny changes in gravitational pull. Unlike Wi-Fi or radio signals, gravity passes through ordinary barriers without being blocked, offering a potentially revolutionary way to communicate.",
+    "pubDate": "Tue, 24 Nov 2026 21:29:38 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Physicists trap antimatter in a breakthrough that could explain why the universe exists",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261124055849.htm",
+    "description": "Positrons are the antimatter counterpart of an electron. Physicists trapped a positron and cooled it to temperatures near absolute zero. Positron is suspended in a wall-free trap, safely separated from ordinary matter. T...",
+    "abstract": "Positrons are the antimatter counterpart of an electron. Physicists trapped a positron and cooled it to temperatures near absolute zero. Positron is suspended in a wall-free trap, safely separated from ordinary matter. Team will conduct most precise comparison yet between matter and antimatter. Any difference between the electron and positron could expose cracks in the Standard Model of particle physics.",
+    "pubDate": "Wed, 25 Nov 2026 05:06:22 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "A space telescope hunting for dark matter just discovered something unexpected",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261124055852.htm",
+    "description": "ESA’s Euclid space telescope has discovered its first previously unknown comet, despite being designed to study distant galaxies and the mysteries of the dark Universe. The icy object is approximately 1.3 billion kilomet...",
+    "abstract": "ESA’s Euclid space telescope has discovered its first previously unknown comet, despite being designed to study distant galaxies and the mysteries of the dark Universe. The icy object is approximately 1.3 billion kilometers from Earth and follows an unusual orbit that takes thousands of years to complete.",
+    "pubDate": "Wed, 25 Nov 2026 05:35:04 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Author Correction: Periodic radio and X-ray emission from an accreting white dwarf binary",
+    "link": "https://www.nature.com/articles/s41550-026-03027-w",
+    "description": "Nature Astronomy, Published online: 25 November 2026; doi:10.1038/s41550-026-03027-wAuthor Correction: Periodic radio and X-ray emission from an accreting white dwarf binary",
+    "abstract": "Nature Astronomy, Published online: 25 November 2026; doi:10.1038/s41550-026-03027-wAuthor Correction: Periodic radio and X-ray emission from an accreting white dwarf binary",
+    "pubDate": "2026-11-25T11:48:03.709264",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
+    "title": "‘If we can solve Riemann, what can’t we do?’: mathematicians shocked and excited by AI breakthroughs",
+    "link": "https://www.nature.com/articles/d41586-026-03835-0",
+    "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03835-0Awe, anxiety and opportunity: mathematics community shares mixed emotions following the solution of the field’s biggest unsolved problem.",
+    "abstract": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03835-0Awe, anxiety and opportunity: mathematics community shares mixed emotions following the solution of the field’s biggest unsolved problem.",
+    "pubDate": "2026-11-25T11:48:03.664535",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "The world has a golden chance to improve HIV prevention: don’t squander it",
+    "link": "https://www.nature.com/articles/d41586-026-03809-2",
+    "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03809-2Generic versions of an effective HIV drug have been approved, and an HIV vaccine is on the horizon. Now is no time for funders to take their foot ...",
+    "abstract": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03809-2Generic versions of an effective HIV drug have been approved, and an HIV vaccine is on the horizon. Now is no time for funders to take their foot off the pedal.",
+    "pubDate": "2026-11-25T11:48:03.664520",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "A powerful HIV vaccine is finally within reach — thanks to these super antibodies",
+    "link": "https://www.nature.com/articles/d41586-026-03718-4",
+    "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03718-4Potent immune responses against diverse HIV strains have ignited the field, but major hurdles remain.",
+    "abstract": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03718-4Potent immune responses against diverse HIV strains have ignited the field, but major hurdles remain.",
+    "pubDate": "2026-11-25T11:48:03.664496",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Bone force loading extends lifespan in mice",
     "link": "https://www.nature.com/articles/s43587-026-01303-y",
     "description": "Nature Aging, Published online: 25 November 2026; doi:10.1038/s43587-026-01303-yBone force loading extends lifespan in mice",
@@ -2928,75 +2998,5 @@ window.NOTICIAS_AUTO = [
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
-  },
-  {
-    "title": "The palaeo cave art that hid in plain sight for 26,000 years",
-    "link": "https://www.nature.com/articles/d41586-026-03585-z",
-    "description": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03585-zHundreds of engravings were spotted in a widely visited cave — some include signs of animation.",
-    "abstract": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03585-zHundreds of engravings were spotted in a widely visited cave — some include signs of animation.",
-    "pubDate": "2026-11-06T11:41:22.246555",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Targeting hormone conversion through dietary fiber improves polyendocrine metabolic ovarian syndrome",
-    "link": "https://www.science.org/doi/abs/10.1126/science.aed8952?af=R",
-    "description": "Science, Volume 394, Issue 6824, November 2026.",
-    "abstract": "Science, Volume 394, Issue 6824, November 2026.",
-    "pubDate": "2026-11-05T20:35:48.010714",
-    "category": "physics",
-    "provider": "science",
-    "source": "Science"
-  },
-  {
-    "title": "Glacial abrupt transitions in ocean circulation were much slower than ice-core records imply",
-    "link": "https://www.science.org/doi/abs/10.1126/science.aed4270?af=R",
-    "description": "Science, Volume 394, Issue 6824, Page 654-659, November 2026.",
-    "abstract": "Science, Volume 394, Issue 6824, Page 654-659, November 2026.",
-    "pubDate": "2026-11-05T20:35:48.010702",
-    "category": "physics",
-    "provider": "science",
-    "source": "Science"
-  },
-  {
-    "title": "Tumor metastasis co-opts liver hematopoiesis to promote immunosuppression",
-    "link": "https://www.science.org/doi/abs/10.1126/science.aea3046?af=R",
-    "description": "Science, Volume 394, Issue 6824, November 2026.",
-    "abstract": "Science, Volume 394, Issue 6824, November 2026.",
-    "pubDate": "2026-11-05T20:35:48.010689",
-    "category": "physics",
-    "provider": "science",
-    "source": "Science"
-  },
-  {
-    "title": "Discovering molecular modulators with nanoswitch screening",
-    "link": "https://www.science.org/doi/abs/10.1126/science.adt7185?af=R",
-    "description": "Science, Volume 394, Issue 6824, November 2026.",
-    "abstract": "Science, Volume 394, Issue 6824, November 2026.",
-    "pubDate": "2026-11-05T20:35:48.010676",
-    "category": "physics",
-    "provider": "science",
-    "source": "Science"
-  },
-  {
-    "title": "Equivalence of pseudogap and pairing energy in a cuprate high-temperature superconductor",
-    "link": "https://www.science.org/doi/abs/10.1126/science.adt3444?af=R",
-    "description": "Science, Volume 394, Issue 6824, Page 682-685, November 2026.",
-    "abstract": "Science, Volume 394, Issue 6824, Page 682-685, November 2026.",
-    "pubDate": "2026-11-05T20:35:48.010663",
-    "category": "physics",
-    "provider": "science",
-    "source": "Science"
-  },
-  {
-    "title": "A cultural history of altered artifacts",
-    "link": "https://www.science.org/doi/abs/10.1126/science.ael6284?af=R",
-    "description": "Science, Volume 394, Issue 6824, Page 600-601, November 2026.",
-    "abstract": "Science, Volume 394, Issue 6824, Page 600-601, November 2026.",
-    "pubDate": "2026-11-05T20:35:48.010642",
-    "category": "physics",
-    "provider": "science",
-    "source": "Science"
   }
 ];
