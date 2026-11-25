@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "The Mona Lisa Lottery",
+    "link": "https://www.nature.com/articles/d41586-026-03521-1",
+    "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03521-1Worth the wait.",
+    "abstract": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03521-1Worth the wait.",
+    "pubDate": "2026-11-25T14:12:20.638164",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Succumbing to certainty is a failure in science",
     "link": "https://www.nature.com/articles/d41586-026-03837-y",
     "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03837-yResearchers can face pressure from policymakers and politicians to provide single, definitive answers to complex challenges. They should resist, s...",
@@ -2985,16 +2995,6 @@ window.NOTICIAS_AUTO = [
     "description": "Nature Aging, Published online: 06 November 2026; doi:10.1038/s43587-026-01269-xLiang and colleagues show that, in mice, activated oocytes can persist for almost a year within ovarian secondary follicles by adopting a st...",
     "abstract": "Nature Aging, Published online: 06 November 2026; doi:10.1038/s43587-026-01269-xLiang and colleagues show that, in mice, activated oocytes can persist for almost a year within ovarian secondary follicles by adopting a state of reduced biosynthetic and metabolic activity. Improved understanding of the mechanism that underpins how and when ovarian follicles persist has implications for the dynamics of female reproductive aging.",
     "pubDate": "2026-11-06T11:41:22.461820",
-    "category": "longevity",
-    "provider": "nature",
-    "source": "Nature Aging"
-  },
-  {
-    "title": "NAD+ precursor fails in Parkinson’s disease",
-    "link": "https://www.nature.com/articles/s43587-026-01277-x",
-    "description": "Nature Aging, Published online: 06 November 2026; doi:10.1038/s43587-026-01277-xNAD+ precursor fails in Parkinson’s disease",
-    "abstract": "Nature Aging, Published online: 06 November 2026; doi:10.1038/s43587-026-01277-xNAD+ precursor fails in Parkinson’s disease",
-    "pubDate": "2026-11-06T11:41:22.461788",
     "category": "longevity",
     "provider": "nature",
     "source": "Nature Aging"
