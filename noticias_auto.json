@@ -1,5 +1,85 @@
 [
   {
+    "title": "Too much of this common nutrient could be accelerating blood vessel aging",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261124055847.htm",
+    "description": "Researchers have uncovered a kidney protein that may hold an important key to vascular aging and longevity. The protein helps prevent excess phosphate from accumulating in the blood and gradually turning flexible blood v...",
+    "abstract": "Researchers have uncovered a kidney protein that may hold an important key to vascular aging and longevity. The protein helps prevent excess phosphate from accumulating in the blood and gradually turning flexible blood vessels rigid. In animal models, a deficiency accelerated blood vessel aging and significantly shortened lifespan, while reducing dietary phosphate helped lessen the damage.",
+    "pubDate": "Wed, 25 Nov 2026 22:53:48 EST",
+    "category": "longevity",
+    "provider": "press",
+    "source": "ScienceDaily Longevity"
+  },
+  {
+    "title": "Deep beneath Australia, hidden caves could unlock the secrets of alien worlds",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261124055901.htm",
+    "description": "Scientists have solved the mystery of strange trenches scattered across Australia’s vast Nullarbor Plain, revealing an extensive hidden world beneath the surface. These subtle landscape features are created as deeply bur...",
+    "abstract": "Scientists have solved the mystery of strange trenches scattered across Australia’s vast Nullarbor Plain, revealing an extensive hidden world beneath the surface. These subtle landscape features are created as deeply buried cave systems slowly collapse upward over millions of years. The discovery could help researchers locate unexplored caves containing ancient environmental records and unusual life forms.",
+    "pubDate": "Thu, 26 Nov 2026 06:06:15 EST",
+    "category": "astro",
+    "provider": "press",
+    "source": "ScienceDaily Space"
+  },
+  {
+    "title": "Age-related impairment of oncogenic surveillance promotes liver tumor initiation",
+    "link": "https://www.nature.com/articles/s43587-026-01275-z",
+    "description": "Nature Aging, Published online: 26 November 2026; doi:10.1038/s43587-026-01275-zUsing a mouse model of oncogene-induced senescence in hepatocytes, Yan, Zhu and colleagues report that aging weakens senescence immunosurvei...",
+    "abstract": "Nature Aging, Published online: 26 November 2026; doi:10.1038/s43587-026-01275-zUsing a mouse model of oncogene-induced senescence in hepatocytes, Yan, Zhu and colleagues report that aging weakens senescence immunosurveillance, enabling liver tumors lacking the initiating oncogene mutation. Spp1+ macrophage depletion or senolytic treatment reduces tumor incidence in aged mice.",
+    "pubDate": "2026-11-26T13:22:18.996144",
+    "category": "longevity",
+    "provider": "nature",
+    "source": "Nature Aging"
+  },
+  {
+    "title": "A brown planthopper effector promotes virulence by targeting the rice resistance protein BPH6",
+    "link": "https://www.nature.com/articles/s41588-026-02859-6",
+    "description": "Nature Genetics, Published online: 26 November 2026; doi:10.1038/s41588-026-02859-6Brown planthoppers use a gut protein, GPS6, to directly target and suppress the rice resistance protein BPH6, overcoming host defenses. T...",
+    "abstract": "Nature Genetics, Published online: 26 November 2026; doi:10.1038/s41588-026-02859-6Brown planthoppers use a gut protein, GPS6, to directly target and suppress the rice resistance protein BPH6, overcoming host defenses. This reveals a key mechanism in the plant–insect arms race and imposes a fitness cost on the insect.",
+    "pubDate": "2026-11-26T13:22:17.855288",
+    "category": "genetics",
+    "provider": "nature",
+    "source": "Nature Genetics"
+  },
+  {
+    "title": "A faint progenitor system for the faint Iax supernova 2024vjm",
+    "link": "https://www.nature.com/articles/s41550-026-03024-z",
+    "description": "Nature Astronomy, Published online: 26 November 2026; doi:10.1038/s41550-026-03024-zA Euclid space mission pre-explosion image shows that SN 2024vjm, one of the faintest supernovae, came from a faint white dwarf system. ...",
+    "abstract": "Nature Astronomy, Published online: 26 November 2026; doi:10.1038/s41550-026-03024-zA Euclid space mission pre-explosion image shows that SN 2024vjm, one of the faintest supernovae, came from a faint white dwarf system. The weak explosion produced slow ejecta, explaining why the faintest thermonuclear supernovae fade slowly.",
+    "pubDate": "2026-11-26T13:22:16.705748",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
+    "title": "Lower central dark matter densities in nearby galaxies than predicted by simulations",
+    "link": "https://www.nature.com/articles/s41550-026-03017-y",
+    "description": "Nature Astronomy, Published online: 26 November 2026; doi:10.1038/s41550-026-03017-yIn 136 nearby galaxies, dark matter profiles derived from motions of stars and gas yield central densities below cosmological prediction...",
+    "abstract": "Nature Astronomy, Published online: 26 November 2026; doi:10.1038/s41550-026-03017-yIn 136 nearby galaxies, dark matter profiles derived from motions of stars and gas yield central densities below cosmological predictions. This discrepancy increases with galaxy mass and provides a benchmark for galaxy-formation models.",
+    "pubDate": "2026-11-26T13:22:16.705730",
+    "category": "astro",
+    "provider": "nature",
+    "source": "Nature Astronomy"
+  },
+  {
+    "title": "Orangutans face bleak future after Indonesia’s devastating wildfires",
+    "link": "https://www.nature.com/articles/d41586-026-03828-z",
+    "description": "Nature, Published online: 26 November 2026; doi:10.1038/d41586-026-03828-zThe super El Niño intensified Indonesian fires, which ravaged the habitat of the critically endangered Bornean orangutan.",
+    "abstract": "Nature, Published online: 26 November 2026; doi:10.1038/d41586-026-03828-zThe super El Niño intensified Indonesian fires, which ravaged the habitat of the critically endangered Bornean orangutan.",
+    "pubDate": "2026-11-26T13:22:16.656605",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
+    "title": "Navigating grief in academia: ways to find balance",
+    "link": "https://www.nature.com/articles/d41586-026-02752-6",
+    "description": "Nature, Published online: 26 November 2026; doi:10.1038/d41586-026-02752-6Pamela Yeh found it hard to manage grief and the demands of her work. Here are some steps that helped her to ease the burden.",
+    "abstract": "Nature, Published online: 26 November 2026; doi:10.1038/d41586-026-02752-6Pamela Yeh found it hard to manage grief and the demands of her work. Here are some steps that helped her to ease the burden.",
+    "pubDate": "2026-11-26T13:22:16.656582",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Astronomers may have discovered a black hole born before the first stars",
     "link": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm",
     "description": "A mysterious object named Phoebe, detected when it briefly magnified a distant star, could be a primordial black hole formed just after the Big Bang. With an estimated mass only three times that of the Moon, it may be a ...",
@@ -2915,86 +2995,6 @@
     "description": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03587-xA team of artificial-intelligence agents simulates a laboratory of robots and instruments to ensure that the physical workspace functions smoothly...",
     "abstract": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03587-xA team of artificial-intelligence agents simulates a laboratory of robots and instruments to ensure that the physical workspace functions smoothly and then directs that workspace’s operations.",
     "pubDate": "2026-11-06T18:37:30.661794",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Robust fine-mapping in the presence of linkage disequilibrium mismatch",
-    "link": "https://www.nature.com/articles/s41588-026-02780-y",
-    "description": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02780-yRSparsePro performs robust fine-mapping in the presence of linkage disequilibrium mismatch by coupling a probabilistic graphical model wi...",
-    "abstract": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02780-yRSparsePro performs robust fine-mapping in the presence of linkage disequilibrium mismatch by coupling a probabilistic graphical model with a variational inference algorithm, identifying credible sets with higher power and coverage than existing methods.",
-    "pubDate": "2026-11-06T17:38:08.836991",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "Quantitative lineage tracing in mouse embryogenesis",
-    "link": "https://www.nature.com/articles/s41588-026-02856-9",
-    "description": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02856-9Quantitative lineage tracing in mouse embryogenesis",
-    "abstract": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02856-9Quantitative lineage tracing in mouse embryogenesis",
-    "pubDate": "2026-11-06T17:38:08.836962",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "New neuronal microexons linked to autism",
-    "link": "https://www.nature.com/articles/s41588-026-02855-w",
-    "description": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02855-wNew neuronal microexons linked to autism",
-    "abstract": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02855-wNew neuronal microexons linked to autism",
-    "pubDate": "2026-11-06T17:38:08.836950",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "MMEJ repair safeguards cancer ecDNA",
-    "link": "https://www.nature.com/articles/s41588-026-02857-8",
-    "description": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02857-8MMEJ repair safeguards cancer ecDNA",
-    "abstract": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02857-8MMEJ repair safeguards cancer ecDNA",
-    "pubDate": "2026-11-06T17:38:08.836936",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "Mapping somatic mutations in every corner of the genome",
-    "link": "https://www.nature.com/articles/s41588-026-02854-x",
-    "description": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02854-xMapping somatic mutations in every corner of the genome",
-    "abstract": "Nature Genetics, Published online: 06 November 2026; doi:10.1038/s41588-026-02854-xMapping somatic mutations in every corner of the genome",
-    "pubDate": "2026-11-06T17:38:08.836912",
-    "category": "genetics",
-    "provider": "nature",
-    "source": "Nature Genetics"
-  },
-  {
-    "title": "Briefing Chat: Meet the snakes that cartwheel away from trouble",
-    "link": "https://www.nature.com/articles/d41586-026-03632-9",
-    "description": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03632-9Nature staff discuss an acrobatic reptile defence strategy — plus, evidence of fossilized dinosaur blood cells.",
-    "abstract": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03632-9Nature staff discuss an acrobatic reptile defence strategy — plus, evidence of fossilized dinosaur blood cells.",
-    "pubDate": "2026-11-06T17:38:08.586061",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "Cholera bacterium’s good deed: inspiring a glue with rare properties",
-    "link": "https://www.nature.com/articles/d41586-026-03630-x",
-    "description": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03630-xAn adhesive that binds strongly even under water was inspired by a protein made by a feared pathogen.",
-    "abstract": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03630-xAn adhesive that binds strongly even under water was inspired by a protein made by a feared pathogen.",
-    "pubDate": "2026-11-06T14:49:52.945394",
-    "category": "bio",
-    "provider": "nature",
-    "source": "Nature"
-  },
-  {
-    "title": "‘Mathematics is more than a mechanical process’ — why I think the field will survive OpenAI’s disruption",
-    "link": "https://www.nature.com/articles/d41586-026-03622-x",
-    "description": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03622-xArtificial intelligence could take the field into new territory, but researchers must create the rules and institutions that keep humans at its ce...",
-    "abstract": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03622-xArtificial intelligence could take the field into new territory, but researchers must create the rules and institutions that keep humans at its centre.",
-    "pubDate": "2026-11-06T13:58:58.924035",
     "category": "bio",
     "provider": "nature",
     "source": "Nature"
