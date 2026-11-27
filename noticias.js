@@ -1,5 +1,15 @@
 window.NOTICIAS_AUTO = [
   {
+    "title": "Chromosome ‘glue’ could boost fertility by stabilizing ageing eggs",
+    "link": "https://www.nature.com/articles/d41586-026-03874-7",
+    "description": "Nature, Published online: 26 November 2026; doi:10.1038/d41586-026-03874-7A system tested in mice mimics a protein that declines with age and could help to improve fertility treatments in future.",
+    "abstract": "Nature, Published online: 26 November 2026; doi:10.1038/d41586-026-03874-7A system tested in mice mimics a protein that declines with age and could help to improve fertility treatments in future.",
+    "pubDate": "2026-11-27T04:39:41.152678",
+    "category": "bio",
+    "provider": "nature",
+    "source": "Nature"
+  },
+  {
     "title": "Magic state cultivation on a superconducting quantum processor",
     "link": "https://www.science.org/doi/abs/10.1126/science.aee7961?af=R",
     "description": "Science, Volume 394, Issue 6827, Page 1007-1012, November 2026.",
@@ -2988,15 +2998,5 @@ window.NOTICIAS_AUTO = [
     "category": "astro",
     "provider": "press",
     "source": "ScienceDaily Space"
-  },
-  {
-    "title": "Stronger flu shot linked to nearly 55% lower Alzheimer's risk",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261105224609.htm",
-    "description": "A surprising new study suggests that a stronger flu shot could offer older adults significantly greater protection against Alzheimer's disease. Researchers at UTHealth Houston analyzed nearly 200,000 adults ages 65 and o...",
-    "abstract": "A surprising new study suggests that a stronger flu shot could offer older adults significantly greater protection against Alzheimer's disease. Researchers at UTHealth Houston analyzed nearly 200,000 adults ages 65 and older and found that those who received a high-dose influenza vaccine had a nearly 55% lower risk of developing Alzheimer's, compared with a 40% reduction previously associated with the standard-dose vaccine.",
-    "pubDate": "Sat, 07 Nov 2026 21:52:28 EST",
-    "category": "longevity",
-    "provider": "press",
-    "source": "ScienceDaily Longevity"
   }
 ];
